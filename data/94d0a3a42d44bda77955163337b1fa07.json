@@ -1,0 +1,8 @@
+{
+ "nom": "Bases de données sur lesmaladies à déclaration obligatoire : plus de 31 maladies couvertes",
+"gestionnaire": "INVS",
+"commentaire": " Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
+"alimentation": "Médecins et biologistes, selon le processus suivant : Le médecin (ou un laboratoire d'analyses médicales) qui diagnostique, chez un ou plusieurs patients, une maladie à déclaration obligatoire (MDO) doit transmettre une fiche de notification spécifique à chaque maladie (rougeole, mésothéliome, diphtérie, etc.) à l'Agence régionale de santé (ARS) qui la transmet ensuite à l'Institut national de veille sanitaires (Invs).",
+"description": "Une base par type de maladie contenant les informations suivantes : nombre de cas, indicateurs de suivi des consultations par type de pathologie ( asthme, traumatologie, rougeolle…), etc.",
+"lien": "http://www.invs.sante.fr/Espace-professionnels/Maladies-a-declaration-obligatoire/Bases-de-donnees" 
+}

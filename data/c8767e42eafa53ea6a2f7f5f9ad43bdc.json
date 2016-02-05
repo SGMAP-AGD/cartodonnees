@@ -1,0 +1,7 @@
+{
+ "nom": "Tableau de bord de l'IDS : suivi des dépenses de soins de ville par catégorie d'exécutant et lieu d'exécution",
+"gestionnaire": "IDS",
+"commentaire": "France métropolitaine Cette base Consultations fait partie de la catégorie Consultations du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
+"alimentation": "SNIIRAM",
+"description": "_ Fonctionnalité : suivre les dépenses de soins ville par catégorie d'exécutant (médecins, dentistes, infirmiers, …) et lieu d’exécution (cabinets libéraux / établissements privés / centres de santé)" 
+}

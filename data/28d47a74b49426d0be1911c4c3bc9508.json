@@ -1,0 +1,7 @@
+{
+ "nom": "Tableau de bord de l'IDS : suivides actes techniques (actes CCAM) réalisés en secteur libéral",
+"gestionnaire": "IDS",
+"commentaire": "France entière Cette base Consultations fait partie de la catégorie Consultations du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
+"alimentation": "SNIIRAM",
+"description": "_ Fonctionnalité : suivre les actes techniques et leur évolution par codes CCAMet par famille d’actes (regroupements) selon les indicateurs tels que le nombre d’actes, le montant de la dépense présentée au remboursement, le montant remboursé, le montant du dépassement ou le reste à charge" 
+}

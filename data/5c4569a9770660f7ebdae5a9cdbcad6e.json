@@ -1,0 +1,7 @@
+{
+ "nom": "Longitudinal Patient Database (LPD)",
+"gestionnaire": "CEGEDIM",
+"commentaire": "1 panel de 1200 médecins généralistes, 8 panels pour un total de 750 spécialistes libéraux (cardiologie, gastro-entérogologie, gynécologie, neurologie, pédiatrie, pneumologie, psychiatrie, rhumatologie) Cette base Etat de santé fait partie de la catégorie Etat de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
+"alimentation": "Médecins généralistes et spécialistes libéraux : recueil des données via le logiciel dossier patients Doc'Ware",
+"description": "Informations recueillies : profil du médecin, diagnostics, symptômes, facteurs de risque, affection longue durée, profil administratif du patient (âge, sexe, catégorie socio-professionnelle), profil médical du patient (poids, taille, indice de masse corporelle, biologie, pression artérielle, fréquence cardiaque, etc.), informations sur le traitement et ses modalités : dates de prescription, posologie, durée d’ordonnance." 
+}

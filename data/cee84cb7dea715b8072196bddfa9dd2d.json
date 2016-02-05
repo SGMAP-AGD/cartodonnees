@@ -1,0 +1,8 @@
+{
+ "nom": "Rapports d'activité en psychiatrie (RAPSY)",
+"gestionnaire": "DREES",
+"commentaire": "80% des établissements interrogés ont répondu à l'enquête Cette base Activité des établissements de santé fait partie de la catégorie Activité des établissements de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
+"alimentation": "Etablissements de santé ayant une activité de psychiatrie en France",
+"description": "Fichiers de résumés (résumés par séquence anonyme (RPSA), résumés d'acte ambultoire anonyme (R3A), activité ambulatoire agrégée) transmis par les établissements de santé et validés par leurs services régionaux de tutelle.",
+"lien": "http://www.drees.sante.gouv.fr/cartographie-regionale-de-l-offre,8450.html" 
+}

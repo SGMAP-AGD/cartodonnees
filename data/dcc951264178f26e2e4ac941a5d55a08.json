@@ -1,0 +1,8 @@
+{
+ "nom": "Base des causes de mortalité",
+"gestionnaire": "INSERM-CépiDC",
+"commentaire": "Ensemble de la population Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
+"alimentation": "Chiffres établis à partir de deux documents : le certificat médical et le bulletin d'Etat civil de décès",
+"description": "Causes de décès (immédiates, intermédiaires, associées) et plusieurs informations démographiques sur le sujet décédé (sexe, âge, lieu de décès, lieu de domicile...)",
+"lien": "http://www.cepidc.inserm.fr/cgi/broker.exe" 
+}

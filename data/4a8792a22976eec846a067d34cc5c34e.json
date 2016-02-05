@@ -1,0 +1,7 @@
+{
+ "nom": "Indicateurs de défavorisation",
+"gestionnaire": "INSERM-CépiDC",
+"commentaire": " Cette base Inégalités de santé fait partie de la catégorie Inégalités de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
+"alimentation": "Données INSEE/DGI, Exploitation : CépiDc",
+"description": "Indicateurs de défavorisation par commune et Iris" 
+}

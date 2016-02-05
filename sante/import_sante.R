@@ -2,12 +2,11 @@
 # https://www.data.gouv.fr/fr/datasets/cartographie-des-bases-de-donnees-publiques-en-sante/
 
 require(readODS)
-require(elastic)
 require(RJSONIO)
 require(digest)
 
 if(!file.exists("sante/Cartographie-des-donnees-publiques-de-sante-6-mai-2014.ods")){
-  download.file("https://www.data.gouv.fr/s/resources/cartographie-des-bases-de-donnees-publiques-en-sante/20151130-105038/Cartographie-des-donnees-publiques-de-sante-6-mai-2014.ods","Cartographie-des-donnees-publiques-de-sante-6-mai-2014.ods")
+  download.file("https://www.data.gouv.fr/s/resources/cartographie-des-bases-de-donnees-publiques-en-sante/20151130-105038/Cartographie-des-donnees-publiques-de-sante-6-mai-2014.ods","sante/Cartographie-des-donnees-publiques-de-sante-6-mai-2014.ods")
 }
 
 # 4ème feuillet sans la première ligne
@@ -113,6 +112,6 @@ by(df, 1:nrow(df), function(row){
     row['portail_mad'] <- NULL
     row['2portail_mad'] <- NULL
     
-    write(toJSON(row), paste("sante/",digest(paste(row['origine'],row['nom']),algo="md5"),".json",sep=""))
+    write(toJSON(row), paste("data/",digest(paste(row['origine'],row['nom']),algo="md5"),".json",sep=""))
   }
 })

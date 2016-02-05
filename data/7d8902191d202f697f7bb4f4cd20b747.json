@@ -1,0 +1,7 @@
+{
+ "nom": "Tableau de bord sur l’activité des hôpitaux concernant la cancérologie",
+"gestionnaire": "INCA - ATIH",
+"commentaire": "Base en cours de développement Cette base Infrastructures fait partie de la catégorie Infrastructures du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
+"alimentation": "Données PMSI, traitées par l'INCA",
+"description": "Données sur l’activité des établissements en lien avec une prise en charge des cancers : volume d'activité, actes de descriptions, modes de prise en charge, appareils, nombre de journées, nombre de personnes…" 
+}

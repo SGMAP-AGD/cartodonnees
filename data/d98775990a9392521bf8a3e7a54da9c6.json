@@ -1,0 +1,8 @@
+{
+ "nom": "Banque Nationale de Données Maladies Rares (BNDMR)",
+"gestionnaire": "DGOS",
+"commentaire": "Population de patients atteints de maladies rares ayant été pris en charge par l'un des 131 centres de références maladies rares ou l'un des 502 centres de compétences. Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
+"alimentation": "Le réseau des 131 centres de références maladies rares et des 502 centres de compétences est le cœur informationnel de la plate-forme",
+"description": "Les bases de données en santé référencées dans le catalogue du Portail « Epidémiologie – France » correspondent à un périmètre scientifique volontairement large qui comprend les bases de données associées aux activités de recherche du secteur public et du secteur privé, les principales enquêtes « santé » du champ de la statistique publique, les dispositifs de recueil permanent utiles à la fois à la recherche et à la surveillance sanitaire comme les registres de morbidité et enfin, les grandes bases médico-administratives constituées pour aider à la gestion des dépenses de l’assurance-maladie et des structures de soins (SNIIRAM, PMSI,…).",
+"lien": "http://bndmr.fr" 
+}

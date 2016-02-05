@@ -1,0 +1,8 @@
+{
+ "nom": "Surveillance sanitaire des urgences et des décès (SURSAUD)",
+"gestionnaire": "INVS",
+"commentaire": " Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
+"alimentation": "Données collectées auprès des Services d'urgence, du réseau SOS médecin, des bureaux d'Etat Civil",
+"description": "Une base par type de maladie contenant nombre de cas, offres de soins, analyse des 10 diagnostics les plus fréquents, indicateurs de suivi des consultations par type de pathologie ( asthme, traumatologie, rougeolle…)",
+"lien": "http://www.invs.sante.fr/Publications-et-outils/Rapports-et-syntheses/Autres-thematiques/Le-systeme-francais-de-surveillance-sanitaire-des-urgences-et-des-deces-SurSaUD-R" 
+}

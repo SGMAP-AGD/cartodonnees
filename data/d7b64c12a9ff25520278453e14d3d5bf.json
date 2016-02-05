@@ -1,0 +1,7 @@
+{
+ "nom": "Disease Analyzer (DA)",
+"gestionnaire": "IMS",
+"commentaire": " Cette base Etat de santé fait partie de la catégorie Etat de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
+"alimentation": "Médecins généralistes",
+"description": "Informations recueillies : profil du médecin, profil administratif du patient (âge, sexe, catégorie socio-professionnelle), diagnostic, profil médical du patient (poids, taille, indice de masse corporelle, biologie, pression artérielle, fréquence cardiaque, etc.), informations sur le traitement et ses modalités : dates de prescription, posologie, durée d’ordonnance." 
+}

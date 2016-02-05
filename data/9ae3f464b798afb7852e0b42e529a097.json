@@ -1,0 +1,8 @@
+{
+ "nom": "Base du réseau des Grog (groupes régionaux d'observation de la grippe)",
+"gestionnaire": "GROG",
+"commentaire": " Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
+"alimentation": "CNR, laboratoires de virologie, GROG",
+"description": "Surveillance active de l'épidémie de grippe : par région, taux d'infections respiratoires aiguës par acte exprimé en base 100, nombre de consultations",
+"lien": "http://www.grog.org/cgi-files/db.cgi?action=bulletin_grog" 
+}

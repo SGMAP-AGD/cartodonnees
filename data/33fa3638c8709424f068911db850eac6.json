@@ -1,0 +1,7 @@
+{
+ "nom": "Tableau de bord de l’IDS : suivi des dépenses relatives à des actes d’auxiliaires médicaux réalisés en centre de santé ou en ville",
+"gestionnaire": "IDS",
+"commentaire": "France entière Cette base Dépenses fait partie de la catégorie Dépenses du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
+"alimentation": "SNIIRAM - Datamart offre de soins - auxiliaires",
+"description": "_ Fonctionnalité : suivi particulier des actes d’auxiliaires médicaux en permettant de distinguer l’activité libérale de l’activité réalisée en centre de santé." 
+}

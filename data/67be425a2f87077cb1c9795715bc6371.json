@@ -1,0 +1,8 @@
+{
+ "nom": "Enquêtes décennales santé",
+"gestionnaire": "INSEE",
+"commentaire": "Enquête réalisée auprès de près de 20 000 ménages Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
+"alimentation": "Ménages : questionnaire auto-administré",
+"description": "Condition de vie, taux de couverture sociale, état général de santé, fréquences des maladies, taux d'hospitalisation, consommation de soins médicaux par sexe, par région, par ville",
+"lien": "http://www.insee.fr/fr/themes/theme.asp?theme=6&sous_theme=2" 
+}

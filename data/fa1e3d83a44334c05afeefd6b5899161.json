@@ -1,0 +1,8 @@
+{
+ "nom": "Base de données Vidal",
+"gestionnaire": "Vidal",
+"commentaire": " Cette base Informations médicales fait partie de la catégorie Informations médicales du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
+"alimentation": "Laboratoires pharmaceutiques, sources officielles et règlementaires, sources bibliographiques\"",
+"description": "1) Monographiedes médicaments : synthèse (libellé, substance, état de commercialisation, taux de remboursement), forme et présentation, composition, indications, posologie et mode d'administration, contre-indications, mise en garde et précautions d'emplois, interactions, fertilité/ grossess/ allaitement, effets indésirables, surdosage, pharmacodynamie, pharmacocinétique, modalités de conservation, médicaments proches",
+"lien": "http://www.vidal.fr/classifications/vidal/" 
+}

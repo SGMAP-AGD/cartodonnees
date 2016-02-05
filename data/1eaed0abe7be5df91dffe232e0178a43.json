@@ -1,0 +1,8 @@
+{
+ "nom": "Surveillance des retraités du RSI exposés à l’amiante (ESPRI)",
+"gestionnaire": "INVS",
+"commentaire": "7 régions participantes (22 départements) Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
+"alimentation": "Caisses RSI des 7 régions participantes (soit 22 départements).",
+"description": "Indicateurs de suivi post professionnels et épidémiologiques tels que le taux d'exposition à l'amiante par secteurs d'activité/ par profession",
+"lien": "http://www.invs.sante.fr/Dossiers-thematiques/Travail-et-sante/Programme-de-surveillance-post-professionnelle-des-artisans-ayant-ete-exposes-a-l-amiante-ESPrI/Resultats" 
+}

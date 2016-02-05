@@ -1,0 +1,8 @@
+{
+ "nom": "Fichiers \"analyse des dépenses\" (statistiques mensuelles)",
+"gestionnaire": "CNAMTS",
+"commentaire": " Cette base Dépenses fait partie de la catégorie Dépenses du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
+"alimentation": "SNIIRAM",
+"description": "Rétrospective annuelle des dépenses d'assurance maladie par catégorie de professionnels de santé et pour chaque catégorie par acte ou par groupe d'actes depuis l'année 2006",
+"lien": "http://www.ameli.fr/l-assurance-maladie/statistiques-et-publications/analyse-des-depenses/index.php" 
+}

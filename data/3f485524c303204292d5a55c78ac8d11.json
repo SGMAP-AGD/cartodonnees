@@ -1,0 +1,8 @@
+{
+ "nom": "Base de données relatives à la transparence des avantages accordés aux professionnels de santé, par les entreprises produisant ou commercialisant des produits à finalité sanitaire et cosmétique destinés à l'homme",
+"gestionnaire": "DGS",
+"commentaire": " Cette base Personnel fait partie de la catégorie Personnel du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
+"alimentation": "Entreprises",
+"description": "_Les informations relatives au siège social de l'entreprise : la raison sociale, l’adresse, les numéros de téléphone et de télécopie et le numéro SIREN ;",
+"lien": "https://www.entreprises-transparence.sante.gouv.fr/flow/login.xhtml" 
+}

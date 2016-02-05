@@ -1,0 +1,8 @@
+{
+ "nom": "Base de données sur la qualité de l'air (BDQA)",
+"gestionnaire": "ADEME",
+"commentaire": "Plus de 600 sites de mesures ; recueil de données tous les quarts d'heure Cette base Environnement fait partie de la catégorie Environnement du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
+"alimentation": "_ De fait, 5 bases de données sur la qualité de l'air : BASTER, BULDER, ALERTE, BDQA, INVEST",
+"description": "_ Qualité de l'air en France et par région : notamment taux de dioxyde de souffre, dioxyde d'azote, oxyde de souffre, ozone, particules PM10, monoxyde de carbone, benzène, plomb, PM 2.5",
+"lien": "http://www.buldair.org/accueil" 
+}

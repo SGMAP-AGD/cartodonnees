@@ -1,0 +1,8 @@
+{
+ "nom": "Base Biolam du SNIIRAM",
+"gestionnaire": "CNAMTS",
+"commentaire": " Cette base Biologie fait partie de la catégorie Biologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
+"alimentation": "SNIIRAM",
+"description": "Tableau proposant, pour chaque acte codé de biologie médicale, les données suivantes : code de l'acte, selon la nomenclature des actes de biologie médicale et son libellé court, dénombrements de 2010 à 2012, bases de remboursement de 2010 à 2012, montants remboursés par le régime général de 2010 à 2012, pourcentages d'évolution 2011/2012 des dénombrements, des bases de remboursement et des montants remboursés",
+"lien": "http://www.ameli.fr/l-assurance-maladie/statistiques-et-publications/donnees-statistiques/biologie/biolam-2010-2012.php" 
+}

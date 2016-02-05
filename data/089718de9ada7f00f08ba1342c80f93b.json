@@ -1,0 +1,8 @@
+{
+ "nom": "Base de l'observatoire des services d'information en santé (Osis)",
+"gestionnaire": "DGOS",
+"commentaire": " Cette base Infrastructures fait partie de la catégorie Infrastructures du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
+"alimentation": "Etablissements",
+"description": "_ Liste des applications relatives à la performance des établissements de santé, à la maîtrise des dépenses et à l'analyse de l'activité",
+"lien": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php" 
+}
