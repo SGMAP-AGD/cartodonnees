@@ -1,0 +1,8 @@
+{
+ "nom": "Tableaux des affections longue durée (ALD)",
+"gestionnaire": "CNAMTS",
+"commentaire": " Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
+"alimentation": "SNIIRAM",
+"description": "_ Données sur la fréquence, l'incidence et le coût des ALD (affection longue durée)",
+"lien": "http://www.ameli.fr/l-assurance-maladie/statistiques-et-publications/donnees-statistiques/affection-de-longue-duree-ald/incidence/ald-30-en-2012.php\nhttp://www.ameli.fr/l-assurance-maladie/statistiques-et-publications/donnees-statistiques/affection-de-longue-duree-ald/prevalence/frequence-des-ald-au-31-12-2012.php" 
+}

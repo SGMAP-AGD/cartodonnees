@@ -1,0 +1,7 @@
+{
+ "nom": "SERO-INF",
+"gestionnaire": "INVS",
+"commentaire": " Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
+"description": "Indicateurs sur l’état de l’immunité de la population française vis-à-vis de 10 maladies infectieuses : la rougeole, les oreillons, la rubéole, l’hépatite A, la varicelle, l’hépatite E, la toxoplasmose, les infections à cytomégalovirus et les infections à herpès virus 1 et 2.",
+"lien": "http://www.invs.sante.fr/surveillance/sero_inf/contacts.htm" 
+}

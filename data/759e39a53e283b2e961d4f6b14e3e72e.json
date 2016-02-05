@@ -1,0 +1,8 @@
+{
+ "nom": "Enquête sur les personnes atteintes du SIDA (VESPA)",
+"gestionnaire": "INSERM/ANRS",
+"commentaire": " Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
+"alimentation": "Patients connaissant leur séropositivité depuis au moins 6 mois",
+"description": "Répartition des patients par sexe, par âge, par période de diagnostic,par conditions de vie",
+"lien": "http://www.anrs.fr/Ressources-et-publications/Grandes-enquetes/Enquete-ANRS-VESPA" 
+}

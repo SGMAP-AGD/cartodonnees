@@ -1,0 +1,7 @@
+{
+ "nom": "Baromètre oncologie",
+"gestionnaire": "Kantar Health",
+"commentaire": " Cette base Activité des établissements de santé fait partie de la catégorie Activité des établissements de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
+"alimentation": "Enquête annuelle auprès d'un échantillon national représentatif des hôpitaux publics, privés et CAC français. 250 établissements interrogés chaque année (686 services hospitaliers screenés dont 317 participants à la phase intensive avec les cas patients). 4430 patients atteints de cancers décrits chaque année couvrant l'ensemble des tumeurs. Résultats disponibles depuis 1993",
+"description": "Par organe : epidemiologie,traitements actuels,stade au diag, stade actuel, caractéristiques des patients (age, sexe, ECOG), profil clinique de la pathologie (histologie, mutations, métastases, …), …" 
+}

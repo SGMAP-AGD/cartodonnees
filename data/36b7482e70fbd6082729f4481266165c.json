@@ -1,0 +1,7 @@
+{
+ "nom": "Référentiel des Acteurs Santé Sociaux (RASS)",
+"gestionnaire": "ASIP Santé",
+"commentaire": " Cette base Infrastructures fait partie de la catégorie Infrastructures du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
+"description": "Données de description des professionnels de santé enregistrés dans le RPPS (données d’identité, exercice professionnel, situations d’exercice…) pour les médecins, chirurgiens-dentistes, sages-femmes et pharmaciens, données d’identification des établissements dans lesquels ces professionnels de santé exercent",
+"lien": "http://esante.gouv.fr/services/referentiels/identification/referentiel-des-acteurs-sante-sociaux-rass" 
+}

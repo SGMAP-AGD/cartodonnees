@@ -1,0 +1,8 @@
+{
+ "nom": "Recueil d'informations médicalisées en psychiatrie (RIM-P)",
+"gestionnaire": "ATIH",
+"commentaire": "En 2011, 95% des établissements de santé ont remonté leurs données à l'ATIH Cette base Activité des établissements de santé fait partie de la catégorie Activité des établissements de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
+"alimentation": "Etablissements de santé",
+"description": "Indicateurs hebdomadaires sur lactivité des établissements de psychiatrie par région ( nombre de patients, mode d'entrées et de sorties des patients, effectifs soignants par catégories de patients, listes de diagnostics etc)",
+"lien": "http://www.atih.sante.fr/tableaux-rim-p-nationaux" 
+}

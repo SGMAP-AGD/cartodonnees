@@ -1,0 +1,8 @@
+{
+ "nom": "Base Thesorimed",
+"gestionnaire": "GIE SIPS",
+"commentaire": " Cette base Informations médicales fait partie de la catégorie Informations médicales du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
+"alimentation": "CNAMTS, RSI, ANSM, INCA",
+"description": null,
+"lien": "http://theso.prod-deux.thesorimed.org/Vues/Recherche_Simple.html" 
+}

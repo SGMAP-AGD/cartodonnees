@@ -1,0 +1,8 @@
+{
+ "nom": "Étude Longitudinale Française depuis l’Enfance (ELFE)",
+"gestionnaire": "INSERM",
+"commentaire": "Cohorte de 20 000 enfants nés en 2011, représentative pour la France métropolitaine Cette base Etat de santé fait partie de la catégorie Etat de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
+"alimentation": "Parents des enfants (entretiens et questionnaires), enfants eux-mêmees (entretiens et questionnaires), résultats d'examens médicaux",
+"description": "Facteurs familiaux, économiques et socioculturels conditionnant la réussite de l'enfant, données de santé de l'enfant en fonction d'habitudes alimentaires, d'environnement de vie",
+"lien": "http://www.elfe-france.fr/index.php/fr/cote-recherche/premiers-resultats" 
+}

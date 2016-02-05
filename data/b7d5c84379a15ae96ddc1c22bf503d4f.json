@@ -1,0 +1,8 @@
+{
+ "nom": "IMS Pharmastat",
+"gestionnaire": "IMS",
+"commentaire": " Cette base Médicaments et dispositifs fait partie de la catégorie Médicaments et dispositifs du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
+"alimentation": "Pharmacies",
+"description": "Ensemble des données de vente, à la fois sur le champs du remboursable, du non remboursable et de la pharmacie",
+"lien": "http://www.ims-pharmastat.fr/economie/Analyse-economique-de-l-officine" 
+}

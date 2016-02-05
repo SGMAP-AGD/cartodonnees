@@ -1,0 +1,8 @@
+{
+ "nom": "Déclarations annuelles des données sociales (DADS)",
+"gestionnaire": "INSEE",
+"commentaire": " Cette base Personnel fait partie de la catégorie Personnel du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
+"alimentation": "Etablissements de santé",
+"description": "Information sur le personnel des établissements de santé publics et privés : âge du salarié, contrat de travail, département de résidence, durée de paie exprimée en jours, rémunération brute, etc.",
+"lien": "http://www.data.gouv.fr/fr/dataset/description-des-emplois-prives-et-publics-et-des-salaires." 
+}

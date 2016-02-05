@@ -1,0 +1,8 @@
+{
+ "nom": "\"Base\" ventes d'alcool",
+"gestionnaire": "OFDT",
+"commentaire": " Cette base Habitudes de vie fait partie de la catégorie Habitudes de vie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
+"alimentation": "OMS, INSEE",
+"description": "Quantité d’alcool consommé par habitant âgé de 15 ans et plus depuis 1961",
+"lien": "http://www.ofdt.fr/BDD_len/seristat/00014.xhtml" 
+}

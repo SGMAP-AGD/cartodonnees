@@ -1,0 +1,7 @@
+{
+ "nom": "Indicateurs de mortalité post-hospitalière",
+"gestionnaire": "INSERM-CépiDC",
+"commentaire": "Tous les hôpitaux de MCO Cette base Qualité fait partie de la catégorie Qualité du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
+"alimentation": "Bases de données médico-administratives",
+"description": "Indicateurs de mortalité post-hospitalière pour tous les hôpitaux de MCO" 
+}

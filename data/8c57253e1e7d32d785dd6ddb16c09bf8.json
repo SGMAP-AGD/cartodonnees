@@ -1,0 +1,7 @@
+{
+ "nom": "Répertoires Opérationnels des Ressources (ROR)",
+"gestionnaire": "ARS",
+"commentaire": "Cas de l'ARS Ile-de-France : ensemble des établissements publics et privés, développement en cours sur l'ambulatoire et prévu sur les activités SSR et médico-sociales Cette base Infrastructures fait partie de la catégorie Infrastructures du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
+"alimentation": "Régions IDF, PACA et Haute-Normandie",
+"description": "Description de l'offre de soins : par ex. horaires des établissements et professionnels de santé, nombre de lits" 
+}

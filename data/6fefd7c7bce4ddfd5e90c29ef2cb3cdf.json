@@ -1,0 +1,7 @@
+{
+ "nom": "Tableau de bord de l’IDS : les dépenses par région",
+"gestionnaire": "IDS",
+"commentaire": "France métropolitaine, régime général Cette base Dépenses fait partie de la catégorie Dépenses du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
+"alimentation": "SNIIRAM",
+"description": "Suivi des dépenses par région et par lieu d’exécution (soins de ville / établissements sanitaires publics et privés / établissements médico-sociaux)" 
+}

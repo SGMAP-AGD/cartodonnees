@@ -1,0 +1,7 @@
+{
+ "nom": "Base anonyme du dossier pharmaceutique",
+"gestionnaire": "Ordre National des Pharmaciens",
+"commentaire": "Le système est implanté dans environ 98% des pharmacies d'officien et environ 30 millions de personnes ont un dossier pharmaceutique Cette base Médicaments et dispositifs fait partie de la catégorie Médicaments et dispositifs du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
+"alimentation": "Pharmacies",
+"description": "Le dossier pharmaceutique (DP) recense, pour chaque bénéficiaire de l'Assurance Maladie qui le souhaite, tous les médicaments délivrés au cours des 4 derniers mois, qu'ils soient prescrits ou non. Les données concernent tous les médicaments délivrés, prescrits ou en vente libre, remboursés ou non, ainsi que le département de délivrance, l'âge et le sexe du patient, la date de délivrance, la quantité délivrée et le dosage" 
+}

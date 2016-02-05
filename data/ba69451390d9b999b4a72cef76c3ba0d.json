@@ -1,0 +1,8 @@
+{
+ "nom": "Enquêtes annuelles sur les revenues et les conditions de vie (EU-SILC)",
+"gestionnaire": "INSEE",
+"commentaire": "France métropolitaine Cette base Inégalités de santé fait partie de la catégorie Inégalités de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
+"alimentation": "Panel",
+"description": "_ Informations de santé : auto-estimation de son état de santé personnel",
+"lien": "http://www.insee.fr/fr/themes/theme.asp?theme=4" 
+}

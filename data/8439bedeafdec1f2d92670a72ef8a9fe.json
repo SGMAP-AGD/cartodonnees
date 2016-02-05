@@ -1,0 +1,8 @@
+{
+ "nom": "Base Thériaque",
+"gestionnaire": "Centre National Hospitalier d’Information sur le Médicament (CNHIM)",
+"commentaire": "Les Cette base Informations médicales fait partie de la catégorie Informations médicales du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
+"alimentation": "Sources officielles et règlementaires, sources bibliographiques",
+"description": "Principales rubriques par médicaments : composition et voie d'administration, renseignements administratifs et techniques, génériques, interactions",
+"lien": "http://www.theriaque.org/apps/recherche/rch_simple.php" 
+}

@@ -1,0 +1,7 @@
+{
+ "nom": "Tableau de bord de l’IDS : suivi des actes de radiologie réalisés en activité libérale",
+"gestionnaire": "IDS",
+"commentaire": "France entière Cette base Biologie fait partie de la catégorie Biologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
+"alimentation": "SNIIRAM",
+"description": "_ Fonctionnalité :suivre le remboursement par l’assurance maladie (nombre de boites de médicaments / montant de la dépense remboursée) des médicaments appartenant à la classe pharmaceutique des produits de contraste selon plusieurs axes tels que la classe ATC, le nom du médicament ou encore le code CIP" 
+}

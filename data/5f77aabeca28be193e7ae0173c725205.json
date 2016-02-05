@@ -1,0 +1,8 @@
+{
+ "nom": "Indicateurs avancés sanitaires",
+"gestionnaire": "CELTIPHARM",
+"commentaire": "Panel de 3004 pharmacies Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
+"alimentation": "Panel de 3400 pharmacies : extrapolation des données par la méthode des quotas",
+"description": "Données épidémiologique sur la gastro-entérite et la grippe",
+"lien": "http://www.data.gouv.fr/fr/dataset/indicateur-avance-sanitaire-ias-syndrome-grippal" 
+}

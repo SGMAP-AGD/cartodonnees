@@ -1,0 +1,8 @@
+{
+ "nom": "Répertoire des établissements pharmaceutiques",
+"gestionnaire": "ANSM",
+"commentaire": " Cette base Infrastructures fait partie de la catégorie Infrastructures du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
+"alimentation": "ANSM",
+"description": "Liste des fabricants, importateurs et distributeurs en gros de médicaments avec leur adresse, activité, et, sauf exception, le nom du pharmacien responsable",
+"lien": "http://agence-prd.ansm.sante.fr/php/etapharm/index.php" 
+}

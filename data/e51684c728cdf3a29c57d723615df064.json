@@ -1,0 +1,8 @@
+{
+ "nom": "Base des portraits de territoire des caisses d'assurance retraite et de la santé au travail (Carsat)",
+"gestionnaire": "Observatoire Régional de Santé (ORS)",
+"commentaire": " Cette base Etat de santé fait partie de la catégorie Etat de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
+"alimentation": "ORS, ARS",
+"description": "- Des indicateurs de fragilité, par exemple le nombre ou la part de personnes seules nouvellement retraitées;",
+"lien": "https://www.carsat-lr.fr/partenaires/observatoire-des-situations-de-fragilite.html" 
+}

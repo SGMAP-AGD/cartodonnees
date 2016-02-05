@@ -1,0 +1,7 @@
+{
+ "nom": "Datamart du SNIIRAM : BERF",
+"gestionnaire": "CNAMTS",
+"commentaire": " Cette base Infrastructures fait partie de la catégorie Infrastructures du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
+"alimentation": "_ SNIIRAM",
+"description": "Exemples de données: données d'identification de l'établissement, disciplines de prestation, équipement, coefficients de tarification à l'activité" 
+}

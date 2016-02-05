@@ -1,0 +1,8 @@
+{
+ "nom": "Tableau de Bord des Infections Nosocomiales (TBIN)",
+"gestionnaire": "DGOS",
+"commentaire": " Cette base Qualité fait partie de la catégorie Qualité du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
+"alimentation": "Etablissements de santé, qui renseignent les données selon un modèle défini par un arrêté du Ministre chargé de la santé",
+"description": "7 indicateurs sur le niveau d’engagement dans la prévention des infections nosocomiales : Indicateur Composite des Activités de Lutte contre les Infections",
+"lien": "http://www.data.gouv.fr" 
+}

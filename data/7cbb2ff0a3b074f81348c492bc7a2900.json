@@ -1,0 +1,8 @@
+{
+ "nom": "Base de la cartographie des Plans d'exposition au BRUIT",
+"gestionnaire": "Direction départementale du territoire et communes",
+"commentaire": " Cette base Etat de santé fait partie de la catégorie Etat de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
+"alimentation": "DDEA des Yvelines - Fonds cartographiques numériques : IGN",
+"description": "Données sur le bruit dû aux trafics routiers et ferroviaires sur un territoire donné. Les niveaux de bruit sont exprimés en Lden (jour, soir, nuit), indicateur de gêne donnant un poids plus fort le soir (+ 5dB(A)) et la nuit (+10dB(A)) au niveau de bruit.",
+"lien": "http://www.yvelines.equipement.gouv.fr/consultation-des-documents-r258.html" 
+}

@@ -1,0 +1,7 @@
+{
+ "nom": "Datamart du SNIIRAM : Offre de soins libéraux (ODS)",
+"gestionnaire": "CNAMTS",
+"commentaire": " Cette base Infrastructures fait partie de la catégorie Infrastructures du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
+"alimentation": "_ SNIIRAM",
+"description": "Données d'activité, de prescription et de prestation sur les professionnels de santé" 
+}

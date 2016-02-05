@@ -1,0 +1,7 @@
+{
+ "nom": "Tableau de bord de l’IDS : suivi des frais de transport des assurés par nature de prestation",
+"gestionnaire": "IDS",
+"commentaire": "France entière Cette base Transports fait partie de la catégorie Transports du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
+"alimentation": "SNIIRAM - Datamart ONDAM",
+"description": "Suivi particulier des frais de transport avec un détail par prestation et selon le type de Professionnel de Santé prescripteur" 
+}

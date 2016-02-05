@@ -1,0 +1,8 @@
+{
+ "nom": "Baromètre santé-environnement",
+"gestionnaire": "INPES",
+"commentaire": " Cette base Environnement fait partie de la catégorie Environnement du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
+"alimentation": "Panel d'individus",
+"description": "Indicateurs de : pollution des sols, pollution de l'air, tabagisme passif, qualité des eaux, bruit et téléphonie mobile",
+"lien": "http://www.inpes.sante.fr/CFESBases/catalogue/pdf/1114.pdf" 
+}

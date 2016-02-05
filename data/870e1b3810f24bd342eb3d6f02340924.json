@@ -1,0 +1,8 @@
+{
+ "nom": "\"Base\" de l'enquête statistique sur les ressources et les conditions de vie (SRCV)",
+"gestionnaire": "INSEE",
+"commentaire": "9000 ménages français Cette base Inégalités de santé fait partie de la catégorie Inégalités de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
+"alimentation": "Panel d'individus",
+"description": "_ Informations de santé : auto-estimation de son état de santé personnel",
+"lien": "http://www.insee.fr/fr/themes/theme.asp?theme=5" 
+}

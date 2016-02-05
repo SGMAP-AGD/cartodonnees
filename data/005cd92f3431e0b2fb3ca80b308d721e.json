@@ -1,0 +1,7 @@
+{
+ "nom": "Base du projet PROSPERE",
+"gestionnaire": "IRDES",
+"commentaire": " Cette base Consultations fait partie de la catégorie Consultations du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
+"alimentation": "SNIIRAM et données de la société française de médecine de ville",
+"description": "_Regroupement de données du SNIIRAM et de données de consultation collectées via une centaine de médecins par la société française de médecine de ville" 
+}

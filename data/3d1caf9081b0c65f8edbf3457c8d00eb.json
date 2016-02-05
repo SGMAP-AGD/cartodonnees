@@ -1,0 +1,8 @@
+{
+ "nom": "Applicatif du SNATIH : Compte financier",
+"gestionnaire": "ATIH",
+"commentaire": " Cette base Performance financière fait partie de la catégorie Performance financière du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
+"alimentation": "_ Principale source : remontées financières des établissements",
+"description": "Par établissement ex-DG, présentation de : les éléments du compte de résultat, le passage des résultats à la CAF, le tableau de financement, les soldes intermédiaires de gestion et les principaux postes du bilan",
+"lien": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php" 
+}

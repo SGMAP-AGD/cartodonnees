@@ -1,0 +1,8 @@
+{
+ "nom": "Rapports d'enquête de pharmacovigilance",
+"gestionnaire": "ANSM",
+"commentaire": " Cette base Médicaments et dispositifs fait partie de la catégorie Médicaments et dispositifs du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
+"alimentation": "Analyse par l'ANSM des éléments suivants : cas notifiés dans la base nationale de pharmacovigilance, cas notifiés aux fabricants, données de vente et de consommation, données de la littérature",
+"description": "Nombre d'effets indésirables notifiés et évolution dans le temps ; répartition par système organe (SOC), analyse des relations causales liées aux cas notifiées, analyse de la consommation",
+"lien": "http://pharmacies.ma/PDF/Tetrazepam.pdf" 
+}

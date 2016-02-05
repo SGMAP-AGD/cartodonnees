@@ -1,0 +1,8 @@
+{
+ "nom": "Applicatif du SNATIH : Tableaux de bord financiers des Etablissements Publics de Santé",
+"gestionnaire": "ATIH",
+"commentaire": " Cette base Performance financière fait partie de la catégorie Performance financière du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
+"alimentation": "Réseau du Trésor public (bases de données de la DGFIP)",
+"description": "Sur les établissements ex-DG, tableaux organisés en 3 parties :",
+"lien": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php" 
+}

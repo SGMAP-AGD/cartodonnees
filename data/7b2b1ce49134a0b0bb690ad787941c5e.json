@@ -1,0 +1,7 @@
+{
+ "nom": "Tableau de bord de l’IDS : suivi des dépenses remboursées par lieu d’exécution et de prescription par le régime général de l'assurance maladie",
+"gestionnaire": "IDS",
+"commentaire": "France entière Cette base Dépenses fait partie de la catégorie Dépenses du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
+"alimentation": "Statistiques mensuelle de la CNAMTS",
+"description": "_ Fonctionnalité : présenterla répartition des dépenses remboursées selon le lieu de prescription et d’exécution afinde mieux suivre les dépenses entrant dans le champ de l’ONDAM en identifiant précisément ce qui relève de la ville." 
+}
