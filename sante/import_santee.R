@@ -3,6 +3,8 @@
 
 require(readODS)
 require(elastic)
+require(RJSONIO)
+require(digest)
 
 if(!file.exists("sante/Cartographie-des-donnees-publiques-de-sante-6-mai-2014.ods")){
   download.file("https://www.data.gouv.fr/s/resources/cartographie-des-bases-de-donnees-publiques-en-sante/20151130-105038/Cartographie-des-donnees-publiques-de-sante-6-mai-2014.ods","Cartographie-des-donnees-publiques-de-sante-6-mai-2014.ods")
@@ -36,7 +38,6 @@ names(df) <- c("typo1",
   "2portail_mad",
   "commentaire")
 
-result <- list()
 by(df, 1:nrow(df), function(row){
   row <- as.list(row)
   if(row['typo1'] != ""){
@@ -54,7 +55,9 @@ by(df, 1:nrow(df), function(row){
     row['typo2'] <- NULL
     
     #Renommage de l'origine en "alimentation"
-    row['alimentation'] <- row['origine']
+    if(row['origine'] != ""){
+      row['alimentation'] <- row['origine']
+    }
     row['origine'] <- NULL
     
     # Sélection du champ données et renomage en description
@@ -73,6 +76,7 @@ by(df, 1:nrow(df), function(row){
     row['donnees'] <- NULL
     
     # Acces
+    row['acces'] <- NULL
     row['2acces'] <- NULL
     
     # Commentaire acces
@@ -95,12 +99,20 @@ by(df, 1:nrow(df), function(row){
     row['condition_reutilisation'] <- NULL
     row['2condition_reutilisation'] <- NULL
     
-    #lien mad
-    row['liens'] <- list(row['portail_mad'],row['2portail_mad'])
+    #lien
+    if(row['portail_mad'] == "" && row['2portail_mad'] != ""){
+      row['lien'] <- row['2portail_mad']
+    }
+    if(row['portail_mad'] != "" && row['2portail_mad'] == ""){
+      row['lien'] <- row['portail_mad']
+    }
+    if(row['portail_mad'] != "" && row['2portail_mad'] != ""){
+      row['lien'] <- row['2portail_mad']
+    }
     
     row['portail_mad'] <- NULL
     row['2portail_mad'] <- NULL
     
-    result <- row
+    write(toJSON(row), paste("sante/",digest(paste(row['origine'],row['nom']),algo="md5"),".json",sep=""))
   }
 })
