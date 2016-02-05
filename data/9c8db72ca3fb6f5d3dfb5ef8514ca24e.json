@@ -1,0 +1,8 @@
+{
+ "nom": "Enquête annuelle article 55 de la loi SRU, relatif à l’objectif de \n20 %/25 % de logements sociaux pour certaines communes.\n",
+"gestionnaire": "DHUP",
+"description": "Logements sociaux définis à l’article L.302-5 du CCH. L'objectif de cette enquêté est de connaître les taux de logements sociaux des communes concernées par l’article L.302-5, les montants des prélèvements bruts et nets, les montants des dépenses déductibles, les taux de majorations, les bénéficiaires des prélèvements, les exonérations et les exemptions.\nElle permet également de connaître  le type de logements sociaux financés depuis 2002 dans les communes concernées (deuxième inventaire introduit par la loi du 18/01/2013)",
+"origine": "DHUP",
+"granularite": "Communal, intercommunal, départemental, régional et national",
+"commentaire": "Le module d’enquête doit être réformé pour prendre en compte toutes les évolutions de la loi du 18/01/2013\n" 
+}

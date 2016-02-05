@@ -1,0 +1,8 @@
+{
+ "nom": "Classeur statistique de l'Anah",
+"gestionnaire": "ANAH",
+"description": "Logements du parc privé faisant l'objet des travaux  subventionnés par l'Anah\nCette base permet de connaître de façon détaillée les dossiers, logements, travaux et subventions en regard des priorités de l'Agence.",
+"origine": "ANAH",
+"granularite": "France entière, les régions, les départements (détail par EPCI), et les délégataires de \ncompétence pour l'Aide à la pierre\n",
+"commentaire": "Volonté d'ouvrir" 
+}

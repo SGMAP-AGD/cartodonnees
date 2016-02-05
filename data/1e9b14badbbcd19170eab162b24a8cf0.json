@@ -1,0 +1,8 @@
+{
+ "nom": "Enquête famille et logement ",
+"gestionnaire": "INSEE",
+"description": "L’enquête famille et logements 2011 permet d’actualiser les analyses de la fécondité selon les générations, ou selon les caractéristiques sociodémographiques et l’origine géographique.",
+"origine": "INSEE",
+"granularite": "Régional",
+"commentaire": "http://www.insee.fr/fr/publics/default.asp?page=communication/recensement/particuliers/efl1.htm                                                                                                                                                                                                                                                                                                                                                    Un INSEE référence sur la famille sera publié en 2015" 
+}

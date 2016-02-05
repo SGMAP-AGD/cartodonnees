@@ -1,0 +1,8 @@
+{
+ "nom": "Application « Comdalo », outil de gestion et de suivi \ndes recours DALO et Infocentre « InfoDALo »\n",
+"gestionnaire": "DHUP",
+"description": "Observation continue des recours DALO.",
+"origine": "DHUP",
+"granularite": "France entière, région, département.",
+"commentaire": "Mise en place d’une plate-forme de saisie en ligne des recours DALO.http://comdalo.info.application.logement.gouv.fr/\nDonnées sur  : http://www.hclpd.gouv.fr/les-chiffres-du-dalo-2013-a45.html " 
+}

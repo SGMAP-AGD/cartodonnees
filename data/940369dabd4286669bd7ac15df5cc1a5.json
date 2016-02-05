@@ -1,0 +1,8 @@
+{
+ "nom": "Échantillon représentatif des bénéficiaires des aides personnelles au logement",
+"gestionnaire": "DHUP, pour le FNAL",
+"description": "Exploitation par la DHUP d’un échantillon de bénéficiaires d’aides personnelles au logement fourni par les organismes liquidateurs des prestations (CNAF et CCMSA)",
+"origine": "CNAF",
+"granularite": "Niveau le plus précis : zone géographique (zonage I/II/III)",
+"commentaire": "" 
+}

@@ -1,0 +1,8 @@
+{
+ "nom": "Enquête loyer OLAP",
+"gestionnaire": "OLAP",
+"description": "Enquête annuelle sur les loyers du parc locatif privé\nPanel de logements représentatif du parc locatif privé (méthode des\nsuotas)\nL'enquête vise à connaître les niveaux de loyers du parc locatif privé et leurs évolutions selon la situation du bail.",
+"origine": "OLAP",
+"granularite": "Paris, petite couronne, grande couronne, département",
+"commentaire": "Mise en œuvre des recommandations du Cnis formulées dans son avis\nde mars 2013 sur la qualité du processus de production de l’Olap\n\n" 
+}

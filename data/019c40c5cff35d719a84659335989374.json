@@ -1,0 +1,8 @@
+{
+ "nom": "Observatoire DPE",
+"gestionnaire": "ADEME",
+"description": "Ensemble des bâtiments faisant l’objet d’un diagnostic de performance énergétique (DPE) obligatoire",
+"origine": "ADEME",
+"granularite": "Au niveau de chaque collectivité territoriale",
+"commentaire": "Elargissement aux DOM (DPE Guadeloupe, …)\nDéveloppement d’un système de contrôle qualité des données envoyées.\nDispositif de recherche association des doublons\nhttp://www.observatoire-dpe.fr/index.php/statistique : possibilité de requête\n" 
+}

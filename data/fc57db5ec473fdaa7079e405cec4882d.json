@@ -1,0 +1,8 @@
+{
+ "nom": "Enquête patrimoine ",
+"gestionnaire": "INSEE",
+"description": "Enquête qui vise à mesurer le patrimoine et les \ncomportements associés (épargne, transferts entre générations,\ntrajectoires professionnelles\n",
+"origine": "INSEE",
+"granularite": "France entière depuis 2010",
+"commentaire": "Panélisation" 
+}

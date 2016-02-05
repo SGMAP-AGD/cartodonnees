@@ -1,0 +1,8 @@
+{
+ "nom": "Suivi mensuel de la production de crédits à l’habitat",
+"gestionnaire": "ACPR",
+"description": "Suivre l’évolution des critères d’octroi des crédits à l’habitat aux particuliers résidents",
+"origine": "ACPR",
+"granularite": "France métropolitaine",
+"commentaire": "Volonté de mise à disposition sur data.gouv.fr " 
+}

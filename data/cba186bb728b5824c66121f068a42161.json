@@ -1,0 +1,8 @@
+{
+ "nom": "Fiche de synthèse parc privé",
+"gestionnaire": "ANAH",
+"description": "Favoriser la connaissance du parc privé et la prise en compte de ses enjeux dans les politiques de l'habitat à l'échelle locale . \n(porter à connaissance pour nourrir les PLH, études préalables...)\nPréciser les enjeux relatifs à l'action et aux priorités de l'Anah. \nSituer/comparer/positionner les enjeux du territoire  concerné au regard des enjeux nationaux ou des autres territoires.\nPermettre aux services de l'Etat de dialoguer avec les élus sur les enjeux locaux. \nPrioriser l'action publique en matière d'habitat privé.\nFaciliter l'utilisation des données FILOCOM.\n",
+"origine": "ANAH",
+"granularite": "Commune, epci, canton, département, région, France métropolitaine.",
+"commentaire": "" 
+}

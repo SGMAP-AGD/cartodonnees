@@ -1,0 +1,8 @@
+{
+ "nom": "Observatoires locaux des loyers ",
+"gestionnaire": "DHUP/ANIL/OLL",
+"description": "Les observatoires locaux des loyers ont pour mission de recueillir les données relatives aux loyers sur une zone géographique déterminée et de mettre à la disposition du public des résultats statistiques représentatifs sur ces données.\nLe parc de référence est celui du parc locatif constitué de l'ensemble des locaux à usage d'habitation ou à usage mixte professionnel et d'habitation, à l'exception de ceux appartenant aux organismes d'habitations à loyer modéré, aux sociétés d'économie mixte de construction et de gestion des logements sociaux, ainsi qu'aux organisme chargés d'une MOI\n",
+"origine": "OLL",
+"granularite": "Communale ou infracommunale sur les périmètres d'observation",
+"commentaire": " Un site internet dédié, permettant de visualiser les données collectées par les observatoires des loyers sera mis en service mi-2015. Il sera référencé sur la plate-forme open-data.gouv.fr. La mise à disposition des données non-anonymisées aux chercheurs est à l'étude. Elle se fera via l'accès au CASD." 
+}

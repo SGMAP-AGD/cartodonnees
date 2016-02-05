@@ -1,0 +1,8 @@
+{
+ "nom": "Répertoire du parc locatif social (RPLS)",
+"gestionnaire": "SOeS",
+"description": "Description du parc de logements locatifs sociaux au 1er janvier d’une année",
+"origine": "SOeS",
+"granularite": "Communal sans restrictions.",
+"commentaire": "Projet d’immatriculation des logements en continu afin d’accroître la synergie avec le Système national d’enregistrement de la demande de logement social et améliorer la qualité du répertoire." 
+}

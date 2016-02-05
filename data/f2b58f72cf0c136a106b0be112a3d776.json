@@ -1,0 +1,8 @@
+{
+ "nom": "Patrim",
+"gestionnaire": "DGFIP",
+"description": "Fichier exhaustif de toutes les mutations immobilières à titre onéreux (immeubles bâtis à usage non professionnel).",
+"origine": "DGFIP",
+"granularite": "Information à la parcelle et au local.",
+"commentaire": "Cadre juridique fixé par l'article L.107 B du livre des procédures fiscales et le décret n°2013-718 du 2 août 2013." 
+}

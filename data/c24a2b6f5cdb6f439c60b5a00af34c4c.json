@@ -1,0 +1,8 @@
+{
+ "nom": "Enquête sur l’état d’avancement des PLH et PDH",
+"gestionnaire": "DHUP",
+"description": "Enquête réalisée auprès des DDT(M) via une fonctionnalité ‘Enquête’ disponible\n dans l’application SuDocUH (Suivi des documents d’urbanisme et de l’Habitat)\nAu niveau local elle permet de :\n- venir en appui des SD dans le pilotage des politiques publiques :\nproduction des PAC, avis de l’État, cohérence entre documents et\nprocédures à l'échelle d'un territoire\n- suivi des procédures\n- mutualiser l'information entre les services Habitat et Urbanisme\n- exercer le contrôle de légalité\n- récupérer des données en vue de leur intégration dans un SIG\nAu niveau national elle permet de :\n- rendre compte au Parlement et évaluer la mise en oeuvre des\névolutions juridiques\n- diffuser des données publiques à l’échelle nationale (ex : Observatoire\ndes Politiques Territoriales : www.territoires.gouv.fr)\n- calculer des indicateurs mesurant l’avancement et les effets de la\nplanification.",
+"origine": "DHUP",
+"granularite": "Communes et EPCI pour PLH\nDépartement pour les PDH\n",
+"commentaire": "" 
+}

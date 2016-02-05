@@ -1,0 +1,8 @@
+{
+ "nom": "Enquête sur les prix des terrains à bâtir",
+"gestionnaire": "SOeS",
+"description": "L’objectif de l’enquête est d’assurer un suivi du prix des terrains à bâtir faisant l'objet de la construction d'une maison individuelle. \nElle permet de connaître le poids du prix d'achat du terrain dans le coût global d'un projet de construction de maison individuelle neuve et de connaître les niveaux de prix moyens, leurs évolutions et leurs déterminants.\nElle permet également d’avoir des informations sur le prix et le type de maîtrise d'œuvre de la maison individuelle et d’affiner la connaissance des modes de chauffage dans le cadre des maisons individuelles neuves.\n",
+"origine": "SOeS",
+"granularite": "Niveau communal",
+"commentaire": "" 
+}

@@ -1,0 +1,8 @@
+{
+ "nom": "Indice du coût de la construction (ICC) ",
+"gestionnaire": "INSEE",
+"description": "L’ICC mesure l’évolution du prix de construction des bâtiments neufs à usage principal d’habitation non communautaire en France métropolitaine.",
+"origine": "SOeS",
+"granularite": "Niveau national. Des comparaisons par zones d'aménagement économiques du territoires nécessiteraient d'augmenter significativement la taille de l'échantillon.",
+"commentaire": "Amélioration de la prise en compte des réglementations thermiques \nOptimisation des modèles de l'individuel pur et du collectif par la prise en compte du revenu fiscal médian\n" 
+}

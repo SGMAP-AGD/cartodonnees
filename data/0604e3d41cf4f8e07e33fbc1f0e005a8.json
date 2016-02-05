@@ -1,0 +1,8 @@
+{
+ "nom": "Enquête sur les loyers des bailleurs sociaux ",
+"gestionnaire": "INSEE",
+"description": "Mesure les évolutions trimestrielles des loyers du secteur social, hors charges et avant déduction des aides – les évolutions du secteur libre sont mesurées grâce à l’enquête Loyers et charges",
+"origine": "INSEE",
+"granularite": "Niveau national. L’enquête n’est pas représentative au niveau régional.",
+"commentaire": "" 
+}
