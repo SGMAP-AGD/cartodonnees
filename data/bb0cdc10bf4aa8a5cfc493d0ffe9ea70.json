@@ -1,8 +1,0 @@
-{
- "nom": "Applicatif du SNATIH : Fiche de synthèse SAE",
-"gestionnaire": "ATIH",
-"commentaire": " Cette base Infrastructures fait partie de la catégorie Infrastructures du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-"alimentation": "SAE",
-"description": "Par établissement, ou par région, des informations de synthèse issues de la base SAE sont présentées dans plusieurs tableaux : nombre de lits, activité, personnels.",
-"lien": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php" 
-}

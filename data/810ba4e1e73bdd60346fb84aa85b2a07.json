@@ -1,8 +1,0 @@
-{
- "nom": "Applicatif du SNATIH : ARBUST - MIG",
-"gestionnaire": "ATIH",
-"commentaire": " Cette base Dépenses fait partie de la catégorie Dépenses du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-"alimentation": "-",
-"description": "A partir des données d’ARBUST-MIG, des statistiques sont disponibles, par région, par catégorie d’établissements, par établissement, sur les montants alloués pour chaque MIG et leur évolution.Différentes présentations sont possibles : par établissement, par MIG ou synthétique",
-"lien": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php" 
-}

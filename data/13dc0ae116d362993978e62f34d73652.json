@@ -1,7 +1,0 @@
-{
- "nom": "Tableau de bord de l’IDS : suivi des actes réalisés par des radiologues et radiothérapeutes exerçant une activité libérale",
-"gestionnaire": "IDS",
-"commentaire": "France entière Cette base Biologie fait partie de la catégorie Biologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-"alimentation": "SNIIRAM - Datamart CCAM",
-"description": "Principaux indicateurs : dépense présentée au remboursement, montant du dépassement, dépense remboursable, dépense remboursée, quantité d’actes, ticket modérateur" 
-}

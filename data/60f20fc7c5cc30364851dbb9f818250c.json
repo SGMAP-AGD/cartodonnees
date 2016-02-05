@@ -1,8 +1,0 @@
-{
- "nom": "Base \"TAXE\" de déclarations de ventes annuelles",
-"gestionnaire": "ANSM",
-"commentaire": "Pour le volet médicaments : ensemble des ventes de médicaments en France, prescrits ou non , remboursées ou non, sur une période donnée. Distinction entre les ventes aux \"officines + grossistes\" et au \"marché hospitalier\". Données par code CIP. Cette base Médicaments et dispositifs fait partie de la catégorie Médicaments et dispositifs du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-"alimentation": "1) Les entités redevables de la taxe sur les spécialités pharmaceutiques (Art. 1600-0 N. du code général des impôts) , c'est-à-dire les personnes qui ont assuré l'exploitation et la vente des spécialités pharmaceutiques commercialisées en France en 2012",
-"description": "Pour les médicaments et les dispositifs médicaux (données non exhaustives sur ce second point) : nombre de conditionnements vendus, prescrits ou non, remboursés ou non, par laboratoire et CA associé",
-"lien": "http://ansm.sante.fr/S-informer/Presse-Communiques-Points-presse/Ventes-de-medicaments-en-France-le-rapport-d-analyse-de-l-annee-2012-Communique" 
-}

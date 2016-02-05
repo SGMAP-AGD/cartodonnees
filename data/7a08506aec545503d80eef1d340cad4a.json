@@ -1,8 +1,0 @@
-{
- "nom": "Résultat d'accréditation des médecins en établissement de santé",
-"gestionnaire": "HAS",
-"commentaire": " Cette base Qualité fait partie de la catégorie Qualité du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-"alimentation": "Médecins en établissement, HAS",
-"description": "Nom, coordonnées et spécialités des médecins accrédités par l'HAS",
-"lien": "http://www.has-sante.fr/portail/jcms/c_6056/fr/recherche-avancee?expression=exact&expression=exact&text=Saisir+vos+mots+cl%C3%A9s&text=Saisir+vos+mots+cl%C3%A9s&liaison_word=and&searchOn=fullText&catMode=or&dateMiseEnLigne=indexDateFrom&dateDebut=&dateFin=&typesf=certifications%2Fgenerated.CertificatDaccreditation&search_antidot=&portlet=c_39085" 
-}

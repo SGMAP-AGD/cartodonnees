@@ -1,8 +1,0 @@
-{
- "nom": "Applicatif du SNATIH : Evolution de l'activité trimestrielle",
-"gestionnaire": "ATIH",
-"commentaire": " Cette base Activité des établissements de santé fait partie de la catégorie Activité des établissements de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-"alimentation": "_ Principales sources : PMSI et tableaux MAT2A/OVALIDE",
-"description": "A partir des données des tableaux MAT2A/OVALIDE, pour les domaines MCO, SSR, HAD et psychiatrie, par établissement, par catégorie d’établissements ou par région, les graphiques illustrent l’évolution, trimestre par trimestre depuis 2005, d’un grand nombre de paramètres d’activité (RSA, journées, séances, suppléments de réanimation, molécules onéreuses, etc.).",
-"lien": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php" 
-}

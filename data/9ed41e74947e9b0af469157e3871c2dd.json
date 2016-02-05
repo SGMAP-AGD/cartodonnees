@@ -1,8 +1,0 @@
-{
- "nom": "Statistiques de l'état civil",
-"gestionnaire": "INSEE",
-"commentaire": "Ensemble de la population Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-"alimentation": "Etat Civil",
-"description": "Mariages, décés, naissances par communes, par région, par zone d'emplois, etc.",
-"lien": "http://www.insee.fr/fr/themes/theme.asp?theme=2&sous_theme=0&type=3&nivgeo=0&produit=OK" 
-}

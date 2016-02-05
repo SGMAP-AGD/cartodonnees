@@ -1,8 +1,0 @@
-{
- "nom": "Indicateurs Hospidiag",
-"gestionnaire": "ANAP",
-"commentaire": "1350 établissements MCO Cette base Performance opérationnelle fait partie de la catégorie Performance opérationnelle du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-"alimentation": "Indicateurs calculés par l'ATIH à partir des données sources suivantes : PMSI, comptes financiers, base des infections nosocomiales, SAE, ANCRE, IPAQSS, INPI, ICARE, SIGAPS/SIGREC, bilan social, Osis",
-"description": "Par établissement : 68 indicateurs d’activité, de qualité, d’organisation/process, de RH et de finance sur les établissements : par ex. part de marché régionale en médecine",
-"lien": "http://hospidiag.atih.sante.fr/cgi-bin/broker?_service=default&_debug=0&_program=hd.accueil_hd.sas" 
-}

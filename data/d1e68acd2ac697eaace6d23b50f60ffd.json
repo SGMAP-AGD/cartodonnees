@@ -1,8 +1,0 @@
-{
- "nom": "Liste des Produits et Prestations (LPP)",
-"gestionnaire": "CNAMTS",
-"commentaire": " Cette base Informations médicales fait partie de la catégorie Informations médicales du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-"alimentation": "CNAMTS",
-"description": "Par médicament ou prestation : désignation du médicament, dates de validité, tarifs, taux de remboursement",
-"lien": "http://www.codage.ext.cnamts.fr/codif/tips/index_presentation.php?p_site=AMELI" 
-}

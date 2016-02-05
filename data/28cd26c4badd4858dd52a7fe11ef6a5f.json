@@ -1,7 +1,0 @@
-{
- "nom": "Tableau de bord de l’IDS : suivi de l'activité des établissements de santé publics et privés pour la MCO (données de synthèse du tableau MAT2A)",
-"gestionnaire": "IDS",
-"commentaire": "France entière Cette base Activité des établissements de santé fait partie de la catégorie Activité des établissements de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-"alimentation": "SNATIH",
-"description": "_ Fonctionnalité : suivre l'évolution des principaux indicateurs de l'activité des établissements de soins par catégorie d'établissement ou par région" 
-}

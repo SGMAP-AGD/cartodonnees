@@ -1,8 +1,0 @@
-{
- "nom": "\"Base\" du système de surveillance des infections au CO",
-"gestionnaire": "InVS",
-"commentaire": " Cette base Environnement fait partie de la catégorie Environnement du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-"alimentation": "Signalement de suspicion d’intoxications au CO par les déclarants (toute personne ayant connaissance d’une suspicion d’intoxication au CO) qui sont en pratique les services d’intervention d’urgence : les services départements de secours et d’incendie et les services d’urgence hospitalière",
-"description": "Taux de mortalité, taux de décés par intoxication (depuis 2004), répartition régionale de l'incidence des intoxications, circonstances de survenues des intoxications, répartition hebdomadaires des épisodes d'intoxication",
-"lien": "http://www.invs.sante.fr/Dossiers-thematiques/Environnement-et-sante/Intoxications-au-monoxyde-de-carbone/Donnees-epidemiologiques-de-surveillance" 
-}
