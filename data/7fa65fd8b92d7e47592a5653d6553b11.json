@@ -1,8 +1,0 @@
-{
- "nom": "Statistiques de la construction (Sitadel2) ",
-"gestionnaire": "SOeS",
-"description": "Suivi de la construction neuve des logements et des locaux\n\nDeux types de séries statistiques sont proposées : les séries en date de prise en compte (suivi conjoncturel) et les séries en date réelle (études structurelles). \n",
-"origine": "SOeS",
-"granularite": "Niveau communal\nUsages possibles pour des zonages infra communaux\n",
-"commentaire": "engagement du SOeS à déterminer une granularité optimale des données issues du Répertoire des logements locatifs des bailleurs sociaux et à mettre à disposition les fichiers bruts (extraits du logiciel Beyond)                                                                                                                        Un projet d'estimation en date réelle est en cours. L'objectif est de produire des estimations mensuelles dautorisations et de mises en chantier qui seront publiées tous les mois et se substitueront aux séries en date de prise en compte dans l'analyse conjoncturelle.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        Une réflexion sur une meilleure articulation entre les séries d'autorisation de constuire et de mises en chantier est également en cours." 
-}

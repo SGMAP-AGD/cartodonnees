@@ -1,8 +1,0 @@
-{
- "nom": "Statistiques des fonds de solidarité pour le logement\n(FSL)\n",
-"gestionnaire": "DHUP",
-"description": "Bilan statistique annuel des FSL",
-"origine": "DHUP",
-"granularite": "Données départementales, compilées et agrégées au niveau national :\nutilisations nationales et départementales\n ",
-"commentaire": "Modifications prévues /envisagées des statistiques demandées par l’arrêté :\n - mise à jour suite à évolution législative (RSA a remplacé RMI, \nsuppression de la CDAPL …)\n - simplification éventuelle (allègement …)\n - compléments éventuels à ajouter (montants des remises de dettes\n consenties par les fournisseurs qui font actuellement l’objet d’un tableau\nfacultatif ajouté, précisions sur le volet des aides au paiement des\nfournitures d’énergie ...)\n" 
-}

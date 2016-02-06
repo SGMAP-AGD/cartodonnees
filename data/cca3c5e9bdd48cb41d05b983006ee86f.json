@@ -1,8 +1,0 @@
-{
- "nom": "Eco-prêt à taux zéro",
-"gestionnaire": "SGFGAS",
-"description": "Toute opération de rénovation énergétique ou d’assainissement non collectif  concernant un logement remplissant les conditions d’éligibilité  financée par un Eco-Prêt à taux zéro. L'objectif de cette base de données est de connaître les bénéficiaires de l'Eco-PTZ et les travaux réalisés, d'en évaluer la portée et de gérer les crédits d'impôts accordés.",
-"origine": "SGFGAS",
-"granularite": "Code INSEE communal, utilisation agrégée possible à  tout  niveau géographique résultant d’une agrégation de communes (seule exception depuis 2011 : on peut distinguer les arrondissements parisiens)",
-"commentaire": "https://www2.sgfgas.fr/web/guest/statistiques1\nAller vers une granularité plus fine (+data.gouv.fr), sous réserve de la bonne observation des règles de secret statistiques." 
-}

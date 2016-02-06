@@ -1,8 +1,0 @@
-{
- "nom": "Recensement de la population",
-"gestionnaire": "INSEE",
-"description": "Le recensement repose désormais sur une collecte d'information annuelle. Les chiffres chaque année sont fondés sur 5 années d'enquêtes. Le recensement de la population est une source très riche sur les habitants et leurs conditions de logement (type de logement, période de construction, taille du logement, statut d'occupation, sanitaires, chauffage, équipements de confort…).",
-"origine": "INSEE",
-"granularite": "Communes et Iris",
-"commentaire": "" 
-}

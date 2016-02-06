@@ -1,8 +1,0 @@
-{
- "nom": "Enquête Loyers et charges ",
-"gestionnaire": "INSEE",
-"description": "Mesure les évolutions trimestrielles des loyers hors charges et avant déduction des aides",
-"origine": "INSEE",
-"granularite": "Niveau national. L’enquête n’est pas représentative au niveau régional.",
-"commentaire": "" 
-}

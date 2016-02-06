@@ -1,8 +1,0 @@
-{
- "nom": "Applicatif du SNATIH : Indicateurs de productivité médico-économique",
-"gestionnaire": "ATIH",
-"commentaire": " Cette base Performance financière fait partie de la catégorie Performance financière du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-"alimentation": "_ Principales sources : PMSI, SAE, remontées financières des établissements",
-"description": "Mesure du taux de couverture des charges par les recettes par établissement ex-DG, pour le secteur MCO, le secteur sous DAF et tous champs confondus. L’évolution sur trois années est également donnée.",
-"lien": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php" 
-}

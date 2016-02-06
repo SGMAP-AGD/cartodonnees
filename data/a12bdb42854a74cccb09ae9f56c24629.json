@@ -1,8 +1,0 @@
-{
- "nom": "Base Bien gérée par Paris Notaires Services (BIEN)",
-"gestionnaire": "La Chambre interdépartementale des Notaires de Paris et les autres instances d’Ile-de-France.",
-"description": "Alimentation par les notaires d’Ile-de-France de la base BIEN recensant les ventes immobilières (mutations à titre onéreux) en Ile-de-France.\nL’alimentation se fait sur la base du volontariat à partir de 1990 pour Paris et la petite Couronne, à partir de 1996 pour la Grande Couronne.\nL'objectif de cette base de données est de connaître de façon détaillée les prix de vente et leurs évolutions en Ile-de-France.",
-"origine": "Paris Notaire Service",
-"granularite": "Périmètre : l’Ile-de-France\nDonnées statistiques au niveau  région, département, commune, \narrondissements de Paris, quartiers, secteurs géographiques plus fins.\n",
-"commentaire": "Loi du 28 mars 2011 de modernisation des professions juridiques et financières. \nécret n° 2013-803 du 3 septembre 2013 " 
-}

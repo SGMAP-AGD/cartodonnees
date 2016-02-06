@@ -1,8 +1,0 @@
-{
- "nom": "Bénéficiaires des aides personnelles au logement (trois trimestres par an) BENETRIM ",
-"gestionnaire": "CNAF",
-"description": "Extraction à partir des fichiers de gestion des caisses d’allocations\nfamiliales (Caf) d’une base statistique de situation du stock de \nbénéficiaires au titre du mois de mars, juin ou septembre\nFournit des informations exhaustives sur les droits et les caractéristiques des foyers bénéficiaires d’une aide personnelle au logement (ALF, ALS, APL).",
-"origine": "CNAF",
-"granularite": "France entière, métropole, Dom, département,\ncaisse d’allocation familiale, commune\n",
-"commentaire": "Données disponibles sur  : https://www.caf.fr/etudes-et-statistiques/donnees-statistiques/logement\nNb de bénéficiaires par mois et par département ; nb de bénéficiaires par commune" 
-}

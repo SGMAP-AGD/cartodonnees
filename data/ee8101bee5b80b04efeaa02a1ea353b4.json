@@ -1,8 +1,0 @@
-{
- "nom": "Banque de données hospitalières de France",
-"gestionnaire": "FHF",
-"commentaire": " Cette base Performance financière fait partie de la catégorie Performance financière du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-"alimentation": "Principales sources : PMSI, DREES, analyses de la FHF",
-"description": "Nombreux modules : case mix, part de marché des établissements, ratios de ressources humaines, ratios de consommation de produits pharmaceutiques, ratios financiers, ratios de psychiatrie, etc.",
-"lien": "http://www.fhf.fr/Actualites/Finances-BDHF/BDHF" 
-}

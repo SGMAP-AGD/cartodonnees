@@ -112,6 +112,6 @@ by(df, 1:nrow(df), function(row){
     row['portail_mad'] <- NULL
     row['2portail_mad'] <- NULL
     
-    write(toJSON(row), paste("data/",digest(paste(row['gestionnaire'],row['nom']),algo="md5"),".json",sep=""))
+    write(toJSON(row), paste("data/",paste(row['gestionnaire']," ",row['nom']),".json",sep=""))
   }
 })

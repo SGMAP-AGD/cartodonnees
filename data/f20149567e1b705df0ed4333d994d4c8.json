@@ -1,8 +1,0 @@
-{
- "nom": "Fichier National des Etablissements Sanitaires et Sociaux (FINESS)",
-"gestionnaire": "DREES",
-"commentaire": "Etablissements de santé, SSR, EHPAD, pharmacies ; mise à jour semestrielle Cette base Services proposés fait partie de la catégorie Services proposés du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-"alimentation": "Etablissements via ARS et DRJSCS",
-"description": "Pour chaque établissement, données d’identification (adresse, raison sociale, catégorie juridique, mode de tarification), libellés d’activités sanitaires et d’équipement sociaux (le cas échéant)",
-"lien": "http://finess.sante.gouv.fr/finess/jsp/actionRechercheSimple.do" 
-}

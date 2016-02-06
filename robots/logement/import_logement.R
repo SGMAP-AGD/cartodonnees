@@ -51,5 +51,5 @@ by(df, 1:nrow(df), function(row){
   #"Pour.en.savoir.plus..fiche.de.l.annexe.12.du.rapport.sur.l.organisation.du.service.statistique.dans.le.domaine.du.logement"
   row['Pour.en.savoir.plus..fiche.de.l.annexe.12.du.rapport.sur.l.organisation.du.service.statistique.dans.le.domaine.du.logement'] <- NULL
   
-  write(toJSON(row), paste("data/",digest(paste(row['gestionnaire'],row['nom']),algo="md5"),".json",sep=""))
+  write(toJSON(row), paste("data/",paste(row['gestionnaire']," ",row['nom']),".json",sep=""))
 })

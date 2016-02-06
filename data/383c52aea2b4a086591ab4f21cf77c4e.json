@@ -1,8 +1,0 @@
-{
- "nom": "Base médicprix",
-"gestionnaire": "CEPS",
-"commentaire": " Cette base Informations médicales fait partie de la catégorie Informations médicales du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-"alimentation": "CEPS",
-"description": "Informations disponibles pour chaque médicament : n° CIP, libellé, laboratoire exploitant, composition, prix en vigueur (prix fabricant HT, prix public TTC) uniquement sur les médicaments remboursables",
-"lien": "http://medicprix.sante.gouv.fr/welcome.do" 
-}

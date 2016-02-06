@@ -1,8 +1,0 @@
-{
- "nom": "NHWS (National Health Wellness Survey)",
-"gestionnaire": "Kantar Health",
-"commentaire": "Base de données en population générale disponibles dans tous les pays suivants : France, Allemagne, UK, Italie, Espagne, Russie, Chine, Japon, Brésil et US. 200 000 individus interrogés chaque année / méthodologie transversale / possibilité de cumuler les bases de données annuelles disponibles en Europe depuis 2000 . Cette base Etat de santé fait partie de la catégorie Etat de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-"alimentation": "Enquête annuelle auprès d'un échantillon national représentatif de la population française de 15 000 personnes en France (parmi 200 000 personnes interrogées dans le monde), sur leur état de santé et les conséquences en termes humanistiques et économiques. Résultats disponibles depuis 2000.",
-"description": "Qualité de vie, Productivité, besoins insatisfaits, consommation de ressources, Comorbidités, Environ 165 morbidités couvertes. Nombreuses échelles validées.",
-"lien": "www.kantarhealth.com" 
-}

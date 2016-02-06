@@ -1,8 +1,0 @@
-{
- "nom": "Base QUALHAS de qualité et de sécurité des soins",
-"gestionnaire": "HAS",
-"commentaire": " Cette base Performance opérationnelle fait partie de la catégorie Performance opérationnelle du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-"alimentation": "Hôpitaux",
-"description": "17 indicateurs MCO, SSR, HAD et psychiatrie : par exemple, tenue du dossier patient, délai d'envoi des courriers, mesure de la douleur et du poids",
-"lien": "https://www.data.gouv.fr/fr/dataset/indicateurs-de-qualite-et-de-securite-des-soins-generalises-dans-les-etablissements-de-sante--572993" 
-}

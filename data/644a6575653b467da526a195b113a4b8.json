@@ -1,8 +1,0 @@
-{
- "nom": "Bilan triennal article 55 de la loi SRU, relatif à l’objectif de \n20 %/25 % de logements sociaux pour certaines communes.\n",
-"gestionnaire": "DHUP",
-"description": "Logements sociaux définis à l’article L.302-5 du CCH. L'objectif de cette enquête est de connaître les taux d’atteinte des objectifs triennaux de rattrapage définis à l’article L.302-8, les mises en état de carence définies par arrêtés des préfets et les taux de majoration des prélèvements annuels tels que définis à l’article L.302-9-1 ainsi que les passages en commissions départementales et nationale définies à l’article L.302-9-1-1.",
-"origine": "DHUP",
-"granularite": "Communal, intercommunal, départemental, régional et national",
-"commentaire": " Le module d’enquête doit être réformé pour prendre en compte toutes les évolutions de la loi du 18/01/2013. L'inégration dans un module d'enquête est à l'étude." 
-}

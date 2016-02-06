@@ -1,7 +1,0 @@
-{
- "nom": "Base de pharmacovigilance",
-"gestionnaire": "ANSM",
-"commentaire": "Plus de 400 000 observations recensées ; saisies par les CRPV chaque année de plus ce 25 000 nouvelles observations d'effets graves ou non graves Cette base Médicaments et dispositifs fait partie de la catégorie Médicaments et dispositifs du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-"alimentation": "Centres régionaux de pharmacovigilance (31) via les professionnels de santé et les patients ; transmission directe à l'ANSM parfois",
-"description": "_ Par évènement : description de l'évènement indésirable constaté et du produit associé" 
-}

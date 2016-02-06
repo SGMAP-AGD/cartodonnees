@@ -1,8 +1,0 @@
-{
- "nom": "Base Retroced'am du SNIIRAM",
-"gestionnaire": "CNAMTS",
-"commentaire": " Cette base Médicaments et dispositifs fait partie de la catégorie Médicaments et dispositifs du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-"alimentation": "SNIIRAM",
-"description": "Informations détaillées sur les médicaments remboursés dans le cadre de la rétrocession hospitalière avec, par code UCD : base de remboursement, marge de rétrocession, montant remboursé, nombre d'unités remboursées",
-"lien": "http://www.ameli.fr/l-assurance-maladie/statistiques-et-publications/donnees-statistiques/medicament/retroced-am-2010-2012.php" 
-}

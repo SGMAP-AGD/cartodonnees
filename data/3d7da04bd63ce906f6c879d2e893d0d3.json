@@ -1,8 +1,0 @@
-{
- "nom": "Enquête nationale de prévalence des infections nosocomiales (ENPIN)",
-"gestionnaire": "INVS",
-"commentaire": "1938 établissements de santé couverts : 96,8% des lits d’hospitalisation publique français, et <80% pour les ES privés Cette base Qualité fait partie de la catégorie Qualité du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-"alimentation": "Etablissements de santé",
-"description": "Statistiques des maladies nosocomiales par catégorie d'établissement, par âge, par origine d'infection,type de séjour, facteurs de risque, étude des micro organismes et des traitements puis comparaisons régionales",
-"lien": "http://www.sante.gouv.fr/enquete-nationale-de-prevalence-enp.html" 
-}

@@ -1,8 +1,0 @@
-{
- "nom": "Statistiques agrégées du SNATIH",
-"gestionnaire": "ATIH",
-"commentaire": " Cette base Activité des établissements de santé fait partie de la catégorie Activité des établissements de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-"alimentation": "PMSI",
-"description": "Nombre de séjours MCO, SSR, HAD et psy présenté en fonction i) du type de séjour, séjours non CM 24 (GHM J et T à compter de 2009) ni séances, séjours de la CM 24 (GHM J et T à compter de 2009) et séances, ii) de la classe d’âge des malades, décomposé en deux tableaux, (0-29j, 30-119j, 120j-1an, 1an-4ans, 5ans-16ans) d’une part et (17-25 ans, 26-45 ans, 46-55 ans, 56-70 ans, 56-70 ans, > 80 ans) d’autre part, iii) du sexe des malades, iv de la catégorie d’établissements",
-"lien": "http://www.atih.sante.fr/snatih/statistiques" 
-}

@@ -1,7 +1,0 @@
-{
- "nom": "Base de données HYGIE",
-"gestionnaire": "IRDES",
-"commentaire": "600 000 pesronnes Cette base Indemnités et accidents du travail fait partie de la catégorie Indemnités et accidents du travail du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-"alimentation": "SNIIRAM et fichiers CNAV (système national de gestion des carrières - SNGC - et système national statistiques prestataires - SNSP - )",
-"description": "_ Regroupement d'informations sur les arrêts de travail, les consommations de soins associés, et les contextes individuels et professionnels des salariés" 
-}

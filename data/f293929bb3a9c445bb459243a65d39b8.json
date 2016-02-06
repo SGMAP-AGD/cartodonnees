@@ -1,8 +1,0 @@
-{
- "nom": "Base du réseau Sentinelles",
-"gestionnaire": "INSERM",
-"commentaire": "1300 médecins généralistes libéraux (2% du total national) Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-"alimentation": "Médecins généralistes volontaires",
-"description": "_ Surveillance de 9 indicateurs : symptômes gripaux, utérite masculine, oreillons, varicelle, diarrhée aiguë, suicide et tentatives de suicide, zona, maladie de Lyme",
-"lien": "http://websenti.u707.jussieu.fr/sentiweb/?page=table" 
-}

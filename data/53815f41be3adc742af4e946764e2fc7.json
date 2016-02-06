@@ -1,8 +1,0 @@
-{
- "nom": "Enquête nationale DGALN - Eco-PLS",
-"gestionnaire": "DHUP",
-"description": "Enquête exhaustive, sur l’ensemble des opérations de rénovation énergétique mobilisant l’éco-PLS. Cette enquête permet d'avoir un bilan sur les types de travaux et les gains de performance énergétique induits par un dispositif incitatif tel que l'éco-PLS, d'étudier les conséquences des critères financiers et techniques fixés par l’Etat, d'améliorer le dispositif si besoin, ou de réorienter la cible le cas échéant. ",
-"origine": "DHUP",
-"granularite": "Utilisation des données possible au niveau de l’opération, c’est-à-dire un bâtiment ou un ensemble de bâtiments, ou à un niveau agrégé (national, régional, départemental). ",
-"commentaire": "Du fait des difficultés rencontrées avec l’application actuelle, la DHUP travaille à la mise en place d’une nouvelle application, en coordination avec les applications DHUP existantes ou en cours de déploiement (SPLS, GALION). Elle permettra d’adapter la robustesse de l’application aux nouvelles conditions de l’éco-PLS, de réajuster le formulaire, de permettre aux services déconcentrés un meilleur suivi des opérations de rénovation énergétique et d’améliorer le croisement entre les données de la DHUP et celles de la CDC." 
-}

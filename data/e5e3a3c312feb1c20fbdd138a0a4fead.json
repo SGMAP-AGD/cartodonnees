@@ -1,8 +1,0 @@
-{
- "nom": "Indice du prix des logements neufs et anciens",
-"gestionnaire": "INSEE",
-"description": "L’indice de prix des logements (IPL) est un indice trimestriel, base 100 en moyenne annuelle 2010.\nL’IPL est un indice de prix de transaction mesurant, entre deux trimestres consécutifs, l’évolution pure des prix des logements vendus.\nPour un trimestre donné, il est obtenu comme la moyenne pondérée des deux indices suivants :\n- l’indice Notaires-Insee des prix des logements anciens\n- l’indice des prix des logements neufs\n",
-"origine": "INSEE",
-"granularite": "Le champ géographique est la France métropolitaine hors Corse.\nLes logements anciens considérés sont ceux appartenant au champ de l’indice Notaires-Insee.\nLes logements neufs retenus sont ceux appartenant au champ de l’enquête ECLN (voir infra).\n",
-"commentaire": "" 
-}

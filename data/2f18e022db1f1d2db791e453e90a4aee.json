@@ -1,8 +1,0 @@
-{
- "nom": "Enquête sur la commercialisation des logements neufs (ECLN)",
-"gestionnaire": "SOeS",
-"description": "L'objectif de l'Enquête sur la Commercialisation des Logements Neufs (ECLN) est d'assurer un suivi de la commercialisation par les promoteurs des logements neufs destinés à la vente. L'enquête permet ainsi de disposer d'éléments sur les prix, mises en vente, réservations, encours de logements neufs proposés à la vente, avec distinction entre maisons individuelles et appartements, selon le nombre de pièces.",
-"origine": "SOeS",
-"granularite": "Niveau communal",
-"commentaire": "Une refonte de l'enquête est prévue d'ici 2015. Elle doit permettre de mieux répondre aux attentes des utilisateurs, alléger la charge des enquêtés (centralisation de la réponse pour les gros promotteurs avec envoi de fichiers) et diminuer le délai de publication.                                   " 
-}

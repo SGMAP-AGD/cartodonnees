@@ -1,8 +1,0 @@
-{
- "nom": "Campagne nationale de mesure du radon",
-"gestionnaire": "IrSn",
-"description": " connaissance de la distribution de l’activité volumique du radon dans l’habitat et l’estimation de l’exposition moyenne des populations en France",
-"origine": "IRSN",
-"granularite": "commune voire département",
-"commentaire": "" 
-}

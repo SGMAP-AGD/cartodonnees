@@ -1,8 +1,0 @@
-{
- "nom": "Base Medic'am du SNIIRAM",
-"gestionnaire": "CNAMTS",
-"commentaire": " Cette base Médicaments et dispositifs fait partie de la catégorie Médicaments et dispositifs du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-"alimentation": "SNIIRAM",
-"description": "Par ensemble \"produit&dosage\" : base de remboursement, montant remboursé, dénombrement (nombre de boîte remboursées), base de remboursement des prescripteurs de ville, base de remboursement des autres prescripteurs",
-"lien": "http://www.ameli.fr/l-assurance-maladie/statistiques-et-publications/donnees-statistiques/medicament/medic-am-2008-2012.php" 
-}

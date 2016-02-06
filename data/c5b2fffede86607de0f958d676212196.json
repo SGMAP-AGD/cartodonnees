@@ -1,8 +1,0 @@
-{
- "nom": "Répertoire des procédures d’expulsion (projet) (Exploc)",
-"gestionnaire": "DHUP",
-"description": "Observation continue sur le suivi des procédures d’expulsion et des actions de prévention. Cette enquête vise à améliorer la qualité du service, le fonctionnement du traitement et de la gestion de la procédure d’expulsion locative, depuis l’enregistrement de la demande d’assignation, jusqu’au terme de cette procédure ainsi que la gestion des commissions de coordination des actions de prévention des expulsions locatives (CCAPEX).",
-"origine": "DMAT (Ministère de l'inétérieur) / DHUP",
-"granularite": "Départementale pour les données nominatives. Départementale et nationale pour l’exploitation statistique.",
-"commentaire": "Déploiement de la première phase prévu en 2015, puis ouverture de l’application aux partenaires extérieurs aux services de l’Etat (BDF, CAF, conseils généraux, huissiers de justice, bailleurs sociaux...). Il est prévu la mise à disposition de données en open data" 
-}

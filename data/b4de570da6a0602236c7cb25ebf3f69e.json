@@ -1,8 +1,0 @@
-{
- "nom": "Applicatif du SNATIH : Fiches établissements infra-annuelles",
-"gestionnaire": "ATIH",
-"commentaire": " Cette base Performance financière fait partie de la catégorie Performance financière du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-"alimentation": "_ Principales sources : PMSI, SAE, remontées financières des établissements",
-"description": "Fiches fournissant, par établissement ex-DG, de façon infra-annuelle :",
-"lien": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php" 
-}

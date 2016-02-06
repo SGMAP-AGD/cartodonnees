@@ -1,8 +1,0 @@
-{
- "nom": "Prêts conventionnés",
-"gestionnaire": "SGFGAS",
-"description": "Tout logement financé par un Prêt Conventionné. Permet un suivi des volumes distribués.",
-"origine": "SGFGAS",
-"granularite": "France entière",
-"commentaire": "" 
-}

@@ -1,8 +1,0 @@
-{
- "nom": "PAS",
-"gestionnaire": "SGFGAS",
-"description": "Tout logement remplissant les conditions d’éligibilité à un Prêt Garanti. Cette base de données offre une connaissance exhaustive des prêts et des emprunteurs. ",
-"origine": "SGFGAS",
-"granularite": "Code INSEE communal, utilisation agrégée possible à  tout  niveau géographique résultant d’une agrégation de communes (seule exception depuis 2011 : on peut distinguer les arrondissements parisiens) ",
-"commentaire": "https://www2.sgfgas.fr/web/guest/statistiques1\nAller vers une granularité plus fine (+data.gouv.fr), sous réserve de la bonne observation des règles de secret statistiques." 
-}

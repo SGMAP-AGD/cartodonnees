@@ -1,8 +1,0 @@
-{
- "nom": "PTZ, NPTZ et PTZ+",
-"gestionnaire": "SGFGAS",
-"description": "Tout logement remplissant les conditions d’éligibilité à un PTZ. L'objectif de cette base de données est de connaître les bénéficiaires des différents dispositifs du PTZ, d'en évaluer la portée et de gérer les crédits d'impôts accordés.",
-"origine": "SGFGAS",
-"granularite": "Code INSEE communal, utilisation agrégée possible à  tout  niveau géographique résultant d’une agrégation de communes (seule exception depuis 2011 : on peut distinguer les arrondissements parisiens)",
-"commentaire": "https://www2.sgfgas.fr/web/guest/statistiques1\nAller vers une granularité plus fine (+data.gouv.fr), sous réserve de la bonne observation des règles de secret statistiques." 
-}
