@@ -2,7 +2,7 @@
 # https://www.data.gouv.fr/fr/datasets/cartographie-des-bases-de-donnees-publiques-en-sante/
 
 require(readODS)
-require(RJSONIO)
+require(RJSONIO) 
 require(digest)
 
 if(!file.exists("sante/Cartographie-des-donnees-publiques-de-sante-6-mai-2014.ods")){
