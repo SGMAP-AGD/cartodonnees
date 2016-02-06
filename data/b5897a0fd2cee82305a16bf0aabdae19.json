@@ -1,0 +1,8 @@
+{
+ "nom": "Montant et nombre des ventes immobilières",
+"gestionnaire": "CGEDD",
+"description": "L'objectif de cette enquête est d'estimer le montant et le nombre de ventes immobilières, tous types de biens confondus, supportant le taux de droit commun des droits de mutation.\n",
+"origine": "CGEDD",
+"granularite": "Département",
+"commentaire": "L’obligation faite par la loi aux notaires d’alimenter les bases notariales, lorsqu’elle sera effective rendra l’estimation plus précise et permettra une plus grande finesse géographique et temporelle." 
+}

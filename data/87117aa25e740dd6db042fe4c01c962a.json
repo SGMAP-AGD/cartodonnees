@@ -1,0 +1,8 @@
+{
+ "nom": "Observatoire du financement du logement",
+"gestionnaire": "DHUP",
+"description": "Résidences principales, résidences secondaires, investissement locatif - Enuqête par sondage sur les conditions dans lesquelles les ménages ont acheté, construit ou\namélioré un logement en se finançant par emprun",
+"origine": "CSA prestataire",
+"granularite": "France",
+"commentaire": "Données DOM depuis le millésime 2012\nA compter du millésime 2013 , il a été décidé de scinder le marché\nen deux marchés correspondants aux deux phases de l’étude : la \nconstitution de l’échantillon d’une part, le redressement et l’analyse \nd’autre part. La méthodologie utilisée pour le redressement peut en \nconséquence être amenée à changer. \n" 
+}

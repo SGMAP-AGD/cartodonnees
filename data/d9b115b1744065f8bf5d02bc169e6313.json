@@ -1,0 +1,8 @@
+{
+ "nom": "OPEN – Observatoire Permanente de \nl’amélioration ENergétique du logement\n",
+"gestionnaire": "ADEME",
+"description": "OPEN est un outil technico-économique capable de décrire\nl’état du marché de la rénovation énergétique.\nIl permet de mesurer la pénétration des équipements performants\n dans les logements en évaluant l’effet de levier des dispositifs \nd’incitation et, plus globalement, d’éclairer sur l’efficacité des \ndifférents outils en termes de retombées concrètes \nsur le développement de la filière bâtiment.\n \n",
+"origine": "ADEME",
+"granularite": "Niveau national.\nUne expérimentation sur 2 régions  a été réalisée en 2013.\nL’outil est amené à se régionaliser avec une implication \nde plus en e plus forte des CERC.\n",
+"commentaire": "OPEN a été reconduite fin 2014 pour une durée de 2 ans. La méthodologie est amenée à évoluer (classification des rénovations en « assimilées bouquets de travaux » plutôt qu’en « étoiles ») et va être régionalisée. \nL’enjeu, à terme, est de disposer dans chaque région des « OPEN-région » menés par les CERC et pilotés par une entité nationale.\nLe nouveau contrat avec le prestataire rend l'ADEME propriétaire des données, donc potentiellement pourront être mises à disposition en open data." 
+}

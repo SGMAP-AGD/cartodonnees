@@ -1,0 +1,8 @@
+{
+ "nom": "Indice de prix des travaux d’entretien et d’amélioration de logements (IPEA) ",
+"gestionnaire": "INSEE",
+"description": "L'objectif de l'enquête est d'établir des indices de prix trimestriels couvrant les différentes activités nécessaires à l'entretien et l'amélioration des logements. Ces indices peuvent être utilisés pour l’analyse de l’activité du secteur comme indicateurs conjoncturels, ou comme déflateurs des comptes nationaux. Ils peuvent également servir pour indexer des contrats. ",
+"origine": "INSEE",
+"granularite": "Niveau national. Des comparaisons par zones d'aménagement économiques du territoires nécessiteraient d'augmenter significativement la taille de l'échantillon.",
+"commentaire": "" 
+}

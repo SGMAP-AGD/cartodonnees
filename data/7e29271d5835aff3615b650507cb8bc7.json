@@ -1,0 +1,8 @@
+{
+ "nom": "Demande de valeur foncière",
+"gestionnaire": "DGFIP",
+"description": "Fichier exhaustif de toutes « les mutations immobilières à titre onéreux publiées dans les Conservations des hypothèques, avec descriptif cadastral des biens »",
+"origine": "DGFIP",
+"granularite": "Information jusqu’aux locaux objet de la mutation.",
+"commentaire": "Les fichiers DVF sont accessibles aux collectivités locales. Un groupe de travail est constitué sur l'exploitation des fichiers (\"groupe DVF\").\nPour les services de l'Etat, ils font l’objet d’une négociation en cours avec la DGFiP pour permettre que l’administration fiscale puisse leur transmettre effectivement et  gratuitement les éléments d’informations qu’elle détient au sujet des valeurs foncières déclarées à l’occasion des mutations intervenues dans les cinq dernières années et qui sont nécessaires à l’exercice de leurs compétences en matière de politique foncière et d’aménagement.\n" 
+}

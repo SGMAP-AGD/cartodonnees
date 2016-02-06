@@ -1,0 +1,8 @@
+{
+ "nom": "Infocentre sur les aides à la pierre SISAL",
+"gestionnaire": "DHUP",
+"description": "Données issues d’instruction des dossiers de financement et d’agrément \nGALION (METL) et AGORA (ANRU). L'objectif de cette base de donnée est de suivre l'activité de financement du logement social.\n",
+"origine": "DHUP",
+"granularite": "commune",
+"commentaire": "http://www.financement-logement-social.territoires.gouv.fr/ \nDéploiement de GALION dans les DOM et mise en place du portail de suivi et de programmation des logements sociaux.\nIntégration des nouvelles mesures d’aides à la pierre ( PLAI adaptés, éco-PLS)\nVolonté de mettre plus de données en accès ouvert " 
+}

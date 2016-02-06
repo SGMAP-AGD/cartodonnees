@@ -1,0 +1,8 @@
+{
+ "nom": "Collecte et Récolte des Objectifs CUS (CROCUS)",
+"gestionnaire": "DHUP",
+"description": "L’ensemble du patrimoine locatif, soit les logements locatifs sociaux et/ou les logements foyers, ainsi que l’activité d’accession. CROCUS permet de faciliter la démarche d’évaluation pour la partie quantitative  et de rendre disponible l’intégralité des engagements à l’ensemble des services de l’État. ",
+"origine": "sous-direction de l’habitat et des organismes constructeurs",
+"granularite": "Les données peuvent être utilisées au niveau d’un organisme, d’un département, d’une région ou au niveau national.",
+"commentaire": "En 2014, la fin de la première évaluation bisannuelle des CUS va permettre, dans le cadre d’un groupe de travail, de collecter des retours d’expérience sur l’utilisation de CROCUS et de réfléchir sur les évolutions à apporter à l’application." 
+}

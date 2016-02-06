@@ -1,0 +1,8 @@
+{
+ "nom": "FIchier des Logements par Commune (Filocom)",
+"gestionnaire": "SOeS",
+"description": "Connaître les caractéristiques des logements et de leur(s) occupant(s) pour définir, observer et mettre en oeuvre les politiques locales de l’habitat, pour aider à la programmation du logement social et pour évaluer les politiques publiques en matière de logement, d’habitat et d’urbanisation. ",
+"origine": "DGFIP",
+"granularite": "Jusqu’à la section cadastrale, sous réserve du respect des règles de secret statistique (cf. infra). ",
+"commentaire": "dans l’attente de la renégociation de la convention entre la DGFIP et le SOeS" 
+}

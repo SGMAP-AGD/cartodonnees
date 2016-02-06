@@ -1,0 +1,8 @@
+{
+ "nom": "Base Perval ",
+"gestionnaire": "Conseil Supérieur du notariat",
+"description": "Envoi par les notaires, volontaire jusqu’à ce jour, des avant contrats et contrats de mutation immobilière à titre onéreux. L'objectif de cette base de données est de connaître de façon détaillée les prix de vente et leurs évolutions sur le territoire national, hors Ile-de-France.  Base gérée par Real.not et exploitée par Min.not.",
+"origine": "Min.not",
+"granularite": "Tous niveaux administratifs et sur mesure\n(National, régional, départemental, cantonal, EPCI, communal, quartier, cadastre, IRIS, zone à façon)\n",
+"commentaire": "Loi du 28 mars 2011 de modernisation des professions juridiques et financières. \nDécret n° 2013-803 du 3 septembre 2013 " 
+}

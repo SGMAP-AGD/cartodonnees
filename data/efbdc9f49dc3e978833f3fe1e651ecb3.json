@@ -1,0 +1,8 @@
+{
+ "nom": "Fichiers fonciers (MAJIC) ",
+"gestionnaire": "DGFIP",
+"description": "Fichier exhaustif de toutes les propriétés bâties et non bâties dont la référence aux propriétaires personnes privées a été anonymisé conformément à la déclaration faite à la CNIL Ce fichier est issu des fichiers fonciers entretenus par la DGFiP qui reprend les déclarations des propriétaires, et mis à jour par les agents de la DGFiP notamment en fonction des opérations de constructions, des ventes à titre onéreux, et des successions.",
+"origine": "CEREMA",
+"granularite": "Informationà la parcelle et au local.",
+"commentaire": "http://geoinfo.metier.i2/fichiers-fonciers-r549.html  " 
+}
