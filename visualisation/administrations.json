@@ -1,0 +1,81 @@
+{
+  "nom": "État",
+  "children": [
+    {
+      "nom": "Ministère des Affaires Étrangères",
+      "acronyme": "MAE"
+    },
+    {
+      "nom": "Ministère de l'Agriculture, de l'Agroalimentaire et de la Forêt",
+      "acronyme": "MAAF"
+    },
+    {
+      "nom": "Ministère de la Défense",
+      "acronyme": "MD"
+    },
+    {
+      "nom": "Ministère de l'Économie et des Finances",
+      "acronyme": "MinEFi",
+      "children": [
+            {
+              "nom": "Institut national de la statistique et des études économiques",
+              "acronyme": "INSEE"
+            }
+      ]
+    },
+    {
+      "nom": "Ministère de l'Intérieur",
+      "acronyme": "Intérieur"
+    },
+    {
+      "nom": "Ministère de l’Écologie, du Développement Durable et de l'Énergie",
+      "acronyme": "MEDDE",
+      "children": [
+            {
+              "nom": "Commissariat général au Développement durable",
+              "acronyme": "CGDD",
+              "children": [
+                {
+                  "nom": "Service de l'Observation et des Statistiques",
+                  "acronyme": "SOeS"
+                }
+                
+                ]
+            },
+            {
+              "nom": "Agence de l'Environnement et de la Maitrise de l'Energie",
+              "acronyme": "ADEME"
+            }
+      ]
+    },
+    {
+      "nom": "Services du Premier Ministre",
+      "children": [
+            {
+              "nom": "Secrétariat Général à la Modernisation de l'Action Publique",
+              "acronyme": "SGMAP",
+              "children": [
+                {
+                  "nom": "DINSIC",
+                  "acronyme": "DINSIC",
+                  "children": [
+                    {
+                      "nom": "Etalab",
+                      "acronyme": "Etalab"
+                    }
+                  ]
+                }
+                
+                ]
+            },
+            {
+              "nom": "CSA",
+              "acronyme": "CSA"
+            }
+      ]
+    },
+    {
+      "nom": "Ministère de la Justice",
+      "acronyme": "Justice"
+    }]
+}
