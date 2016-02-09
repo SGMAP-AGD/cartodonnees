@@ -7,11 +7,11 @@
 
 from flask import Flask
 from flask import request
-import http
+import pymongo
 
 app = Flask(__name__)
 
-conn = http.client.HTTPConnection("localhost", 9200)
+
 
 @app.route("/")
 def hello():
@@ -19,12 +19,11 @@ def hello():
     
 @app.route("/bases", methods=['GET', 'POST'])
 def bases():
-    if request.method == 'GET':
-        conn.request("GET","/nginx-logs")
-        return conn.getresponse().read()
+    if request.method == 'POST':
+      return "OK"
     else:
-        return "Liste des bases"
-
+      return "bases"
+        
 if __name__ == "__main__":
     app.debug = True
     app.run()
