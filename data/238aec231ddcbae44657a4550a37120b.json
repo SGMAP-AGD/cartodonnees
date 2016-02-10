@@ -1,8 +1,0 @@
-{
- "nom": "Nombre de ventes de logements anciens",
-"gestionnaire": "CGEDD",
-"description": "L'objectif de cette enquête est d'estimer le nombre de ventes de logements  anciens soumis au taux de droits de mutation de droit\n commun (5,00% en 2013) . Cette estimation est nécessaire parce que l’on ne connaît pas exactement le nombre des transactions de logements. Elle est obtenue par le croisement de données fiscales et de données notariales.\n",
-"origine": "CGEDD",
-"granularite": "France entière",
-"commentaire": "L’obligation faite par la loi aux notaires d’alimenter les bases notariales, lorsqu’elle sera effective rendra l’estimation plus précise et permettra une plus grande finesse géographique et temporelle.\n\n" 
-}

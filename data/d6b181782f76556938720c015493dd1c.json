@@ -1,8 +1,0 @@
-{
- "nom": "Outil de repérage et de traitement de l’habitat indigne ORTHI",
-"gestionnaire": "DHUP",
-"description": "Situations de logements indignes (insalubrité, péril...), et habitats non décents repérés par les services intervenants dans ce domaine (services sociaux, CAF).",
-"origine": "DHUP",
-"granularite": "national, régional et départemental",
-"commentaire": "Les évolutions suivantes sont projetées :\n- le développement de l'infocentre (en cours de recette) ;\n- le déploiement de l'outil en Outre-Mer.\n" 
-}

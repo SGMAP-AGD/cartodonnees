@@ -1,8 +1,0 @@
-{
- "nom": "Enquête SLS (supplément de loyer de solidarité)",
-"gestionnaire": "DHUP",
-"description": "Renseignement d’un questionnaire par chaque bailleurs sociaux (HLM, SEM, autres bailleurs sociaux non hlm)                                                                                                                                                                                                                                                                                                                L’enquête a vocation à déterminer : \n- les caractéristiques du patrimoine locatif social du bailleur \n- les logements occupés par un locataire (le nombre de logements dont le locataire n’a pas répondu à l’enquête « ressources », le nombre de logements dont le locataire dispose de revenus imposables égaux ou supérieurs aux plafonds de ressources d’accès au parc locatif social), \n- le barème de calcul du SLS pratiqué par le bailleur, \n- les logements occupés par un locataire assujetti au SLS, \n- la liquidation du SLS (le montant appelé auprès des locataires assujettis ainsi que le montant de loyer appelé, le nombre de logements dont le locataire fait l’objet d’une liquidation provisoire, le nombre de logements pour lesquels le montant de SLS est plafonné). ",
-"origine": "METL (ministère chargé du logement)",
-"granularite": "Départemental / national",
-"commentaire": "Projet de refonte des conditions informatiques de collecte de l’enquête en tandem avec l’enquête OPS (WEB + sécurisation CERBERE)." 
-}

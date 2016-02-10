@@ -1,8 +1,0 @@
-{
- "nom": "Données vectorielles des contours IRIS",
-"gestionnaire": "IGN/ INSEE",
-"description": "",
-"origine": "IGN/ INSEE",
-"granularite": "IRIS",
-"commentaire": "L'IGN et l'INSEE prévoient la mise à disposition des contours IRIS en open data. Les modalités de mise à disposition devront être précisées utlérieurement." 
-}

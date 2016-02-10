@@ -1,8 +1,0 @@
-{
- "nom": "Enquête sur l’occupation du parc social",
-"gestionnaire": "DGALN",
-"description": "Uniquement des logements locatifs sociaux ayant fait l’objet d’un finan-cement de l’Etat.",
-"origine": "DGALN",
-"granularite": "Département et unité urbaine de plus de 50 000 habitants, avec une distinction pour les \nlogements en ZUS et ZRR.\n",
-"commentaire": "Une étude d’opportunité est en cours pour réaliser un nouvel outil de saisie des réponses à\nl’enquête par les bailleurs et les DDT.\n" 
-}

@@ -1,6 +1,6 @@
-# Cartographie Collaborative des données de l'État
+# Cartographie Collaborative des Données de l'État
 
-Ce répertoire Git contient les travaux menés autour de la Cartographie Collaborative des données de l'État. Il ne s'agit que d'une ébauche amenée à évoluer aussi bien sur la forme que sur le fond.
+Ce répertoire Git contient les travaux menés autour de la Cartographie Collaborative des Données de l'État. Il ne s'agit que d'une ébauche amenée à évoluer aussi bien sur la forme que sur le fond.
 
 ### Description
 

@@ -1,8 +1,0 @@
-{
- "nom": "Indice \"Notaires de France-INSEE\" du prix des logements anciens",
-"gestionnaire": "CSN, CINP, INSEE",
-"description": "Mesurer les évolutions trimestrielles des prix des logements anciens",
-"origine": "CSN, CINP",
-"granularite": "France métropolitaine ",
-"commentaire": "" 
-}

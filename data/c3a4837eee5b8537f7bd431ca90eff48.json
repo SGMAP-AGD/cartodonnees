@@ -1,8 +1,0 @@
-{
- "nom": "CEREN – Suivi du parc et des consommations \nénergétiques du secteur résidentiel\n",
-"gestionnaire": "ADEME",
-"description": "Annuaire des parcs, des consommations unitaires, des consommations totales par énergie, par usage et par catégorie de logement. Les catégories de logement sont constituées par les croisements des types de logements (maisons individuelles, appartements), des modes de chauffage (collectif, individuel), des énergies de chauffage et des dates de construction ",
-"origine": "ADEME",
-"granularite": "Niveau national, régional et départemental.",
-"commentaire": "L’articulation des données produites par le CEREN avec les statistiques publiques de l’énergie est l’un des objets de réflexion dans le cadre de l’audit sur les statistiques de l’énergie." 
-}

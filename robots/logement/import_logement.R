@@ -1,6 +1,9 @@
 # Importer les données de la cartographie de données logement
 # https://www.data.gouv.fr/fr/datasets/ouverture-des-donnees-publiques-du-logement-rapport-et-cartographie/
 
+require(httr)
+require(RJSONIO) 
+
 df <- read.csv("https://www.data.gouv.fr/s/resources/ouverture-des-donnees-publiques-du-logement-rapport-et-cartographie/20151002-171050/Cartographie_des_donnees_logement_-_2015-01-26.csv")
 
 by(df, 1:nrow(df), function(row){ 
@@ -51,5 +54,6 @@ by(df, 1:nrow(df), function(row){
   #"Pour.en.savoir.plus..fiche.de.l.annexe.12.du.rapport.sur.l.organisation.du.service.statistique.dans.le.domaine.du.logement"
   row['Pour.en.savoir.plus..fiche.de.l.annexe.12.du.rapport.sur.l.organisation.du.service.statistique.dans.le.domaine.du.logement'] <- NULL
   
-  write(toJSON(row), paste("data/",paste(row['gestionnaire']," ",row['nom']),".json",sep=""))
+  r <- POST("http://localhost:5000/bases", body = row,encode = "json")
+
 })

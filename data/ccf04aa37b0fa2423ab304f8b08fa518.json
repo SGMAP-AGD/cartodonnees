@@ -1,8 +1,0 @@
-{
- "nom": "Enquête logement",
-"gestionnaire": "INSEE",
-"description": "Enquête dédiée à l’observation des conditions de logement donc très détaillée sur ces domaines (équipement et niveau de confort ; environnement du logement et opinion du ménage sur le logement et le quartier). On dispose par ailleurs de la description détaillée du ménage et de ses revenus.",
-"origine": "INSEE (division logement)",
-"granularite": "Niveau national. L’enquête n’est pas représentative au niveau régional (et a fortiori à un niveau infra-régional) sauf exceptions (compléments d’échantillon). ",
-"commentaire": "" 
-}

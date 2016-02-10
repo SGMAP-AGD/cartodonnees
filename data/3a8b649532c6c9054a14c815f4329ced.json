@@ -1,8 +1,0 @@
-{
- "nom": "Registre National d'Immatriculation des Copropriétés (RNIC)",
-"gestionnaire": "DHUP",
-"description": "Registre d'immatriculation - Observatoire national des copropriétés (RNIC). Les objectifs du RNIC seront :\n1. de recenser précisément les copropriétés et d’identifier le nom de leur représentant légal (syndic)\n2. d'établir des données statistiques comparatives et des ratios financiers relatifs à la gestion des copropriétés;\n3. de disposer d'un aperçu de l’état du bâti afin de faciliter l’élaboration de politiques publiques en faveur de l’amélioration de ce bâti;\n4. de faciliter la détection des copropriétés qui risquent de basculer dans des dysfonctionnements, afin de maîtriser les coûts publics exorbitants des interventions trop tardives.",
-"origine": "DHUP",
-"granularite": "Echelle nationale : France Métropolitaine et DOM\nNiveau local : le registre permettra d’alimenter les observatoires locaux des copropriétés, afin notamment que les collectivités territoriales puissent détecter au plus tôt les fragilités des copropriétés et initier le cas échéant les procédures nécessaires.\n",
-"commentaire": "Les étapes suivantes vont être lancées pour développer le projet:\n- finaliser les textes réglementaires d’application précisant notamment la liste précise des données inscrites dans le registre ;\n- finaliser l'étude de faisabilité pour cadrer le dictionnaire de données, la méthode de développement, les coûts;\n- intégrer l'impact des prochains travaux législatifs pour entériner la teneur du RNIC.\nVolonté d'intégrer la question de la mise à disposition de données\n" 
-}

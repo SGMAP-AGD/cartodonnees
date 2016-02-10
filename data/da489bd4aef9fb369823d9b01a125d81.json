@@ -1,8 +1,0 @@
-{
- "nom": "ECOLOWEB (Exploitation informatisée des COnventions et des LOyers)",
-"gestionnaire": "DHUP",
-"description": "Base de données sur le parc conventionné à l’APL. ECOLOWEB vise à instruire le flux des nouvelles conventions APL et à gérer le stock de conventions APL actives représentatif du parc locatif social. Cette application génère ainsi une base de données dont le champ des bailleurs porte sur les organismes HLM, les SEM, les autres bailleurs non HLM (personnes morales de droit public et de droit privé) ainsi que les bailleurs privés, personnes physiques.",
-"origine": "METL (ministère chargé du logement)",
-"granularite": "Départemental",
-"commentaire": "" 
-}

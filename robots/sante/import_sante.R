@@ -2,8 +2,7 @@
 # https://www.data.gouv.fr/fr/datasets/cartographie-des-bases-de-donnees-publiques-en-sante/
 
 require(readODS)
-require(RJSONIO) 
-require(digest)
+require(RJSONIO)
 
 if(!file.exists("sante/Cartographie-des-donnees-publiques-de-sante-6-mai-2014.ods")){
   download.file("https://www.data.gouv.fr/s/resources/cartographie-des-bases-de-donnees-publiques-en-sante/20151130-105038/Cartographie-des-donnees-publiques-de-sante-6-mai-2014.ods","sante/Cartographie-des-donnees-publiques-de-sante-6-mai-2014.ods")
@@ -112,6 +111,6 @@ by(df, 1:nrow(df), function(row){
     row['portail_mad'] <- NULL
     row['2portail_mad'] <- NULL
     
-    write(toJSON(row), paste("data/",paste(row['gestionnaire']," ",row['nom']),".json",sep=""))
+    r <- POST("http://localhost:5000/bases", body = row,encode = "json")
   }
 })

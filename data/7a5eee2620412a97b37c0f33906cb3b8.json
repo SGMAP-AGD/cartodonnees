@@ -1,8 +1,0 @@
-{
- "nom": "Enquête statistique sur les revenus et les conditions de vie des ménages (SRCV) ",
-"gestionnaire": "INSEE",
-"description": "L'enquête SRCV est la partie française de l'enquête européenne Statistics on Income and Living Conditions (SILC) qui permet de comparer les ressources et les conditions de vie des ménages entre les pays membres de l’Union Européenne. Elle propose des indicateurs structurels sur les revenus et la pauvreté. Le bloc \"habitation\" permet de décrire le logement (staut d'occupation, surface, année de construction) et renseigne sur les conditions de logement des ménages (humidité, chauffage, bruit, quartier). La constitution d'un panel permet de suivre une partie de l'échantillon d'années en années.",
-"origine": "INSEE ",
-"granularite": "France métropolitaine",
-"commentaire": "Task Force Eurostat sur la révision de la base légale du dispositif. Restructuration du questionnaire (core module sur 3 ans, module sur 6 ans). Le module logement serait posé tous les 3 ans avec un petit nombre de questionnaires annuels." 
-}

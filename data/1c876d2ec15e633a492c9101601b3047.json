@@ -1,8 +1,0 @@
-{
- "nom": "Système National D’enregistrement de la demande de logement social",
-"gestionnaire": "DHUP",
-"description": "Observation continue des enregistrements de demande de logement social\net des attributions de logement\n",
-"origine": "DHUP",
-"granularite": "France entière, région, département, EPCI",
-"commentaire": "Site : http://sne.info.application.territoires.gouv.fr/analyses-des-demandes-en-cours-r147.html - Volonté d'ouvrir plus largement prochainement" 
-}

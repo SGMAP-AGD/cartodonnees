@@ -1,8 +1,0 @@
-{
- "nom": "BOLERO",
-"gestionnaire": "DHUP",
-"description": "Remontée annuelle exhaustive des comptes financiers des organismes HLM.  \n",
-"origine": "DHUP",
-"granularite": "National, régional et départemental",
-"commentaire": "Elargissement du périmètre :\n- inclure les données financières des SEM. La loi ALUR prévoit de rendre obligatoire la transmission de leurs comptes sociaux \n- inclure les données des organismes bénéficiant de l’agrément maîtrise d’ouvrage insertion (obligation de remontée des comptes et d’un compte-rendu d’activité concernée par l’agrément en application de l’article R. 365-7 du CCH).\nConçu comme outil interne\n" 
-}
