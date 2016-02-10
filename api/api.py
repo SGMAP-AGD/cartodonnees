@@ -24,20 +24,18 @@ def hello():
 @app.route("/bases", methods=['GET', 'POST'])
 def bases():
     if request.method == 'POST':
-      print(request.data)
       if('nom' in request.json):
-        print(request.json)
         if('gestionnaire' in request.json):
           # Vérifier si le nom et le gestionnaire sont renseignés
           if(existeBase(request.json["nom"]) == False):
             inserted_id = db.bases.insert_one(request.json).inserted_id
             return str(inserted_id)
           else:
-            return "La base de données existe déjà."
+            return APIerror("La base de données existe déjà.")
         else:
-          return "Le gestionnaire de la base doit être renseigné."
+          return APIerror("Le gestionnaire de la base doit être renseigné.")
       else:
-        return "Le nom de la base doit être renseigné."
+        return APIerror("Le nom de la base doit être renseigné.")
     else:
       return getListeBases()
 
@@ -60,6 +58,10 @@ def getListeBases():
     resultats[nom] = base
   print(bases)  
   return Response(json.dumps(resultats, indent= 2,ensure_ascii=False),mimetype='application/json; charset=utf-8')
+  
+def APIerror(message):
+  print(message)
+  return message
         
 if __name__ == "__main__":
     app.debug = True

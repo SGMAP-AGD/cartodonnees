@@ -4,12 +4,12 @@
 require(readODS)
 require(RJSONIO)
 
-if(!file.exists("sante/Cartographie-des-donnees-publiques-de-sante-6-mai-2014.ods")){
-  download.file("https://www.data.gouv.fr/s/resources/cartographie-des-bases-de-donnees-publiques-en-sante/20151130-105038/Cartographie-des-donnees-publiques-de-sante-6-mai-2014.ods","sante/Cartographie-des-donnees-publiques-de-sante-6-mai-2014.ods")
+if(!file.exists("robots/sante/Cartographie-des-donnees-publiques-de-sante-6-mai-2014.ods")){
+  download.file("https://www.data.gouv.fr/s/resources/cartographie-des-bases-de-donnees-publiques-en-sante/20151130-105038/Cartographie-des-donnees-publiques-de-sante-6-mai-2014.ods","robots/sante/Cartographie-des-donnees-publiques-de-sante-6-mai-2014.ods")
 }
 
 # 4ème feuillet sans la première ligne
-df <- read.ods("sante/Cartographie-des-donnees-publiques-de-sante-6-mai-2014.ods")[[4]][-1,]
+df <- read.ods("robots/sante/Cartographie-des-donnees-publiques-de-sante-6-mai-2014.ods")[[4]][-1,]
 # Suppression de la seconde ligne
 df <- df[-1,]
 
