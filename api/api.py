@@ -1,11 +1,5 @@
 # http://flask.pocoo.org/
 
-# python3 api.py
-# curl localhost:5000
-# pip3 install Flask elasticsearch
-# curl http://localhost:5000/bases -X POST --data "{\"nom\":\"Base de données de test\",\"gestionnaire\":\"Gestionnaire de test\"}"  --header 'content-type:application/json'
-# curl http://localhost:5000/bases
-
 from flask import Flask
 from flask import request
 from flask import Response
@@ -39,8 +33,21 @@ def bases():
     else:
       return getListeBases()
 
-#@app.route("/gestionnaires", methods=['GET'])
-
+@app.route("/gestionnaires", methods=['GET'])
+# Retourne la liste des gestionnaires de base de données
+def gestionnaires():
+  return getGestionnaires()
+  
+@app.route("/schema", methods=['GET'])
+# Retourne la structure des documents 
+def schema():
+  resultats = db.bases.find()
+  return "structure"
+  
+def getGestionnaires():
+  resultats = db.bases.distinct("gestionnaire")
+  return Response(json.dumps(resultats, indent= 2,ensure_ascii=False),mimetype='application/json; charset=utf-8')
+  
 def existeBase(nom):
   # Pour savoir si une base de données est déjà référencée
   if (db.bases.find_one({"nom": nom}) == None):
@@ -56,7 +63,6 @@ def getListeBases():
     nom = base["nom"]
     del base["nom"]
     resultats[nom] = base
-  print(bases)  
   return Response(json.dumps(resultats, indent= 2,ensure_ascii=False),mimetype='application/json; charset=utf-8')
   
 def APIerror(message):

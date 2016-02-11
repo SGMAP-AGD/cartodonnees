@@ -1,36 +1,36 @@
 {
   "Applicatif du SNATIH : Analyse croisée de consommation/production de soins MCO (HAD, SSR, PSY)": {
-    "description": "_ Tableau croisant l’activité des établissements de santé (en MCO, SSR, HAD ou psychiatrie) et la consommation des habitants de chaque territoire de santé. Les taux d’attractivité et taux de fuite inter-régionaux et intra-régionaux (par territoire) sont également disponibles",
+    "description": "Tableau croisant l’activité des établissements de santé (en MCO, SSR, HAD ou psychiatrie) et la consommation des habitants de chaque territoire de santé. Les taux d’attractivité et taux de fuite inter-régionaux et intra-régionaux (par territoire) sont également disponibles",
     "commentaire": " Cette base Activité des établissements de santé fait partie de la catégorie Activité des établissements de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "gestionnaire": "ATIH",
-    "alimentation": "Principale source : PMSI – programme de médicalisation des systèmes d'information",
+    "gestionnaire": "Agence Technique de l'Information sur l'Hospitalisation",
+    "alimentation": "PMSI",
     "lien": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php"
   },
-  "Indice du coût de la construction (ICC) ": {
+  "Indice du coût de la construction": {
     "description": "L’ICC mesure l’évolution du prix de construction des bâtiments neufs à usage principal d’habitation non communautaire en France métropolitaine.",
-    "commentaire": "Amélioration de la prise en compte des réglementations thermiques \nOptimisation des modèles de l'individuel pur et du collectif par la prise en compte du revenu fiscal médian\n",
-    "gestionnaire": "INSEE",
+    "commentaire": "Amélioration de la prise en compte des réglementations thermiques Optimisation des modèles de l'individuel pur et du collectif par la prise en compte du revenu fiscal médian",
+    "gestionnaire": "Institut national de la statistique et des études économiques",
     "origine": "SOeS",
     "granularite": "Niveau national. Des comparaisons par zones d'aménagement économiques du territoires nécessiteraient d'augmenter significativement la taille de l'échantillon."
   },
-  "Enquête quadriennale auprès des établissements d’hébergement pour personnes âgées (EHPA)": {
+  "Enquête quadriennale auprès des établissements d’hébergement pour personnes âgées": {
     "description": "Indicateurs sur l'activité et le personnel des établissements, indicateurs sur les publics accueillis : enfants et adolescents, adultes et famille",
     "commentaire": " Cette base Activité des établissements médicaux-sociaux fait partie de la catégorie Activité des établissements médicaux-sociaux du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "gestionnaire": "DREES",
+    "gestionnaire": "Direction de la recherche, des études, de l'évaluation et des statistiques",
     "alimentation": "Ensemble des etablissements en faveur des enfants et adultes en difficulté sociale (hors centres de placement familial)",
     "lien": "http://www.cmh.greco.ens.fr/enquetes/XML/lil-0736.xml"
   },
   "Applicatif du SNATIH : Fiches établissements infra-annuelles": {
     "description": "Fiches fournissant, par établissement ex-DG, de façon infra-annuelle :",
     "commentaire": " Cette base Activité des établissements de santé fait partie de la catégorie Activité des établissements de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "gestionnaire": "ATIH",
+    "gestionnaire": "Agence Technique de l'Information sur l'Hospitalisation",
     "alimentation": "_ Principales sources : PMSI, SAE, remontées financières des établissements",
     "lien": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php"
   },
   "Enquêtes NOYADES": {
     "lien": "http://www.invs.sante.fr/surveillance/noyades/noyades_2012_premiers_resultats_definitifs.pdf",
     "commentaire": " Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "gestionnaire": "INVS",
+    "gestionnaire": "Institut National de Veille Sanitaire",
     "description": "Répartition des noyades par lieu, par âge des victimes, évolution du nombre de noyades"
   },
   "Tableau de bord de l’IDS : les dépenses par région": {
@@ -47,7 +47,7 @@
   "Annuaire sanitaire et social": {
     "description": "Nom et coordonnées d'établissements sanitaires et sociaux français, possibilité de trier par thème (e.g. retraite)",
     "commentaire": " Cette base Infrastructures fait partie de la catégorie Infrastructures du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "gestionnaire": "Office National Public et de Communication (ONPC)",
+    "gestionnaire": "ONPC",
     "alimentation": "Organismes de tutelle et principales fédérations et administrations du secteur sanitaire et social",
     "lien": "http://www.sanitaire-social.com/"
   },
@@ -72,8 +72,8 @@
     "lien": "http://www.drees.sante.gouv.fr/les-enquetes-handicap-sante,4267.html"
   },
   "Baromètre cancer": {
-    "description": "_ Données sur les connaissances, attitudes et comportements concernant les facteurs de risque du cancer, sur la représentationde la maladie et l’image des malades ainsi que sur la qualité perçue des soins et des pratiques de dépistage mises en oeuvre par les pouvoirs publics",
-    "commentaire": "Environ 4000 personnes interrogées Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
+    "description": "Données sur les connaissances, attitudes et comportements concernant les facteurs de risque du cancer, sur la représentationde la maladie et l’image des malades ainsi que sur la qualité perçue des soins et des pratiques de dépistage mises en oeuvre par les pouvoirs publics",
+    "commentaire": "Environ 4000 personnes interrogées. Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
     "gestionnaire": "INPES",
     "alimentation": "Echantillon de la population française interrogé par téléphone par tirage aléatoire",
     "lien": "http://www.inpes.sante.fr/CFESBases/catalogue/pdf/1405.pdf"
@@ -85,8 +85,8 @@
     "alimentation": "SNATIH"
   },
   "Enquête loyer OLAP": {
-    "description": "Enquête annuelle sur les loyers du parc locatif privé\nPanel de logements représentatif du parc locatif privé (méthode des\nsuotas)\nL'enquête vise à connaître les niveaux de loyers du parc locatif privé et leurs évolutions selon la situation du bail.",
-    "commentaire": "Mise en œuvre des recommandations du Cnis formulées dans son avis\nde mars 2013 sur la qualité du processus de production de l’Olap\n\n",
+    "description": "Enquête annuelle sur les loyers du parc locatif privé. Panel de logements représentatif du parc locatif privé (méthode dessuotas)L'enquête vise à connaître les niveaux de loyers du parc locatif privé et leurs évolutions selon la situation du bail.",
+    "commentaire": "Mise en œuvre des recommandations du Cnis formulées dans son avis de mars 2013 sur la qualité du processus de production de l’Olap",
     "gestionnaire": "OLAP",
     "origine": "OLAP",
     "granularite": "Paris, petite couronne, grande couronne, département"
@@ -100,7 +100,7 @@
   "Registre de la sclérose en plaques": {
     "description": "Données sur les patients (sexe et âge), les différents traitements, le taux de survie",
     "commentaire": " Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "gestionnaire": "CHU de Nancy, INSERM et InVS",
+    "gestionnaire": ["CHU de Nancy", "INSERM", "InVS"],
     "alimentation": "Cohorte de patients au CHU de Nancy"
   },
   "Base du réseau Sentinelles": {
@@ -117,11 +117,11 @@
     "alimentation": "SNIIRAM - DM SNIREP"
   },
   "Bénéficiaires des aides personnelles au logement (mensuel) Allnat ": {
-    "description": "Extraction à partir des fichiers de gestion des caisses d’allocations\nfamiliales (Caf) d’une base statistique de situation du stock de \nbénéficiaires au titre des mois de janvier à décembre\nFournit des informations exhaustives sur les droits et les caractéristiques des foyers bénéficiaires d’une aide personnelle au logement (ALF, ALS, APL).",
-    "commentaire": "Données disponibles sur  : https://www.caf.fr/etudes-et-statistiques/donnees-statistiques/logement\nNb de bénéficiaires par mois et par département ; nb de bénéficiaires par commune",
+    "description": "Extraction à partir des fichiers de gestion des caisses d’allocationsfamiliales (Caf) d’une base statistique de situation du stock de bénéficiaires au titre des mois de janvier à décembreFournit des informations exhaustives sur les droits et les caractéristiques des foyers bénéficiaires d’une aide personnelle au logement (ALF, ALS, APL).",
+    "commentaire": "Données disponibles sur  : https://www.caf.fr/etudes-et-statistiques/donnees-statistiques/logementNb de bénéficiaires par mois et par département ; nb de bénéficiaires par commune",
     "gestionnaire": "CNAF",
     "origine": "CNAF",
-    "granularite": "France entière, métropole, Dom, département,\ncaisse d’allocation familiale, commune\n"
+    "granularite": "France entière, métropole, Dom, département,caisse d’allocation familiale, commune"
   },
   "Base de l'enquête « Les Européens, les médicaments et le rapport à l’ordonnance\" (février 2005)": {
     "description": "Principales informations : médicaments pris dans les 7 derniers jours ; nombre de consultations dans les 12 derniers mois ; pourcentage de consultations sans prescription d'un médicament ; pourcentage de consultation donnant lieu à une prescription contre le gré des médecins (estimation)",
@@ -136,9 +136,9 @@
     "gestionnaire": "Direction Générale de l'Eau",
     "description": "Nombre de points par : Localisation ; Entité hydrogéologique ; Masse d'eau ; Code BSS ; Réseau ; Organisme"
   },
-  "Application « Comdalo », outil de gestion et de suivi \ndes recours DALO et Infocentre « InfoDALo »\n": {
+  "Application « Comdalo », outil de gestion et de suivi des recours DALO et Infocentre « InfoDALo »": {
     "description": "Observation continue des recours DALO.",
-    "commentaire": "Mise en place d’une plate-forme de saisie en ligne des recours DALO.http://comdalo.info.application.logement.gouv.fr/\nDonnées sur  : http://www.hclpd.gouv.fr/les-chiffres-du-dalo-2013-a45.html ",
+    "commentaire": "Mise en place d’une plate-forme de saisie en ligne des recours DALO.http://comdalo.info.application.logement.gouv.fr/Données sur  : http://www.hclpd.gouv.fr/les-chiffres-du-dalo-2013-a45.html ",
     "gestionnaire": "DHUP",
     "origine": "DHUP",
     "granularite": "France entière, région, département."
@@ -153,7 +153,7 @@
   "Applicatif du SNATIH : ARBUST": {
     "description": "A partir des données d’ARBUST, les montants des forfaits et dotations (MIG, AC, DAF) sont précisés par établissement ou par région.",
     "commentaire": " Cette base Dépenses fait partie de la catégorie Dépenses du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "gestionnaire": "ATIH",
+    "gestionnaire": "Agence Technique de l'Information sur l'Hospitalisation",
     "alimentation": "-",
     "lien": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php"
   },
@@ -231,28 +231,28 @@
   "Étude sur l’épidémiologie en France de l’alimentation et de l’état nutritionnel des enfants (EPIFANE)": {
     "description": "Indicateurs liés au taux d'allaitement (par âge du nourrisoon, par régions), profils sociodémographiques des mères qui allaitent",
     "commentaire": "10 maternités en France Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "gestionnaire": "INVS",
+    "gestionnaire": "Institut National de Veille Sanitaire",
     "alimentation": "Echantillon de 190 mères et leurs nouveau-nés, dans 10 maternités en France",
     "lien": "http://www.invs.sante.fr/Dossiers-thematiques/Maladies-chroniques-et-traumatismes/Nutrition-et-sante/Enquetes-et-etudes/Epifane-epidemiologie-en-France-de-l-alimentation-et-de-l-etat-nutritionnel-des-enfants-pendant-leur-premiere-annee-de-vie"
   },
   "Données de cartographie du SNATIH": {
     "description": "Données d’offre de soin et sur les séjours hospitaliers",
     "commentaire": " Cette base Infrastructures fait partie de la catégorie Infrastructures du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "gestionnaire": "ATIH",
+    "gestionnaire": "Agence Technique de l'Information sur l'Hospitalisation",
     "alimentation": "PMSI et FINESS",
     "lien": "http://www.atih.sante.fr/snatih/cartographie"
   },
   "Enquête nationale nutrition santé (ENNS)": {
     "description": "Indicateurs sur les apports en énergie et nutriments par tranches d'âges et par aliments, sur l'activité physique et la sédentarité et sur l'état nutritionnel de la population",
     "commentaire": " Cette base Habitudes de vie fait partie de la catégorie Habitudes de vie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "gestionnaire": "INVS",
+    "gestionnaire": "Institut National de Veille Sanitaire",
     "alimentation": "Panel d'adultes",
     "lien": "http://www.invs.sante.fr/Dossiers-thematiques/Maladies-chroniques-et-traumatismes/Nutrition-et-sante/Enquetes-et-etudes/ENNS-etude-nationale-nutrition-sante/Distribution-des-valeurs/Tableaux-de-distribution-ENNS"
   },
-  "PMSI – programme de médicalisation des systèmes d'information": {
-    "description": "Le PMSI contient 4 types de données :",
+  "Programme de Médicalisation des Systèmes d'Information (PMSI)": {
+    "description": "Le PMSI contient 4 types de données : 1) Données sur les bénéficiaires : cf. supra 2) Données sur les professionnels de santé ayant prescrit ou réalisé la prestation de soin 3) Données issues des feuilles de soin ou des bordereaux de facturation 4) Données issues des résumés de sortie hospitaliers : numéro d'anonymmat, sexe, mois et année de naissance, code postal du domicile, établissement (numéro FINESS), dates d'entrée et de sortie, modes d'entrée et de sortie, diagnostic principal, diagnostics associés, actes classants, degré de dépendance, nombre de jours en soins intensifs ou réanimation, GHS et tarif applicable, médicaments et dispositifs médicaux facturables en sus du GHS",
     "commentaire": "Population couverte par le régime général de l'assurance maladie (environ 86% de la population résidant en France), par la caisse nationale d'assurance pour les salariés et les exploitants agricoles (Mutuelle Sociale Agricole - MSA - environ 5% de la population) et par celle des travailleurs indépendants (Régime Social des Indépendants - RSI- environ 5% de la population) Cette base Etat de santé fait partie de la catégorie Etat de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "gestionnaire": "ATIH",
+    "gestionnaire": "Agence Technique de l'Information sur l'Hospitalisation",
     "alimentation": "Etablissements de santé"
   },
   "Fichiers sous-jacents aux CPOM avec les établissements de santé": {
@@ -273,11 +273,11 @@
     "alimentation": "SNIIRAM et fichiers CNAV (système national de gestion des carrières - SNGC - et système national statistiques prestataires - SNSP - )"
   },
   "Parc privé potentiellement indigne (PPPI)": {
-    "description": "Favoriser la prise en compte de la lutte contre l'habitat indigne dans les politiques publiques.\nSusciter le dialogue entre les services de l'Etat et les collecttivités locales.\nFaciliter le repérage des zones à risques, c'est à dire des secteurs à forte probabilité de logements indignes ou dégradés.\nPrioriser l'action publique en général et optimiser la répartition des crédits de l'Anah en particulier.\n",
+    "description": "Favoriser la prise en compte de la lutte contre l'habitat indigne dans les politiques publiques.Susciter le dialogue entre les services de l'Etat et les collecttivités locales.Faciliter le repérage des zones à risques, c'est à dire des secteurs à forte probabilité de logements indignes ou dégradés.Prioriser l'action publique en général et optimiser la répartition des crédits de l'Anah en particulier.",
     "commentaire": "",
     "gestionnaire": "ANAH",
     "origine": "ANAH",
-    "granularite": "Département, cantons, communes, EPCI, sections cadastrales des \ncommunes de plus de 5 000 habitants.\n"
+    "granularite": "Département, cantons, communes, EPCI, sections cadastrales des communes de plus de 5 000 habitants."
   },
   "Enquête Aide sociale auprès des conseils généraux et des services déconcentrés de l’État": {
     "description": "Répartition des prestations d'aide sociale, nombre d'enfants accueillis par l'ASE, dépenses d'aide sociale par type d'aide/ par départements",
@@ -296,7 +296,7 @@
   "Echelle nationale des coûts": {
     "description": "_ Coûts moyens 2011 des séjours hospitaliers en médecine, chirurgie, obstétrique  et odontologie (MCO) dans les établissements de santé publics et privés",
     "commentaire": "Etablissements publics et privés de santé Cette base Performance financière fait partie de la catégorie Performance financière du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "gestionnaire": "ATIH",
+    "gestionnaire": "Agence Technique de l'Information sur l'Hospitalisation",
     "alimentation": "Etablissements publics et privés de santé",
     "lien": "http://www.atih.sante.fr/referentiel-de-couts-mco-2011"
   },
@@ -323,7 +323,7 @@
   "Cohorte de surveillance de la mortalité par profession (COSMOP)": {
     "description": "Analyse systématique et permanente de la mortalité par profession, par secteur d’activité et par cause de décès",
     "commentaire": " Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "gestionnaire": "INVS",
+    "gestionnaire": "Institut National de Veille Sanitaire",
     "alimentation": "Echantillons INSEE : appariement EDP et panel DADS avec causes de décès",
     "lien": "http://www.invs.sante.fr/publications/2005/cosmop/cosmop.pdf"
   },
@@ -337,13 +337,13 @@
   "Enquête Permanente sur les Accidents de la Vie Courante (EPAC)": {
     "description": "Répartition par âge/ sexe des personnes accidentées, Répartition des AVC selon les lieux de survenue, selon l'activité, selon le mécanisme de déclenchement, selon la lésion",
     "commentaire": "9 hôpitaux français Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "gestionnaire": "INVS",
+    "gestionnaire": "Institut National de Veille Sanitaire",
     "alimentation": "9 hôpitaux français",
     "lien": "http://www.invs.sante.fr/publications/2006/epac/index.html"
   },
   "Enquête sur le Performance de l’Habitat, Équipement, Besoins et Usages de l’énergie (Phébus)": {
-    "description": "Évaluer la performance thermique du parc des résidences principales en France métropolitaine.\nAnalyser les résultats en fonction des caractéristiques des logements et des ménages occupants\nIdentifier les populations en situation de précarité énergétique. \n",
-    "commentaire": "A reproduire dans 5-6 ans \nFaire évoluer le mode de collecte des consommations d’énergies de réseaux (scan des factures, compteurs intelligents, données fournisseurs,..)\n",
+    "description": "Évaluer la performance thermique du parc des résidences principales en France métropolitaine.Analyser les résultats en fonction des caractéristiques des logements et des ménages occupantsIdentifier les populations en situation de précarité énergétique. ",
+    "commentaire": "A reproduire dans 5-6 ans Faire évoluer le mode de collecte des consommations d’énergies de réseaux (scan des factures, compteurs intelligents, données fournisseurs,..)",
     "gestionnaire": "SOeS",
     "origine": "SOeS",
     "granularite": "National, Zones climatiques"
@@ -356,7 +356,7 @@
   },
   "Observatoire DPE": {
     "description": "Ensemble des bâtiments faisant l’objet d’un diagnostic de performance énergétique (DPE) obligatoire",
-    "commentaire": "Elargissement aux DOM (DPE Guadeloupe, …)\nDéveloppement d’un système de contrôle qualité des données envoyées.\nDispositif de recherche association des doublons\nhttp://www.observatoire-dpe.fr/index.php/statistique : possibilité de requête\n",
+    "commentaire": "Elargissement aux DOM (DPE Guadeloupe, …)Développement d’un système de contrôle qualité des données envoyées.Dispositif de recherche association des doublonshttp://www.observatoire-dpe.fr/index.php/statistique : possibilité de requête",
     "gestionnaire": "ADEME",
     "origine": "ADEME",
     "granularite": "Au niveau de chaque collectivité territoriale"
@@ -369,8 +369,8 @@
     "lien": "http://www.insee.fr/fr/themes/theme.asp?theme=6&sous_theme=2"
   },
   "Nombre de ventes de logements anciens": {
-    "description": "L'objectif de cette enquête est d'estimer le nombre de ventes de logements  anciens soumis au taux de droits de mutation de droit\n commun (5,00% en 2013) . Cette estimation est nécessaire parce que l’on ne connaît pas exactement le nombre des transactions de logements. Elle est obtenue par le croisement de données fiscales et de données notariales.\n",
-    "commentaire": "L’obligation faite par la loi aux notaires d’alimenter les bases notariales, lorsqu’elle sera effective rendra l’estimation plus précise et permettra une plus grande finesse géographique et temporelle.\n\n",
+    "description": "L'objectif de cette enquête est d'estimer le nombre de ventes de logements  anciens soumis au taux de droits de mutation de droit commun (5,00% en 2013) . Cette estimation est nécessaire parce que l’on ne connaît pas exactement le nombre des transactions de logements. Elle est obtenue par le croisement de données fiscales et de données notariales.",
+    "commentaire": "L’obligation faite par la loi aux notaires d’alimenter les bases notariales, lorsqu’elle sera effective rendra l’estimation plus précise et permettra une plus grande finesse géographique et temporelle.",
     "gestionnaire": "CGEDD",
     "origine": "CGEDD",
     "granularite": "France entière"
@@ -378,7 +378,7 @@
   "Applicatif du SNATIH : Restitutions médico-économiques en psychiatrie": {
     "description": "_ Par établissement : plusieurs tableaux caractérisent l’activité de psychiatrie des établissements : patientèle, production de soins et ressources financières de l’établissement (pour les établissements sous DAF).",
     "commentaire": " Cette base Activité des établissements de santé fait partie de la catégorie Activité des établissements de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "gestionnaire": "ATIH",
+    "gestionnaire": "Agence Technique de l'Information sur l'Hospitalisation",
     "alimentation": "_ Principales sources : données de l'INSEE et du RIM-P",
     "lien": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php"
   },
@@ -425,7 +425,7 @@
   "\"Base\" du Système National de Surveillance des Plombémies chez l’Enfant (SNSPE)": {
     "description": "Nombre de cas et profil des patients atteint de saturnisme par région, activités de dépistage par région et par an, part des différentes institutions dans le dépistage",
     "commentaire": "Enfants atteints de saturnisme Cette base Environnement fait partie de la catégorie Environnement du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "gestionnaire": "INVS",
+    "gestionnaire": "Institut National de Veille Sanitaire",
     "alimentation": "Les déclarations de cas de saturnisme envoyées sous forme papier aux Ddass par les médecins traitants sont retransmises à l’InVS qui vérifie qu’elles sont bien enregistrées dans le système de surveillance des plombémies.",
     "lien": "http://www.invs.sante.fr/publications/2010/depistage_saturnisme_enfant_2005_2007/rapport_saturnisme_enfant_2005_2007.pdf"
   },
@@ -460,7 +460,7 @@
   "Surveillance des retraités du RSI exposés à l’amiante (ESPRI)": {
     "description": "Indicateurs de suivi post professionnels et épidémiologiques tels que le taux d'exposition à l'amiante par secteurs d'activité/ par profession",
     "commentaire": "7 régions participantes (22 départements) Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "gestionnaire": "INVS",
+    "gestionnaire": "Institut National de Veille Sanitaire",
     "alimentation": "Caisses RSI des 7 régions participantes (soit 22 départements).",
     "lien": "http://www.invs.sante.fr/Dossiers-thematiques/Travail-et-sante/Programme-de-surveillance-post-professionnelle-des-artisans-ayant-ete-exposes-a-l-amiante-ESPrI/Resultats"
   },
@@ -473,16 +473,16 @@
   "Plan National Surveillance du Mésothéliome": {
     "lien": "http://www.invs.sante.fr/publications/2009/pnsm/pnsm_resultats_1998_2006.pdf",
     "commentaire": "Une vingtaine de départements couverts Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "gestionnaire": "INVS",
+    "gestionnaire": "Institut National de Veille Sanitaire",
     "description": "Données agrégées d'enregistrement des cas, d'estimation d'incidence nationale, d'analyse des caractéristiques des cas, de répartition des cas par profession/secteur d'activité"
   },
   "\"Base\" de l'enquête Alimentation, état nutritionnel et santé mentale des personnes âgées en institutions (ANAIS)": {
     "description": "_ Description des consommations alimentaires et l’activité physique des personnes âgées vivant en institution",
     "commentaire": "1800 personnes âgées de plus de 7 ans Cette base Habitudes de vie fait partie de la catégorie Habitudes de vie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "gestionnaire": "InVS",
+    "gestionnaire": "Institut National de Veille Sanitaire",
     "alimentation": "Echantillon représentatif de 1.800 personnes âgées de plus de 75 ans, résidant dans les établissements d’hébergement de six départements français"
   },
-  "CEREN – Suivi du parc et des consommations \nénergétiques du secteur résidentiel\n": {
+  "CEREN – Suivi du parc et des consommations énergétiques du secteur résidentiel": {
     "description": "Annuaire des parcs, des consommations unitaires, des consommations totales par énergie, par usage et par catégorie de logement. Les catégories de logement sont constituées par les croisements des types de logements (maisons individuelles, appartements), des modes de chauffage (collectif, individuel), des énergies de chauffage et des dates de construction ",
     "commentaire": "L’articulation des données produites par le CEREN avec les statistiques publiques de l’énergie est l’un des objets de réflexion dans le cadre de l’audit sur les statistiques de l’énergie.",
     "gestionnaire": "ADEME",
@@ -491,7 +491,7 @@
   },
   "PAS": {
     "description": "Tout logement remplissant les conditions d’éligibilité à un Prêt Garanti. Cette base de données offre une connaissance exhaustive des prêts et des emprunteurs. ",
-    "commentaire": "https://www2.sgfgas.fr/web/guest/statistiques1\nAller vers une granularité plus fine (+data.gouv.fr), sous réserve de la bonne observation des règles de secret statistiques.",
+    "commentaire": "https://www2.sgfgas.fr/web/guest/statistiques1Aller vers une granularité plus fine (+data.gouv.fr), sous réserve de la bonne observation des règles de secret statistiques.",
     "gestionnaire": "SGFGAS",
     "origine": "SGFGAS",
     "granularite": "Code INSEE communal, utilisation agrégée possible à  tout  niveau géographique résultant d’une agrégation de communes (seule exception depuis 2011 : on peut distinguer les arrondissements parisiens) "
@@ -506,7 +506,7 @@
   "Données ATIH sur les molécules onéreuses": {
     "description": "Liste et prix des molécules onéreuses",
     "commentaire": " Cette base Médicaments et dispositifs fait partie de la catégorie Médicaments et dispositifs du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "gestionnaire": "ATIH",
+    "gestionnaire": "Agence Technique de l'Information sur l'Hospitalisation",
     "alimentation": "Etablissements de santé",
     "lien": "http://www.atih.sante.fr/liste-de-reference-des-unites-communes-de-dispensation-prises-en-charge-en-sus"
   },
@@ -597,7 +597,7 @@
     "lien": "http://www.ameli.fr/fileadmin/user_upload/documents/DP_Bilan_ROSP_1_an_11042013_VDEF3.pdf"
   },
   "Enquête SLS (supplément de loyer de solidarité)": {
-    "description": "Renseignement d’un questionnaire par chaque bailleurs sociaux (HLM, SEM, autres bailleurs sociaux non hlm)                                                                                                                                                                                                                                                                                                                L’enquête a vocation à déterminer : \n- les caractéristiques du patrimoine locatif social du bailleur \n- les logements occupés par un locataire (le nombre de logements dont le locataire n’a pas répondu à l’enquête « ressources », le nombre de logements dont le locataire dispose de revenus imposables égaux ou supérieurs aux plafonds de ressources d’accès au parc locatif social), \n- le barème de calcul du SLS pratiqué par le bailleur, \n- les logements occupés par un locataire assujetti au SLS, \n- la liquidation du SLS (le montant appelé auprès des locataires assujettis ainsi que le montant de loyer appelé, le nombre de logements dont le locataire fait l’objet d’une liquidation provisoire, le nombre de logements pour lesquels le montant de SLS est plafonné). ",
+    "description": "Renseignement d’un questionnaire par chaque bailleurs sociaux (HLM, SEM, autres bailleurs sociaux non hlm)                                                                                                                                                                                                                                                                                                                L’enquête a vocation à déterminer : - les caractéristiques du patrimoine locatif social du bailleur - les logements occupés par un locataire (le nombre de logements dont le locataire n’a pas répondu à l’enquête « ressources », le nombre de logements dont le locataire dispose de revenus imposables égaux ou supérieurs aux plafonds de ressources d’accès au parc locatif social), - le barème de calcul du SLS pratiqué par le bailleur, - les logements occupés par un locataire assujetti au SLS, - la liquidation du SLS (le montant appelé auprès des locataires assujettis ainsi que le montant de loyer appelé, le nombre de logements dont le locataire fait l’objet d’une liquidation provisoire, le nombre de logements pour lesquels le montant de SLS est plafonné). ",
     "commentaire": "Projet de refonte des conditions informatiques de collecte de l’enquête en tandem avec l’enquête OPS (WEB + sécurisation CERBERE).",
     "gestionnaire": "DHUP",
     "origine": "METL (ministère chargé du logement)",
@@ -612,7 +612,7 @@
   "Applicatif du SNATIH : Taux de recours MCO par régions ou territoires de santé (HAD, SSR, PSY)": {
     "description": "_ Pour chaque domaine (MCO, SSR, HAD, psychiatrie), par région ou par territoire de santé, et pour une subdivision aussi fine que souhaitée de l’activité pour le secteur MCO (par grand groupe, par discipline, par groupe activités, par acte classant…), sont calculés les taux de recours (bruts ou standardisés) en nombre de séjours pour 1000 habitants, ainsi que leur évolution.",
     "commentaire": " Cette base Activité des établissements de santé fait partie de la catégorie Activité des établissements de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "gestionnaire": "ATIH",
+    "gestionnaire": "Agence Technique de l'Information sur l'Hospitalisation",
     "alimentation": "Principale source : PMSI – programme de médicalisation des systèmes d'information",
     "lien": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php"
   },
@@ -631,11 +631,11 @@
     "lien": "http://www.hopital.fr/"
   },
   "Registre National d'Immatriculation des Copropriétés (RNIC)": {
-    "description": "Registre d'immatriculation - Observatoire national des copropriétés (RNIC). Les objectifs du RNIC seront :\n1. de recenser précisément les copropriétés et d’identifier le nom de leur représentant légal (syndic)\n2. d'établir des données statistiques comparatives et des ratios financiers relatifs à la gestion des copropriétés;\n3. de disposer d'un aperçu de l’état du bâti afin de faciliter l’élaboration de politiques publiques en faveur de l’amélioration de ce bâti;\n4. de faciliter la détection des copropriétés qui risquent de basculer dans des dysfonctionnements, afin de maîtriser les coûts publics exorbitants des interventions trop tardives.",
-    "commentaire": "Les étapes suivantes vont être lancées pour développer le projet:\n- finaliser les textes réglementaires d’application précisant notamment la liste précise des données inscrites dans le registre ;\n- finaliser l'étude de faisabilité pour cadrer le dictionnaire de données, la méthode de développement, les coûts;\n- intégrer l'impact des prochains travaux législatifs pour entériner la teneur du RNIC.\nVolonté d'intégrer la question de la mise à disposition de données\n",
+    "description": "Registre d'immatriculation - Observatoire national des copropriétés (RNIC). Les objectifs du RNIC seront :1. de recenser précisément les copropriétés et d’identifier le nom de leur représentant légal (syndic)2. d'établir des données statistiques comparatives et des ratios financiers relatifs à la gestion des copropriétés;3. de disposer d'un aperçu de l’état du bâti afin de faciliter l’élaboration de politiques publiques en faveur de l’amélioration de ce bâti;4. de faciliter la détection des copropriétés qui risquent de basculer dans des dysfonctionnements, afin de maîtriser les coûts publics exorbitants des interventions trop tardives.",
+    "commentaire": "Les étapes suivantes vont être lancées pour développer le projet:- finaliser les textes réglementaires d’application précisant notamment la liste précise des données inscrites dans le registre ;- finaliser l'étude de faisabilité pour cadrer le dictionnaire de données, la méthode de développement, les coûts;- intégrer l'impact des prochains travaux législatifs pour entériner la teneur du RNIC.Volonté d'intégrer la question de la mise à disposition de données",
     "gestionnaire": "DHUP",
     "origine": "DHUP",
-    "granularite": "Echelle nationale : France Métropolitaine et DOM\nNiveau local : le registre permettra d’alimenter les observatoires locaux des copropriétés, afin notamment que les collectivités territoriales puissent détecter au plus tôt les fragilités des copropriétés et initier le cas échéant les procédures nécessaires.\n"
+    "granularite": "Echelle nationale : France Métropolitaine et DOMNiveau local : le registre permettra d’alimenter les observatoires locaux des copropriétés, afin notamment que les collectivités territoriales puissent détecter au plus tôt les fragilités des copropriétés et initier le cas échéant les procédures nécessaires."
   },
   "Enquêtes annuelles sur les revenues et les conditions de vie (EU-SILC)": {
     "description": "_ Informations de santé : auto-estimation de son état de santé personnel",
@@ -686,7 +686,7 @@
   "SERO-INF": {
     "lien": "http://www.invs.sante.fr/surveillance/sero_inf/contacts.htm",
     "commentaire": " Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "gestionnaire": "INVS",
+    "gestionnaire": "Institut National de Veille Sanitaire",
     "description": "Indicateurs sur l’état de l’immunité de la population française vis-à-vis de 10 maladies infectieuses : la rougeole, les oreillons, la rubéole, l’hépatite A, la varicelle, l’hépatite E, la toxoplasmose, les infections à cytomégalovirus et les infections à herpès virus 1 et 2."
   },
   "Disease Analyzer (DA)": {
@@ -760,7 +760,7 @@
     "alimentation": "SNIIRAM, ESPS"
   },
   "Enquête sur les prix des terrains à bâtir": {
-    "description": "L’objectif de l’enquête est d’assurer un suivi du prix des terrains à bâtir faisant l'objet de la construction d'une maison individuelle. \nElle permet de connaître le poids du prix d'achat du terrain dans le coût global d'un projet de construction de maison individuelle neuve et de connaître les niveaux de prix moyens, leurs évolutions et leurs déterminants.\nElle permet également d’avoir des informations sur le prix et le type de maîtrise d'œuvre de la maison individuelle et d’affiner la connaissance des modes de chauffage dans le cadre des maisons individuelles neuves.\n",
+    "description": "L’objectif de l’enquête est d’assurer un suivi du prix des terrains à bâtir faisant l'objet de la construction d'une maison individuelle. Elle permet de connaître le poids du prix d'achat du terrain dans le coût global d'un projet de construction de maison individuelle neuve et de connaître les niveaux de prix moyens, leurs évolutions et leurs déterminants.Elle permet également d’avoir des informations sur le prix et le type de maîtrise d'œuvre de la maison individuelle et d’affiner la connaissance des modes de chauffage dans le cadre des maisons individuelles neuves.",
     "commentaire": "",
     "gestionnaire": "SOeS",
     "origine": "SOeS",
@@ -776,9 +776,9 @@
   "Enquête presse gays et lesbiennes": {
     "description": "Evolution des comportements sexuels, statuts sérologiques du panel,évolution du nombre de recours au dépistage, bilan sur les pratiques à risque",
     "commentaire": " Cette base Habitudes de vie fait partie de la catégorie Habitudes de vie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "gestionnaire": "INVS",
+    "gestionnaire": "Institut National de Veille Sanitaire",
     "alimentation": "Panel",
-    "lien": "http://www.invs.sante.fr/beh/2013/39-40/2013_39-40_3.html\nhttp://www.invs.sante.fr/beh/2013/39-40/2013_39-40_3.html"
+    "lien": "http://www.invs.sante.fr/beh/2013/39-40/2013_39-40_3.htmlhttp://www.invs.sante.fr/beh/2013/39-40/2013_39-40_3.html"
   },
   "Observatoire des EHPAD": {
     "description": "Activité des établissements (notamment : taux d'occupation), coûts des établissements, ressources humaines (notamment, taux d'encadrement, répartition du personnel), situation financière (CAF, etc.)",
@@ -801,7 +801,7 @@
   "\"Base\" du système de surveillance des infections au CO": {
     "description": "Taux de mortalité, taux de décés par intoxication (depuis 2004), répartition régionale de l'incidence des intoxications, circonstances de survenues des intoxications, répartition hebdomadaires des épisodes d'intoxication",
     "commentaire": " Cette base Environnement fait partie de la catégorie Environnement du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "gestionnaire": "InVS",
+    "gestionnaire": "Institut National de Veille Sanitaire",
     "alimentation": "Signalement de suspicion d’intoxications au CO par les déclarants (toute personne ayant connaissance d’une suspicion d’intoxication au CO) qui sont en pratique les services d’intervention d’urgence : les services départements de secours et d’incendie et les services d’urgence hospitalière",
     "lien": "http://www.invs.sante.fr/Dossiers-thematiques/Environnement-et-sante/Intoxications-au-monoxyde-de-carbone/Donnees-epidemiologiques-de-surveillance"
   },
@@ -831,11 +831,11 @@
     "gestionnaire": "IDS",
     "alimentation": "SNIIRAM - Datamart ONDAM"
   },
-  "Indice \"Notaires de France-INSEE\" du prix des logements anciens": {
+  "Indice Notaires de France-INSEE du prix des logements anciens": {
     "description": "Mesurer les évolutions trimestrielles des prix des logements anciens",
     "commentaire": "",
-    "gestionnaire": "CSN, CINP, INSEE",
-    "origine": "CSN, CINP",
+    "gestionnaire": ["CSN","CINP","INSEE"],
+    "origine": ["CSN","CINP"],
     "granularite": "France métropolitaine "
   },
   "Indicateurs de mortalité post-hospitalière": {
@@ -847,7 +847,7 @@
   "Applicatif du SNATIH : Parts de marché": {
     "description": "Tableaux indiquant, pour un établissement dans sa zone de recrutement, ou pour un territoire de santé, la répartition de l’activité entre les différents établissements présents, en nombre de séjours et en %. L’activité peut être déclinée par grands groupes ou pour des disciplines plus fines (domaine d’activité, groupes de planification, groupes activité).",
     "commentaire": " Cette base Activité des établissements de santé fait partie de la catégorie Activité des établissements de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "gestionnaire": "ATIH",
+    "gestionnaire": "Agence Technique de l'Information sur l'Hospitalisation",
     "alimentation": "Principale source : PMSI – programme de médicalisation des systèmes d'information",
     "lien": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php"
   },
@@ -860,7 +860,7 @@
   "Applicatif du SNATIH : EPRD et RIA/RQ": {
     "description": "Par établissement ex-DG, présentation des données suivantes :",
     "commentaire": " Cette base Performance financière fait partie de la catégorie Performance financière du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "gestionnaire": "ATIH",
+    "gestionnaire": "Agence Technique de l'Information sur l'Hospitalisation",
     "alimentation": "_ Principale source : remontées financières des établissements",
     "lien": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php"
   },
@@ -878,7 +878,7 @@
     "description": "Risques liés aux interactions médicamenteuses et précautions d'emploi associées"
   },
   "Système National D’enregistrement de la demande de logement social": {
-    "description": "Observation continue des enregistrements de demande de logement social\net des attributions de logement\n",
+    "description": "Observation continue des enregistrements de demande de logement socialet des attributions de logement",
     "commentaire": "Site : http://sne.info.application.territoires.gouv.fr/analyses-des-demandes-en-cours-r147.html - Volonté d'ouvrir plus largement prochainement",
     "gestionnaire": "DHUP",
     "origine": "DHUP",
@@ -907,19 +907,19 @@
     "description": "Données d'activité, de prescription et de prestation sur les professionnels de santé",
     "commentaire": " Cette base Infrastructures fait partie de la catégorie Infrastructures du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
     "gestionnaire": "CNAMTS",
-    "alimentation": "_ SNIIRAM"
+    "alimentation": "SNIIRAM"
   },
   "Applicatif du SNATIH : Compte financier": {
     "description": "Par établissement ex-DG, présentation de : les éléments du compte de résultat, le passage des résultats à la CAF, le tableau de financement, les soldes intermédiaires de gestion et les principaux postes du bilan",
     "commentaire": " Cette base Performance financière fait partie de la catégorie Performance financière du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "gestionnaire": "ATIH",
+    "gestionnaire": "Agence Technique de l'Information sur l'Hospitalisation",
     "alimentation": "_ Principale source : remontées financières des établissements",
     "lien": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php"
   },
   "Applicatif du SNATIH : Médicaments et DMI en sus": {
     "description": "_ Plusieurs tableaux présentent les données nationales sur les médicaments et les DMI en sus, par année ou par trimestre : évolution des montants, principaux établissements par classes de montants, analyse des évolutions et montants par classe ATC et groupes de dispositifs médicaux, palmarès des codes UCD/LPP, dispersion du taux d’évolution",
     "commentaire": " Cette base Médicaments et dispositifs fait partie de la catégorie Médicaments et dispositifs du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "gestionnaire": "ATIH",
+    "gestionnaire": "Agence Technique de l'Information sur l'Hospitalisation",
     "alimentation": "Principale source : PMSI – programme de médicalisation des systèmes d'information",
     "lien": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php"
   },
@@ -936,7 +936,7 @@
     "origine": "DGFIP",
     "granularite": "Information à la parcelle et au local."
   },
-  "\"Base\" de l'enquête statistique sur les ressources et les conditions de vie (SRCV)": {
+  "Base de l'enquête statistique sur les ressources et les conditions de vie (SRCV)": {
     "description": "_ Informations de santé : auto-estimation de son état de santé personnel",
     "commentaire": "9000 ménages français Cette base Inégalités de santé fait partie de la catégorie Inégalités de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
     "gestionnaire": "INSEE",
@@ -972,7 +972,7 @@
     "description": "Exemple d'objectif : compréhension de l'incidence du cancer du sein",
     "commentaire": "100 000 femmes volontaires françaises nées entre 1925 et 1950 et suivies depuis 1990 Cette base Etat de santé fait partie de la catégorie Etat de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
     "gestionnaire": "INSERM",
-    "alimentation": "_ Panel de la cohorte (féminin) : réponse à des auto questionnaires tous les 2 ou 3 ans"
+    "alimentation": "Panel de la cohorte (féminin) : réponse à des auto questionnaires tous les 2 ou 3 ans"
   },
   "Base des professionnels de santé et des établissements de santé": {
     "description": "Coordonnées, secteur de convention, type d'honoraire",
@@ -1008,9 +1008,9 @@
     "alimentation": "ARS",
     "lien": "http://www.oncopaca.org/fr/professionnels/RCP/annuaire-des-rcp"
   },
-  "Enquête annuelle article 55 de la loi SRU, relatif à l’objectif de \n20 %/25 % de logements sociaux pour certaines communes.\n": {
-    "description": "Logements sociaux définis à l’article L.302-5 du CCH. L'objectif de cette enquêté est de connaître les taux de logements sociaux des communes concernées par l’article L.302-5, les montants des prélèvements bruts et nets, les montants des dépenses déductibles, les taux de majorations, les bénéficiaires des prélèvements, les exonérations et les exemptions.\nElle permet également de connaître  le type de logements sociaux financés depuis 2002 dans les communes concernées (deuxième inventaire introduit par la loi du 18/01/2013)",
-    "commentaire": "Le module d’enquête doit être réformé pour prendre en compte toutes les évolutions de la loi du 18/01/2013\n",
+  "Enquête annuelle article 55 de la loi SRU, relatif à l’objectif de 20 %/25 % de logements sociaux pour certaines communes.": {
+    "description": "Logements sociaux définis à l’article L.302-5 du CCH. L'objectif de cette enquêté est de connaître les taux de logements sociaux des communes concernées par l’article L.302-5, les montants des prélèvements bruts et nets, les montants des dépenses déductibles, les taux de majorations, les bénéficiaires des prélèvements, les exonérations et les exemptions.Elle permet également de connaître  le type de logements sociaux financés depuis 2002 dans les communes concernées (deuxième inventaire introduit par la loi du 18/01/2013)",
+    "commentaire": "Le module d’enquête doit être réformé pour prendre en compte toutes les évolutions de la loi du 18/01/2013",
     "gestionnaire": "DHUP",
     "origine": "DHUP",
     "granularite": "Communal, intercommunal, départemental, régional et national"
@@ -1030,7 +1030,7 @@
   "Applicatif du SNATIH : ICARE": {
     "description": "_ Par établissement ex-DG ou par catégorie d’établissements (CHU, CH…), présentation des données du retraitement comptable par grands postes de charges et par secteur d’activité: charges nettes, charges nettes majorées, tableau de recollement, compte de résultats",
     "commentaire": " Cette base Personnel fait partie de la catégorie Personnel du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "gestionnaire": "ATIH",
+    "gestionnaire": "Agence Technique de l'Information sur l'Hospitalisation",
     "alimentation": "Principale source : remontées financières des établissements",
     "lien": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php"
   },
@@ -1051,21 +1051,21 @@
   "\"Base\" de l'enquête Alimentation et état nutritionnel des bénéficiaires de l’aide alimentaire (ABENA)": {
     "description": "Données de l'etat de santé des individus en fonction de leur profils sociodémographiques, de leur conditions de vie et de leurs habitudes alimentaires",
     "commentaire": " Cette base Habitudes de vie fait partie de la catégorie Habitudes de vie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "gestionnaire": "INVS",
+    "gestionnaire": "Institut National de Veille Sanitaire",
     "alimentation": "Panel de bénéficiares de l'aide alimentaire",
     "lien": "http://www.inpes.sante.fr/etudes/pdf/2013-abena2-rapport.pdf"
   },
-  "Statistiques des fonds de solidarité pour le logement\n(FSL)\n": {
+  "Statistiques des fonds de solidarité pour le logement(FSL)": {
     "description": "Bilan statistique annuel des FSL",
-    "commentaire": "Modifications prévues /envisagées des statistiques demandées par l’arrêté :\n - mise à jour suite à évolution législative (RSA a remplacé RMI, \nsuppression de la CDAPL …)\n - simplification éventuelle (allègement …)\n - compléments éventuels à ajouter (montants des remises de dettes\n consenties par les fournisseurs qui font actuellement l’objet d’un tableau\nfacultatif ajouté, précisions sur le volet des aides au paiement des\nfournitures d’énergie ...)\n",
+    "commentaire": "Modifications prévues /envisagées des statistiques demandées par l’arrêté : - mise à jour suite à évolution législative (RSA a remplacé RMI, suppression de la CDAPL …) - simplification éventuelle (allègement …) - compléments éventuels à ajouter (montants des remises de dettes consenties par les fournisseurs qui font actuellement l’objet d’un tableaufacultatif ajouté, précisions sur le volet des aides au paiement desfournitures d’énergie ...)",
     "gestionnaire": "DHUP",
     "origine": "DHUP",
-    "granularite": "Données départementales, compilées et agrégées au niveau national :\nutilisations nationales et départementales\n "
+    "granularite": "Données départementales, compilées et agrégées au niveau national :utilisations nationales et départementales "
   },
   "Applicatif du SNATIH : Fiche de synthèse SAE": {
     "description": "Par établissement, ou par région, des informations de synthèse issues de la base SAE sont présentées dans plusieurs tableaux : nombre de lits, activité, personnels.",
     "commentaire": " Cette base Infrastructures fait partie de la catégorie Infrastructures du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "gestionnaire": "ATIH",
+    "gestionnaire": "Agence Technique de l'Information sur l'Hospitalisation",
     "alimentation": "SAE",
     "lien": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php"
   },
@@ -1083,26 +1083,26 @@
     "origine": "DHUP",
     "granularite": "Utilisation des données possible au niveau de l’opération, c’est-à-dire un bâtiment ou un ensemble de bâtiments, ou à un niveau agrégé (national, régional, départemental). "
   },
-  "OPEN – Observatoire Permanente de \nl’amélioration ENergétique du logement\n": {
-    "description": "OPEN est un outil technico-économique capable de décrire\nl’état du marché de la rénovation énergétique.\nIl permet de mesurer la pénétration des équipements performants\n dans les logements en évaluant l’effet de levier des dispositifs \nd’incitation et, plus globalement, d’éclairer sur l’efficacité des \ndifférents outils en termes de retombées concrètes \nsur le développement de la filière bâtiment.\n \n",
-    "commentaire": "OPEN a été reconduite fin 2014 pour une durée de 2 ans. La méthodologie est amenée à évoluer (classification des rénovations en « assimilées bouquets de travaux » plutôt qu’en « étoiles ») et va être régionalisée. \nL’enjeu, à terme, est de disposer dans chaque région des « OPEN-région » menés par les CERC et pilotés par une entité nationale.\nLe nouveau contrat avec le prestataire rend l'ADEME propriétaire des données, donc potentiellement pourront être mises à disposition en open data.",
+  "OPEN – Observatoire Permanente de l’amélioration ENergétique du logement": {
+    "description": "OPEN est un outil technico-économique capable de décrirel’état du marché de la rénovation énergétique.Il permet de mesurer la pénétration des équipements performants dans les logements en évaluant l’effet de levier des dispositifs d’incitation et, plus globalement, d’éclairer sur l’efficacité des différents outils en termes de retombées concrètes sur le développement de la filière bâtiment. ",
+    "commentaire": "OPEN a été reconduite fin 2014 pour une durée de 2 ans. La méthodologie est amenée à évoluer (classification des rénovations en « assimilées bouquets de travaux » plutôt qu’en « étoiles ») et va être régionalisée. L’enjeu, à terme, est de disposer dans chaque région des « OPEN-région » menés par les CERC et pilotés par une entité nationale.Le nouveau contrat avec le prestataire rend l'ADEME propriétaire des données, donc potentiellement pourront être mises à disposition en open data.",
     "gestionnaire": "ADEME",
     "origine": "ADEME",
-    "granularite": "Niveau national.\nUne expérimentation sur 2 régions  a été réalisée en 2013.\nL’outil est amené à se régionaliser avec une implication \nde plus en e plus forte des CERC.\n"
+    "granularite": "Niveau national.Une expérimentation sur 2 régions  a été réalisée en 2013.L’outil est amené à se régionaliser avec une implication de plus en e plus forte des CERC."
   },
   "Bénéficiaires des aides personnelles au logement (trois trimestres par an) BENETRIM ": {
-    "description": "Extraction à partir des fichiers de gestion des caisses d’allocations\nfamiliales (Caf) d’une base statistique de situation du stock de \nbénéficiaires au titre du mois de mars, juin ou septembre\nFournit des informations exhaustives sur les droits et les caractéristiques des foyers bénéficiaires d’une aide personnelle au logement (ALF, ALS, APL).",
-    "commentaire": "Données disponibles sur  : https://www.caf.fr/etudes-et-statistiques/donnees-statistiques/logement\nNb de bénéficiaires par mois et par département ; nb de bénéficiaires par commune",
+    "description": "Extraction à partir des fichiers de gestion des caisses d’allocationsfamiliales (Caf) d’une base statistique de situation du stock de bénéficiaires au titre du mois de mars, juin ou septembreFournit des informations exhaustives sur les droits et les caractéristiques des foyers bénéficiaires d’une aide personnelle au logement (ALF, ALS, APL).",
+    "commentaire": "Données disponibles sur  : https://www.caf.fr/etudes-et-statistiques/donnees-statistiques/logementNb de bénéficiaires par mois et par département ; nb de bénéficiaires par commune",
     "gestionnaire": "CNAF",
     "origine": "CNAF",
-    "granularite": "France entière, métropole, Dom, département,\ncaisse d’allocation familiale, commune\n"
+    "granularite": "France entière, métropole, Dom, département,caisse d’allocation familiale, commune"
   },
   "Enquête sur l’état d’avancement des PLH et PDH": {
-    "description": "Enquête réalisée auprès des DDT(M) via une fonctionnalité ‘Enquête’ disponible\n dans l’application SuDocUH (Suivi des documents d’urbanisme et de l’Habitat)\nAu niveau local elle permet de :\n- venir en appui des SD dans le pilotage des politiques publiques :\nproduction des PAC, avis de l’État, cohérence entre documents et\nprocédures à l'échelle d'un territoire\n- suivi des procédures\n- mutualiser l'information entre les services Habitat et Urbanisme\n- exercer le contrôle de légalité\n- récupérer des données en vue de leur intégration dans un SIG\nAu niveau national elle permet de :\n- rendre compte au Parlement et évaluer la mise en oeuvre des\névolutions juridiques\n- diffuser des données publiques à l’échelle nationale (ex : Observatoire\ndes Politiques Territoriales : www.territoires.gouv.fr)\n- calculer des indicateurs mesurant l’avancement et les effets de la\nplanification.",
+    "description": "Enquête réalisée auprès des DDT(M) via une fonctionnalité ‘Enquête’ disponible dans l’application SuDocUH (Suivi des documents d’urbanisme et de l’Habitat)Au niveau local elle permet de :- venir en appui des SD dans le pilotage des politiques publiques :production des PAC, avis de l’État, cohérence entre documents etprocédures à l'échelle d'un territoire- suivi des procédures- mutualiser l'information entre les services Habitat et Urbanisme- exercer le contrôle de légalité- récupérer des données en vue de leur intégration dans un SIGAu niveau national elle permet de :- rendre compte au Parlement et évaluer la mise en oeuvre desévolutions juridiques- diffuser des données publiques à l’échelle nationale (ex : Observatoiredes Politiques Territoriales : www.territoires.gouv.fr)- calculer des indicateurs mesurant l’avancement et les effets de laplanification.",
     "commentaire": "",
     "gestionnaire": "DHUP",
     "origine": "DHUP",
-    "granularite": "Communes et EPCI pour PLH\nDépartement pour les PDH\n"
+    "granularite": "Communes et EPCI pour PLHDépartement pour les PDH"
   },
   "Datamart du SNIIRAM : Médicaments délivrés à l’hôpital": {
     "alimentation": "_ SNIIRAM",
@@ -1115,7 +1115,7 @@
     "gestionnaire": "GERS (Groupe pour l'Elaboration et la Réalisation Statistique)"
   },
   "Enquête « Maîtrise de l’Energie » ": {
-    "description": "L’enquête 10 000 ménages a pour objectif de disposer d’un\n outil de mesure de la sensibilisation des ménages français \nà la maîtrise de l’énergie, de dresser un bilan annuel de l'impact \nde la politique de l'énergie dans le secteur de l'habitat, de quantifier et qualifier les travaux d’amélioration\nénergétique effectués dans les logements.\n",
+    "description": "L’enquête 10 000 ménages a pour objectif de disposer d’un outil de mesure de la sensibilisation des ménages français à la maîtrise de l’énergie, de dresser un bilan annuel de l'impact de la politique de l'énergie dans le secteur de l'habitat, de quantifier et qualifier les travaux d’améliorationénergétique effectués dans les logements.",
     "commentaire": "",
     "gestionnaire": "ADEME",
     "origine": "ADEME",
@@ -1128,13 +1128,13 @@
     "alimentation": "SNIIRAM"
   },
   "Échantillon National Témoin Représentatif des personnes Diabétiques (ENTRED)": {
-    "lien": "http://www.inpes.sante.fr/etudes/entred.asp\nhttp://www.inpes.sante.fr/etudes/pdf/rapport-entred.pdf",
+    "lien": "http://www.inpes.sante.fr/etudes/entred.asphttp://www.inpes.sante.fr/etudes/pdf/rapport-entred.pdf",
     "commentaire": "8 926 personnes tirées au sort parmi les personnes âgées d’au moins 18 ans Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "gestionnaire": "INVS",
+    "gestionnaire": "Institut National de Veille Sanitaire",
     "description": "Données sur les caractéristiques des personnes diabétiques (sexe, revenus, évolution du contrôle glycémique)"
   },
   "Observatoires locaux des loyers ": {
-    "description": "Les observatoires locaux des loyers ont pour mission de recueillir les données relatives aux loyers sur une zone géographique déterminée et de mettre à la disposition du public des résultats statistiques représentatifs sur ces données.\nLe parc de référence est celui du parc locatif constitué de l'ensemble des locaux à usage d'habitation ou à usage mixte professionnel et d'habitation, à l'exception de ceux appartenant aux organismes d'habitations à loyer modéré, aux sociétés d'économie mixte de construction et de gestion des logements sociaux, ainsi qu'aux organisme chargés d'une MOI\n",
+    "description": "Les observatoires locaux des loyers ont pour mission de recueillir les données relatives aux loyers sur une zone géographique déterminée et de mettre à la disposition du public des résultats statistiques représentatifs sur ces données.Le parc de référence est celui du parc locatif constitué de l'ensemble des locaux à usage d'habitation ou à usage mixte professionnel et d'habitation, à l'exception de ceux appartenant aux organismes d'habitations à loyer modéré, aux sociétés d'économie mixte de construction et de gestion des logements sociaux, ainsi qu'aux organisme chargés d'une MOI",
     "commentaire": " Un site internet dédié, permettant de visualiser les données collectées par les observatoires des loyers sera mis en service mi-2015. Il sera référencé sur la plate-forme open-data.gouv.fr. La mise à disposition des données non-anonymisées aux chercheurs est à l'étude. Elle se fera via l'accès au CASD.",
     "gestionnaire": "DHUP/ANIL/OLL",
     "origine": "OLL",
@@ -1158,12 +1158,12 @@
     "gestionnaire": "IDS",
     "alimentation": "SNIIRAM"
   },
-  "Tableur infra-communaux d'aide au repérage des \ncopropriétés fragiles\n": {
-    "description": "Favoriser la prise en compte de l'enjeu des copropriétés fragiles dans les politiques de l'habitat  \nSusciter les démarches préventives afin de réduire ou limiter l'action curative, jugée trop tardive et très onéreuse pour la puissance publiqueEvaluer à l'échelle nationale le nombre de copropriétés et de logements en copropriétés fragiles \nFaciliter le repérage des zones à risques à fine échelle Prioriser l'action publique en général et optimiser la répartition des \ncrédits de l'Anah en particulier\n",
+  "Tableur infra-communaux d'aide au repérage des copropriétés fragiles": {
+    "description": "Favoriser la prise en compte de l'enjeu des copropriétés fragiles dans les politiques de l'habitat  Susciter les démarches préventives afin de réduire ou limiter l'action curative, jugée trop tardive et très onéreuse pour la puissance publiqueEvaluer à l'échelle nationale le nombre de copropriétés et de logements en copropriétés fragiles Faciliter le repérage des zones à risques à fine échelle Prioriser l'action publique en général et optimiser la répartition des crédits de l'Anah en particulier",
     "commentaire": "",
     "gestionnaire": "ANAH",
     "origine": "ANAH",
-    "granularite": "Section cadastrale pour les tableurs infra-communaux\n(+étude aux échelles France, région et département)\n"
+    "granularite": "Section cadastrale pour les tableurs infra-communaux(+étude aux échelles France, région et département)"
   },
   "Fichiers \"analyse des dépenses\" (statistiques mensuelles)": {
     "description": "Rétrospective annuelle des dépenses d'assurance maladie par catégorie de professionnels de santé et pour chaque catégorie par acte ou par groupe d'actes depuis l'année 2006",
@@ -1173,8 +1173,8 @@
     "lien": "http://www.ameli.fr/l-assurance-maladie/statistiques-et-publications/analyse-des-depenses/index.php"
   },
   "Infocentre sur les aides à la pierre SISAL": {
-    "description": "Données issues d’instruction des dossiers de financement et d’agrément \nGALION (METL) et AGORA (ANRU). L'objectif de cette base de donnée est de suivre l'activité de financement du logement social.\n",
-    "commentaire": "http://www.financement-logement-social.territoires.gouv.fr/ \nDéploiement de GALION dans les DOM et mise en place du portail de suivi et de programmation des logements sociaux.\nIntégration des nouvelles mesures d’aides à la pierre ( PLAI adaptés, éco-PLS)\nVolonté de mettre plus de données en accès ouvert ",
+    "description": "Données issues d’instruction des dossiers de financement et d’agrément GALION (METL) et AGORA (ANRU). L'objectif de cette base de donnée est de suivre l'activité de financement du logement social.",
+    "commentaire": "http://www.financement-logement-social.territoires.gouv.fr/ Déploiement de GALION dans les DOM et mise en place du portail de suivi et de programmation des logements sociaux.Intégration des nouvelles mesures d’aides à la pierre ( PLAI adaptés, éco-PLS)Volonté de mettre plus de données en accès ouvert ",
     "gestionnaire": "DHUP",
     "origine": "DHUP",
     "granularite": "commune"
@@ -1211,7 +1211,7 @@
   },
   "Eco-prêt à taux zéro": {
     "description": "Toute opération de rénovation énergétique ou d’assainissement non collectif  concernant un logement remplissant les conditions d’éligibilité  financée par un Eco-Prêt à taux zéro. L'objectif de cette base de données est de connaître les bénéficiaires de l'Eco-PTZ et les travaux réalisés, d'en évaluer la portée et de gérer les crédits d'impôts accordés.",
-    "commentaire": "https://www2.sgfgas.fr/web/guest/statistiques1\nAller vers une granularité plus fine (+data.gouv.fr), sous réserve de la bonne observation des règles de secret statistiques.",
+    "commentaire": "https://www2.sgfgas.fr/web/guest/statistiques1Aller vers une granularité plus fine (+data.gouv.fr), sous réserve de la bonne observation des règles de secret statistiques.",
     "gestionnaire": "SGFGAS",
     "origine": "SGFGAS",
     "granularite": "Code INSEE communal, utilisation agrégée possible à  tout  niveau géographique résultant d’une agrégation de communes (seule exception depuis 2011 : on peut distinguer les arrondissements parisiens)"
@@ -1238,17 +1238,17 @@
   },
   "Outil de repérage et de traitement de l’habitat indigne ORTHI": {
     "description": "Situations de logements indignes (insalubrité, péril...), et habitats non décents repérés par les services intervenants dans ce domaine (services sociaux, CAF).",
-    "commentaire": "Les évolutions suivantes sont projetées :\n- le développement de l'infocentre (en cours de recette) ;\n- le déploiement de l'outil en Outre-Mer.\n",
+    "commentaire": "Les évolutions suivantes sont projetées :- le développement de l'infocentre (en cours de recette) ;- le déploiement de l'outil en Outre-Mer.",
     "gestionnaire": "DHUP",
     "origine": "DHUP",
     "granularite": "national, régional et départemental"
   },
   "Statistiques de la construction (Sitadel2) ": {
-    "description": "Suivi de la construction neuve des logements et des locaux\n\nDeux types de séries statistiques sont proposées : les séries en date de prise en compte (suivi conjoncturel) et les séries en date réelle (études structurelles). \n",
+    "description": "Suivi de la construction neuve des logements et des locauxDeux types de séries statistiques sont proposées : les séries en date de prise en compte (suivi conjoncturel) et les séries en date réelle (études structurelles). ",
     "commentaire": "engagement du SOeS à déterminer une granularité optimale des données issues du Répertoire des logements locatifs des bailleurs sociaux et à mettre à disposition les fichiers bruts (extraits du logiciel Beyond)                                                                                                                        Un projet d'estimation en date réelle est en cours. L'objectif est de produire des estimations mensuelles dautorisations et de mises en chantier qui seront publiées tous les mois et se substitueront aux séries en date de prise en compte dans l'analyse conjoncturelle.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        Une réflexion sur une meilleure articulation entre les séries d'autorisation de constuire et de mises en chantier est également en cours.",
     "gestionnaire": "SOeS",
     "origine": "SOeS",
-    "granularite": "Niveau communal\nUsages possibles pour des zonages infra communaux\n"
+    "granularite": "Niveau communalUsages possibles pour des zonages infra communaux"
   },
   "Base des causes de mortalité": {
     "description": "Causes de décès (immédiates, intermédiaires, associées) et plusieurs informations démographiques sur le sujet décédé (sexe, âge, lieu de décès, lieu de domicile...)",
@@ -1294,7 +1294,7 @@
   "Applicatif du SNATIH : Soins de Suite et de Réadaptation": {
     "description": "Par région, par territoire de santé ou par établissement, données de : activité, durée de prise en charge, par spécialité et par tranche d’âge, taux d’entrée directe, mode de sortie, retour précoce en MCO d’au moins une nuit, taux de fuite…",
     "commentaire": " Cette base Activité des établissements de santé fait partie de la catégorie Activité des établissements de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "gestionnaire": "ATIH",
+    "gestionnaire": "Agence Technique de l'Information sur l'Hospitalisation",
     "alimentation": "Principale source : PMSI",
     "lien": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php"
   },
@@ -1317,11 +1317,11 @@
     "lien": "http://www.data.gouv.fr/fr/dataset/description-des-emplois-prives-et-publics-et-des-salaires."
   },
   "Bénéficiaires des aides personnelles au logement (annuel) FILEAS ": {
-    "description": "Extraction à partir des fichiers de gestion des caisses d’allocations\nfamiliales (Caf) d’une base statistique de situation du stock de \nbénéficiaires au titre du mois de décembre\nFournit des informations exhaustives sur les droits et les caractéristiques des foyers bénéficiaires d’une aide personnelle au logement (ALF, ALS, APL).",
-    "commentaire": "Données disponibles sur  : https://www.caf.fr/etudes-et-statistiques/donnees-statistiques/logement\nNb de bénéficiaires par mois et par département ; nb de bénéficiaires par commune",
+    "description": "Extraction à partir des fichiers de gestion des caisses d’allocationsfamiliales (Caf) d’une base statistique de situation du stock de bénéficiaires au titre du mois de décembreFournit des informations exhaustives sur les droits et les caractéristiques des foyers bénéficiaires d’une aide personnelle au logement (ALF, ALS, APL).",
+    "commentaire": "Données disponibles sur  : https://www.caf.fr/etudes-et-statistiques/donnees-statistiques/logementNb de bénéficiaires par mois et par département ; nb de bénéficiaires par commune",
     "gestionnaire": "CNAF",
     "origine": "CNAF",
-    "granularite": "France entière, métropole, Dom, département,\ncaisse d’allocation familiale, commune\n"
+    "granularite": "France entière, métropole, Dom, département,caisse d’allocation familiale, commune"
   },
   "Base d'Angers": {
     "description": "_ Données de coûts sur les activités non cliniques des établissements ; 3 types d'activités suivies : activités logistiques et administratives, activités logistiques médicales, activités médico-techniques",
@@ -1331,8 +1331,8 @@
     "lien": "http://www.fhf.fr/Actualites/Finances-BDHF/Base-d-Angers/Base-d-Angers-2011"
   },
   "Observatoire du financement du logement": {
-    "description": "Résidences principales, résidences secondaires, investissement locatif - Enuqête par sondage sur les conditions dans lesquelles les ménages ont acheté, construit ou\namélioré un logement en se finançant par emprun",
-    "commentaire": "Données DOM depuis le millésime 2012\nA compter du millésime 2013 , il a été décidé de scinder le marché\nen deux marchés correspondants aux deux phases de l’étude : la \nconstitution de l’échantillon d’une part, le redressement et l’analyse \nd’autre part. La méthodologie utilisée pour le redressement peut en \nconséquence être amenée à changer. \n",
+    "description": "Résidences principales, résidences secondaires, investissement locatif - Enuqête par sondage sur les conditions dans lesquelles les ménages ont acheté, construit ouamélioré un logement en se finançant par emprun",
+    "commentaire": "Données DOM depuis le millésime 2012A compter du millésime 2013 , il a été décidé de scinder le marchéen deux marchés correspondants aux deux phases de l’étude : la constitution de l’échantillon d’une part, le redressement et l’analyse d’autre part. La méthodologie utilisée pour le redressement peut en conséquence être amenée à changer. ",
     "gestionnaire": "DHUP",
     "origine": "CSA prestataire",
     "granularite": "France"
@@ -1360,7 +1360,7 @@
   "Enquête nationale de prévalence des infections nosocomiales (ENPIN)": {
     "description": "Statistiques des maladies nosocomiales par catégorie d'établissement, par âge, par origine d'infection,type de séjour, facteurs de risque, étude des micro organismes et des traitements puis comparaisons régionales",
     "commentaire": "1938 établissements de santé couverts : 96,8% des lits d’hospitalisation publique français, et <80% pour les ES privés Cette base Qualité fait partie de la catégorie Qualité du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "gestionnaire": "INVS",
+    "gestionnaire": "Institut National de Veille Sanitaire",
     "alimentation": "Etablissements de santé",
     "lien": "http://www.sante.gouv.fr/enquete-nationale-de-prevalence-enp.html"
   },
@@ -1380,7 +1380,7 @@
   "Applicatif du SNATIH : Chirurgie ambulatoire": {
     "description": "Tableaux fournissant par région, par territoire de santé ou par établissement, des éléments statistiques permettant d’évaluer le développement de la chirurgie ambulatoire pour chacune des 18 racines de GHM faisant l’objet de la politique tarifaire incitative depuis plusieurs années (même tarif pour le GHM de chirurgie ambulatoire et le GHM correspondant de niveau 1) : taux de recours, taux de chirurgie ambulatoire, etc.",
     "commentaire": " Cette base Activité des établissements de santé fait partie de la catégorie Activité des établissements de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "gestionnaire": "ATIH",
+    "gestionnaire": "Agence Technique de l'Information sur l'Hospitalisation",
     "alimentation": "Principale source : PMSI – programme de médicalisation des systèmes d'information",
     "lien": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php"
   },
@@ -1393,7 +1393,7 @@
   "Applicatif du SNATIH : Indicateurs d’analyse de l’activité (IAA)": {
     "description": "_ Par secteur (ex-DG, ex-OQN ou tous secteurs), par région, par territoire de santé, par catégorie d’établissements ou par établissement, description de l'activité selon différents agrégats : catégories d'activités de soins, domaine d’activité, CMD, etc. pour mieux comprendre l'évolution du volume de l'activité. Cette requête peut être déclinée",
     "commentaire": " Cette base Activité des établissements de santé fait partie de la catégorie Activité des établissements de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "gestionnaire": "ATIH",
+    "gestionnaire": "Agence Technique de l'Information sur l'Hospitalisation",
     "alimentation": "Principale source : PMSI – programme de médicalisation des systèmes d'information",
     "lien": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php"
   },
@@ -1406,7 +1406,7 @@
   },
   "PTZ, NPTZ et PTZ+": {
     "description": "Tout logement remplissant les conditions d’éligibilité à un PTZ. L'objectif de cette base de données est de connaître les bénéficiaires des différents dispositifs du PTZ, d'en évaluer la portée et de gérer les crédits d'impôts accordés.",
-    "commentaire": "https://www2.sgfgas.fr/web/guest/statistiques1\nAller vers une granularité plus fine (+data.gouv.fr), sous réserve de la bonne observation des règles de secret statistiques.",
+    "commentaire": "https://www2.sgfgas.fr/web/guest/statistiques1Aller vers une granularité plus fine (+data.gouv.fr), sous réserve de la bonne observation des règles de secret statistiques.",
     "gestionnaire": "SGFGAS",
     "origine": "SGFGAS",
     "granularite": "Code INSEE communal, utilisation agrégée possible à  tout  niveau géographique résultant d’une agrégation de communes (seule exception depuis 2011 : on peut distinguer les arrondissements parisiens)"
@@ -1434,7 +1434,7 @@
   "Recueil d'informations médicalisées en psychiatrie (RIM-P)": {
     "description": "Indicateurs hebdomadaires sur lactivité des établissements de psychiatrie par région ( nombre de patients, mode d'entrées et de sorties des patients, effectifs soignants par catégories de patients, listes de diagnostics etc)",
     "commentaire": "En 2011, 95% des établissements de santé ont remonté leurs données à l'ATIH Cette base Activité des établissements de santé fait partie de la catégorie Activité des établissements de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "gestionnaire": "ATIH",
+    "gestionnaire": "Agence Technique de l'Information sur l'Hospitalisation",
     "alimentation": "Etablissements de santé",
     "lien": "http://www.atih.sante.fr/tableaux-rim-p-nationaux"
   },
@@ -1461,7 +1461,7 @@
   "Dépistage organisé des cancers": {
     "lien": "http://www.invs.sante.fr/Dossiers-thematiques/Maladies-chroniques-et-traumatismes/Cancers/Evaluation-des-programmes-de-depistage-des-cancers/Evaluation-du-programme-de-depistage-du-cancer-du-sein/Indicateurs-d-evaluation/Taux-de-participation-au-programme-de-depistage-organise-du-cancer-du-sein-2010-2011",
     "commentaire": " Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "gestionnaire": "INVS",
+    "gestionnaire": "Institut National de Veille Sanitaire",
     "description": "Nombres de personnes dépistées agrégées par département"
   },
   "Cohorte Constances": {
@@ -1484,7 +1484,7 @@
     "description": "5 niveaux de qualité de l'eau de baignades par lieu"
   },
   "Enquête trimestrielle de conjoncture « promotion immobilière » ": {
-    "description": "Apporte à un coût raisonnable, des indications précoces et de qualité sur le passé récent, la situation présente et les perspectives à court terme des entreprises du secteur de la promotion immobilière. \n",
+    "description": "Apporte à un coût raisonnable, des indications précoces et de qualité sur le passé récent, la situation présente et les perspectives à court terme des entreprises du secteur de la promotion immobilière. ",
     "commentaire": "",
     "gestionnaire": "INSEE",
     "origine": "INSEE",
@@ -1493,7 +1493,7 @@
   "Applicatif du SNATIH : Tableaux de bord financiers des Etablissements Publics de Santé": {
     "description": "Sur les établissements ex-DG, tableaux organisés en 3 parties :",
     "commentaire": " Cette base Performance financière fait partie de la catégorie Performance financière du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "gestionnaire": "ATIH",
+    "gestionnaire": "Agence Technique de l'Information sur l'Hospitalisation",
     "alimentation": "Réseau du Trésor public (bases de données de la DGFIP)",
     "lien": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php"
   },
@@ -1504,8 +1504,8 @@
     "alimentation": "_ SNIIRAM"
   },
   "Compte du logement ": {
-    "description": "Le compte du logement se veut un outil d'analyse de l'environnement économique du logement. Il constitue un des comptes satellites de la comptabilité nationale. Plusieurs exigences découlent de ce statut :\n- l'exhaustivité : il s'agit de décrire l'ensemble des flux et des stocks, physiques et financiers, concernant le domaine du logement ;\n- la cohérence interne entre les données rassemblées ;\n - la cohérence avec le cadre central de la comptabilité nationale pour rendre possible la comparaison entre les agrégats du compte et ceux de la comptabilité nationale.\n",
-    "commentaire": "Des travaux méthodologiques visant à améliorer la qualité des données sont assurés ou pilotés par le SOeS tout au long de l’année et présentés lors des groupes de travail de la commission. Ces investissements méthodologiques font généralement écho à l’amélioration du système d’information (nouvelle source statistique primaire, disponibilité de nouveaux fichiers administratifs, de nouvelles enquêtes...) ou, au contraire, à la disparition de sources qu’il convient de suppléer pour poursuivre des séries.\n À court terme, l’intégration des modifications de chiffrages du cadre central liées au passage à la Base 2010 sont une priorité.\nPar ailleurs, une réflexion est engagé sur la faisabilité d’une amélioration des données fiscales (avantages fiscaux et prélèvements) qui pourrait mobiliser de nouvelles sources et / ou de nouvelles méthodes\nDans les prochaines années, l’intégration des informations de la prochaine Enquête nationale logement, l’utilisation de données de comptabilité des producteurs spécifiques de service de logement (ESANE / FARE pour les HLM) ou les statistiques bancaires de la Banque de France semblent des chantiers importants. \n",
+    "description": "Le compte du logement se veut un outil d'analyse de l'environnement économique du logement. Il constitue un des comptes satellites de la comptabilité nationale. Plusieurs exigences découlent de ce statut :- l'exhaustivité : il s'agit de décrire l'ensemble des flux et des stocks, physiques et financiers, concernant le domaine du logement ;- la cohérence interne entre les données rassemblées ; - la cohérence avec le cadre central de la comptabilité nationale pour rendre possible la comparaison entre les agrégats du compte et ceux de la comptabilité nationale.",
+    "commentaire": "Des travaux méthodologiques visant à améliorer la qualité des données sont assurés ou pilotés par le SOeS tout au long de l’année et présentés lors des groupes de travail de la commission. Ces investissements méthodologiques font généralement écho à l’amélioration du système d’information (nouvelle source statistique primaire, disponibilité de nouveaux fichiers administratifs, de nouvelles enquêtes...) ou, au contraire, à la disparition de sources qu’il convient de suppléer pour poursuivre des séries. À court terme, l’intégration des modifications de chiffrages du cadre central liées au passage à la Base 2010 sont une priorité.Par ailleurs, une réflexion est engagé sur la faisabilité d’une amélioration des données fiscales (avantages fiscaux et prélèvements) qui pourrait mobiliser de nouvelles sources et / ou de nouvelles méthodesDans les prochaines années, l’intégration des informations de la prochaine Enquête nationale logement, l’utilisation de données de comptabilité des producteurs spécifiques de service de logement (ESANE / FARE pour les HLM) ou les statistiques bancaires de la Banque de France semblent des chantiers importants. ",
     "gestionnaire": "SOeS",
     "origine": "SOeS",
     "granularite": "National"
@@ -1513,7 +1513,7 @@
   "Applicatif du SNATIH : Tableaux agrégés activité ePMSI": {
     "description": "Pour chacun des domaines (MCO, SSR, HAD,psychiatrie), pour chacun des secteurs (ex-DG, ex-OQN), les tableaux mensuels agrégés issus de la plate-forme e-pmsi sont fournis, par établissement, par catégorie d’établissement, par région, afin de disposer des éléments d’activité, et, pour ce qui est des domaines MCO et HAD, des éléments de valorisation de l’activité.",
     "commentaire": " Cette base Activité des établissements de santé fait partie de la catégorie Activité des établissements de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "gestionnaire": "ATIH",
+    "gestionnaire": "Agence Technique de l'Information sur l'Hospitalisation",
     "alimentation": "_ Principales sources : PMSI, SAE",
     "lien": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php"
   },
@@ -1528,7 +1528,7 @@
     "gestionnaire": "CNSA",
     "alimentation": "10 MDPH (phase pilote)"
   },
-  "Bilan triennal article 55 de la loi SRU, relatif à l’objectif de \n20 %/25 % de logements sociaux pour certaines communes.\n": {
+  "Bilan triennal article 55 de la loi SRU, relatif à l’objectif de 20 %/25 % de logements sociaux pour certaines communes.": {
     "description": "Logements sociaux définis à l’article L.302-5 du CCH. L'objectif de cette enquête est de connaître les taux d’atteinte des objectifs triennaux de rattrapage définis à l’article L.302-8, les mises en état de carence définies par arrêtés des préfets et les taux de majoration des prélèvements annuels tels que définis à l’article L.302-9-1 ainsi que les passages en commissions départementales et nationale définies à l’article L.302-9-1-1.",
     "commentaire": " Le module d’enquête doit être réformé pour prendre en compte toutes les évolutions de la loi du 18/01/2013. L'inégration dans un module d'enquête est à l'étude.",
     "gestionnaire": "DHUP",
@@ -1551,14 +1551,14 @@
   "Suivi des victimes de l'amiante": {
     "description": "Objectif :suivi du devenir sanitaire ds victimes de l'amiante connues du FIVA",
     "commentaire": " Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "gestionnaire": "INVS",
+    "gestionnaire": "Institut National de Veille Sanitaire",
     "alimentation": "Fonds d'indemnisation des victimes de l'amiante",
     "lien": "http://www.invs.sante.fr/Publications-et-outils/Rapports-et-syntheses/Travail-et-sante/2013/Description-de-la-mortalite-des-victimes-de-l-amiante-connues-du-Fonds-d-indemnisation-des-victimes-de-l-amiante-Fiva"
   },
   "Corpulence des enfants de 7-9 ans scolarisés en CE1 et CE2": {
     "lien": "http://www.invs.sante.fr/Publications-et-outils/Rapports-et-syntheses/Maladies-chroniques-et-traumatismes/2011/Prevalences-du-surpoids-et-de-l-obesite-et-determinants-de-la-sedentarite-chez-les-enfants-de-7-a-9-ans-en-France-en-2007",
     "commentaire": " Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "gestionnaire": "INVS",
+    "gestionnaire": "Institut National de Veille Sanitaire",
     "description": "Indicateurs de surpoids et d'obésité"
   },
   "Collecte et Récolte des Objectifs CUS (CROCUS)": {
@@ -1569,11 +1569,11 @@
     "granularite": "Les données peuvent être utilisées au niveau d’un organisme, d’un département, d’une région ou au niveau national."
   },
   "Base Bien gérée par Paris Notaires Services (BIEN)": {
-    "description": "Alimentation par les notaires d’Ile-de-France de la base BIEN recensant les ventes immobilières (mutations à titre onéreux) en Ile-de-France.\nL’alimentation se fait sur la base du volontariat à partir de 1990 pour Paris et la petite Couronne, à partir de 1996 pour la Grande Couronne.\nL'objectif de cette base de données est de connaître de façon détaillée les prix de vente et leurs évolutions en Ile-de-France.",
-    "commentaire": "Loi du 28 mars 2011 de modernisation des professions juridiques et financières. \nécret n° 2013-803 du 3 septembre 2013 ",
+    "description": "Alimentation par les notaires d’Ile-de-France de la base BIEN recensant les ventes immobilières (mutations à titre onéreux) en Ile-de-France.L’alimentation se fait sur la base du volontariat à partir de 1990 pour Paris et la petite Couronne, à partir de 1996 pour la Grande Couronne.L'objectif de cette base de données est de connaître de façon détaillée les prix de vente et leurs évolutions en Ile-de-France.",
+    "commentaire": "Loi du 28 mars 2011 de modernisation des professions juridiques et financières. écret n° 2013-803 du 3 septembre 2013 ",
     "gestionnaire": "La Chambre interdépartementale des Notaires de Paris et les autres instances d’Ile-de-France.",
     "origine": "Paris Notaire Service",
-    "granularite": "Périmètre : l’Ile-de-France\nDonnées statistiques au niveau  région, département, commune, \narrondissements de Paris, quartiers, secteurs géographiques plus fins.\n"
+    "granularite": "Périmètre : l’Ile-de-FranceDonnées statistiques au niveau  région, département, commune, arrondissements de Paris, quartiers, secteurs géographiques plus fins."
   },
   "Catalogue et indexation des Sites Médicaux de langue Française(CISMeF)": {
     "lien": "http://www.cismef.org/.",
@@ -1616,15 +1616,15 @@
   },
   "Enquête sur l’occupation du parc social": {
     "description": "Uniquement des logements locatifs sociaux ayant fait l’objet d’un finan-cement de l’Etat.",
-    "commentaire": "Une étude d’opportunité est en cours pour réaliser un nouvel outil de saisie des réponses à\nl’enquête par les bailleurs et les DDT.\n",
+    "commentaire": "Une étude d’opportunité est en cours pour réaliser un nouvel outil de saisie des réponses àl’enquête par les bailleurs et les DDT.",
     "gestionnaire": "DGALN",
     "origine": "DGALN",
-    "granularite": "Département et unité urbaine de plus de 50 000 habitants, avec une distinction pour les \nlogements en ZUS et ZRR.\n"
+    "granularite": "Département et unité urbaine de plus de 50 000 habitants, avec une distinction pour les logements en ZUS et ZRR."
   },
   "Bases de données sur lesmaladies à déclaration obligatoire : plus de 31 maladies couvertes": {
     "description": "Une base par type de maladie contenant les informations suivantes : nombre de cas, indicateurs de suivi des consultations par type de pathologie ( asthme, traumatologie, rougeolle…), etc.",
     "commentaire": " Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "gestionnaire": "INVS",
+    "gestionnaire": "Institut National de Veille Sanitaire",
     "alimentation": "Médecins et biologistes, selon le processus suivant : Le médecin (ou un laboratoire d'analyses médicales) qui diagnostique, chez un ou plusieurs patients, une maladie à déclaration obligatoire (MDO) doit transmettre une fiche de notification spécifique à chaque maladie (rougeole, mésothéliome, diphtérie, etc.) à l'Agence régionale de santé (ARS) qui la transmet ensuite à l'Institut national de veille sanitaires (Invs).",
     "lien": "http://www.invs.sante.fr/Espace-professionnels/Maladies-a-declaration-obligatoire/Bases-de-donnees"
   },
@@ -1645,7 +1645,7 @@
   "Surveillance sanitaire des urgences et des décès (SURSAUD)": {
     "description": "Une base par type de maladie contenant nombre de cas, offres de soins, analyse des 10 diagnostics les plus fréquents, indicateurs de suivi des consultations par type de pathologie ( asthme, traumatologie, rougeolle…)",
     "commentaire": " Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "gestionnaire": "INVS",
+    "gestionnaire": "Institut National de Veille Sanitaire",
     "alimentation": "Données collectées auprès des Services d'urgence, du réseau SOS médecin, des bureaux d'Etat Civil",
     "lien": "http://www.invs.sante.fr/Publications-et-outils/Rapports-et-syntheses/Autres-thematiques/Le-systeme-francais-de-surveillance-sanitaire-des-urgences-et-des-deces-SurSaUD-R"
   },
@@ -1673,7 +1673,7 @@
   "Applicatif du SNATIH : Fiches régions infra-annuelles": {
     "description": "Pour chaque région, pour chaque secteur (ex-DG, ex-OQN), une fiche (en format excel) inclut les éléments suivants : les montants des ressources allouées et leur évolution sur un an (activité, MIG, AC, forfaits…), l’évolution des recettes liées à l’activité et du volume économique (différenciant l’effet nombre de séjours et l’effet structure), la déclinaison par activité de soins et par niveau de sévérité, et la déclinaison par établissement.",
     "commentaire": " Cette base Activité des établissements de santé fait partie de la catégorie Activité des établissements de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "gestionnaire": "ATIH",
+    "gestionnaire": "Agence Technique de l'Information sur l'Hospitalisation",
     "alimentation": "_ Principales sources : PMSI, SAE, remontées financières des établissements",
     "lien": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php"
   },
@@ -1729,7 +1729,7 @@
   "Applicatif du SNATIH : ARBUST - MIG": {
     "description": "A partir des données d’ARBUST-MIG, des statistiques sont disponibles, par région, par catégorie d’établissements, par établissement, sur les montants alloués pour chaque MIG et leur évolution.Différentes présentations sont possibles : par établissement, par MIG ou synthétique",
     "commentaire": " Cette base Dépenses fait partie de la catégorie Dépenses du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "gestionnaire": "ATIH",
+    "gestionnaire": "Agence Technique de l'Information sur l'Hospitalisation",
     "alimentation": "-",
     "lien": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php"
   },
@@ -1760,7 +1760,7 @@
     "alimentation": "Laboratoires pharmaceutiques"
   },
   "Observatoire BBC (Bâtiments Basse Consommation)": {
-    "description": "Recensement d’opérations exemplaires. Cet observatoire a pour objectifs de :                                                                                                                                                                                                                                                                                                                                                                                                           - Capitaliser et de valoriser les opérations très performantes sur le plan énergétique\n- Diffuser les bonnes pratiques aux professionnels\n- Fournir des éléments contribuant à évaluer les politiques publiques et à élaborer les futures réglementations\n",
+    "description": "Recensement d’opérations exemplaires. Cet observatoire a pour objectifs de :                                                                                                                                                                                                                                                                                                                                                                                                           - Capitaliser et de valoriser les opérations très performantes sur le plan énergétique- Diffuser les bonnes pratiques aux professionnels- Fournir des éléments contribuant à évaluer les politiques publiques et à élaborer les futures réglementations",
     "commentaire": "L'année 2013 est la dernière année de financement de l'observatoire. ",
     "gestionnaire": "ADEME",
     "origine": "ADEME",
@@ -1782,7 +1782,7 @@
   "Base des infections sexuellement transmissibles (IST)": {
     "lien": "http://www.invs.sante.fr/Dossiers-thematiques/Maladies-infectieuses/VIH-sida-IST/Infection-a-VIH-et-sida/Donnees/Donnees-epidemiologiques-sur-l-infection-a-VIH-et-les-IST",
     "commentaire": " Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "gestionnaire": "INVS",
+    "gestionnaire": "Institut National de Veille Sanitaire",
     "description": "Données épidémiologiques sur l'infection au VIH et les IST (nombre de dépistages annuels, nombre de cas), incidence régionale"
   },
   "\"Base\" ventes d'alcool": {
@@ -1827,14 +1827,14 @@
   "Statistiques agrégées du SNATIH": {
     "description": "Nombre de séjours MCO, SSR, HAD et psy présenté en fonction i) du type de séjour, séjours non CM 24 (GHM J et T à compter de 2009) ni séances, séjours de la CM 24 (GHM J et T à compter de 2009) et séances, ii) de la classe d’âge des malades, décomposé en deux tableaux, (0-29j, 30-119j, 120j-1an, 1an-4ans, 5ans-16ans) d’une part et (17-25 ans, 26-45 ans, 46-55 ans, 56-70 ans, 56-70 ans, > 80 ans) d’autre part, iii) du sexe des malades, iv de la catégorie d’établissements",
     "commentaire": " Cette base Activité des établissements de santé fait partie de la catégorie Activité des établissements de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "gestionnaire": "ATIH",
+    "gestionnaire": "Agence Technique de l'Information sur l'Hospitalisation",
     "alimentation": "PMSI",
     "lien": "http://www.atih.sante.fr/snatih/statistiques"
   },
   "Applicatif du SNATIH : Evolution de l'activité des établissements": {
     "description": "Pour une région sélectionnée, par période mensuelle, sont disponibles les éléments d’activité de chaque établissement ex-DG, avec l’évolution sur une année : nombre de séjours valorisés, décomposition des recettes (GHS, actes et consultations externes, médicaments, DMI, HAD).",
     "commentaire": " Cette base Activité des établissements de santé fait partie de la catégorie Activité des établissements de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "gestionnaire": "ATIH",
+    "gestionnaire": "Agence Technique de l'Information sur l'Hospitalisation",
     "alimentation": "_ Principales sources : PMSI, SAE",
     "lien": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php"
   },
@@ -1878,8 +1878,8 @@
     "lien": "http://www.ameli.fr/l-assurance-maladie/statistiques-et-publications/donnees-statistiques/biologie/biolam-2010-2012.php"
   },
   "BOLERO": {
-    "description": "Remontée annuelle exhaustive des comptes financiers des organismes HLM.  \n",
-    "commentaire": "Elargissement du périmètre :\n- inclure les données financières des SEM. La loi ALUR prévoit de rendre obligatoire la transmission de leurs comptes sociaux \n- inclure les données des organismes bénéficiant de l’agrément maîtrise d’ouvrage insertion (obligation de remontée des comptes et d’un compte-rendu d’activité concernée par l’agrément en application de l’article R. 365-7 du CCH).\nConçu comme outil interne\n",
+    "description": "Remontée annuelle exhaustive des comptes financiers des organismes HLM.  ",
+    "commentaire": "Elargissement du périmètre :- inclure les données financières des SEM. La loi ALUR prévoit de rendre obligatoire la transmission de leurs comptes sociaux - inclure les données des organismes bénéficiant de l’agrément maîtrise d’ouvrage insertion (obligation de remontée des comptes et d’un compte-rendu d’activité concernée par l’agrément en application de l’article R. 365-7 du CCH).Conçu comme outil interne",
     "gestionnaire": "DHUP",
     "origine": "DHUP",
     "granularite": "National, régional et départemental"
@@ -1905,7 +1905,7 @@
     "lien": "http://www.audipog.net/pdf/seminaires/seminaire_2008/pres03_audipog.pdf"
   },
   "Montant et nombre des ventes immobilières": {
-    "description": "L'objectif de cette enquête est d'estimer le montant et le nombre de ventes immobilières, tous types de biens confondus, supportant le taux de droit commun des droits de mutation.\n",
+    "description": "L'objectif de cette enquête est d'estimer le montant et le nombre de ventes immobilières, tous types de biens confondus, supportant le taux de droit commun des droits de mutation.",
     "commentaire": "L’obligation faite par la loi aux notaires d’alimenter les bases notariales, lorsqu’elle sera effective rendra l’estimation plus précise et permettra une plus grande finesse géographique et temporelle.",
     "gestionnaire": "CGEDD",
     "origine": "CGEDD",
@@ -1931,7 +1931,7 @@
   },
   "Demande de valeur foncière": {
     "description": "Fichier exhaustif de toutes « les mutations immobilières à titre onéreux publiées dans les Conservations des hypothèques, avec descriptif cadastral des biens »",
-    "commentaire": "Les fichiers DVF sont accessibles aux collectivités locales. Un groupe de travail est constitué sur l'exploitation des fichiers (\"groupe DVF\").\nPour les services de l'Etat, ils font l’objet d’une négociation en cours avec la DGFiP pour permettre que l’administration fiscale puisse leur transmettre effectivement et  gratuitement les éléments d’informations qu’elle détient au sujet des valeurs foncières déclarées à l’occasion des mutations intervenues dans les cinq dernières années et qui sont nécessaires à l’exercice de leurs compétences en matière de politique foncière et d’aménagement.\n",
+    "commentaire": "Les fichiers DVF sont accessibles aux collectivités locales. Un groupe de travail est constitué sur l'exploitation des fichiers (\"groupe DVF\").Pour les services de l'Etat, ils font l’objet d’une négociation en cours avec la DGFiP pour permettre que l’administration fiscale puisse leur transmettre effectivement et  gratuitement les éléments d’informations qu’elle détient au sujet des valeurs foncières déclarées à l’occasion des mutations intervenues dans les cinq dernières années et qui sont nécessaires à l’exercice de leurs compétences en matière de politique foncière et d’aménagement.",
     "gestionnaire": "DGFIP",
     "origine": "DGFIP",
     "granularite": "Information jusqu’aux locaux objet de la mutation."
@@ -2038,7 +2038,7 @@
   "Recueil national des résumés de passage aux urgences": {
     "description": "Dans les RPU :",
     "commentaire": "En 2012, le réseau Oscour recouvre deux tiers de l’activité d’accueil des urgences. Cette base Activité des établissements de santé fait partie de la catégorie Activité des établissements de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "gestionnaire": "ATIH",
+    "gestionnaire": "Agence Technique de l'Information sur l'Hospitalisation",
     "alimentation": "Etablissements autorisés en médecine d'urgence"
   },
   "Cycle triennal d’enquêtes sur la santé des enfants et adolescents scolarisés": {
@@ -2055,7 +2055,7 @@
     "alimentation": "SNIIRAM",
     "lien": "http://www.ameli.fr/l-assurance-maladie/statistiques-et-publications/donnees-statistiques/medicament/medic-am-2008-2012.php"
   },
-  "Registre français des émissions polluantes (IREP)": {
+  "Registre français des Émissions Polluantes": {
     "lien": "http://www.irep.ecologie.gouv.fr/IREP/index.php",
     "commentaire": " Cette base Etat de santé fait partie de la catégorie Etat de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
     "gestionnaire": "Ministère de l'écologie, du développement durable et de l'énergie",
@@ -2078,14 +2078,14 @@
   "Applicatif du SNATIH : Indicateurs de productivité médico-économique": {
     "description": "Mesure du taux de couverture des charges par les recettes par établissement ex-DG, pour le secteur MCO, le secteur sous DAF et tous champs confondus. L’évolution sur trois années est également donnée.",
     "commentaire": " Cette base Performance financière fait partie de la catégorie Performance financière du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "gestionnaire": "ATIH",
+    "gestionnaire": "Agence Technique de l'Information sur l'Hospitalisation",
     "alimentation": "_ Principales sources : PMSI, SAE, remontées financières des établissements",
     "lien": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php"
   },
   "Bilan Social": {
     "description": "Remontée des bilans sociaux des établissements de plus de 300 agents : structure du personnel, rémunération, condition de travail…",
     "commentaire": " Cette base Personnel fait partie de la catégorie Personnel du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "gestionnaire": "ATIH",
+    "gestionnaire": "Agence Technique de l'Information sur l'Hospitalisation",
     "alimentation": "Etablissements de santé publics"
   },
   "Projets régionaux de santé": {
@@ -2129,11 +2129,11 @@
     "alimentation": "RPU"
   },
   "Classeur statistique de l'Anah": {
-    "description": "Logements du parc privé faisant l'objet des travaux  subventionnés par l'Anah\nCette base permet de connaître de façon détaillée les dossiers, logements, travaux et subventions en regard des priorités de l'Agence.",
+    "description": "Logements du parc privé faisant l'objet des travaux  subventionnés par l'AnahCette base permet de connaître de façon détaillée les dossiers, logements, travaux et subventions en regard des priorités de l'Agence.",
     "commentaire": "Volonté d'ouvrir",
     "gestionnaire": "ANAH",
     "origine": "ANAH",
-    "granularite": "France entière, les régions, les départements (détail par EPCI), et les délégataires de \ncompétence pour l'Aide à la pierre\n"
+    "granularite": "France entière, les régions, les départements (détail par EPCI), et les délégataires de compétence pour l'Aide à la pierre"
   },
   "Registre du Réseau Epidémiologie et Information en Néphrologie (REIN)": {
     "description": "Données sur le nombre de cas, le nombre de dialyse, le nombre de décès et le nombre de greffes de rein par région et par tranches d'âge",
@@ -2163,11 +2163,11 @@
   "Base de l'outil national d’inventaire et de pilotage du patrimoine hospitalier (OPHELIE)": {
     "description": "Inventaire du patrimoine hospitalier des établissements de santé",
     "commentaire": "CHU Cette base Infrastructures fait partie de la catégorie Infrastructures du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "gestionnaire": "ATIH",
+    "gestionnaire": "Agence Technique de l'Information sur l'Hospitalisation",
     "alimentation": "Etablissements de santé"
   },
   "Fiche de synthèse parc privé": {
-    "description": "Favoriser la connaissance du parc privé et la prise en compte de ses enjeux dans les politiques de l'habitat à l'échelle locale . \n(porter à connaissance pour nourrir les PLH, études préalables...)\nPréciser les enjeux relatifs à l'action et aux priorités de l'Anah. \nSituer/comparer/positionner les enjeux du territoire  concerné au regard des enjeux nationaux ou des autres territoires.\nPermettre aux services de l'Etat de dialoguer avec les élus sur les enjeux locaux. \nPrioriser l'action publique en matière d'habitat privé.\nFaciliter l'utilisation des données FILOCOM.\n",
+    "description": "Favoriser la connaissance du parc privé et la prise en compte de ses enjeux dans les politiques de l'habitat à l'échelle locale . (porter à connaissance pour nourrir les PLH, études préalables...)Préciser les enjeux relatifs à l'action et aux priorités de l'Anah. Situer/comparer/positionner les enjeux du territoire  concerné au regard des enjeux nationaux ou des autres territoires.Permettre aux services de l'Etat de dialoguer avec les élus sur les enjeux locaux. Prioriser l'action publique en matière d'habitat privé.Faciliter l'utilisation des données FILOCOM.",
     "commentaire": "",
     "gestionnaire": "ANAH",
     "origine": "ANAH",
@@ -2189,7 +2189,7 @@
   "ANCRE": {
     "description": "Le compte financier, l'Etat des Prévisions de Recettes et de Dépenses (EPRD) et les Rapports Infra-Annuels (RIA)",
     "commentaire": " Cette base Performance financière fait partie de la catégorie Performance financière du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "gestionnaire": "ATIH",
+    "gestionnaire": "Agence Technique de l'Information sur l'Hospitalisation",
     "alimentation": "Etablissements de santé via un logiciel SAP",
     "lien": "https://pasrel.atih.sante.fr/cas/login?service=https%3A%2F%2Fapplications.atih.sante.fr%2Fancre%2F"
   },
@@ -2230,7 +2230,7 @@
   "Applicatif du SNATIH : Evolution de l'activité trimestrielle": {
     "description": "A partir des données des tableaux MAT2A/OVALIDE, pour les domaines MCO, SSR, HAD et psychiatrie, par établissement, par catégorie d’établissements ou par région, les graphiques illustrent l’évolution, trimestre par trimestre depuis 2005, d’un grand nombre de paramètres d’activité (RSA, journées, séances, suppléments de réanimation, molécules onéreuses, etc.).",
     "commentaire": " Cette base Activité des établissements de santé fait partie de la catégorie Activité des établissements de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "gestionnaire": "ATIH",
+    "gestionnaire": "Agence Technique de l'Information sur l'Hospitalisation",
     "alimentation": "_ Principales sources : PMSI et tableaux MAT2A/OVALIDE",
     "lien": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php"
   },
@@ -2239,14 +2239,14 @@
     "commentaire": " Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
     "gestionnaire": "CNAMTS",
     "alimentation": "SNIIRAM",
-    "lien": "http://www.ameli.fr/l-assurance-maladie/statistiques-et-publications/donnees-statistiques/affection-de-longue-duree-ald/incidence/ald-30-en-2012.php\nhttp://www.ameli.fr/l-assurance-maladie/statistiques-et-publications/donnees-statistiques/affection-de-longue-duree-ald/prevalence/frequence-des-ald-au-31-12-2012.php"
+    "lien": "http://www.ameli.fr/l-assurance-maladie/statistiques-et-publications/donnees-statistiques/affection-de-longue-duree-ald/incidence/ald-30-en-2012.phphttp://www.ameli.fr/l-assurance-maladie/statistiques-et-publications/donnees-statistiques/affection-de-longue-duree-ald/prevalence/frequence-des-ald-au-31-12-2012.php"
   },
   "Base Perval ": {
     "description": "Envoi par les notaires, volontaire jusqu’à ce jour, des avant contrats et contrats de mutation immobilière à titre onéreux. L'objectif de cette base de données est de connaître de façon détaillée les prix de vente et leurs évolutions sur le territoire national, hors Ile-de-France.  Base gérée par Real.not et exploitée par Min.not.",
-    "commentaire": "Loi du 28 mars 2011 de modernisation des professions juridiques et financières. \nDécret n° 2013-803 du 3 septembre 2013 ",
+    "commentaire": "Loi du 28 mars 2011 de modernisation des professions juridiques et financières. Décret n° 2013-803 du 3 septembre 2013 ",
     "gestionnaire": "Conseil Supérieur du notariat",
     "origine": "Min.not",
-    "granularite": "Tous niveaux administratifs et sur mesure\n(National, régional, départemental, cantonal, EPCI, communal, quartier, cadastre, IRIS, zone à façon)\n"
+    "granularite": "Tous niveaux administratifs et sur mesure(National, régional, départemental, cantonal, EPCI, communal, quartier, cadastre, IRIS, zone à façon)"
   },
   "Base SIGREC": {
     "description": "Liste des essais cliniques réalisés par établissement",
@@ -2262,17 +2262,16 @@
     "alimentation": "Etablissements de santé publics : comptes de résultats et bilan"
   },
   "Indice du prix des logements neufs et anciens": {
-    "description": "L’indice de prix des logements (IPL) est un indice trimestriel, base 100 en moyenne annuelle 2010.\nL’IPL est un indice de prix de transaction mesurant, entre deux trimestres consécutifs, l’évolution pure des prix des logements vendus.\nPour un trimestre donné, il est obtenu comme la moyenne pondérée des deux indices suivants :\n- l’indice Notaires-Insee des prix des logements anciens\n- l’indice des prix des logements neufs\n",
-    "commentaire": "",
+    "description": "L’indice de prix des logements (IPL) est un indice trimestriel, base 100 en moyenne annuelle 2010. L’IPL est un indice de prix de transaction mesurant, entre deux trimestres consécutifs, l’évolution pure des prix des logements vendus.Pour un trimestre donné, il est obtenu comme la moyenne pondérée des deux indices suivants :L’indice Notaires-Insee des prix des logements anciens- l’indice des prix des logements neufs",
     "gestionnaire": "INSEE",
     "origine": "INSEE",
-    "granularite": "Le champ géographique est la France métropolitaine hors Corse.\nLes logements anciens considérés sont ceux appartenant au champ de l’indice Notaires-Insee.\nLes logements neufs retenus sont ceux appartenant au champ de l’enquête ECLN (voir infra).\n"
+    "granularite": "Le champ géographique est la France métropolitaine hors Corse.Les logements anciens considérés sont ceux appartenant au champ de l’indice Notaires-Insee.Les logements neufs retenus sont ceux appartenant au champ de l’enquête ECLN (voir infra)."
   },
   "Datamart du SNIIRAM : DAMIR de suivi des dépenses": {
     "description": "Décomposition des dépenses de santé par caisse liquidatrice, bénéficiaire, etc.",
     "commentaire": " Cette base Consultations fait partie de la catégorie Consultations du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
     "gestionnaire": "CNAMTS",
-    "alimentation": "_ SNIIRAM"
+    "alimentation": "SNIIRAM"
   },
   "Tableaux de bords de l'accréditation des médecins": {
     "description": "suivre le déploiement du dispositif de",
@@ -2281,8 +2280,8 @@
     "alimentation": "Médecins en établissement, HAS",
     "lien": "http://www.has-sante.fr/portail/jcms/c_1149405/tableau-de-bord-de-laccreditation-des-medecins"
   },
-  "Enquête patrimoine ": {
-    "description": "Enquête qui vise à mesurer le patrimoine et les \ncomportements associés (épargne, transferts entre générations,\ntrajectoires professionnelles\n",
+  "Enquête patrimoine": {
+    "description": "Enquête qui vise à mesurer le patrimoine et les comportements associés (épargne, transferts entre générations,trajectoires professionnelles",
     "commentaire": "Panélisation",
     "gestionnaire": "INSEE",
     "origine": "INSEE",
@@ -2292,7 +2291,7 @@
     "description": "Dépenses par \"grand ensemble\" médicaments de ville",
     "commentaire": " Cette base Médicaments et dispositifs fait partie de la catégorie Médicaments et dispositifs du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
     "gestionnaire": "CNAMTS",
-    "alimentation": "_ SNIIRAM"
+    "alimentation": "SNIIRAM"
   },
   "Répertoire public des essais cliniques de médicaments": {
     "lien": "https://icrepec.ansm.sante.fr/Public/index.php",
@@ -2301,28 +2300,27 @@
     "description": "Descriptions du contenu et des résultats des essais cliniques de médicaments menés en France, hormis certains essais cliniques de phase 1"
   },
   "Prêts conventionnés": {
-    "description": "Tout logement financé par un Prêt Conventionné. Permet un suivi des volumes distribués.",
-    "commentaire": "",
+    "description": "Tout logement financé par un Prêt Conventionné.",
+    "commentaire": "Permet un suivi des volumes distribués.",
     "gestionnaire": "SGFGAS",
     "origine": "SGFGAS",
     "granularite": "France entière"
   },
-  "Répertoire des procédures d’expulsion (projet) (Exploc)": {
+  "Répertoire des procédures d’expulsion (Exploc)": {
     "description": "Observation continue sur le suivi des procédures d’expulsion et des actions de prévention. Cette enquête vise à améliorer la qualité du service, le fonctionnement du traitement et de la gestion de la procédure d’expulsion locative, depuis l’enregistrement de la demande d’assignation, jusqu’au terme de cette procédure ainsi que la gestion des commissions de coordination des actions de prévention des expulsions locatives (CCAPEX).",
     "commentaire": "Déploiement de la première phase prévu en 2015, puis ouverture de l’application aux partenaires extérieurs aux services de l’Etat (BDF, CAF, conseils généraux, huissiers de justice, bailleurs sociaux...). Il est prévu la mise à disposition de données en open data",
     "gestionnaire": "DHUP",
-    "origine": "DMAT (Ministère de l'inétérieur) / DHUP",
+    "origine": ["DMAT"," DHUP"],
     "granularite": "Départementale pour les données nominatives. Départementale et nationale pour l’exploitation statistique."
   },
   "Base de l'établissement français du sang (EFS)": {
     "lien": "http://www.dondusang.net/rewrite/nocache/site/37/etablissement-francais-du-sang.htm?idRubrique=756",
-    "commentaire": " Cette base Autres fait partie de la catégorie Autres du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "gestionnaire": "Etablissement Français du Sang (EFS)",
+    "gestionnaire": "Etablissement Français du Sang",
     "description": "Enregistrement des donneurs et des produits reçus par des patients."
   },
-  "Base du Dossier Médical Personnel (DMP)": {
-    "description": "Information non disponible à ce jour",
-    "commentaire": "400 000 patients couverts à date (260 000 couverts fin 2012 ), notamment dans 4 régions pilotes (Alsace, Franche-Comté, Picardie, Aquitaine) Cette base Etat de santé fait partie de la catégorie Etat de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
+  "Dossier Médical Personnel": {
+    "acronyme": "DMP",
+    "description": "400 000 patients couverts à date (260 000 couverts fin 2012 ), notamment dans 4 régions pilotes (Alsace, Franche-Comté, Picardie, Aquitaine) Cette base Etat de santé fait partie de la catégorie Etat de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
     "gestionnaire": "ASIP Santé",
     "alimentation": "Médecins équipés d'un logiciel de prescription - accord des patients"
   }
