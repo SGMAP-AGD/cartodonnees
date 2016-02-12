@@ -1,5 +1,6 @@
 {
-  "Rapports d'activité en psychiatrie (RAPSY)": {
+  "Rapports d'activité en psychiatrie": {
+    "acronyme": "RAPSY",
     "lien": "http://www.drees.sante.gouv.fr/cartographie-regionale-de-l-offre,8450.html",
     "gestionnaire": "Direction de la Recherche, des Études, de l'Évaluation et des Statistiques",
     "commentaire": "80% des établissements interrogés ont répondu à l'enquête Cette base Activité des établissements de santé fait partie de la catégorie Activité des établissements de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
@@ -76,7 +77,7 @@
     "gestionnaire": "Institut National de la Statistique et des Études Économiques",
     "commentaire": "",
     "granularite": "Niveau national. L’enquête n’est pas représentative au niveau régional (et a fortiori à un niveau infra-régional) sauf exceptions (compléments d’échantillon). ",
-    "origine": "INSEE (division logement)",
+    "alimentation": "INSEE (division logement)",
     "description": "Enquête dédiée à l’observation des conditions de logement donc très détaillée sur ces domaines (équipement et niveau de confort ; environnement du logement et opinion du ménage sur le logement et le quartier). On dispose par ailleurs de la description détaillée du ménage et de ses revenus."
   },
   "DCIR (données de consommation inter-régimes) du SNIIRAM et échantillon généraliste des bénéficiaires (EGB)": {
@@ -89,7 +90,7 @@
     "gestionnaire": "Société de Gestion des Financements et de la Garantie de l’Accession Sociale à la propriété",
     "commentaire": "https://www2.sgfgas.fr/web/guest/statistiques1Aller vers une granularité plus fine (+data.gouv.fr), sous réserve de la bonne observation des règles de secret statistiques.",
     "granularite": "Code INSEE communal, utilisation agrégée possible à  tout  niveau géographique résultant d’une agrégation de communes (seule exception depuis 2011 : on peut distinguer les arrondissements parisiens)",
-    "origine": "SGFGAS",
+    "alimentation": "SGFGAS",
     "description": "Tout logement remplissant les conditions d’éligibilité à un PTZ. L'objectif de cette base de données est de connaître les bénéficiaires des différents dispositifs du PTZ, d'en évaluer la portée et de gérer les crédits d'impôts accordés."
   },
   "Répertoire des établissements pharmaceutiques": {
@@ -124,7 +125,7 @@
     "gestionnaire": "Agence Nationale de l'Habitat",
     "commentaire": "",
     "granularite": "Section cadastrale pour les tableurs infra-communaux(+étude aux échelles France, région et département)",
-    "origine": "ANAH",
+    "alimentation": "ANAH",
     "description": "Favoriser la prise en compte de l'enjeu des copropriétés fragiles dans les politiques de l'habitat  Susciter les démarches préventives afin de réduire ou limiter l'action curative, jugée trop tardive et très onéreuse pour la puissance publiqueEvaluer à l'échelle nationale le nombre de copropriétés et de logements en copropriétés fragiles Faciliter le repérage des zones à risques à fine échelle Prioriser l'action publique en général et optimiser la répartition des crédits de l'Anah en particulier"
   },
   "Tableau de bord de l’IDS :analyse de la démographie et de l'activité libérale des auxiliaires médicaux": {
@@ -154,7 +155,7 @@
     "gestionnaire": "Société de Gestion des Financements et de la Garantie de l’Accession Sociale à la propriété",
     "commentaire": "https://www2.sgfgas.fr/web/guest/statistiques1Aller vers une granularité plus fine (+data.gouv.fr), sous réserve de la bonne observation des règles de secret statistiques.",
     "granularite": "Code INSEE communal, utilisation agrégée possible à  tout  niveau géographique résultant d’une agrégation de communes (seule exception depuis 2011 : on peut distinguer les arrondissements parisiens) ",
-    "origine": "Société de Gestion des Financements et de la Garantie de l’Accession Sociale à la propriété",
+    "alimentation": "Société de Gestion des Financements et de la Garantie de l’Accession Sociale à la propriété",
     "description": "Tout logement remplissant les conditions d’éligibilité à un Prêt Garanti. Cette base de données offre une connaissance exhaustive des prêts et des emprunteurs. "
   },
   "Tableau de bord de l’IDS : suivi du reste à charge après intervention de l’assurance maladie obligatoire selon le profil du bénéficiaire, par spécialité médicale et pour l’activité libérale": {
@@ -252,14 +253,14 @@
     "gestionnaire": "Agence Nationale de l'Habitat",
     "commentaire": "Volonté d'ouvrir",
     "granularite": "France entière, les régions, les départements (détail par EPCI), et les délégataires de compétence pour l'Aide à la pierre",
-    "origine": "ANAH",
+    "alimentation": "ANAH",
     "description": "Logements du parc privé faisant l'objet des travaux  subventionnés par l'AnahCette base permet de connaître de façon détaillée les dossiers, logements, travaux et subventions en regard des priorités de l'Agence."
   },
   "OPEN – Observatoire Permanente de l’amélioration ENergétique du logement": {
     "gestionnaire": "Agence de l'Environnement et de la Maîtrise de l'Énergie",
     "commentaire": "OPEN a été reconduite fin 2014 pour une durée de 2 ans. La méthodologie est amenée à évoluer (classification des rénovations en « assimilées bouquets de travaux » plutôt qu’en « étoiles ») et va être régionalisée. L’enjeu, à terme, est de disposer dans chaque région des « OPEN-région » menés par les CERC et pilotés par une entité nationale.Le nouveau contrat avec le prestataire rend l'ADEME propriétaire des données, donc potentiellement pourront être mises à disposition en open data.",
     "granularite": "Niveau national.Une expérimentation sur 2 régions  a été réalisée en 2013.L’outil est amené à se régionaliser avec une implication de plus en e plus forte des CERC.",
-    "origine": "ADEME",
+    "alimentation": "ADEME",
     "description": "OPEN est un outil technico-économique capable de décrirel’état du marché de la rénovation énergétique.Il permet de mesurer la pénétration des équipements performants dans les logements en évaluant l’effet de levier des dispositifs d’incitation et, plus globalement, d’éclairer sur l’efficacité des différents outils en termes de retombées concrètes sur le développement de la filière bâtiment. "
   },
   "Enquête « Prescriptions médicales : disparités géographiques » de novembre 2004": {
@@ -325,7 +326,7 @@
     "gestionnaire": "Direction de l'Habitat, de l'Urbanisme et des Paysages",
     "commentaire": "Site : http://sne.info.application.territoires.gouv.fr/analyses-des-demandes-en-cours-r147.html - Volonté d'ouvrir plus largement prochainement",
     "granularite": "France entière, région, département, EPCI",
-    "origine": "Direction de l'Habitat, de l'Urbanisme et des Paysages",
+    "alimentation": "Direction de l'Habitat, de l'Urbanisme et des Paysages",
     "description": "Observation continue des enregistrements de demande de logement socialet des attributions de logement"
   },
   "Recueil des bulletins statistiques d'interruptions de grossesse (BIG)": {
@@ -383,7 +384,7 @@
     "gestionnaire": "Service de l'Observation et des Statistiques",
     "commentaire": "",
     "granularite": "Niveau communal",
-    "origine": "SOeS",
+    "alimentation": "SOeS",
     "description": "L’objectif de l’enquête est d’assurer un suivi du prix des terrains à bâtir faisant l'objet de la construction d'une maison individuelle. Elle permet de connaître le poids du prix d'achat du terrain dans le coût global d'un projet de construction de maison individuelle neuve et de connaître les niveaux de prix moyens, leurs évolutions et leurs déterminants.Elle permet également d’avoir des informations sur le prix et le type de maîtrise d'œuvre de la maison individuelle et d’affiner la connaissance des modes de chauffage dans le cadre des maisons individuelles neuves."
   },
   "Cohorte E3N": {
@@ -432,14 +433,14 @@
     "gestionnaire": "Direction Générale de l'Aménagement, du Logement et de la Nature",
     "commentaire": "Une étude d’opportunité est en cours pour réaliser un nouvel outil de saisie des réponses àl’enquête par les bailleurs et les DDT.",
     "granularite": "Département et unité urbaine de plus de 50 000 habitants, avec une distinction pour les logements en ZUS et ZRR.",
-    "origine": "DGALN",
+    "alimentation": "DGALN",
     "description": "Uniquement des logements locatifs sociaux ayant fait l’objet d’un finan-cement de l’Etat."
   },
   "Application « Comdalo », outil de gestion et de suivi des recours DALO et Infocentre « InfoDALo »": {
     "gestionnaire": "Direction de l'Habitat, de l'Urbanisme et des Paysages",
     "commentaire": "Mise en place d’une plate-forme de saisie en ligne des recours DALO.http://comdalo.info.application.logement.gouv.fr/Données sur  : http://www.hclpd.gouv.fr/les-chiffres-du-dalo-2013-a45.html ",
     "granularite": "France entière, région, département.",
-    "origine": "Direction de l'Habitat, de l'Urbanisme et des Paysages",
+    "alimentation": "Direction de l'Habitat, de l'Urbanisme et des Paysages",
     "description": "Observation continue des recours DALO."
   },
   "Applicatif du SNATIH : EPRD et RIA/RQ": {
@@ -466,7 +467,7 @@
     "gestionnaire": "Observatoire des Loyers de l'Agglomération Parisienne",
     "commentaire": "Mise en œuvre des recommandations du Cnis formulées dans son avis de mars 2013 sur la qualité du processus de production de l’Olap",
     "granularite": "Paris, petite couronne, grande couronne, département",
-    "origine": "Observatoire des Loyers de l'Agglomération Parisienne",
+    "alimentation": "Observatoire des Loyers de l'Agglomération Parisienne",
     "description": "Enquête annuelle sur les loyers du parc locatif privé. Panel de logements représentatif du parc locatif privé (méthode dessuotas)L'enquête vise à connaître les niveaux de loyers du parc locatif privé et leurs évolutions selon la situation du bail."
   },
   "Base de la cartographie des eaux de baignades": {
@@ -499,7 +500,7 @@
     "gestionnaire": "Institut National de la Statistique et des Études Économiques",
     "commentaire": "",
     "granularite": "France métropolitaine",
-    "origine": "Institut National de la Statistique et des Études Économiques",
+    "alimentation": "Institut National de la Statistique et des Études Économiques",
     "description": "Apporte à un coût raisonnable, des indications précoces et de qualité sur le passé récent, la situation présente et les perspectives à court terme des entreprises du secteur de la promotion immobilière. "
   },
   "Répertoires Opérationnels des Ressources (ROR)": {
@@ -541,7 +542,7 @@
     "gestionnaire": "Direction de l'Habitat, de l'Urbanisme et des Paysages",
     "commentaire": " Le module d’enquête doit être réformé pour prendre en compte toutes les évolutions de la loi du 18/01/2013. L'inégration dans un module d'enquête est à l'étude.",
     "granularite": "Communal, intercommunal, départemental, régional et national",
-    "origine": "DHUP",
+    "alimentation": "DHUP",
     "description": "Logements sociaux définis à l’article L.302-5 du CCH. L'objectif de cette enquête est de connaître les taux d’atteinte des objectifs triennaux de rattrapage définis à l’article L.302-8, les mises en état de carence définies par arrêtés des préfets et les taux de majoration des prélèvements annuels tels que définis à l’article L.302-9-1 ainsi que les passages en commissions départementales et nationale définies à l’article L.302-9-1-1."
   },
   "Indicateurs de défavorisation": {
@@ -559,7 +560,7 @@
   },
   "Contours IRIS": {
     "granularite": "IRIS",
-    "origine": [
+    "alimentation": [
       "Institut National de l'Information Géographique et Forestière",
       "Institut National de la Statistique et des Études Économiques"
     ],
@@ -589,7 +590,7 @@
     "gestionnaire": "Institut National de la Statistique et des Études Économiques",
     "commentaire": "",
     "granularite": "France métropolitaine",
-    "origine": "Conseil Supérieur du Notariat",
+    "alimentation": "Conseil Supérieur du Notariat",
     "description": "Mesurer les évolutions trimestrielles des prix des logements anciens"
   },
   "Base des infections sexuellement transmissibles (IST)": {
@@ -622,7 +623,7 @@
     "gestionnaire": "Service de l'Observation et des Statistiques",
     "commentaire": "dans l’attente de la renégociation de la convention entre la DGFIP et le SOeS",
     "granularite": "Jusqu’à la section cadastrale, sous réserve du respect des règles de secret statistique (cf. infra). ",
-    "origine": "DGFIP",
+    "alimentation": "DGFIP",
     "description": "Connaître les caractéristiques des logements et de leur(s) occupant(s) pour définir, observer et mettre en oeuvre les politiques locales de l’habitat, pour aider à la programmation du logement social et pour évaluer les politiques publiques en matière de logement, d’habitat et d’urbanisation. "
   },
   "Annuaire du site hopital.fr": {
@@ -662,7 +663,7 @@
     "gestionnaire": "Autorité de Contrôle Prudentiel et de Résolution",
     "commentaire": "Volonté de mise à disposition sur data.gouv.fr ",
     "granularite": "France métropolitaine",
-    "origine": "ACPR",
+    "alimentation": "ACPR",
     "description": "Suivre l’évolution des critères d’octroi des crédits à l’habitat aux particuliers résidents"
   },
   "Longitudinal Patient Database (LPD)": {
@@ -681,21 +682,21 @@
     "gestionnaire": "Caisse Nationale des Allocations Familiales",
     "commentaire": "Données disponibles sur  : https://www.caf.fr/etudes-et-statistiques/donnees-statistiques/logementNb de bénéficiaires par mois et par département ; nb de bénéficiaires par commune",
     "granularite": "France entière, métropole, Dom, département,caisse d’allocation familiale, commune",
-    "origine": "CNAF",
+    "alimentation": "CNAF",
     "description": "Extraction à partir des fichiers de gestion des caisses d’allocationsfamiliales (Caf) d’une base statistique de situation du stock de bénéficiaires au titre du mois de décembreFournit des informations exhaustives sur les droits et les caractéristiques des foyers bénéficiaires d’une aide personnelle au logement (ALF, ALS, APL)."
   },
   "Recensement de la population": {
     "gestionnaire": "Institut National de la Statistique et des Études Économiques",
     "commentaire": "",
     "granularite": "Communes et Iris",
-    "origine": "Institut National de la Statistique et des Études Économiques",
+    "alimentation": "Institut National de la Statistique et des Études Économiques",
     "description": "Le recensement repose désormais sur une collecte d'information annuelle. Les chiffres chaque année sont fondés sur 5 années d'enquêtes. Le recensement de la population est une source très riche sur les habitants et leurs conditions de logement (type de logement, période de construction, taille du logement, statut d'occupation, sanitaires, chauffage, équipements de confort…)."
   },
   "Montant et nombre des ventes immobilières": {
     "gestionnaire": "Conseil Général de l'Environnement et du Développement Durable",
     "commentaire": "L’obligation faite par la loi aux notaires d’alimenter les bases notariales, lorsqu’elle sera effective rendra l’estimation plus précise et permettra une plus grande finesse géographique et temporelle.",
     "granularite": "Département",
-    "origine": "CGEDD",
+    "alimentation": "CGEDD",
     "description": "L'objectif de cette enquête est d'estimer le montant et le nombre de ventes immobilières, tous types de biens confondus, supportant le taux de droit commun des droits de mutation."
   },
   "Base SIGREC": {
@@ -774,7 +775,7 @@
   "Observatoire des Bâtiments Basse Consommation": {
     "gestionnaire": "Agence de l'Environnement et de la Maîtrise de l'Énergie",
     "commentaire": "L'année 2013 est la dernière année de financement de l'observatoire. ",
-    "origine": "ADEME",
+    "alimentation": "ADEME",
     "description": "Recensement d’opérations exemplaires. Cet observatoire a pour objectifs de : - Capitaliser et de valoriser les opérations très performantes sur le plan énergétique - Diffuser les bonnes pratiques aux professionnels- Fournir des éléments contribuant à évaluer les politiques publiques et à élaborer les futures réglementations"
   },
   "\"Base\" indicateurs de rémunération sur objectifs de santé publique (ROSP)": {
@@ -795,7 +796,7 @@
     "gestionnaire": "Service de l'Observation et des Statistiques",
     "commentaire": "A reproduire dans 5-6 ans Faire évoluer le mode de collecte des consommations d’énergies de réseaux (scan des factures, compteurs intelligents, données fournisseurs,..)",
     "granularite": "National, Zones climatiques",
-    "origine": "SOeS",
+    "alimentation": "SOeS",
     "description": "Évaluer la performance thermique du parc des résidences principales en France métropolitaine.Analyser les résultats en fonction des caractéristiques des logements et des ménages occupantsIdentifier les populations en situation de précarité énergétique. "
   },
   "Tableau de bord de l'IDS : suivides actes techniques (actes CCAM) réalisés en secteur libéral": {
@@ -821,14 +822,14 @@
     "gestionnaire": "Direction Générale des Finances Publiques",
     "commentaire": "http://geoinfo.metier.i2/fichiers-fonciers-r549.html  ",
     "granularite": "Informationà la parcelle et au local.",
-    "origine": "CEREMA",
+    "alimentation": "CEREMA",
     "description": "Fichier exhaustif de toutes les propriétés bâties et non bâties dont la référence aux propriétaires personnes privées a été anonymisé conformément à la déclaration faite à la CNIL Ce fichier est issu des fichiers fonciers entretenus par la DGFiP qui reprend les déclarations des propriétaires, et mis à jour par les agents de la DGFiP notamment en fonction des opérations de constructions, des ventes à titre onéreux, et des successions."
   },
   "Outil de repérage et de traitement de l’habitat indigne ORTHI": {
     "gestionnaire": "Direction de l'Habitat, de l'Urbanisme et des Paysages",
     "commentaire": "Les évolutions suivantes sont projetées :- le développement de l'infocentre (en cours de recette) ;- le déploiement de l'outil en Outre-Mer.",
     "granularite": "national, régional et départemental",
-    "origine": "DHUP",
+    "alimentation": "DHUP",
     "description": "Situations de logements indignes (insalubrité, péril...), et habitats non décents repérés par les services intervenants dans ce domaine (services sociaux, CAF)."
   },
   "Bases de données sur lesmaladies à déclaration obligatoire : plus de 31 maladies couvertes": {
@@ -842,7 +843,7 @@
     "gestionnaire": "Direction de l'Habitat, de l'Urbanisme et des Paysages",
     "commentaire": "",
     "granularite": "Communes et EPCI pour PLHDépartement pour les PDH",
-    "origine": "DHUP",
+    "alimentation": "DHUP",
     "description": "Enquête réalisée auprès des DDT(M) via une fonctionnalité ‘Enquête’ disponible dans l’application SuDocUH (Suivi des documents d’urbanisme et de l’Habitat)Au niveau local elle permet de :- venir en appui des SD dans le pilotage des politiques publiques :production des PAC, avis de l’État, cohérence entre documents etprocédures à l'échelle d'un territoire- suivi des procédures- mutualiser l'information entre les services Habitat et Urbanisme- exercer le contrôle de légalité- récupérer des données en vue de leur intégration dans un SIGAu niveau national elle permet de :- rendre compte au Parlement et évaluer la mise en oeuvre desévolutions juridiques- diffuser des données publiques à l’échelle nationale (ex : Observatoiredes Politiques Territoriales : www.territoires.gouv.fr)- calculer des indicateurs mesurant l’avancement et les effets de laplanification."
   },
   "Fichier National des Etablissements Sanitaires et Sociaux": {
@@ -876,7 +877,7 @@
     "gestionnaire": "Agence de l'Environnement et de la Maîtrise de l'Énergie",
     "commentaire": "Elargissement aux DOM (DPE Guadeloupe, …)Développement d’un système de contrôle qualité des données envoyées.Dispositif de recherche association des doublonshttp://www.observatoire-dpe.fr/index.php/statistique : possibilité de requête",
     "granularite": "Au niveau de chaque collectivité territoriale",
-    "origine": "ADEME",
+    "alimentation": "ADEME",
     "description": "Ensemble des bâtiments faisant l’objet d’un diagnostic de performance énergétique (DPE) obligatoire"
   },
   "Données de cartographie du SNATIH": {
@@ -916,7 +917,7 @@
     "gestionnaire": "Service de l'Observation et des Statistiques",
     "commentaire": "Des travaux méthodologiques visant à améliorer la qualité des données sont assurés ou pilotés par le SOeS tout au long de l’année et présentés lors des groupes de travail de la commission. Ces investissements méthodologiques font généralement écho à l’amélioration du système d’information (nouvelle source statistique primaire, disponibilité de nouveaux fichiers administratifs, de nouvelles enquêtes...) ou, au contraire, à la disparition de sources qu’il convient de suppléer pour poursuivre des séries. À court terme, l’intégration des modifications de chiffrages du cadre central liées au passage à la Base 2010 sont une priorité.Par ailleurs, une réflexion est engagé sur la faisabilité d’une amélioration des données fiscales (avantages fiscaux et prélèvements) qui pourrait mobiliser de nouvelles sources et / ou de nouvelles méthodesDans les prochaines années, l’intégration des informations de la prochaine Enquête nationale logement, l’utilisation de données de comptabilité des producteurs spécifiques de service de logement (ESANE / FARE pour les HLM) ou les statistiques bancaires de la Banque de France semblent des chantiers importants. ",
     "granularite": "National",
-    "origine": "SOeS",
+    "alimentation": "SOeS",
     "description": "Le compte du logement se veut un outil d'analyse de l'environnement économique du logement. Il constitue un des comptes satellites de la comptabilité nationale. Plusieurs exigences découlent de ce statut :- l'exhaustivité : il s'agit de décrire l'ensemble des flux et des stocks, physiques et financiers, concernant le domaine du logement ;- la cohérence interne entre les données rassemblées ; - la cohérence avec le cadre central de la comptabilité nationale pour rendre possible la comparaison entre les agrégats du compte et ceux de la comptabilité nationale."
   },
   "Applicatif du SNATIH : Indicateurs d’analyse de l’activité (IAA)": {
@@ -1000,7 +1001,7 @@
     "gestionnaire": "Institut National de la Statistique et des Études Économiques",
     "commentaire": "Task Force Eurostat sur la révision de la base légale du dispositif. Restructuration du questionnaire (core module sur 3 ans, module sur 6 ans). Le module logement serait posé tous les 3 ans avec un petit nombre de questionnaires annuels.",
     "granularite": "France métropolitaine",
-    "origine": "Institut National de la Statistique et des Études Économiques ",
+    "alimentation": "Institut National de la Statistique et des Études Économiques ",
     "description": "L'enquête SRCV est la partie française de l'enquête européenne Statistics on Income and Living Conditions (SILC) qui permet de comparer les ressources et les conditions de vie des ménages entre les pays membres de l’Union Européenne. Elle propose des indicateurs structurels sur les revenus et la pauvreté. Le bloc \"habitation\" permet de décrire le logement (staut d'occupation, surface, année de construction) et renseigne sur les conditions de logement des ménages (humidité, chauffage, bruit, quartier). La constitution d'un panel permet de suivre une partie de l'échantillon d'années en années."
   },
   "Baromètre santé-environnement": {
@@ -1020,7 +1021,7 @@
     "gestionnaire": "Direction de l'Habitat, de l'Urbanisme et des Paysages",
     "commentaire": "Les étapes suivantes vont être lancées pour développer le projet:- finaliser les textes réglementaires d’application précisant notamment la liste précise des données inscrites dans le registre ;- finaliser l'étude de faisabilité pour cadrer le dictionnaire de données, la méthode de développement, les coûts;- intégrer l'impact des prochains travaux législatifs pour entériner la teneur du RNIC.Volonté d'intégrer la question de la mise à disposition de données",
     "granularite": "Echelle nationale : France Métropolitaine et DOMNiveau local : le registre permettra d’alimenter les observatoires locaux des copropriétés, afin notamment que les collectivités territoriales puissent détecter au plus tôt les fragilités des copropriétés et initier le cas échéant les procédures nécessaires.",
-    "origine": "DHUP",
+    "alimentation": "DHUP",
     "description": "Registre d'immatriculation - Observatoire national des copropriétés (RNIC). Les objectifs du RNIC seront :1. de recenser précisément les copropriétés et d’identifier le nom de leur représentant légal (syndic)2. d'établir des données statistiques comparatives et des ratios financiers relatifs à la gestion des copropriétés;3. de disposer d'un aperçu de l’état du bâti afin de faciliter l’élaboration de politiques publiques en faveur de l’amélioration de ce bâti;4. de faciliter la détection des copropriétés qui risquent de basculer dans des dysfonctionnements, afin de maîtriser les coûts publics exorbitants des interventions trop tardives."
   },
   "SERO-INF": {
@@ -1053,7 +1054,7 @@
     "gestionnaire": "Agence de l'Environnement et de la Maitrise de l'Energie",
     "commentaire": "L’articulation des données produites par le CEREN avec les statistiques publiques de l’énergie est l’un des objets de réflexion dans le cadre de l’audit sur les statistiques de l’énergie.",
     "granularite": "Niveau national, régional et départemental.",
-    "origine": "Agence de l'Environnement et de la Maitrise de l'Energie",
+    "alimentation": "Agence de l'Environnement et de la Maitrise de l'Energie",
     "description": "Annuaire des parcs, des consommations unitaires, des consommations totales par énergie, par usage et par catégorie de logement. Les catégories de logement sont constituées par les croisements des types de logements (maisons individuelles, appartements), des modes de chauffage (collectif, individuel), des énergies de chauffage et des dates de construction "
   },
   "Enquêtes annuelles sur les revenues et les conditions de vie (EU-SILC)": {
@@ -1067,7 +1068,7 @@
     "gestionnaire": "Institut National de la Statistique et des Études Économiques",
     "commentaire": "Amélioration de la prise en compte des réglementations thermiques Optimisation des modèles de l'individuel pur et du collectif par la prise en compte du revenu fiscal médian",
     "granularite": "Niveau national. Des comparaisons par zones d'aménagement économiques du territoires nécessiteraient d'augmenter significativement la taille de l'échantillon.",
-    "origine": "SOeS",
+    "alimentation": "SOeS",
     "description": "L’ICC mesure l’évolution du prix de construction des bâtiments neufs à usage principal d’habitation non communautaire en France métropolitaine."
   },
   "Résultats du contrôle sanitaire de la qualité de l’eau potable": {
@@ -1091,14 +1092,14 @@
     "gestionnaire": "Conseil Général de l'Environnement et du Développement Durable",
     "commentaire": "L’obligation faite par la loi aux notaires d’alimenter les bases notariales, lorsqu’elle sera effective rendra l’estimation plus précise et permettra une plus grande finesse géographique et temporelle.",
     "granularite": "France entière",
-    "origine": "Conseil Général de l'Environnement et du Développement Durable",
+    "alimentation": "Conseil Général de l'Environnement et du Développement Durable",
     "description": "L'objectif de cette enquête est d'estimer le nombre de ventes de logements  anciens soumis au taux de droits de mutation de droit commun (5,00% en 2013) . Cette estimation est nécessaire parce que l’on ne connaît pas exactement le nombre des transactions de logements. Elle est obtenue par le croisement de données fiscales et de données notariales."
   },
   "Infocentre sur les aides à la pierre SISAL": {
     "gestionnaire": "Direction de l'Habitat, de l'Urbanisme et des Paysages",
     "commentaire": "http://www.financement-logement-social.territoires.gouv.fr/ Déploiement de GALION dans les DOM et mise en place du portail de suivi et de programmation des logements sociaux.Intégration des nouvelles mesures d’aides à la pierre ( PLAI adaptés, éco-PLS)Volonté de mettre plus de données en accès ouvert ",
     "granularite": "commune",
-    "origine": "DHUP",
+    "alimentation": "DHUP",
     "description": "Données issues d’instruction des dossiers de financement et d’agrément GALION (METL) et AGORA (ANRU). L'objectif de cette base de donnée est de suivre l'activité de financement du logement social."
   },
   "Répertoire Adeli": {
@@ -1118,7 +1119,7 @@
     "gestionnaire": "Caisse Nationale des Allocations Familiales",
     "commentaire": "Données disponibles sur  : https://www.caf.fr/etudes-et-statistiques/donnees-statistiques/logementNb de bénéficiaires par mois et par département ; nb de bénéficiaires par commune",
     "granularite": "France entière, métropole, Dom, département,caisse d’allocation familiale, commune",
-    "origine": "CNAF",
+    "alimentation": "CNAF",
     "description": "Extraction à partir des fichiers de gestion des caisses d’allocationsfamiliales (Caf) d’une base statistique de situation du stock de bénéficiaires au titre des mois de janvier à décembreFournit des informations exhaustives sur les droits et les caractéristiques des foyers bénéficiaires d’une aide personnelle au logement (ALF, ALS, APL)."
   },
   "Panel d’observation des pratiques et des conditions d’exercice en médecine générale": {
@@ -1162,7 +1163,7 @@
     "gestionnaire": "Service de l'Observation et des Statistiques",
     "commentaire": "engagement du SOeS à déterminer une granularité optimale des données issues du Répertoire des logements locatifs des bailleurs sociaux et à mettre à disposition les fichiers bruts (extraits du logiciel Beyond). Un projet d'estimation en date réelle est en cours. L'objectif est de produire des estimations mensuelles dautorisations et de mises en chantier qui seront publiées tous les mois et se substitueront aux séries en date de prise en compte dans l'analyse conjoncturelle. Une réflexion sur une meilleure articulation entre les séries d'autorisation de constuire et de mises en chantier est également en cours.",
     "granularite": "Niveau communalUsages possibles pour des zonages infra communaux",
-    "origine": "SOeS",
+    "alimentation": "SOeS",
     "description": "Suivi de la construction neuve des logements et des locauxDeux types de séries statistiques sont proposées : les séries en date de prise en compte (suivi conjoncturel) et les séries en date réelle (études structurelles). "
   },
   "Baromètre oncologie": {
@@ -1206,7 +1207,7 @@
   "ECOLOWEB (Exploitation informatisée des COnventions et des LOyers)": {
     "gestionnaire": "Direction de l'Habitat, de l'Urbanisme et des Paysages",
     "granularite": "Départemental",
-    "origine": "METL (ministère chargé du logement)",
+    "alimentation": "METL (ministère chargé du logement)",
     "description": "Base de données sur le parc conventionné à l’APL. ECOLOWEB vise à instruire le flux des nouvelles conventions APL et à gérer le stock de conventions APL actives représentatif du parc locatif social. Cette application génère ainsi une base de données dont le champ des bailleurs porte sur les organismes HLM, les SEM, les autres bailleurs non HLM (personnes morales de droit public et de droit privé) ainsi que les bailleurs privés, personnes physiques."
   },
   "Baromètre cancer": {
@@ -1239,13 +1240,13 @@
     "gestionnaire": "Institut National de la Statistique et des Études Économiques",
     "commentaire": "",
     "granularite": "Niveau national. L’enquête n’est pas représentative au niveau régional.",
-    "origine": "Institut National de la Statistique et des Études Économiques",
+    "alimentation": "Institut National de la Statistique et des Études Économiques",
     "description": "Mesure les évolutions trimestrielles des loyers du secteur social, hors charges et avant déduction des aides – les évolutions du secteur libre sont mesurées grâce à l’enquête Loyers et charges"
   },
   "Enquête Loyers et charges ": {
     "gestionnaire": "Institut National de la Statistique et des Études Économiques",
     "granularite": "Niveau national. L’enquête n’est pas représentative au niveau régional.",
-    "origine": "Institut National de la Statistique et des Études Économiques",
+    "alimentation": "Institut National de la Statistique et des Études Économiques",
     "description": "Mesure les évolutions trimestrielles des loyers hors charges et avant déduction des aides"
   },
   "Enquête \"Contexte de la sexualité en France\" (CSF)": {
@@ -1309,14 +1310,14 @@
     ],
     "commentaire": " Un site internet dédié, permettant de visualiser les données collectées par les observatoires des loyers sera mis en service mi-2015. Il sera référencé sur la plate-forme open-data.gouv.fr. La mise à disposition des données non-anonymisées aux chercheurs est à l'étude. Elle se fera via l'accès au CASD.",
     "granularite": "Communale ou infracommunale sur les périmètres d'observation",
-    "origine": "OLL",
+    "alimentation": "OLL",
     "description": "Les observatoires locaux des loyers ont pour mission de recueillir les données relatives aux loyers sur une zone géographique déterminée et de mettre à la disposition du public des résultats statistiques représentatifs sur ces données.Le parc de référence est celui du parc locatif constitué de l'ensemble des locaux à usage d'habitation ou à usage mixte professionnel et d'habitation, à l'exception de ceux appartenant aux organismes d'habitations à loyer modéré, aux sociétés d'économie mixte de construction et de gestion des logements sociaux, ainsi qu'aux organisme chargés d'une MOI"
   },
   "Eco-prêt à taux zéro": {
     "gestionnaire": "Société de Gestion des Financements et de la Garantie de l’Accession Sociale à la propriété",
     "commentaire": "https://www2.sgfgas.fr/web/guest/statistiques1Aller vers une granularité plus fine (+data.gouv.fr), sous réserve de la bonne observation des règles de secret statistiques.",
     "granularite": "Code INSEE communal, utilisation agrégée possible à  tout  niveau géographique résultant d’une agrégation de communes (seule exception depuis 2011 : on peut distinguer les arrondissements parisiens)",
-    "origine": "Société de Gestion des Financements et de la Garantie de l’Accession Sociale à la propriété",
+    "alimentation": "Société de Gestion des Financements et de la Garantie de l’Accession Sociale à la propriété",
     "description": "Toute opération de rénovation énergétique ou d’assainissement non collectif  concernant un logement remplissant les conditions d’éligibilité  financée par un Eco-Prêt à taux zéro. L'objectif de cette base de données est de connaître les bénéficiaires de l'Eco-PTZ et les travaux réalisés, d'en évaluer la portée et de gérer les crédits d'impôts accordés."
   },
   "Base des cartographies OSCARS": {
@@ -1328,7 +1329,7 @@
   "Enquête « Maîtrise de l’Energie » ": {
     "gestionnaire": "Agence de l'Environnement et de la Maîtrise de l'Énergie",
     "granularite": "Niveau national.",
-    "origine": "Agence de l'Environnement et de la Maîtrise de l'Énergie",
+    "alimentation": "Agence de l'Environnement et de la Maîtrise de l'Énergie",
     "description": "L’enquête 10 000 ménages a pour objectif de disposer d’un outil de mesure de la sensibilisation des ménages français à la maîtrise de l’énergie, de dresser un bilan annuel de l'impact de la politique de l'énergie dans le secteur de l'habitat, de quantifier et qualifier les travaux d’améliorationénergétique effectués dans les logements."
   },
   "Enquête nationale de prévalence des infections nosocomiales (ENPIN)": {
@@ -1390,7 +1391,7 @@
     "gestionnaire": "Caisse Nationale des Allocations Familiales",
     "commentaire": "Données disponibles sur  : https://www.caf.fr/etudes-et-statistiques/donnees-statistiques/logementNb de bénéficiaires par mois et par département ; nb de bénéficiaires par commune",
     "granularite": "France entière, métropole, Dom, département,caisse d’allocation familiale, commune",
-    "origine": "CNAF",
+    "alimentation": "CNAF",
     "description": "Extraction à partir des fichiers de gestion des caisses d’allocationsfamiliales (Caf) d’une base statistique de situation du stock de bénéficiaires au titre du mois de mars, juin ou septembreFournit des informations exhaustives sur les droits et les caractéristiques des foyers bénéficiaires d’une aide personnelle au logement (ALF, ALS, APL)."
   },
   "Suivi des victimes de l'amiante": {
@@ -1429,7 +1430,7 @@
     "gestionnaire": "Direction Générale des Finances publiques",
     "commentaire": "Les fichiers DVF sont accessibles aux collectivités locales. Un groupe de travail est constitué sur l'exploitation des fichiers (\"groupe DVF\").Pour les services de l'Etat, ils font l’objet d’une négociation en cours avec la DGFiP pour permettre que l’administration fiscale puisse leur transmettre effectivement et  gratuitement les éléments d’informations qu’elle détient au sujet des valeurs foncières déclarées à l’occasion des mutations intervenues dans les cinq dernières années et qui sont nécessaires à l’exercice de leurs compétences en matière de politique foncière et d’aménagement.",
     "granularite": "Information jusqu’aux locaux objet de la mutation.",
-    "origine": "Direction générale des Finances publiques",
+    "alimentation": "Direction générale des Finances publiques",
     "description": "Fichier exhaustif de toutes « les mutations immobilières à titre onéreux publiées dans les Conservations des hypothèques, avec descriptif cadastral des biens »"
   },
   "Portail Terminologie de Santé": {
@@ -1445,7 +1446,7 @@
     "gestionnaire": "Direction de l'Habitat, de l'Urbanisme et des Paysages",
     "commentaire": "Modifications prévues /envisagées des statistiques demandées par l’arrêté : - mise à jour suite à évolution législative (RSA a remplacé RMI, suppression de la CDAPL …) - simplification éventuelle (allègement …) - compléments éventuels à ajouter (montants des remises de dettes consenties par les fournisseurs qui font actuellement l’objet d’un tableaufacultatif ajouté, précisions sur le volet des aides au paiement desfournitures d’énergie ...)",
     "granularite": "Données départementales, compilées et agrégées au niveau national :utilisations nationales et départementales ",
-    "origine": "Direction de l'Habitat, de l'Urbanisme et des Paysages",
+    "alimentation": "Direction de l'Habitat, de l'Urbanisme et des Paysages",
     "description": "Bilan statistique annuel des FSL"
   },
   "Tableau de Bord des Infections Nosocomiales (TBIN)": {
@@ -1495,7 +1496,7 @@
   "Patrimoine": {
     "gestionnaire": "Direction Générale des Finances publiques",
     "granularite": "Information à la parcelle et au local.",
-    "origine": "Direction générale des Finances publiques",
+    "alimentation": "Direction générale des Finances publiques",
     "description": "Fichier exhaustif de toutes les mutations immobilières à titre onéreux (immeubles bâtis à usage non professionnel).",
     "textes": [
       "Article L.107 B du livre des procédures fiscales",
@@ -1511,7 +1512,7 @@
   "Indice du prix des logements neufs et anciens": {
     "gestionnaire": "Institut National de la Statistique et des Études Économiques",
     "granularite": "Le champ géographique est la France métropolitaine hors Corse.Les logements anciens considérés sont ceux appartenant au champ de l’indice Notaires-Insee.Les logements neufs retenus sont ceux appartenant au champ de l’enquête ECLN (voir infra).",
-    "origine": "Institut National de la Statistique et des Études Économiques",
+    "alimentation": "Institut National de la Statistique et des Études Économiques",
     "description": "L’indice de prix des logements (IPL) est un indice trimestriel, base 100 en moyenne annuelle 2010. L’IPL est un indice de prix de transaction mesurant, entre deux trimestres consécutifs, l’évolution pure des prix des logements vendus.Pour un trimestre donné, il est obtenu comme la moyenne pondérée des deux indices suivants :L’indice Notaires-Insee des prix des logements anciens- l’indice des prix des logements neufs"
   },
   "Enquête IVG": {
@@ -1546,7 +1547,7 @@
     "gestionnaire": "Direction de l'Habitat, de l'Urbanisme et des Paysages",
     "commentaire": "En 2014, la fin de la première évaluation bisannuelle des CUS va permettre, dans le cadre d’un groupe de travail, de collecter des retours d’expérience sur l’utilisation de CROCUS et de réfléchir sur les évolutions à apporter à l’application.",
     "granularite": "Les données peuvent être utilisées au niveau d’un organisme, d’un département, d’une région ou au niveau national.",
-    "origine": "sous-direction de l’habitat et des organismes constructeurs",
+    "alimentation": "sous-direction de l’habitat et des organismes constructeurs",
     "description": "L’ensemble du patrimoine locatif, soit les logements locatifs sociaux et/ou les logements foyers, ainsi que l’activité d’accession. CROCUS permet de faciliter la démarche d’évaluation pour la partie quantitative  et de rendre disponible l’intégralité des engagements à l’ensemble des services de l’État. "
   },
   "Global Price Reporting Mechanism (GPRM) database": {
@@ -1584,7 +1585,7 @@
     "gestionnaire": "Société de Gestion des Financements et de la Garantie de l’Accession Sociale à la propriété",
     "commentaire": "Permet un suivi des volumes distribués.",
     "granularite": "France entière",
-    "origine": "Société de Gestion des Financements et de la Garantie de l’Accession Sociale à la propriété",
+    "alimentation": "Société de Gestion des Financements et de la Garantie de l’Accession Sociale à la propriété",
     "description": "Tout logement financé par un Prêt Conventionné."
   },
   "Base du sondage « perception de la sécurité des soins auprès des professionnels de santé »": {
@@ -1660,7 +1661,7 @@
     "gestionnaire": "Direction de l'Habitat, de l'Urbanisme et des Paysages",
     "commentaire": "Projet de refonte des conditions informatiques de collecte de l’enquête en tandem avec l’enquête OPS (WEB + sécurisation CERBERE).",
     "granularite": "Départemental / national",
-    "origine": "METL (ministère chargé du logement)",
+    "alimentation": "METL (ministère chargé du logement)",
     "description": "Renseignement d’un questionnaire par chaque bailleurs sociaux (HLM, SEM, autres bailleurs sociaux non hlm). L’enquête a vocation à déterminer : - les caractéristiques du patrimoine locatif social du bailleur - les logements occupés par un locataire (le nombre de logements dont le locataire n’a pas répondu à l’enquête « ressources », le nombre de logements dont le locataire dispose de revenus imposables égaux ou supérieurs aux plafonds de ressources d’accès au parc locatif social), - le barème de calcul du SLS pratiqué par le bailleur, - les logements occupés par un locataire assujetti au SLS, - la liquidation du SLS (le montant appelé auprès des locataires assujettis ainsi que le montant de loyer appelé, le nombre de logements dont le locataire fait l’objet d’une liquidation provisoire, le nombre de logements pour lesquels le montant de SLS est plafonné). "
   },
   "Tableau de bord de l’IDS : suivi des dépenses remboursées par lieu d’exécution et de prescription par le régime général de l'assurance maladie": {
@@ -1724,14 +1725,14 @@
     "gestionnaire": "Conseil Supérieur du notariat",
     "commentaire": "Loi du 28 mars 2011 de modernisation des professions juridiques et financières. Décret n° 2013-803 du 3 septembre 2013 ",
     "granularite": "Tous niveaux administratifs et sur mesure(National, régional, départemental, cantonal, EPCI, communal, quartier, cadastre, IRIS, zone à façon)",
-    "origine": "Min.not",
+    "alimentation": "Min.not",
     "description": "Envoi par les notaires, volontaire jusqu’à ce jour, des avant contrats et contrats de mutation immobilière à titre onéreux. L'objectif de cette base de données est de connaître de façon détaillée les prix de vente et leurs évolutions sur le territoire national, hors Ile-de-France.  Base gérée par Real.not et exploitée par Min.not."
   },
   "Indice de prix des travaux d’entretien et d’amélioration de logements (IPEA) ": {
     "gestionnaire": "Institut National de la Statistique et des Études Économiques",
     "commentaire": "",
     "granularite": "Niveau national. Des comparaisons par zones d'aménagement économiques du territoires nécessiteraient d'augmenter significativement la taille de l'échantillon.",
-    "origine": "Institut National de la Statistique et des Études Économiques",
+    "alimentation": "Institut National de la Statistique et des Études Économiques",
     "description": "L'objectif de l'enquête est d'établir des indices de prix trimestriels couvrant les différentes activités nécessaires à l'entretien et l'amélioration des logements. Ces indices peuvent être utilisés pour l’analyse de l’activité du secteur comme indicateurs conjoncturels, ou comme déflateurs des comptes nationaux. Ils peuvent également servir pour indexer des contrats. "
   },
   "NHWS (National Health Wellness Survey)": {
@@ -1752,7 +1753,7 @@
     "gestionnaire": "Direction de l'Habitat, de l'Urbanisme et des Paysages",
     "commentaire": "",
     "granularite": "Niveau le plus précis : zone géographique (zonage I/II/III)",
-    "origine": "CNAF",
+    "alimentation": "CNAF",
     "description": "Exploitation par la DHUP d’un échantillon de bénéficiaires d’aides personnelles au logement fourni par les organismes liquidateurs des prestations (CNAF et CCMSA)"
   },
   "Cycle triennal d’enquêtes sur la santé des enfants et adolescents scolarisés": {
@@ -1860,7 +1861,7 @@
     "acronyme": "BIEN",
     "gestionnaire": "Chambre interdépartementale des Notaires de Paris",
     "granularite": "Périmètre : l’Ile-de-FranceDonnées statistiques au niveau  région, département, commune, arrondissements de Paris, quartiers, secteurs géographiques plus fins.",
-    "origine": "Paris Notaire Service",
+    "alimentation": "Paris Notaire Service",
     "description": "Alimentation par les notaires d’Ile-de-France de la base BIEN recensant les ventes immobilières (mutations à titre onéreux) en Ile-de-France.L’alimentation se fait sur la base du volontariat à partir de 1990 pour Paris et la petite Couronne, à partir de 1996 pour la Grande Couronne.L'objectif de cette base de données est de connaître de façon détaillée les prix de vente et leurs évolutions en Ile-de-France.",
     "textes": [
       "Loi du 28 mars 2011 de modernisation des professions juridiques et financières.",
@@ -1910,7 +1911,7 @@
     "gestionnaire": "Direction de l'Habitat, de l'Urbanisme et des Paysages",
     "commentaire": "Le module d’enquête doit être réformé pour prendre en compte toutes les évolutions de la loi du 18/01/2013",
     "granularite": "Communal, intercommunal, départemental, régional et national",
-    "origine": "DHUP",
+    "alimentation": "DHUP",
     "description": "Logements sociaux définis à l’article L.302-5 du CCH. L'objectif de cette enquêté est de connaître les taux de logements sociaux des communes concernées par l’article L.302-5, les montants des prélèvements bruts et nets, les montants des dépenses déductibles, les taux de majorations, les bénéficiaires des prélèvements, les exonérations et les exemptions.Elle permet également de connaître  le type de logements sociaux financés depuis 2002 dans les communes concernées (deuxième inventaire introduit par la loi du 18/01/2013)"
   },
   "Tableau de bord de l’IDS : suivi de l’activité et des dépenses des centres libéraux de radiothérapie": {
@@ -1971,7 +1972,7 @@
     "gestionnaire": "Direction de l'Habitat, de l'Urbanisme et des Paysages",
     "commentaire": "Déploiement de la première phase prévu en 2015, puis ouverture de l’application aux partenaires extérieurs aux services de l’Etat (BDF, CAF, conseils généraux, huissiers de justice, bailleurs sociaux...). Il est prévu la mise à disposition de données en open data",
     "granularite": "Départementale pour les données nominatives. Départementale et nationale pour l’exploitation statistique.",
-    "origine": [
+    "alimentation": [
       "Direction de la Modernisation et de l'Action Territoriale",
       "Direction de l'Habitat, de l'Urbanisme et des Paysages"
     ],
@@ -2020,7 +2021,7 @@
     "gestionnaire": "Direction de l'Habitat, de l'Urbanisme et des Paysages",
     "commentaire": "Elargissement du périmètre :- inclure les données financières des SEM. La loi ALUR prévoit de rendre obligatoire la transmission de leurs comptes sociaux - inclure les données des organismes bénéficiant de l’agrément maîtrise d’ouvrage insertion (obligation de remontée des comptes et d’un compte-rendu d’activité concernée par l’agrément en application de l’article R. 365-7 du CCH).Conçu comme outil interne",
     "granularite": "National, régional et départemental",
-    "origine": "Direction de l'Habitat, de l'Urbanisme et des Paysages",
+    "alimentation": "Direction de l'Habitat, de l'Urbanisme et des Paysages",
     "description": "Remontée annuelle exhaustive des comptes financiers des organismes HLM.  "
   },
   "Applicatif du SNATIH : Analyse croisée de consommation/production de soins MCO (HAD, SSR, PSY)": {
@@ -2078,7 +2079,7 @@
     "gestionnaire": "Institut National de la Statistique et des Études Économiques",
     "commentaire": "http://www.insee.fr/fr/publics/default.asp?page=communication/recensement/particuliers/efl1.htm                                                                                                                                                                                                                                                                                                                                                    Un INSEE référence sur la famille sera publié en 2015",
     "granularite": "Régional",
-    "origine": "INSEE",
+    "alimentation": "INSEE",
     "description": "L’enquête famille et logements 2011 permet d’actualiser les analyses de la fécondité selon les générations, ou selon les caractéristiques sociodémographiques et l’origine géographique."
   },
   "Base QUALHAS de qualité et de sécurité des soins": {
@@ -2097,7 +2098,7 @@
     "gestionnaire": "Institut National de la Statistique et des Études Économiques",
     "commentaire": "Panélisation",
     "granularite": "France entière depuis 2010",
-    "origine": "Institut National de la Statistique et des Études Économiques",
+    "alimentation": "Institut National de la Statistique et des Études Économiques",
     "description": "Enquête qui vise à mesurer le patrimoine et les comportements associés (épargne, transferts entre générations,trajectoires professionnelles"
   },
   "Enquêtes en milieu scolaire": {
@@ -2153,7 +2154,7 @@
     "gestionnaire": "Institut de Radioprotection et de Sûreté Nucléaire",
     "commentaire": "",
     "granularite": "commune voire département",
-    "origine": "Institut de Radioprotection et de Sûreté Nucléaire",
+    "alimentation": "Institut de Radioprotection et de Sûreté Nucléaire",
     "description": " connaissance de la distribution de l’activité volumique du radon dans l’habitat et l’estimation de l’exposition moyenne des populations en France"
   },
   "Base Statistique Annuelle des Etablissements de Santé (SAE)": {
@@ -2186,7 +2187,7 @@
     "gestionnaire": "Direction de l'Habitat, de l'Urbanisme et des Paysages",
     "commentaire": "Données DOM depuis le millésime 2012A compter du millésime 2013 , il a été décidé de scinder le marchéen deux marchés correspondants aux deux phases de l’étude : la constitution de l’échantillon d’une part, le redressement et l’analyse d’autre part. La méthodologie utilisée pour le redressement peut en conséquence être amenée à changer. ",
     "granularite": "France",
-    "origine": "CSA prestataire",
+    "alimentation": "CSA prestataire",
     "description": "Résidences principales, résidences secondaires, investissement locatif - Enuqête par sondage sur les conditions dans lesquelles les ménages ont acheté, construit ouamélioré un logement en se finançant par emprun"
   },
   "AGGIR PATHOS": {
@@ -2213,7 +2214,7 @@
     "gestionnaire": "Service de l'Observation et des Statistiques",
     "commentaire": "Une refonte de l'enquête est prévue d'ici 2015. Elle doit permettre de mieux répondre aux attentes des utilisateurs, alléger la charge des enquêtés (centralisation de la réponse pour les gros promotteurs avec envoi de fichiers) et diminuer le délai de publication.                                   ",
     "granularite": "Niveau communal",
-    "origine": "Service de l'Observation et des Statistiques",
+    "alimentation": "Service de l'Observation et des Statistiques",
     "description": "L'objectif de l'Enquête sur la Commercialisation des Logements Neufs (ECLN) est d'assurer un suivi de la commercialisation par les promoteurs des logements neufs destinés à la vente. L'enquête permet ainsi de disposer d'éléments sur les prix, mises en vente, réservations, encours de logements neufs proposés à la vente, avec distinction entre maisons individuelles et appartements, selon le nombre de pièces."
   },
   "Tableau de bord de l’IDS : suivi des actes de radiologie réalisés en activité libérale": {
@@ -2244,7 +2245,7 @@
     "gestionnaire": "Autorité de Contrôle Prudentiel et de Résolution",
     "commentaire": "Volonté de mise à disposition sur data.gouv.fr ",
     "granularite": "France métropolitaine",
-    "origine": "ACPR",
+    "alimentation": "ACPR",
     "description": "Suivre l’évolution des risques attachés au financement de l’habitat des particuliers résidents en France"
   },
   "Base de la cartographie du potentiel d'exposition au RADON": {
@@ -2283,7 +2284,7 @@
     "gestionnaire": "Agence Nationale de l'Habitat",
     "commentaire": "",
     "granularite": "Département, cantons, communes, EPCI, sections cadastrales des communes de plus de 5 000 habitants.",
-    "origine": "ANAH",
+    "alimentation": "ANAH",
     "description": "Favoriser la prise en compte de la lutte contre l'habitat indigne dans les politiques publiques.Susciter le dialogue entre les services de l'Etat et les collecttivités locales.Faciliter le repérage des zones à risques, c'est à dire des secteurs à forte probabilité de logements indignes ou dégradés.Prioriser l'action publique en général et optimiser la répartition des crédits de l'Anah en particulier."
   },
   "Système National des Données Mutualistes": {
@@ -2316,11 +2317,11 @@
     "gestionnaire": "Agence Nationale de l'Habitat",
     "commentaire": "",
     "granularite": "Commune, epci, canton, département, région, France métropolitaine.",
-    "origine": "ANAH",
+    "alimentation": "ANAH",
     "description": "Favoriser la connaissance du parc privé et la prise en compte de ses enjeux dans les politiques de l'habitat à l'échelle locale . (porter à connaissance pour nourrir les PLH, études préalables...)Préciser les enjeux relatifs à l'action et aux priorités de l'Anah. Situer/comparer/positionner les enjeux du territoire  concerné au regard des enjeux nationaux ou des autres territoires.Permettre aux services de l'Etat de dialoguer avec les élus sur les enjeux locaux. Prioriser l'action publique en matière d'habitat privé.Faciliter l'utilisation des données FILOCOM."
   },
   "SYPLO": {
-    "origine": "DHUP",
+    "alimentation": "DHUP",
     "description": "Système de gestion et de pilotage du contingent réservé de l’Etat. ",
     "gestionnaire": "Direction de l'Habitat, de l'Urbanisme et des Paysages"
   },
@@ -2335,7 +2336,7 @@
     "gestionnaire": "Service de l'Observation et des Statistiques",
     "commentaire": "Projet d’immatriculation des logements en continu afin d’accroître la synergie avec le Système national d’enregistrement de la demande de logement social et améliorer la qualité du répertoire.",
     "granularite": "Communal sans restrictions.",
-    "origine": "SOeS",
+    "alimentation": "SOeS",
     "description": "Description du parc de logements locatifs sociaux au 1er janvier d’une année"
   },
   "Baromètres et études INCa/Ipsos, INCa/BVA…": {
@@ -2356,7 +2357,7 @@
     "gestionnaire": "Direction de l'Habitat, de l'Urbanisme et des Paysages",
     "commentaire": "Du fait des difficultés rencontrées avec l’application actuelle, la DHUP travaille à la mise en place d’une nouvelle application, en coordination avec les applications DHUP existantes ou en cours de déploiement (SPLS, GALION). Elle permettra d’adapter la robustesse de l’application aux nouvelles conditions de l’éco-PLS, de réajuster le formulaire, de permettre aux services déconcentrés un meilleur suivi des opérations de rénovation énergétique et d’améliorer le croisement entre les données de la DHUP et celles de la CDC.",
     "granularite": "Utilisation des données possible au niveau de l’opération, c’est-à-dire un bâtiment ou un ensemble de bâtiments, ou à un niveau agrégé (national, régional, départemental). ",
-    "origine": "DHUP",
+    "alimentation": "DHUP",
     "description": "Enquête exhaustive, sur l’ensemble des opérations de rénovation énergétique mobilisant l’éco-PLS. Cette enquête permet d'avoir un bilan sur les types de travaux et les gains de performance énergétique induits par un dispositif incitatif tel que l'éco-PLS, d'étudier les conséquences des critères financiers et techniques fixés par l’Etat, d'améliorer le dispositif si besoin, ou de réorienter la cible le cas échéant. "
   }
 }
