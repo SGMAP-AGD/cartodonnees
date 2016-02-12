@@ -13,7 +13,11 @@ db = client.cartographie
 
 @app.route("/")
 def hello():
-    return "API de la Cartographie collabortive des données de l'État v0"
+  # Retourne des informations sur l'API
+  info = {}
+  info["api"] = "Cartographie collaborative des données de l'État v0"
+  info["version"] = "0.0.1"
+  return Response(json.dumps(info, indent= 2,ensure_ascii=False),mimetype='application/json; charset=utf-8')
     
 @app.route("/bases", methods=['GET', 'POST'])
 def bases():
@@ -31,22 +35,35 @@ def bases():
       else:
         return APIerror("Le nom de la base doit être renseigné.")
     else:
-      return getListeBases()
+      return Response(json.dumps(getListeBases(), indent= 2,ensure_ascii=False),mimetype='application/json; charset=utf-8')
+      
+@app.route("/bases/schema", methods=['GET'])
+def basesSchema():
+  bases = getListeBases()
+  dico = {"Nom de la base":{}}
+  for nom,base in bases.items():
+    for key,value in base.items():
+      dico["Nom de la base"][key] = str(type(value))
+  return Response(json.dumps(dico, indent= 2,ensure_ascii=False),mimetype='application/json; charset=utf-8')
 
 @app.route("/gestionnaires", methods=['GET'])
 # Retourne la liste des gestionnaires de base de données
 def gestionnaires():
-  return getGestionnaires()
+  return Response(json.dumps(getGestionnaires(), indent= 2,ensure_ascii=False),mimetype='application/json; charset=utf-8')
   
-@app.route("/schema", methods=['GET'])
-# Retourne la structure des documents 
-def schema():
-  resultats = db.bases.find()
-  return "structure"
-  
-def getGestionnaires():
-  resultats = db.bases.distinct("gestionnaire")
+@app.route("/gestionnaires/bases", methods=['GET'])
+def gestionnairesBases():
+  gestionnaires = getGestionnaires()
+  resultats = {}
+  for gestionnaire in gestionnaires:
+    bases = []
+    for base in db.bases.find({"gestionnaire": gestionnaire}):
+      bases.append(base["nom"])
+    resultats[gestionnaire] = bases
   return Response(json.dumps(resultats, indent= 2,ensure_ascii=False),mimetype='application/json; charset=utf-8')
+
+def getGestionnaires():
+  return db.bases.distinct("gestionnaire")
   
 def existeBase(nom):
   # Pour savoir si une base de données est déjà référencée
@@ -63,7 +80,7 @@ def getListeBases():
     nom = base["nom"]
     del base["nom"]
     resultats[nom] = base
-  return Response(json.dumps(resultats, indent= 2,ensure_ascii=False),mimetype='application/json; charset=utf-8')
+  return resultats
   
 def APIerror(message):
   print(message)
