@@ -710,7 +710,7 @@
     "gestionnaire": "Institut des Données de Santé",
     "commentaire": " Cette base Performance financière fait partie de la catégorie Performance financière du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
     "description": "Principaux indicateurs: Dépenses titres 1,2,3 ; Recettes titres 1,2,4",
-    "alimentation": "Direction Générale des Finances publiques"
+    "alimentation": "Direction Générale des Finances Publiques"
   },
   "Echelle nationale des coûts": {
     "lien": "http://www.atih.sante.fr/referentiel-de-couts-mco-2011",
@@ -1427,10 +1427,10 @@
     "alimentation": "Professionnels de santé"
   },
   "Demande de valeur foncière": {
-    "gestionnaire": "Direction Générale des Finances publiques",
+    "gestionnaire": "Direction Générale des Finances Publiques",
     "commentaire": "Les fichiers DVF sont accessibles aux collectivités locales. Un groupe de travail est constitué sur l'exploitation des fichiers (\"groupe DVF\").Pour les services de l'Etat, ils font l’objet d’une négociation en cours avec la DGFiP pour permettre que l’administration fiscale puisse leur transmettre effectivement et  gratuitement les éléments d’informations qu’elle détient au sujet des valeurs foncières déclarées à l’occasion des mutations intervenues dans les cinq dernières années et qui sont nécessaires à l’exercice de leurs compétences en matière de politique foncière et d’aménagement.",
     "granularite": "Information jusqu’aux locaux objet de la mutation.",
-    "alimentation": "Direction générale des Finances publiques",
+    "alimentation": "Direction Générale des Finances Publiques",
     "description": "Fichier exhaustif de toutes « les mutations immobilières à titre onéreux publiées dans les Conservations des hypothèques, avec descriptif cadastral des biens »"
   },
   "Portail Terminologie de Santé": {
@@ -1494,19 +1494,25 @@
     "alimentation": "Panel de 11500 femmes ayant eu recours à l'IVG"
   },
   "Patrimoine": {
-    "gestionnaire": "Direction Générale des Finances publiques",
+    "gestionnaire": "Direction Générale des Finances Publiques",
     "granularite": "Information à la parcelle et au local.",
-    "alimentation": "Direction générale des Finances publiques",
+    "alimentation": "Direction Générale des Finances Publiques",
     "description": "Fichier exhaustif de toutes les mutations immobilières à titre onéreux (immeubles bâtis à usage non professionnel).",
-    "textes": [
-      "Article L.107 B du livre des procédures fiscales",
-      "Décret n°2013-718 du 2 août 2013"
-    ]
+    "textes": {
+      "article":{
+        "référence":"Article L.107 B du livre des procédures fiscales",
+        "legifrance":"https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000006069583&idArticle=LEGIARTI000025068175"
+      },
+      "décret":{
+        "référence":"Décret n°2013-718 du 2 août 2013",
+        "legifrance":"https://www.legifrance.gouv.fr/eli/decret/2013/8/2/EFIE1311832D/jo/texte"
+      }
+    }
   },
   "Tableau de bord de l’IDS : suivi des principaux indicateurs économiques et financiers des cliniques privées à but lucratif": {
     "gestionnaire": "Institut des Données de Santé",
     "commentaire": "France entière Cette base Performance financière fait partie de la catégorie Performance financière du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "description": "_ Fonctionnalité : analyser les principaux indicateurs économiques et financiers des cliniques",
+    "description": "Fonctionnalité : analyser les principaux indicateurs économiques et financiers des cliniques",
     "alimentation": "Coface"
   },
   "Indice du prix des logements neufs et anciens": {
@@ -1721,12 +1727,20 @@
     "description": "Données anonymisées sur l’employabilité des personnes handicapées",
     "alimentation": "10 MDPH (phase pilote)"
   },
-  "Base Perval ": {
+  "Perval": {
     "gestionnaire": "Conseil Supérieur du notariat",
-    "commentaire": "Loi du 28 mars 2011 de modernisation des professions juridiques et financières. Décret n° 2013-803 du 3 septembre 2013 ",
-    "granularite": "Tous niveaux administratifs et sur mesure(National, régional, départemental, cantonal, EPCI, communal, quartier, cadastre, IRIS, zone à façon)",
     "alimentation": "Min.not",
-    "description": "Envoi par les notaires, volontaire jusqu’à ce jour, des avant contrats et contrats de mutation immobilière à titre onéreux. L'objectif de cette base de données est de connaître de façon détaillée les prix de vente et leurs évolutions sur le territoire national, hors Ile-de-France.  Base gérée par Real.not et exploitée par Min.not."
+    "description": "Envoi par les notaires, volontaire jusqu’à ce jour, des avant contrats et contrats de mutation immobilière à titre onéreux. L'objectif de cette base de données est de connaître de façon détaillée les prix de vente et leurs évolutions sur le territoire national, hors Ile-de-France.  Base gérée par Real.not et exploitée par Min.not.",
+    "textes":{
+      "loi":{
+        "référence":"Loi du 28 mars 2011 de modernisation des professions juridiques et financières",
+        "legifrance":"https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000023776687&categorieLien=id"
+      },
+      "décret":{
+        "référence":"Décret n° 2013-803 du 3 septembre 2013",
+        "legifrance":"https://www.legifrance.gouv.fr/eli/decret/2013/9/3/JUSC1207406D/jo/texte"
+      }
+    }
   },
   "Indice de prix des travaux d’entretien et d’amélioration de logements (IPEA) ": {
     "gestionnaire": "Institut National de la Statistique et des Études Économiques",
