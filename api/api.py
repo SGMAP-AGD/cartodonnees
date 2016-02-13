@@ -4,9 +4,13 @@ from flask import Flask
 from flask import request
 from flask import Response
 from pymongo import MongoClient
+
+from flask.ext.cors import CORS
+
 import json
 
 app = Flask(__name__)
+CORS(app)
 
 client = MongoClient()
 db = client.cartographie
