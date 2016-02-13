@@ -23,10 +23,10 @@
 <script src="./d3.min.js"></script>
 <script>
 
-var diameter = 960;
+var diameter = 12000;
 
 var tree = d3.layout.tree()
-    .size([360, diameter / 2 - 120])
+    .size([360, diameter / 2 - diameter/15])
     .separation(function(a, b) { return (a.parent == b.parent ? 1 : 2) / a.depth; });
 
 var diagonal = d3.svg.diagonal.radial()
@@ -63,9 +63,16 @@ d3.json("administrations.json", function(error, root) {
       .attr("dy", ".31em")
       .attr("text-anchor", function(d) { return d.x < 180 ? "start" : "end"; })
       .attr("transform", function(d) { return d.x < 180 ? "translate(8)" : "rotate(180)translate(-8)"; })
-      .text(function(d) { return d.acronyme; });
+      .text(function(d) { return d.nom; });
 });
 
 d3.select(self.frameElement).style("height", diameter - 150 + "px");
+
+// the canvg call that takes the svg xml and converts it to a canvas
+canvg('canvas', $("#my-svg").html());
+
+// the canvas calls to output a png
+var canvas = document.getElementById("canvas");
+var img = canvas.toDataURL("image/png");
 
 </script>
