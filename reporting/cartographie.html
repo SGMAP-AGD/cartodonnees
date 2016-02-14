@@ -20,13 +20,13 @@
 
 </style>
 <body>
-<script src="./d3.min.js"></script>
+<script src="//d3js.org/d3.v3.min.js"></script>
 <script>
 
-var diameter = 10000;
+var diameter = 5000;
 
 var tree = d3.layout.tree()
-    .size([360, diameter / 2 - diameter/15])
+    .size([360, 2000])
     .separation(function(a, b) { return (a.parent == b.parent ? 1 : 1) / a.depth; });
 
 var diagonal = d3.svg.diagonal.radial()
@@ -38,7 +38,7 @@ var svg = d3.select("body").append("svg")
   .append("g")
     .attr("transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")");
 
-d3.json("http://bases.gouv2.fr/administrations/arbre", function(error, root) {
+d3.json("http://bases.gouv2.fr/gestionnaires/bases/arbre", function(error, root) {
   if (error) throw error;
 
   var nodes = tree.nodes(root),

@@ -27,17 +27,20 @@ def getAdministrations():
   for key, value in admindico.items():
     adminlist.append(key)
   return adminlist
-  
-def getAdministrationsArbre():
+
+def getAdministrationsListe():
   administrations = []
-  niveauMax = 0
   with open("../data/administrations.txt") as f:
     for ligne in f.readlines():
       ligne = ligne.replace("\n", "")
       ligne = ligne.split(" | ")
       administrations.append(ligne)
-      if len(ligne) > niveauMax: niveauMax = len(ligne)
+  return administrations
+  
+def getAdministrationsArbre(administrations):
+  
   etat = {"nom":"État", "children":[]}
+  
   # Niveau 1
   for ligne in  administrations:
     estPresent = False
@@ -131,6 +134,16 @@ def getDicoSchema(dico):
       schema[key] = getDicoSchema(value)
     else: schema[key] = str(type(value))
   return schema
+
+def getGestionnaireBases():
+  gestionnaires = getGestionnaires()
+  resultats = {}
+  for gestionnaire in gestionnaires:
+    bases = []
+    for base in db.bases.find({"gestionnaire": gestionnaire}):
+      bases.append(base["nom"])
+    resultats[gestionnaire] = bases
+  return resultats
   
 def APIerror(message):
   print(message)
@@ -172,7 +185,7 @@ def basesSchema():
     dico.update(getDicoSchema(base))
   resultat = {"Nom de la base":dico}
   return Response(json.dumps(resultat, indent= 2,ensure_ascii=False),mimetype='application/json; charset=utf-8')
-
+  
 @app.route("/gestionnaires", methods=['GET'])
 # Retourne la liste des gestionnaires de base de données.
 def gestionnaires():
@@ -181,14 +194,43 @@ def gestionnaires():
 @app.route("/gestionnaires/bases", methods=['GET'])
 # Retourne un dictionnaire des gestionnaires de base de données et de leurs bases.
 def gestionnairesBases():
-  gestionnaires = getGestionnaires()
-  resultats = {}
-  for gestionnaire in gestionnaires:
-    bases = []
-    for base in db.bases.find({"gestionnaire": gestionnaire}):
-      bases.append(base["nom"])
-    resultats[gestionnaire] = bases
-  return Response(json.dumps(resultats, indent= 2,ensure_ascii=False),mimetype='application/json; charset=utf-8')
+  return Response(json.dumps(getGestionnaireBases(), indent= 2,ensure_ascii=False),mimetype='application/json; charset=utf-8')
+
+
+def setDBs(arbre,gestionnaire,base):
+  for key, value in arbre.items():
+    if(key == "children"):
+      for elem in value:
+        if(elem["nom"] == gestionnaire):
+          elem["children"].append({"nom" : base})
+        setDBs(elem,gestionnaire,base)
+  return arbre
+  
+@app.route("/gestionnaires/bases/arbre", methods=['GET'])
+def gestionnairesBasesArbre():
+  
+  # Récupérer les gestionnaires identifiés dans l'annuaire
+  inter = list(set(getAdministrations()) & set(getGestionnaires()))
+  
+  # Transformer les gestionnaires en arbre
+  interListe = []
+  for gestionnaire in inter:
+    for ligne in getAdministrationsListe():
+      i = 0
+      for administration in ligne:
+        i = i +1
+        if(administration == gestionnaire):
+          if(len(ligne) == i):
+            interListe.append(ligne)
+  arbre = getAdministrationsArbre(interListe)
+  
+  # Ajouter les bases à l'arbre
+  for gestionnaire,bases in getGestionnaireBases().items():
+    for base in bases:
+      arbre = setDBs(arbre,gestionnaire,base)
+  
+  return Response(json.dumps(arbre, indent= 2,ensure_ascii=False),mimetype='application/json; charset=utf-8')
+ 
 
 @app.route("/administrations", methods=['GET'])
 def administrations():
@@ -196,7 +238,7 @@ def administrations():
   
 @app.route("/administrations/arbre", methods=['GET'])
 def administrationsArbres():
-  return Response(json.dumps(getAdministrationsArbre(), indent= 2,ensure_ascii=False),mimetype='application/json; charset=utf-8')
+  return Response(json.dumps(getAdministrationsArbre(getAdministrationsListe()), indent= 2,ensure_ascii=False),mimetype='application/json; charset=utf-8')
 
 if __name__ == "__main__":
     app.debug = True
