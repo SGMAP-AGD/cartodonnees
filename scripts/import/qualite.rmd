@@ -6,13 +6,13 @@ output: html_document
 Gestionnaires absents du référentiel des administrations:
 
 ```{r}
-summary(cars)
+library(httr)
+
+api_adress <- "http://bases.gouv2.fr"
+gestionnaires <- content(GET(paste(api_adress,"/gestionnaires",sep="")))
+
+administrations <- content(GET(paste(api_adress,"/administrations",sep="")))
+
+diff <- setdiff(gestionnaires, administrations) 
 ```
 
-You can also embed plots, for example:
-
-```{r, echo=FALSE}
-plot(cars)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
