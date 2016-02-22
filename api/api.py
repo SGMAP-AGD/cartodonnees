@@ -132,7 +132,8 @@ def getDicoSchema(dico):
   for key,value in dico.items():
     if(str(type(value)) == "<class 'dict'>"):
       schema[key] = getDicoSchema(value)
-    else: schema[key] = str(type(value))
+    else:
+      schema[key] = str(type(value))
   return schema
 
 def getGestionnaireBases():
@@ -175,15 +176,27 @@ def bases():
     else:
       return Response(json.dumps(getListeBases(), indent= 2,ensure_ascii=False),mimetype='application/json; charset=utf-8')
 
+def multiLevelupdate(dico1,dico2):
+  for key,value in dico2.items():
+    if(str(type(value)) == "<class 'dict'>"):
+      if key in dico1:
+        if(str(type(dico1[key])) == "<class 'dict'>"):
+          dico1[key] = multiLevelupdate(dico1[key],dico2[key])
+      else:
+          dico1[key] = dico2[key]
+    else:
+      dico1[key] = dico2[key]
+  return dico1
+  
 @app.route("/bases/schema", methods=['GET'])
 # Retourne le shcema d'un objet base
 def basesSchema():
-  bases = getListeBases()
+  
   dico = {}
-  for nom,base in bases.items():
-    dico = dico.copy()
-    dico.update(getDicoSchema(base))
+  for nom,base in getListeBases().items():
+    dico = multiLevelupdate(getDicoSchema(base),dico)
   resultat = {"Nom de la base":dico}
+  
   return Response(json.dumps(resultat, indent= 2,ensure_ascii=False),mimetype='application/json; charset=utf-8')
   
 @app.route("/gestionnaires", methods=['GET'])

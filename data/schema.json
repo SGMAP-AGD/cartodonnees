@@ -1,0 +1,31 @@
+{
+  "Nom de la base en toutes lettres. Cet identifiant est obligatoire": {
+    "description": "Description complète de la base de données. Objectifs, besoins adressés... Champ texte libre.",
+    "gestionnaire": "Nom complet de l'administration gérant la base de données, tel qu'il apparaît dans l'annuaire des services publics publié par la DILA. Champ obligatoire.",
+    "commentaire": "Commentaire sur la base de données. Évolutions passées, futures, problèmes... Champ texte libre.",
+    "technologie": "SGBD utilisé.",
+    "lien": "URL vers le portail web de la base de données.",
+    "granularite": "Granularité temporelle et/ou spatiale des données contenues dans la base au niveau le plus fin.",
+    "acronyme": "Acronyme de la base, si il existe.",
+    "textes": {
+      "décret": {
+        "legifrance": "URL du texte sur le portail Légifrance.",
+        "référence": "Nom complet du texte"
+      },
+      "arrêté": {
+        "legifrance": "URL du texte sur le portail Légifrance.",
+        "référence": "Nom complet du texte"
+      },
+      "article": {
+        "legifrance": "URL du texte sur le portail Légifrance.",
+        "référence": "Nom complet du texte"
+      },
+      "loi": {
+        "legifrance": "URL du texte sur le portail Légifrance.",
+        "référence": "Nom complet du texte"
+      }
+    },
+    "alimentation": "Bases de données ou organismes alimentant cette base de données.",
+    "datagouv": "Liste de liens des jeux de données extraits de cette base référencés sur le portail Data.gouv.fr"
+  }
+}
