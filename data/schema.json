@@ -5,7 +5,8 @@
     "commentaire": "Commentaire sur la base de données. Évolutions passées, futures, problèmes... Champ texte libre.",
     "technologie": "SGBD utilisé.",
     "lien": "URL vers le portail web de la base de données.",
-    "granularite": "Granularité temporelle et/ou spatiale des données contenues dans la base au niveau le plus fin.",
+    "granularite_spatiale": "Granularité spatiale des données contenues dans la base au niveau le plus fin.",
+    "granularite_temporelle": "Granularité temporelle des données contenues dans la base au niveau le plus fin.",
     "acronyme": "Acronyme de la base, si il existe.",
     "textes": {
       "décret": {
@@ -26,6 +27,7 @@
       }
     },
     "alimentation": "Bases de données ou organismes alimentant cette base de données.",
+    "acces": "Modalités d'accès aux données. Champ libre."
     "datagouv": "Liste de liens des jeux de données extraits de cette base référencés sur le portail Data.gouv.fr"
   }
 }
