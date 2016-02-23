@@ -2194,7 +2194,8 @@
     "description": "Données sur les conduites addictives des jeunes (alcool, cannabis, Ecstasy, tabas, Héroïne) selon la fréquences, les risques",
     "alimentation": "Jeunes inscrits à la JAPD"
   },
-  "Répertoires Opérationnels des Ressources (ROR)": {
+  "Répertoires Opérationnels des Ressources": {
+    "acronyme":"ROR",
     "gestionnaire": "Agence Régionale de Santé",
     "commentaire": "Cas de l'ARS Ile-de-France : ensemble des établissements publics et privés, développement en cours sur l'ambulatoire et prévu sur les activités SSR et médico-sociales Cette base Infrastructures fait partie de la catégorie Infrastructures du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
     "description": "Description de l'offre de soins : par ex. horaires des établissements et professionnels de santé, nombre de lits",
@@ -2242,7 +2243,7 @@
     "alimentation": "Institut National de la Statistique et des Études Économiques"
   },
   "Nombre de ventes de logements anciens": {
-    "granularite": "France entière",
+    "granularite_spatiale": "France",
     "gestionnaire": "Conseil général de l'environnement et du développement durable",
     "commentaire": "L’obligation faite par la loi aux notaires d’alimenter les bases notariales, lorsqu’elle sera effective rendra l’estimation plus précise et permettra une plus grande finesse géographique et temporelle.",
     "description": "L'objectif de cette enquête est d'estimer le nombre de ventes de logements  anciens soumis au taux de droits de mutation de droit commun (5,00% en 2013) . Cette estimation est nécessaire parce que l’on ne connaît pas exactement le nombre des transactions de logements. Elle est obtenue par le croisement de données fiscales et de données notariales.",
@@ -2319,7 +2320,7 @@
     "commentaire": " Cette base Activité des établissements de santé fait partie de la catégorie Activité des établissements de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
     "lien": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php",
     "description": "Tableaux fournissant par région, par territoire de santé ou par établissement, des éléments statistiques permettant d’évaluer le développement de la chirurgie ambulatoire pour chacune des 18 racines de GHM faisant l’objet de la politique tarifaire incitative depuis plusieurs années (même tarif pour le GHM de chirurgie ambulatoire et le GHM correspondant de niveau 1) : taux de recours, taux de chirurgie ambulatoire, etc.",
-    "alimentation": "Principale source : PMSI – programme de médicalisation des systèmes d'information"
+    "alimentation": "PMSI"
   },
   "Enquête sur l’occupation du parc social": {
     "granularite": "Département et unité urbaine de plus de 50 000 habitants, avec une distinction pour les logements en ZUS et ZRR.",
@@ -2365,10 +2366,18 @@
   },
   "Base Adresse Nationale":{
     "acronyme":"BAN",
-    "gestionnaire": "Mission Étalab"
+    "gestionnaire": "Mission Étalab",
+    "lien":"https://adresse.data.gouv.fr/"
   },
   "Cartographie collaborative des données de l'État":{
-    "gestionnaire":"Mission Étalab"
+    "gestionnaire":"Mission Étalab",
+    "textes":{
+      "rapport":{
+        "référence":"Rapport au Premier ministre sur la gouvernance de la donnée 2015",
+        "lien":"http://www.gouvernement.fr/sites/default/files/liseuse/6252/master/index.htm"
+      }
+    },
+    "datagouv":["https://www.data.gouv.fr/fr/datasets/cartographie-collaborative-des-donnees-de-letat/"]
   },
   "France-Visas":{
     "gestionnaire":"Direction de l'immigration",

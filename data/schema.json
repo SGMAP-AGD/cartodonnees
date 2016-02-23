@@ -10,24 +10,28 @@
     "acronyme": "Acronyme de la base, si il existe.",
     "textes": {
       "décret": {
-        "legifrance": "URL du texte sur le portail Légifrance.",
+        "lien": "URL du texte sur le portail Légifrance.",
         "référence": "Nom complet du texte"
       },
       "arrêté": {
-        "legifrance": "URL du texte sur le portail Légifrance.",
+        "lien": "URL du texte sur le portail Légifrance.",
         "référence": "Nom complet du texte"
       },
       "article": {
-        "legifrance": "URL du texte sur le portail Légifrance.",
+        "lien": "URL du texte sur le portail Légifrance.",
         "référence": "Nom complet du texte"
       },
       "loi": {
-        "legifrance": "URL du texte sur le portail Légifrance.",
+        "lien": "URL du texte sur le portail Légifrance.",
         "référence": "Nom complet du texte"
+      },
+      "rapport": {
+        "lien": "URL du texte rapport",
+        "référence": "Nom complet du rapport"
       }
     },
     "alimentation": "Bases de données ou organismes alimentant cette base de données.",
-    "acces": "Modalités d'accès aux données. Champ libre."
-    "datagouv": "Liste de liens des jeux de données extraits de cette base référencés sur le portail Data.gouv.fr"
+    "acces": "Modalités d'accès aux données. Champ libre.",
+    "data_gouv": "Liste de liens des jeux de données extraits de cette base référencés sur le portail Data.gouv.fr"
   }
 }
