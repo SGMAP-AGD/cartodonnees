@@ -151,11 +151,11 @@
     "gestionnaire": "Conseil Supérieur du notariat",
     "textes": {
       "décret": {
-        "legifrance": "https://www.legifrance.gouv.fr/eli/decret/2013/9/3/JUSC1207406D/jo/texte",
+        "lien": "https://www.legifrance.gouv.fr/eli/decret/2013/9/3/JUSC1207406D/jo/texte",
         "référence": "Décret n° 2013-803 du 3 septembre 2013"
       },
       "loi": {
-        "legifrance": "https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000023776687&categorieLien=id",
+        "lien": "https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000023776687&categorieLien=id",
         "référence": "Loi du 28 mars 2011 de modernisation des professions juridiques et financières"
       }
     },
@@ -806,11 +806,11 @@
     "gestionnaire": "Chambre interdépartementale des Notaires de Paris",
     "textes": {
       "décret": {
-        "legifrance": "https://www.legifrance.gouv.fr/eli/decret/2013/9/3/JUSC1207406D/jo/texte",
+        "lien": "https://www.legifrance.gouv.fr/eli/decret/2013/9/3/JUSC1207406D/jo/texte",
         "référence": "Décret n° 2013-803 du 3 septembre 2013"
       },
       "loi": {
-        "legifrance": "https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000023776687&categorieLien=id",
+        "lien": "https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000023776687&categorieLien=id",
         "référence": "Loi du 28 mars 2011 de modernisation des professions juridiques et financières"
       }
     },
@@ -1748,11 +1748,11 @@
     "gestionnaire": "Direction générale des finances publiques",
     "textes": {
       "décret": {
-        "legifrance": "https://www.legifrance.gouv.fr/eli/decret/2013/8/2/EFIE1311832D/jo/texte",
+        "lien": "https://www.legifrance.gouv.fr/eli/decret/2013/8/2/EFIE1311832D/jo/texte",
         "référence": "Décret n°2013-718 du 2 août 2013"
       },
       "article": {
-        "legifrance": "https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000006069583&idArticle=LEGIARTI000025068175",
+        "lien": "https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000006069583&idArticle=LEGIARTI000025068175",
         "référence": "Article L.107 B du livre des procédures fiscales"
       }
     },
@@ -2043,7 +2043,7 @@
     "textes": {
       "arrêté":{
         "référence":"Arrêté du 30 septembre 2011 portant création d'un traitement de données à caractère personnel relatif à l'habitat indigne et non décent, dénommé « ORTHI » (outil de repérage et de traitement de l'habitat indigne)",
-        "legifrance":"https://www.legifrance.gouv.fr/eli/arrete/2011/9/30/DEVL1121405A/jo"
+        "lien":"https://www.legifrance.gouv.fr/eli/arrete/2011/9/30/DEVL1121405A/jo"
       }
     },
     "alimentation": "DHUP"
@@ -2377,11 +2377,54 @@
         "lien":"http://www.gouvernement.fr/sites/default/files/liseuse/6252/master/index.htm"
       }
     },
-    "datagouv":["https://www.data.gouv.fr/fr/datasets/cartographie-collaborative-des-donnees-de-letat/"]
+    "data_gouv":["https://www.data.gouv.fr/fr/datasets/cartographie-collaborative-des-donnees-de-letat/"]
   },
   "France-Visas":{
     "gestionnaire":"Direction de l'immigration",
     "technologie":"PostgreSQL",
     "description": "Base de données servant à la gestion des demandes de visas."
+  },
+  "Base d’Orientation et de Recherche dans les Archives":{
+    "gestionnaire": "Ministère de la Culture et de la Communication",
+    "lien":["http://daf.archivesdefrance.culture.gouv.fr/sdx-222-daf-bora-ap/ap/","http://daf.archivesdefrance.culture.gouv.fr/sdx-23b1-20090531-daf-pleade-2/pl/search-form.xsp?id=For_prive","http://www.archivesdefrance.culture.gouv.fr/ressources/en-ligne/acces-par-type-de-documents/#fonds_prives"],
+    "description": "La Base d’Orientation et de Recherche dans les Archives recense les fonds privés contenus dans les centres des Archives nationales, les services départementaux d’archives, les bibliothèques et les organismes publics et privés. Bora recense également les archives photographiques de l'ensemble des services publics d'archives, dont beaucoup sont des archives privées."
+  },
+  "ENLUMINURES":{
+    "description":"La base Enluminures coproduite par le Service du livre et de la lecture et l'Institut de recherche et d'histoire des textes (CNRS), propose la consultation gratuite de plus de 120 000 images, sous forme de vignette et de plein écran, reproductions numériques des enluminures et éléments de décor de plus de 5 000 manuscrits médiévaux conservés dans une centaine de bibliothèques municipales françaises.",
+    "lien":["http://www.enluminures.culture.fr/documentation/enlumine/fr/"],
+    "gestionnaire": "Ministère de la Culture et de la Communication"
+  },
+  "JOCONDE":{
+    "description":"JOCONDE est le catalogue collectif des collections des musées de France, accessible sur Internet.",
+    "gestionnaire":"Ministère de la Culture et de la Communication",
+    "lien":"http://www.culture.gouv.fr/documentation/joconde/fr/recherche/rech_libre.htm"
+  },
+  "PALISSY":{
+    "description":"Palissy recense le patrimoine mobilier français : meubles et objets religieux, domestiques, scientifiques et industriels. Les notices sont réparties en deux fonds : le premier s'enrichit à mesure des enquêtes sur le terrain de l'Inventaire général du patrimoine culturel (dossiers d'inventaire) et le second (constitué à partir des mesures nationales de protection au titre de la loi sur les Monuments historiques) est mis à jour régulièrement.",
+    "lien":"http://www.culture.gouv.fr/public/mistral/dapapal_fr?ACTION=NOUVEAU&USRNAME=nobody&USRPWD=4%24%2534P",
+    "gestionnaire":"Ministère de la Culture et de la Communication"
+  },
+  "MAP":{
+    "lien":"http://www.mediatheque-patrimoine.culture.gouv.fr/index.html",
+    "gestionnaire":"Ministère de la Culture et de la Communication",
+    "description":"La Médiathèque de l'architecture et du patrimoine recense toutes les ressources documentaires de la Direction générale des patrimoines. Pour identifier des biens volés ou disparus et faire des vérifications de provenance, des accès spécifiques sont possibles dans la base Palissy (biens protégés au titre des monuments historiques).accès par listes : Œuvre volée ou disparue/Œuvre retrouvée ; accès par catégorie technique : peinture, sculpture, orfèvrerie, tapisserie, textile, dessin, bronze d'art… accès par images d’objets volés ou disparus."
+  },
+  "SHERLOCK":{
+    "description":"Commission de récolement des dépôts d'œuvres d'art (CRDOA)",
+    "lien":"http://www.culture.gouv.fr/documentation/CBCR/",
+    "gestionnaire":"Ministère de la Culture et de la Communication"
+  },
+  "Site Rose-Valland":{
+    "description":"Musées Nationaux Récupération (MNR)  [Consultable à l'aide du \"Moteur Collections\"] Les \"MNR\", \"Musées nationaux Récupération\", sont des œuvres récupérées en Allemagne à la fin de la Seconde Guerre mondiale et qui, faute d'avoir retrouvé leurs légitimes propriétaires, ont été confiées par l'Office des biens privés à la garde de la Direction des musées de France en vertu du décret du 30 septembre 1949.",
+    "gestionnaire":"Ministère de la Culture et de la Communication",
+    "lien":"http://www.culture.gouv.fr/documentation/mnr/MnR-accueil.htm"
+  },
+  "TREIMA2":{
+    "description":"Base de données de l'OCBC : photothèque d’objets volés, dénommée « TREIMA » (Thesaurus de recherche électronique et d’imagerie en matière artistique). Cette base inclut les photographies des biens culturels volés en France, ainsi que certains autres volés à l’étranger quand leur disparition est signalée par le canal d’INTERPOL. Elle met ces images en correspondance avec les informations concernant le vol lui-même. Base conçue par des policiers, pour des policiers, cet outil est d’utilisation simple, et peut être chargée sur un ordinateur portable, être emportée sur le terrain, par exemple sur le lieu d’une perquisition, y compris à l’étranger. Cette base est ouverte, en alimentation/lecture: à l’OCBC, au Service Technique de Renseignements Judiciaires et de Documentation de la gendarmerie à Rosny-sous-Bois, à la Brigade de Répression du Banditisme (Groupe « Antiquaires ») à la Préfecture de Police de Paris. Elle l’est, en lecture seule (et pour les fiches « objets » uniquement) à certaines directions du ministère de la Culture, à la Direction Nationale du Renseignement et des Enquêtes Douanières, ainsi qu’au groupement d’assurances ARGOS. Elle est alimentée, à l’OCBC, par des personnels administratifs sous le commandement d’un officier de police.",
+    "gestionnaire":"Ministère de la Culture et de la Communication"
+  },
+  "JUDEX":{
+    "description":"Le Système judiciaire de documentation et d'exploitation de la gendarmerie date de 1985,véritable mémoire informatique, JUDEX offre la possibilité d'effectuer des rapprochements (dans le cadre d'un crime par exemple), d'identifier des empreintes digitales, ou encore de déterminer la provenance d'objet volés. TREIMA 2 est déjà régulièrement alimenté par le service technique de recherches judiciaires et de documentation de la gendarmerie nationale (STRJD).",
+    "gestionnaire":"Ministère de la Culture et de la Communication"
   }
 }
