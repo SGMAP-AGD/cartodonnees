@@ -1,7 +1,8 @@
 ---
 title       : La Cartographie Collaborative des Données de l'État
 subtitle    : Une description exhaustive des informations gérées par les administrations
-github      : {user: boupetch, repo: cartodonnees-slides}
+github      : https://github.com/SGMAP-AGD/cartodonnees/raw/master/data/bases.json
+download    : https://github.com/SGMAP-AGD/cartodonnees/raw/master/data/bases.json
 mode        : selfcontained
 knit        : slidify::knit2slides
 ---
