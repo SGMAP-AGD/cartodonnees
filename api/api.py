@@ -110,6 +110,11 @@ def getAdministrationsArbre(administrations):
 def getGestionnaires():
   return db.bases.distinct("gestionnaire")
   
+def getGestionnairesInconnus():
+  gestionnaires = db.bases.distinct("gestionnaire")
+  administrations = getAdministrations()
+  return list(set(gestionnaires) - set(administrations))
+  
 def existeBase(nom):
   # Pour savoir si une base de données est déjà référencée
   if (db.bases.find_one({"nom": nom}) == None):
@@ -204,6 +209,11 @@ def basesSchema():
 def gestionnaires():
   return Response(json.dumps(getGestionnaires(), indent= 2,ensure_ascii=False),mimetype='application/json; charset=utf-8')
   
+@app.route("/gestionnaires/inconnus", methods=['GET'])
+# Retourne la liste des gestionnaires inconnus de base de données.
+def gestionnairesInconnus():
+  return Response(json.dumps(getGestionnairesInconnus(), indent= 2,ensure_ascii=False),mimetype='application/json; charset=utf-8')
+  
 @app.route("/gestionnaires/bases", methods=['GET'])
 # Retourne un dictionnaire des gestionnaires de base de données et de leurs bases.
 def gestionnairesBases():
@@ -243,12 +253,12 @@ def gestionnairesBasesArbre():
       arbre = setDBs(arbre,gestionnaire,base)
   
   return Response(json.dumps(arbre, indent= 2,ensure_ascii=False),mimetype='application/json; charset=utf-8')
- 
 
+# Administrations
 @app.route("/administrations", methods=['GET'])
 def administrations():
   return Response(json.dumps(getAdministrations(), indent= 2,ensure_ascii=False),mimetype='application/json; charset=utf-8')
-  
+
 @app.route("/administrations/arbre", methods=['GET'])
 def administrationsArbres():
   return Response(json.dumps(getAdministrationsArbre(getAdministrationsListe()), indent= 2,ensure_ascii=False),mimetype='application/json; charset=utf-8')

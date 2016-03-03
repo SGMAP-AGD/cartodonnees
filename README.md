@@ -11,22 +11,29 @@ La Cartographie Collaborative des Données de l'État est propose 3 niveaux de l
   
 La cartographie a pour objectif est de distribuer des informations structurées, claires et pertinentes sur toutes les données de l'État, qu'elles soient ouvertes ou non. Seuls les niveaux 1 et 2 sont aujourd'hui publiés en Open Data sur la plateforme [Data.Gouv.fr](https://www.data.gouv.fr/fr/datasets/cartographie-collaborative-des-donnees-de-letat/).
 
+Enrichie de manière collaborative, la cartographie dispose d'une multitude de sources hétérogènes comme les cartographies thématiques ouvertes ou les saisies manuelles effectuées à partir d'informations déstructurées. Des données incorrectes ou impertinentes sont donc suceptibles de subsister.
 
 
-## Niveau 1: Les gestionnaires de données de l'État
+
+## Gestionnaires de données
 
 Les gestionnaires de données de l'État sont les entités répertoriées par l'annuaire de l'administration mis à jour par la [Direction Légale de l'Information Légale et Administrative](http://www.dila.premier-ministre.gouv.fr/). Cet annuaire est consultable via une [interface web en ligne](https://lannuaire.service-public.fr) ou sous la forme d'un [jeu de données ouvert publié sur Data.gouv.fr](https://www.data.gouv.fr/fr/datasets/annuaire-des-services-publics-nationaux/). La dernière version de l'annuaire intégrée à la cartographie contient 3799 administrations.
 
-Chaque entité de l'annuaire est rattachée à son administration parente, l'ensemble des administrations pouvant être représenté comme un graphe non orienté, acyclique et connexe, également appelé arbre. En voici une représentation graphique:
+Chaque entité de l'annuaire est rattachée à son administration parente, l'ensemble des administrations pouvant être représenté comme un graphe non orienté acyclique et connexe, ou arbre. En voici une représentation graphique:
 
 [![administrations](reporting/administrations-thumb.png)](reporting/administrations.png)
 
-## Niveau 2: Liste des bases de données
+## Bases de données
 
-* 34 gestionnaires sont identifiés dans l'annuaire des services publics. 46 ne sont pas identifiés.
+La cartographie décrit [370 bases de données](http://bases.gouv2.fr/bases) pour [76 gestionnaires](http://bases.gouv2.fr/gestionnaires). Parmis ceux-ci, [41 gestionnaires](http://bases.gouv2.fr/gestionnaires/inconnus) ne sont pas identifiés dans l'annuaire des administrations.
 
-* La cartographie collaborative des données de l'État répertorie actuellement 362 bases de données pour 80 gestionnaires.
+Considérées comme entitées dépendantes des leur gestionnaires, les bases de données peuvent être intégrées à l'arbre des administrations. La visualisation est alors similaire à celle de l'annuaire:
 
-### Enrichir le niveau 2 de la cartographie
+[![bases de données](reporting/cartographie-thumb.png)](reporting/cartographie.png)
 
-## Niveau 3: Structures des données
+
+### Conformité [Data.gouv.fr](https://www.data.gouv.fr)
+
+
+
+## Structures des données

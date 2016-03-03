@@ -25,11 +25,6 @@
     "description": "Renseignement d’un questionnaire par chaque bailleurs sociaux (HLM, SEM, autres bailleurs sociaux non hlm). L’enquête a vocation à déterminer : - les caractéristiques du patrimoine locatif social du bailleur - les logements occupés par un locataire (le nombre de logements dont le locataire n’a pas répondu à l’enquête « ressources », le nombre de logements dont le locataire dispose de revenus imposables égaux ou supérieurs aux plafonds de ressources d’accès au parc locatif social), - le barème de calcul du SLS pratiqué par le bailleur, - les logements occupés par un locataire assujetti au SLS, - la liquidation du SLS (le montant appelé auprès des locataires assujettis ainsi que le montant de loyer appelé, le nombre de logements dont le locataire fait l’objet d’une liquidation provisoire, le nombre de logements pour lesquels le montant de SLS est plafonné). ",
     "alimentation": "METL (ministère chargé du logement)"
   },
-  "Disease Analyzer": {
-    "gestionnaire": "IMS Health",
-    "description": "Informations recueillies : profil du médecin, profil administratif du patient (âge, sexe, catégorie socio-professionnelle), diagnostic, profil médical du patient (poids, taille, indice de masse corporelle, biologie, pression artérielle, fréquence cardiaque, etc.), informations sur le traitement et ses modalités : dates de prescription, posologie, durée d’ordonnance.",
-    "alimentation": "Médecins généralistes"
-  },
   "Répertoire des établissements pharmaceutiques": {
     "gestionnaire": "Agence nationale de sécurité du médicament et des produits de santé",
     "commentaire": " Cette base Infrastructures fait partie de la catégorie Infrastructures du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
@@ -245,12 +240,6 @@
     "commentaire": " Cette base Informations médicales fait partie de la catégorie Informations médicales du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
     "lien": "http://www.omedit-hautenormandie.fr/Files/thesaurus_des_interactions_medicamenteuses_afssaps_mars_2012.pdf",
     "description": "Risques liés aux interactions médicamenteuses et précautions d'emploi associées"
-  },
-  "Enquête Permamente de la Prescription Médicale": {
-    "acronyme": "EPPM",
-    "gestionnaire": "IMS Health",
-    "commentaire": "400 médecins généralistes et 435 spécialistes libéraux (angiologie, cardiologie, dermatologie, gastro-entérologie, gynécologie, neurologie, ophtalmologie, ORL, pédiatrie, pneumologie, psychiatrie, rhumatologie). Cette base Consultations fait partie de la catégorie Consultations du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "alimentation": "IMS : Médecins généraliste et médecins libéraux, panelisés une semaine par trimestre et utilisant un carnet de prescription spécifique"
   },
   "Enquête « Prescriptions médicales : disparités géographiques » de novembre 2004": {
     "gestionnaire": "Caisse nationale de l'assurance maladie des travailleurs salariés",
@@ -979,13 +968,6 @@
     "description": "Données détaillées sur le reste à charge par nature de prestation, une vision complémentaire à la statistique mensuelle :",
     "alimentation": "SNIIRAM - Datamart ONDAM"
   },
-  "Base de données Vidal": {
-    "gestionnaire": "Vidal",
-    "commentaire": " Cette base Informations médicales fait partie de la catégorie Informations médicales du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.vidal.fr/classifications/vidal/",
-    "description": "1) Monographiedes médicaments : synthèse (libellé, substance, état de commercialisation, taux de remboursement), forme et présentation, composition, indications, posologie et mode d'administration, contre-indications, mise en garde et précautions d'emplois, interactions, fertilité/ grossess/ allaitement, effets indésirables, surdosage, pharmacodynamie, pharmacocinétique, modalités de conservation, médicaments proches",
-    "alimentation": "Laboratoires pharmaceutiques, sources officielles et règlementaires, sources bibliographiques\""
-  },
   "Etude Individuelle Nationale de Consommation Alimentaire": {
     "gestionnaire": "Agence nationale de sécurité sanitaire, de l'alimentation, de l'environnement et du travail",
     "commentaire": "France ; enquête réalisée tous les 7 ans Cette base Habitudes de vie fait partie de la catégorie Habitudes de vie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
@@ -1170,7 +1152,7 @@
     "commentaire": "2083 médecins généralistes couverts Cette base Consultations fait partie de la catégorie Consultations du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
     "lien": "http://www.hcsp.fr/Explore.cgi/Telecharger?NomFichier=ad770610.pdf",
     "description": "_Indicateurs de perception et de comportement des médecins en matière de vaccination, de dépistage des hépatites virales et du VIH, de prise en charge des problèmes d’addiction",
-    "alimentation": "Praticiens tirés aléatoirement dans les bases de la société CEGEDIM"
+    "alimentation": "Praticiens tirés aléatoirement dans les bases de la société Cegedim"
   },
   "Base \"Residehpad\"": {
     "gestionnaire": "Caisse nationale de solidarité pour l'autonomie",
@@ -1531,13 +1513,6 @@
     "lien": "http://www.invs.sante.fr/Dossiers-thematiques/Maladies-chroniques-et-traumatismes/Cancers/Evaluation-des-programmes-de-depistage-des-cancers/Evaluation-du-programme-de-depistage-du-cancer-du-sein/Indicateurs-d-evaluation/Taux-de-participation-au-programme-de-depistage-organise-du-cancer-du-sein-2010-2011",
     "description": "Nombres de personnes dépistées agrégées par département"
   },
-  "Observatoire des EHPAD": {
-    "gestionnaire": "KPMG",
-    "commentaire": "> 300 organismes gestionnaires Cette base Activité des établissements médicaux-sociaux fait partie de la catégorie Activité des établissements médicaux-sociaux du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.kpmg.com/FR/fr/Search/Pages/Results.aspx?k=Observatoire+EHPAD&u=http%3a%2f%2fwww.kpmg.com%2fFR%2ffr&redirect=false",
-    "description": "Activité des établissements (notamment : taux d'occupation), coûts des établissements, ressources humaines (notamment, taux d'encadrement, répartition du personnel), situation financière (CAF, etc.)",
-    "alimentation": "Collecte d'informations auprès de >300 organismes gestionnaires, sur la base du volontariat"
-  },
   "Base du projet PROSPERE": {
     "gestionnaire": "Institut de Recherche et de Documentation en Économie de la Santé",
     "commentaire": " Cette base Consultations fait partie de la catégorie Consultations du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
@@ -1736,13 +1711,6 @@
     "description": "L'enquête SRCV est la partie française de l'enquête européenne Statistics on Income and Living Conditions (SILC) qui permet de comparer les ressources et les conditions de vie des ménages entre les pays membres de l’Union Européenne. Elle propose des indicateurs structurels sur les revenus et la pauvreté. Le bloc \"habitation\" permet de décrire le logement (staut d'occupation, surface, année de construction) et renseigne sur les conditions de logement des ménages (humidité, chauffage, bruit, quartier). La constitution d'un panel permet de suivre une partie de l'échantillon d'années en années.",
     "alimentation": "Institut National de la Statistique et des Études Économiques "
   },
-  "Banque Claude Bernard": {
-    "gestionnaire": "Cegedim",
-    "commentaire": " Cette base Informations médicales fait partie de la catégorie Informations médicales du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.resip.fr/",
-    "description": "Monographiedes médicaments (composition, indications thérapeutiques, contre-indications, précautions d'empli, effetes indésirables, posologie, données technico réglementaires, notice ANSM), posologie, documents de référence",
-    "alimentation": "CEGEDIM, sources officielles et règlementaires, sources bibliographiques"
-  },
   "Patrimoine": {
     "granularite": "Information à la parcelle et au local.",
     "gestionnaire": "Direction générale des finances publiques",
@@ -1826,13 +1794,6 @@
     "commentaire": " Un site internet dédié, permettant de visualiser les données collectées par les observatoires des loyers sera mis en service mi-2015. Il sera référencé sur la plate-forme open-data.gouv.fr. La mise à disposition des données non-anonymisées aux chercheurs est à l'étude. Elle se fera via l'accès au CASD.",
     "description": "Les observatoires locaux des loyers ont pour mission de recueillir les données relatives aux loyers sur une zone géographique déterminée et de mettre à la disposition du public des résultats statistiques représentatifs sur ces données.Le parc de référence est celui du parc locatif constitué de l'ensemble des locaux à usage d'habitation ou à usage mixte professionnel et d'habitation, à l'exception de ceux appartenant aux organismes d'habitations à loyer modéré, aux sociétés d'économie mixte de construction et de gestion des logements sociaux, ainsi qu'aux organisme chargés d'une MOI",
     "alimentation": "OLL"
-  },
-  "Xpr-So": {
-    "gestionnaire": "Celtipharm",
-    "commentaire": "3004 pharmacies Cette base Médicaments et dispositifs fait partie de la catégorie Médicaments et dispositifs du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.xpr-so.com/pages/Public/Accueil.aspx",
-    "description": "Achats, stocks et ventes de médicaments en pharmacies par officine",
-    "alimentation": "Panel de 3004 pharmacies"
   },
   "Evaluation du dispositif médical": {
     "gestionnaire": "Haute Autorité de santé",
@@ -2002,12 +1963,6 @@
     "description": "Par établissement : 68 indicateurs d’activité, de qualité, d’organisation/process, de RH et de finance sur les établissements : par ex. part de marché régionale en médecine",
     "alimentation": "Indicateurs calculés par l'ATIH à partir des données sources suivantes : PMSI, comptes financiers, base des infections nosocomiales, SAE, ANCRE, IPAQSS, INPI, ICARE, SIGAPS/SIGREC, bilan social, Osis"
   },
-  "Longitudinal Patient Database (LPD)": {
-    "gestionnaire": "Cegedim",
-    "commentaire": "1 panel de 1200 médecins généralistes, 8 panels pour un total de 750 spécialistes libéraux (cardiologie, gastro-entérogologie, gynécologie, neurologie, pédiatrie, pneumologie, psychiatrie, rhumatologie) Cette base Etat de santé fait partie de la catégorie Etat de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "description": "Informations recueillies : profil du médecin, diagnostics, symptômes, facteurs de risque, affection longue durée, profil administratif du patient (âge, sexe, catégorie socio-professionnelle), profil médical du patient (poids, taille, indice de masse corporelle, biologie, pression artérielle, fréquence cardiaque, etc.), informations sur le traitement et ses modalités : dates de prescription, posologie, durée d’ordonnance.",
-    "alimentation": "Médecins généralistes et spécialistes libéraux : recueil des données via le logiciel dossier patients Doc'Ware"
-  },
   "Enquête annuelle auprès des mutuelles, des institutions de prévoyance et des sociétés d’assurance sur les garanties des contrats modaux": {
     "gestionnaire": "Direction de la recherche, des études, de l'évaluation et des statistiques",
     "commentaire": " Cette base Services proposés fait partie de la catégorie Services proposés du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
@@ -2094,13 +2049,6 @@
     "description": "L’enquête famille et logements 2011 permet d’actualiser les analyses de la fécondité selon les générations, ou selon les caractéristiques sociodémographiques et l’origine géographique.",
     "alimentation": "INSEE"
   },
-  "Indicateurs avancés sanitaires": {
-    "gestionnaire": "Celtipharm",
-    "commentaire": "Panel de 3004 pharmacies Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.data.gouv.fr/fr/dataset/indicateur-avance-sanitaire-ias-syndrome-grippal",
-    "description": "Données épidémiologique sur la gastro-entérite et la grippe",
-    "alimentation": "Panel de 3400 pharmacies : extrapolation des données par la méthode des quotas"
-  },
   "Tableur infra-communaux d'aide au repérage des copropriétés fragiles": {
     "granularite": "Section cadastrale pour les tableurs infra-communaux(+étude aux échelles France, région et département)",
     "gestionnaire": "Agence nationale de l'habitat",
@@ -2121,13 +2069,7 @@
     "description": "Le dossier pharmaceutique (DP) recense, pour chaque bénéficiaire de l'Assurance Maladie qui le souhaite, tous les médicaments délivrés au cours des 4 derniers mois, qu'ils soient prescrits ou non. Les données concernent tous les médicaments délivrés, prescrits ou en vente libre, remboursés ou non, ainsi que le département de délivrance, l'âge et le sexe du patient, la date de délivrance, la quantité délivrée et le dosage",
     "alimentation": "Pharmacies"
   },
-  "IMS Pharmastat": {
-    "gestionnaire": "IMS Health",
-    "lien": "http://www.ims-pharmastat.fr/economie/Analyse-economique-de-l-officine",
-    "description": "Ensemble des données de vente, à la fois sur le champs du remboursable, du non remboursable et de la pharmacie",
-    "alimentation": "Pharmacies"
-  },
-  "Bases de données sur lesmaladies à déclaration obligatoire : plus de 31 maladies couvertes": {
+  "Bases de données sur les maladies à déclaration obligatoire": {
     "gestionnaire": "Institut de veille sanitaire",
     "commentaire": " Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
     "lien": "http://www.invs.sante.fr/Espace-professionnels/Maladies-a-declaration-obligatoire/Bases-de-donnees",
@@ -2425,6 +2367,95 @@
   },
   "JUDEX":{
     "description":"Le Système judiciaire de documentation et d'exploitation de la gendarmerie date de 1985,véritable mémoire informatique, JUDEX offre la possibilité d'effectuer des rapprochements (dans le cadre d'un crime par exemple), d'identifier des empreintes digitales, ou encore de déterminer la provenance d'objet volés. TREIMA 2 est déjà régulièrement alimenté par le service technique de recherches judiciaires et de documentation de la gendarmerie nationale (STRJD).",
-    "gestionnaire":"Ministère de la Culture et de la Communication"
+    "gestionnaire":"Ministère de l'Intérieur"
+  },
+  "Fichier des personnes recherchée":{
+    "gestionnaire":"Ministère de l'Intérieur",
+    "acronyme":"FPR",
+    "lien":["https://www.cnil.fr/fr/fpr-fichier-des-personnes-recherchees","http://www.ladocumentationfrancaise.fr/var/storage/rapports-publics/064000885.pdf"],
+    "textes":{
+      "référence":"Décret n° 2010-569 du 28 mai 2010 relatif au fichier des personnes recherchées",
+      "legifrance":"https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000022276189&categorieLien=id"
+    }
+  },
+  "Système de traitement des infractions constatées":{
+    "gestionnaire":"Ministère de l'Intérieur",
+    "lien":["http://www.ladocumentationfrancaise.fr/var/storage/rapports-publics/064000885.pdf"],
+    "acronyme":"STIC"
+  },
+  "Fichier des véhicules volés":{
+    "gestionnaire":"Ministère de l'Intérieur",
+    "lien":["http://www.ladocumentationfrancaise.fr/var/storage/rapports-publics/064000885.pdf"],
+    "acronyme":"FVV"
+  },
+  "Fichier des personnes recherchées":{
+    "gestionnaire":"Ministère de l'Intérieur",
+    "lien":["http://www.ladocumentationfrancaise.fr/var/storage/rapports-publics/064000885.pdf"],
+    "acronyme":"FPR"
+  },
+  "Fichier des renseignements généraux":{
+    "gestionnaire":"Ministère de l'Intérieur",
+    "lien":["http://www.ladocumentationfrancaise.fr/var/storage/rapports-publics/064000885.pdf"],
+    "acronyme":"FRG"
+  },
+  "Fichier national transfrontières":{
+    "gestionnaire":"Ministère de l'Intérieur",
+    "lien":["http://www.ladocumentationfrancaise.fr/var/storage/rapports-publics/064000885.pdf"],
+    "acronyme":"FNT"
+  },
+  "Fichier des brigades spécialisées":{
+    "gestionnaire":"Ministère de l'Intérieur",
+    "lien":["http://www.ladocumentationfrancaise.fr/var/storage/rapports-publics/064000885.pdf"],
+    "acronyme":"FBS"
+  },
+  "Fichier informatisé du terrorisme":{
+    "gestionnaire":"Ministère de l'Intérieur",
+    "lien":["http://www.ladocumentationfrancaise.fr/var/storage/rapports-publics/064000885.pdf"],
+    "acronyme":"FIT"
+  },
+  "Fichier national du faux monnayage":{
+    "gestionnaire":"Ministère de l'Intérieur",
+    "lien":["http://www.ladocumentationfrancaise.fr/var/storage/rapports-publics/064000885.pdf"],
+    "acronyme":"FNFM"
+  },
+  "Fichier national automatisé des empreintes génétiques":{
+    "gestionnaire":"Ministère de l'Intérieur",
+    "lien":["http://www.ladocumentationfrancaise.fr/var/storage/rapports-publics/064000885.pdf"],
+    "acronyme":"FNAEG"
+  },
+  "Fichier  de  la  Direction  de  la  surveillance":{
+    "gestionnaire":"Ministère de l'Intérieur",
+    "lien":["http://www.ladocumentationfrancaise.fr/var/storage/rapports-publics/064000885.pdf"],
+    "acronyme":"FDS"
+  },  
+  "Système  d’analyse  et  de  liens  de  la  violence associée  au  crime":{
+    "gestionnaire":"Ministère de l'Intérieur",
+    "lien":["http://www.ladocumentationfrancaise.fr/var/storage/rapports-publics/064000885.pdf"],
+    "acronyme":"SALVAC"
+  },  
+  "Fichier  de  travail  de  la  police  judiciaire":{
+    "gestionnaire":"Ministère de l'Intérieur",
+    "lien":["http://www.ladocumentationfrancaise.fr/var/storage/rapports-publics/064000885.pdf"],
+    "acronyme":"FTPJ"
+  },  
+  "Fichier  automatisé  des  empreintes  digitales":{
+    "gestionnaire":"Ministère de l'Intérieur",
+    "lien":["http://www.ladocumentationfrancaise.fr/var/storage/rapports-publics/064000885.pdf"],
+    "acronyme":"FAED"
+  },  
+  "Fichier  judiciaire  national  automatisé  des  auteurs d’infractions  sexuelles":{
+    "gestionnaire":"Ministère de l'Intérieur",
+    "lien":["http://www.ladocumentationfrancaise.fr/var/storage/rapports-publics/064000885.pdf"],
+    "acronyme":"FIJAIS"
+  },  
+  "Fichier  national  des  permis  de  conduire":{
+    "gestionnaire":"Ministère de l'Intérieur",
+    "lien":["http://www.ladocumentationfrancaise.fr/var/storage/rapports-publics/064000885.pdf"],
+    "acronyme":"FNPC"
+  },  
+  "Répertoire informatisé des propriétaires et possesseurs d’armes":{
+    "gestionnaire":"Ministère de l'Intérieur",
+    "lien":["http://www.ladocumentationfrancaise.fr/var/storage/rapports-publics/064000885.pdf"],
+    "acronyme":"AGRIPPA"
   }
 }
