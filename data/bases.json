@@ -204,7 +204,7 @@
     "description": "Base documentaire sur la santé publique"
   },
   "Cohorte cancer": {
-    "gestionnaire": "Institut national Du cancer",
+    "gestionnaire": "Institut national du cancer",
     "commentaire": " Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
     "description": "Données patients issues du SNIIRAM-PMSI",
     "alimentation": "SNIIRAM-PMSI"
@@ -619,7 +619,7 @@
     "alimentation": "-"
   },
   "Baromètres et études INCa/Ipsos, INCa/BVA…": {
-    "gestionnaire": "Institut national Du cancer",
+    "gestionnaire": "Institut national du cancer",
     "commentaire": " Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
     "lien": "www.e-cancer.fr",
     "description": "Données brutes des baromètres et enquêtes",
@@ -697,7 +697,7 @@
     "commentaire": " Cette base Activité des établissements de santé fait partie de la catégorie Activité des établissements de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
     "lien": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php",
     "description": "Pour chaque région, pour chaque secteur (ex-DG, ex-OQN), une fiche (en format excel) inclut les éléments suivants : les montants des ressources allouées et leur évolution sur un an (activité, MIG, AC, forfaits…), l’évolution des recettes liées à l’activité et du volume économique (différenciant l’effet nombre de séjours et l’effet structure), la déclinaison par activité de soins et par niveau de sévérité, et la déclinaison par établissement.",
-    "alimentation": "_ Principales sources : PMSI, SAE, remontées financières des établissements"
+    "alimentation": "Principales sources : PMSI, SAE, remontées financières des établissements"
   },
   "Registres handicaps de l'enfant": {
     "gestionnaire": [
@@ -771,7 +771,7 @@
     "description": "5 niveaux de qualité de l'eau de baignades par lieu"
   },
   "Tableau de bord sur l’activité des hôpitaux concernant la cancérologie": {
-    "gestionnaire": "Institut national Du cancer",
+    "gestionnaire": "Institut national du cancer",
     "commentaire": "Base en cours de développement Cette base Infrastructures fait partie de la catégorie Infrastructures du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
     "description": "Données sur l’activité des établissements en lien avec une prise en charge des cancers : volume d'activité, actes de descriptions, modes de prise en charge, appareils, nombre de journées, nombre de personnes…",
     "alimentation": "Données PMSI, traitées par l'INCA"
@@ -1248,7 +1248,7 @@
       "Caisse Nationale de l'Assurance Maladie des Travailleurs Salariés",
       "Régime Social des Indépendants",
       "Agence Nationale de Sécurité du Médicament",
-      "Institut National Du Cancer"
+      "Institut national du cancer"
     ]
   },
   "Donnéesrésultant de l'évaluation du médicament": {
@@ -1326,7 +1326,7 @@
     "alimentation": "SNIIRAM"
   },
   "Registre des essais cliniques en cancérologie (RECF)": {
-    "gestionnaire": "Institut national Du cancer",
+    "gestionnaire": "Institut national du cancer",
     "commentaire": "Essais français avec un lien vers des essais étrangers Cette base Informations médicales fait partie de la catégorie Informations médicales du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
     "lien": "http://www.e-cancer.fr/recherche/recherche-clinique/registre-des-essais-cliniques",
     "description": "Liste des essais cliniques enregistrés : descriptif, lieu, état d'avancement, organisme promoteur…",
@@ -1576,7 +1576,8 @@
     "description": "Surveillance des infections des sites opératoires, des bactéries multirésistantes, des infections nosocomiales en réanimation, etc.",
     "alimentation": "Etablissements de santé volontaires"
   },
-  "Répertoire des procédures d’expulsion (Exploc)": {
+  "Répertoire des procédures d’expulsion": {
+    "acronyme": "Exploc",
     "granularite": "Départementale pour les données nominatives. Départementale et nationale pour l’exploitation statistique.",
     "gestionnaire": "Direction de l'habitat, de l'urbanisme et des paysages",
     "commentaire": "Déploiement de la première phase prévu en 2015, puis ouverture de l’application aux partenaires extérieurs aux services de l’Etat (BDF, CAF, conseils généraux, huissiers de justice, bailleurs sociaux...). Il est prévu la mise à disposition de données en open data",
@@ -1603,7 +1604,7 @@
   "Tableau de bord de l'IDS : suivides actes techniques (actes CCAM) réalisés en secteur libéral": {
     "gestionnaire": "Institut des Données de Santé",
     "commentaire": "France entière Cette base Consultations fait partie de la catégorie Consultations du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "description": "_ Fonctionnalité : suivre les actes techniques et leur évolution par codes CCAMet par famille d’actes (regroupements) selon les indicateurs tels que le nombre d’actes, le montant de la dépense présentée au remboursement, le montant remboursé, le montant du dépassement ou le reste à charge",
+    "description": "Fonctionnalité : suivre les actes techniques et leur évolution par codes CCAMet par famille d’actes (regroupements) selon les indicateurs tels que le nombre d’actes, le montant de la dépense présentée au remboursement, le montant remboursé, le montant du dépassement ou le reste à charge",
     "alimentation": "SNIIRAM"
   },
   "Tableau de bord de l’IDS : suivi des dépassements d'honoraires": {
@@ -1642,7 +1643,7 @@
     "commentaire": "Plus de 600 sites de mesures ; recueil de données tous les quarts d'heure Cette base Environnement fait partie de la catégorie Environnement du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
     "lien": "http://www.buldair.org/accueil",
     "description": "_ Qualité de l'air en France et par région : notamment taux de dioxyde de souffre, dioxyde d'azote, oxyde de souffre, ozone, particules PM10, monoxyde de carbone, benzène, plomb, PM 2.5",
-    "alimentation": "_ De fait, 5 bases de données sur la qualité de l'air : BASTER, BULDER, ALERTE, BDQA, INVEST"
+    "alimentation": "De fait, 5 bases de données sur la qualité de l'air : BASTER, BULDER, ALERTE, BDQA, INVEST"
   },
   "Déclarations annuelles des données sociales (DADS)": {
     "gestionnaire": "Institut national de la statistique et des études économiques - Direction générale",
@@ -1669,7 +1670,8 @@
     "lien": "http://www.invs.sante.fr/surveillance/noyades/noyades_2012_premiers_resultats_definitifs.pdf",
     "description": "Répartition des noyades par lieu, par âge des victimes, évolution du nombre de noyades"
   },
-  "Répertoire du parc locatif social (RPLS)": {
+  "Répertoire du parc locatif social": {
+    "acronyme":"RPLS",
     "granularite": "Communal sans restrictions.",
     "gestionnaire": "Service de l'observation et des statistiques",
     "commentaire": "Projet d’immatriculation des logements en continu afin d’accroître la synergie avec le Système national d’enregistrement de la demande de logement social et améliorer la qualité du répertoire.",
@@ -2144,23 +2146,23 @@
     "alimentation": "Régions IDF, PACA et Haute-Normandie"
   },
   "Base de l'observatoire nationale des radiothéraphies": {
-    "gestionnaire": "Institut national Du cancer",
+    "gestionnaire": "Institut national du cancer",
     "commentaire": "Enquêtes effectuées sur 167 centres de radiothérapie Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
     "lien": "http://www.e-cancer.fr/toutes-les-actualites/6805-publication-du-rapport-denquete-de-lobservatoire-national-de-la-radiotherapie",
     "description": "Les principales évolutions en matière d’équipements, d’activité et de ressources humaines",
     "alimentation": "Enquêtes annuelles auprès des centres de radiothérapie"
   },
-  "Statistiques de la construction (Sitadel2) ": {
+  "Statistiques de la construction (Sit@del2) ": {
     "granularite": "Niveau communalUsages possibles pour des zonages infra communaux",
     "gestionnaire": "Service de l'observation et des statistiques",
     "commentaire": "engagement du SOeS à déterminer une granularité optimale des données issues du Répertoire des logements locatifs des bailleurs sociaux et à mettre à disposition les fichiers bruts (extraits du logiciel Beyond). Un projet d'estimation en date réelle est en cours. L'objectif est de produire des estimations mensuelles dautorisations et de mises en chantier qui seront publiées tous les mois et se substitueront aux séries en date de prise en compte dans l'analyse conjoncturelle. Une réflexion sur une meilleure articulation entre les séries d'autorisation de constuire et de mises en chantier est également en cours.",
     "description": "Suivi de la construction neuve des logements et des locauxDeux types de séries statistiques sont proposées : les séries en date de prise en compte (suivi conjoncturel) et les séries en date réelle (études structurelles). ",
     "alimentation": "SOeS"
   },
-  "Parc privé potentiellement indigne (PPPI)": {
+  "Parc privé potentiellement indigne": {
+    "acronyme":"PPPI",
     "granularite": "Département, cantons, communes, EPCI, sections cadastrales des communes de plus de 5 000 habitants.",
     "gestionnaire": "Agence nationale de l'habitat",
-    "commentaire": "",
     "description": "Favoriser la prise en compte de la lutte contre l'habitat indigne dans les politiques publiques.Susciter le dialogue entre les services de l'Etat et les collecttivités locales.Faciliter le repérage des zones à risques, c'est à dire des secteurs à forte probabilité de logements indignes ou dégradés.Prioriser l'action publique en général et optimiser la répartition des crédits de l'Anah en particulier.",
     "alimentation": "ANAH"
   },
@@ -2208,7 +2210,7 @@
   "Base Medline SIGAPS": {
     "gestionnaire": "Direction générale de l'offre de soins",
     "commentaire": " Cette base Infrastructures de recherche fait partie de la catégorie Infrastructures de recherche du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "description": "_ Recensement, évaluation et valorisation des publications scientifiques d'un établissement ayant des activités de recherche médicale",
+    "description": "Recensement, évaluation et valorisation des publications scientifiques d'un établissement ayant des activités de recherche médicale",
     "alimentation": "Plus de 100 établissements équipés (CHU, CLCC, CHG) ; serveur Pubmed"
   },
   "Comptes de résultats et bilans des établissements de santé publics": {

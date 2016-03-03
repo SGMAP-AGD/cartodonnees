@@ -150,6 +150,18 @@ def getGestionnaireBases():
       bases.append(base["nom"])
     resultats[gestionnaire] = bases
   return resultats
+
+def multiLevelupdate(dico1,dico2):
+  for key,value in dico2.items():
+    if(str(type(value)) == "<class 'dict'>"):
+      if key in dico1:
+        if(str(type(dico1[key])) == "<class 'dict'>"):
+          dico1[key] = multiLevelupdate(dico1[key],dico2[key])
+      else:
+          dico1[key] = dico2[key]
+    else:
+      dico1[key] = dico2[key]
+  return dico1
   
 def APIerror(message):
   print(message)
@@ -181,18 +193,11 @@ def bases():
     else:
       return Response(json.dumps(getListeBases(), indent= 2,ensure_ascii=False),mimetype='application/json; charset=utf-8')
 
-def multiLevelupdate(dico1,dico2):
-  for key,value in dico2.items():
-    if(str(type(value)) == "<class 'dict'>"):
-      if key in dico1:
-        if(str(type(dico1[key])) == "<class 'dict'>"):
-          dico1[key] = multiLevelupdate(dico1[key],dico2[key])
-      else:
-          dico1[key] = dico2[key]
-    else:
-      dico1[key] = dico2[key]
-  return dico1
-  
+@app.route("/bases/datagouv", methods=['GET'])
+# Retourne le shcema d'un objet base
+def basesdatagouv():
+  return "OK"
+
 @app.route("/bases/schema", methods=['GET'])
 # Retourne le shcema d'un objet base
 def basesSchema():

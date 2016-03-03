@@ -11,7 +11,7 @@ La Cartographie Collaborative des Données de l'État est propose 3 niveaux de l
   
 La cartographie a pour objectif est de distribuer des informations structurées, claires et pertinentes sur toutes les données de l'État, qu'elles soient ouvertes ou non. Seuls les niveaux 1 et 2 sont aujourd'hui publiés en Open Data sur la plateforme [Data.Gouv.fr](https://www.data.gouv.fr/fr/datasets/cartographie-collaborative-des-donnees-de-letat/).
 
-Enrichie de manière collaborative, la cartographie dispose d'une multitude de sources hétérogènes comme les cartographies thématiques ouvertes ou les saisies manuelles effectuées à partir d'informations déstructurées. Des données incorrectes ou impertinentes sont donc suceptibles de subsister.
+Enrichie de manière collaborative à la manière de ce document, la cartographie dispose d'une multitude de sources hétérogènes comme les cartographies thématiques ouvertes ou les saisies manuelles effectuées à partir d'informations déstructurées. Des données et informations incomplètes, incorrectes ou impertinentes sont donc suceptibles d'exister.
 
 ```{r echo=FALSE}
 library(httr)
@@ -30,17 +30,37 @@ Chaque entité de l'annuaire est rattachée à son administration parente, l'ens
 
 [![administrations](reporting/administrations-thumb.png)](reporting/administrations.png)
 
+L'historisation de cet annuaire est prévue.
+
 ## Bases de données
 
-La cartographie décrit [`r length(bases)` bases de données](http://bases.gouv2.fr/bases) pour [`r length(gestionnaires)` gestionnaires](http://bases.gouv2.fr/gestionnaires). Parmis ceux-ci, [`r length(diff)` gestionnaires](http://bases.gouv2.fr/gestionnaires/inconnus) ne sont pas identifiés dans l'annuaire des administrations.
+La cartographie décrit [`r length(bases)` bases de données](http://bases.gouv2.fr/bases) pour [`r length(gestionnaires)` gestionnaires](http://bases.gouv2.fr/gestionnaires). Parmis ceux-ci, [`r length(diff)` gestionnaires](http://bases.gouv2.fr/gestionnaires/inconnus) ne sont pas identifiés dans l'annuaire des administrations. Il s'agit d'établissements publics ou d'administrations territoriales n'ayant pas encore été intégrées à la cartographie.
 
 Considérées comme entitées dépendantes des leur gestionnaires, les bases de données peuvent être intégrées à l'arbre des administrations. La visualisation est alors similaire à celle de l'annuaire:
 
 [![bases de données](reporting/cartographie-thumb.png)](reporting/cartographie.png)
 
 
-### Conformité [Data.gouv.fr](https://www.data.gouv.fr)
+### Intégration [data.gouv.fr](https://www.data.gouv.fr)
 
-
+Le portail Open Data de l'État [data.gouv.fr](https://www.data.gouv.fr) recense les jeux de données ouverts de l'administration. La cartographie collaborative des données permet de retracer la base d'origine des jeux de données publiés sur le portail, lorsque le champ `datagouv` est renseigné.
 
 ## Structures des données
+
+## Feuille de route
+
+* Schéma des métadonnées Niveau 2
+  - Stabilisation du schéma intermédiaire pour une "v1".
+
+* Gestionnaires de données
+  - Historisation des administrations françaises.
+  - Intégration des gestionnaires manquants.
+  
+* Data.gouv.fr
+  - Harmonisation des gestionnaires/producteurs.
+  - Intégration de la cartographie au portail data.gouv.fr.
+
+* Portail Collaboratif Public
+  - Définition d'un solution.
+  - Déploiement de la solution retenue.
+
