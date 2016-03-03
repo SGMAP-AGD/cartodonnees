@@ -1,0 +1,32 @@
+Cartographie Collaborative des données de l'État
+========================================================
+
+```{r echo=FALSE}
+library(httr)
+api_adress <- "http://bases.gouv2.fr"
+bases <- content(GET(paste(api_adress,"/bases",sep="")))
+administrations <- content(GET(paste(api_adress,"/administrations",sep="")))
+gestionnaires <- content(GET(paste(api_adress,"/gestionnaires",sep="")))
+diff <- setdiff(gestionnaires, administrations)
+```
+
+### 
+* La cartographie collaborative des données de l'État répertorie actuellement `r length(bases)` bases de données pour `r length(gestionnaires)` gestionnaires.
+
+* La liste des administrations publiée sur l'annuaire des services publics comporte `r length(administrations[duplicated(administrations)])` doublons.
+
+* `r length(gestionnaires) - length(diff)` gestionnaires sont identifiés dans l'annuaire des services publics. `r length(diff)` ne sont pas identifiés.
+
+
+### Exemples de code
+
+Mettre à jour un gestionnaire directement dans le référentiel:
+
+```{r eval=FALSE}
+library(mongolite)
+m <- mongo(collection = "bases",db="cartographie")
+
+m$update("{ \"gestionnaire\": \"Institut National Du Cancer\" }",
+         "{ \"$set\": { \"gestionnaire\": \"Institut national Du cancer\" } }",
+         multiple = TRUE)
+```
