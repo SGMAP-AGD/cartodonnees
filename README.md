@@ -1,6 +1,9 @@
 Cartographie Collaborative des Données de l'État
 ========================================================
 
+
+
+
 La Cartographie Collaborative des Données de l'État est le référentiel de métadonnées de l'État Français. Cette initiative a pour but d'améliorer la qualité des données et d'en rationaliser la gouvernance au sein des administrations pour généraliser la mise en place de politiques fondées sur les données. 
 
 La Cartographie Collaborative des Données de l'État est propose 3 niveaux de lecture:
@@ -11,9 +14,19 @@ La Cartographie Collaborative des Données de l'État est propose 3 niveaux de l
   
 La cartographie a pour objectif est de distribuer des informations structurées, claires et pertinentes sur toutes les données de l'État, qu'elles soient ouvertes ou non. Seuls les niveaux 1 et 2 sont aujourd'hui publiés en Open Data sur la plateforme [Data.Gouv.fr](https://www.data.gouv.fr/fr/datasets/cartographie-collaborative-des-donnees-de-letat/).
 
+### Alimentation
+
 Enrichie de manière collaborative à la manière de ce document, la cartographie dispose d'une multitude de sources hétérogènes comme les cartographies thématiques ouvertes ou les saisies manuelles effectuées à partir d'informations déstructurées. Des données et informations incomplètes, incorrectes ou impertinentes sont donc suceptibles d'exister.
 
+### Structure technique
 
+La cartographie collaborative est une base de données, à l'image des entitées qu'elle référence. À ce titre, elle est présente dans son propre référentiel, modélisée en suivant le même schéma que toutes les autres bases.
+Bien que la cartographie des bases de données soit pour l'instant le seul jeu de données produit, la cartographie intègre d'autres sources de données.
+
+* L'annuaire des services publics publié par la DILA.
+* La liste de des jeux de données publiés sur le portail Data.gouv.fr
+
+La cartographie dispose de copies de ces données, faisant uniquement référence dans un cadre local. Elles ne sont donc pas publiées et les sources originales doivent être considérées pour toute réutilisation.
 
 ## Gestionnaires de données
 
@@ -27,18 +40,23 @@ L'historisation de cet annuaire est prévue.
 
 ## Bases de données
 
-La cartographie décrit [370 bases de données](http://bases.gouv2.fr/bases) pour [76 gestionnaires](http://bases.gouv2.fr/gestionnaires). Parmis ceux-ci, [40 gestionnaires](http://bases.gouv2.fr/gestionnaires/inconnus) ne sont pas identifiés dans l'annuaire des administrations. Il s'agit d'établissements publics ou d'administrations territoriales n'ayant pas encore été intégrées à la cartographie.
+La cartographie décrit [369 bases de données](http://bases.gouv2.fr/bases) pour [76 gestionnaires](http://bases.gouv2.fr/gestionnaires). Parmis ceux-ci, [40 gestionnaires](http://bases.gouv2.fr/gestionnaires/inconnus) ne sont pas identifiés dans l'annuaire des administrations. Il s'agit d'établissements publics ou d'administrations territoriales n'ayant pas encore été intégrées à la cartographie.
+
+Un modèle de données semi-structuré permet de décrire chaque base de données. Ce modèle évolue au fur et à mesure des mises à jour et de l'enrichissement de la cartographie. L'[API](http://bases.gouv2.fr/) de la cartographie permet de consulter le [modèle de données actuel brut](http://bases.gouv2.fr/bases/schema). Une [version documentée](data/schema.json) est également disponible.
+
+### Représenter la cartographie
 
 Considérées comme entitées dépendantes des leur gestionnaires, les bases de données peuvent être intégrées à l'arbre des administrations. La visualisation est alors similaire à celle de l'annuaire:
 
 [![bases de données](reporting/cartographie-thumb.png)](reporting/cartographie.png)
-
 
 ### Intégration [data.gouv.fr](https://www.data.gouv.fr)
 
 Le portail Open Data de l'État [data.gouv.fr](https://www.data.gouv.fr) recense les jeux de données ouverts de l'administration. La cartographie collaborative des données permet de retracer la base d'origine des jeux de données publiés sur le portail, lorsque le champ `datagouv` est renseigné.
 
 ## Structures des données
+
+
 
 ## Feuille de route
 
@@ -56,4 +74,3 @@ Le portail Open Data de l'État [data.gouv.fr](https://www.data.gouv.fr) recense
 * Portail Collaboratif Public
   - Définition d'un solution.
   - Déploiement de la solution retenue.
-

@@ -32,6 +32,6 @@
     },
     "alimentation": "Bases de données ou organismes alimentant cette base de données.",
     "acces": "Modalités d'accès aux données. Champ libre.",
-    "datagouv": "Liste de liens des jeux de données extraits de cette base référencés sur le portail Data.gouv.fr"
+    "datasets": "Liste de liens des jeux de données extraits de cette base référencés sur le portail Data.gouv.fr"
   }
 }

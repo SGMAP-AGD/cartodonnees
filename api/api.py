@@ -193,10 +193,18 @@ def bases():
     else:
       return Response(json.dumps(getListeBases(), indent= 2,ensure_ascii=False),mimetype='application/json; charset=utf-8')
 
-@app.route("/bases/datagouv", methods=['GET'])
+@app.route("/bases/datasets", methods=['GET'])
 # Retourne le shcema d'un objet base
-def basesdatagouv():
-  return "OK"
+def basesdatasets():
+  datasets = []
+  for base in db.bases.find():
+    if "datasets" in base:
+      if (str(type(base["datasets"])) == "<class 'dict'>"):
+        for dataset in base["datasets"]:
+          datasets.append({"gestionnaire":base["gestionnaire"],"base":base["nom"],"dataset":dataset})
+      else:
+        datasets.append({"gestionnaire":base["gestionnaire"],"base":base["nom"],"dataset":base["datasets"]})
+  return Response(json.dumps(datasets, indent= 2,ensure_ascii=False),mimetype='application/json; charset=utf-8')
 
 @app.route("/bases/schema", methods=['GET'])
 # Retourne le shcema d'un objet base

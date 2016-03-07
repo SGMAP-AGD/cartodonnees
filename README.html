@@ -177,7 +177,21 @@ hr {
 
 <p>La cartographie a pour objectif est de distribuer des informations structurées, claires et pertinentes sur toutes les données de l&#39;État, qu&#39;elles soient ouvertes ou non. Seuls les niveaux 1 et 2 sont aujourd&#39;hui publiés en Open Data sur la plateforme <a href="https://www.data.gouv.fr/fr/datasets/cartographie-collaborative-des-donnees-de-letat/">Data.Gouv.fr</a>.</p>
 
+<h3>Alimentation</h3>
+
 <p>Enrichie de manière collaborative à la manière de ce document, la cartographie dispose d&#39;une multitude de sources hétérogènes comme les cartographies thématiques ouvertes ou les saisies manuelles effectuées à partir d&#39;informations déstructurées. Des données et informations incomplètes, incorrectes ou impertinentes sont donc suceptibles d&#39;exister.</p>
+
+<h3>Structure technique</h3>
+
+<p>La cartographie collaborative est une base de données, à l&#39;image des entitées qu&#39;elle référence. À ce titre, elle est présente dans son propre référentiel, modélisée en suivant le même schéma que toutes les autres bases.
+Bien que la cartographie des bases de données soit pour l&#39;instant le seul jeu de données produit, la cartographie intègre d&#39;autres sources de données.</p>
+
+<ul>
+<li>L&#39;annuaire des services publics publié par la DILA.</li>
+<li>La liste de des jeux de données publiés sur le portail Data.gouv.fr</li>
+</ul>
+
+<p>La cartographie dispose de copies de ces données, faisant uniquement référence dans un cadre local. Elles ne sont donc pas publiées et les sources originales doivent être considérées pour toute réutilisation.</p>
 
 <h2>Gestionnaires de données</h2>
 
@@ -191,7 +205,11 @@ hr {
 
 <h2>Bases de données</h2>
 
-<p>La cartographie décrit <a href="http://bases.gouv2.fr/bases">370 bases de données</a> pour <a href="http://bases.gouv2.fr/gestionnaires">76 gestionnaires</a>. Parmis ceux-ci, <a href="http://bases.gouv2.fr/gestionnaires/inconnus">40 gestionnaires</a> ne sont pas identifiés dans l&#39;annuaire des administrations. Il s&#39;agit d&#39;établissements publics ou d&#39;administrations territoriales n&#39;ayant pas encore été intégrées à la cartographie.</p>
+<p>La cartographie décrit <a href="http://bases.gouv2.fr/bases">369 bases de données</a> pour <a href="http://bases.gouv2.fr/gestionnaires">76 gestionnaires</a>. Parmis ceux-ci, <a href="http://bases.gouv2.fr/gestionnaires/inconnus">40 gestionnaires</a> ne sont pas identifiés dans l&#39;annuaire des administrations. Il s&#39;agit d&#39;établissements publics ou d&#39;administrations territoriales n&#39;ayant pas encore été intégrées à la cartographie.</p>
+
+<p>Un modèle de données semi-structuré permet de décrire chaque base de données. Ce modèle évolue au fur et à mesure des mises à jour et de l&#39;enrichissement de la cartographie. L&#39;<a href="http://bases.gouv2.fr/">API</a> de la cartographie permet de consulter le <a href="http://bases.gouv2.fr/bases/schema">modèle de données actuel brut</a>. Une <a href="data/schema.json">version documentée</a> est également disponible.</p>
+
+<h3>Représenter la cartographie</h3>
 
 <p>Considérées comme entitées dépendantes des leur gestionnaires, les bases de données peuvent être intégrées à l&#39;arbre des administrations. La visualisation est alors similaire à celle de l&#39;annuaire:</p>
 

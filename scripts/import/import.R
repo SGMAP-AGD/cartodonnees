@@ -3,7 +3,7 @@ library(rmongodb)
 library(plyr)
 
 # Importer le JSON de base
-bases <- fromJSON(paste(readLines("data/bases.json"), collapse=""))
+bases <- fromJSON(paste(readLines("data/bases2.json"), collapse=""))
 
 mongo <- mongo.create()
 
