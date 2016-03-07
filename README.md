@@ -3,7 +3,6 @@ Cartographie Collaborative des Données de l'État
 
 
 
-
 La Cartographie Collaborative des Données de l'État est le référentiel de métadonnées de l'État Français. Cette initiative a pour but d'améliorer la qualité des données et d'en rationaliser la gouvernance au sein des administrations pour généraliser la mise en place de politiques fondées sur les données. 
 
 La Cartographie Collaborative des Données de l'État est propose 3 niveaux de lecture:
@@ -18,19 +17,9 @@ La cartographie a pour objectif est de distribuer des informations structurées,
 
 Enrichie de manière collaborative à la manière de ce document, la cartographie dispose d'une multitude de sources hétérogènes comme les cartographies thématiques ouvertes ou les saisies manuelles effectuées à partir d'informations déstructurées. Des données et informations incomplètes, incorrectes ou impertinentes sont donc suceptibles d'exister.
 
-### Structure technique
-
-La cartographie collaborative est une base de données, à l'image des entitées qu'elle référence. À ce titre, elle est présente dans son propre référentiel, modélisée en suivant le même schéma que toutes les autres bases.
-Bien que la cartographie des bases de données soit pour l'instant le seul jeu de données produit, la cartographie intègre d'autres sources de données.
-
-* L'annuaire des services publics publié par la DILA.
-* La liste de des jeux de données publiés sur le portail Data.gouv.fr
-
-La cartographie dispose de copies de ces données, faisant uniquement référence dans un cadre local. Elles ne sont donc pas publiées et les sources originales doivent être considérées pour toute réutilisation.
-
 ## Gestionnaires de données
 
-Les gestionnaires de données de l'État sont les entités répertoriées par l'annuaire de l'administration mis à jour par la [Direction Légale de l'Information Légale et Administrative](http://www.dila.premier-ministre.gouv.fr/). Cet annuaire est consultable via une [interface web en ligne](https://lannuaire.service-public.fr) ou sous la forme d'un [jeu de données ouvert publié sur Data.gouv.fr](https://www.data.gouv.fr/fr/datasets/annuaire-des-services-publics-nationaux/). La dernière version de l'annuaire intégrée à la cartographie contient 3799 administrations.
+Les gestionnaires de données de l'État sont les entités répertoriées par l'annuaire de l'administration mis à jour par la [Direction Légale de l'Information Légale et Administrative](http://www.dila.premier-ministre.gouv.fr/) (DILA). Cet annuaire est consultable via une [interface web en ligne](https://lannuaire.service-public.fr) ou sous la forme d'un [jeu de données ouvert publié sur Data.gouv.fr](https://www.data.gouv.fr/fr/datasets/annuaire-des-services-publics-nationaux/). La dernière version de l'annuaire intégrée à la cartographie contient 3799 administrations.
 
 Chaque entité de l'annuaire est rattachée à son administration parente, l'ensemble des administrations pouvant être représenté comme un graphe non orienté acyclique et connexe, ou arbre. En voici une représentation graphique:
 
@@ -42,7 +31,18 @@ L'historisation de cet annuaire est prévue.
 
 La cartographie décrit [369 bases de données](http://bases.gouv2.fr/bases) pour [76 gestionnaires](http://bases.gouv2.fr/gestionnaires). Parmis ceux-ci, [40 gestionnaires](http://bases.gouv2.fr/gestionnaires/inconnus) ne sont pas identifiés dans l'annuaire des administrations. Il s'agit d'établissements publics ou d'administrations territoriales n'ayant pas encore été intégrées à la cartographie.
 
-Un modèle de données semi-structuré permet de décrire chaque base de données. Ce modèle évolue au fur et à mesure des mises à jour et de l'enrichissement de la cartographie. L'[API](http://bases.gouv2.fr/) de la cartographie permet de consulter le [modèle de données actuel brut](http://bases.gouv2.fr/bases/schema). Une [version documentée](data/schema.json) est également disponible.
+### Sources
+
+La liste des bases de données et leurs attributs est mise à jour automatiquement ainsi que de manière collaborative. Des [flux](scripts/) ont été développés pour intégrer différentes sources telles que les cartographies thématiques publiées en Open Data.
+
+* [La cartographie des bases de données publiques en santé.](scripts/sante)
+* [La cartographie des données publiques du logement](scripts/logement)
+
+Pour l'enrichissement ponctuel de la cartographie, la modification du fichier [bases.json](data/bases.json) suivi d'une [pull request](https://help.github.com/articles/using-pull-requests/) sur le [répertoire Git de la cartographie](https://github.com/SGMAP-AGD/cartodonnees) est pour le moment nécéssaire. Ce fichier est [régulièrement intégré](scripts/import/import.R) au référentiel de la cartographie.
+
+### Modèle de données 
+
+Un modèle de données semi-structuré permet de décrire chaque base de données. Ce modèle évolue au fur et à mesure des mises à jour et de l'enrichissement de la cartographie. L'[API](http://bases.gouv2.fr/) de la cartographie permet de consulter le [modèle de données actuel brut](http://bases.gouv2.fr/bases/schema). Une [version documentée](data/schema.json) de ce schéma est également disponible.
 
 ### Représenter la cartographie
 
@@ -52,11 +52,23 @@ Considérées comme entitées dépendantes des leur gestionnaires, les bases de 
 
 ### Intégration [data.gouv.fr](https://www.data.gouv.fr)
 
-Le portail Open Data de l'État [data.gouv.fr](https://www.data.gouv.fr) recense les jeux de données ouverts de l'administration. La cartographie collaborative des données permet de retracer la base d'origine des jeux de données publiés sur le portail, lorsque le champ `datagouv` est renseigné.
+Le portail Open Data de l'État [data.gouv.fr](https://www.data.gouv.fr) recense les datasetsd, ou jeux de données ouverts de l'administration. Les gestionnaires y sont appelés producteurs. La cartographie collaborative des données permet de retracer la base d'origine des datasets sur le portail, lorsque le champ `datasets` de la cartographie est renseigné pour une base de données, et que la ou les chaînes de caractère qu'il contient sont conformes.
+
+401 producteurs de données publient actuellement 21785 datasets sur [data.gouv.fr](https://www.data.gouv.fr). 40 producteurs sont présents dans l'annuaire des administrations, soit 9.98%.
 
 ## Structures des données
 
+La documentation des structures de données des bases référencées ne sont pas encore à l'ordre du jour. Des expérimentations sont à venir, notamment sur quelques bases ouvertes tel que la [Base Adresse Nationale](https://adresse.data.gouv.fr/) et la présente cartographie.
 
+## Structure technique de la cartographie
+
+La cartographie collaborative est une base de données, à l'image des entitées qu'elle référence. À ce titre, elle est présente dans son propre référentiel, modélisée en suivant le même schéma que toutes les autres bases.
+Bien que la cartographie des bases de données soit pour l'instant le seul dataset produit, la cartographie intègre d'autres sources.
+
+* [L'annuaire des services publics](https://www.data.gouv.fr/fr/datasets/annuaire-des-services-publics-nationaux/) publié par la [DILA](http://www.dila.premier-ministre.gouv.fr/).
+* [La liste de des jeux de données publiés sur le portail Data.gouv.fr](https://www.data.gouv.fr/fr/datasets.csv)
+
+La cartographie dispose de copies de ces données le plus à jour possible, dont les versions font uniquement référence dans le cadre local de la cartographie. Ces versions ne sont pas publiées et les originaux doivent être la source de toute réutilisation.
 
 ## Feuille de route
 

@@ -3,7 +3,7 @@ library(rmongodb)
 library(plyr)
 
 # Importer le JSON de base
-bases <- fromJSON(paste(readLines("data/bases2.json"), collapse=""))
+bases <- fromJSON(paste(readLines("data/bases.json"), collapse=""))
 
 mongo <- mongo.create()
 
@@ -12,6 +12,7 @@ mongo.drop(mongo,"cartographie.bases")
 basesb <- lapply(names(bases), function(nom) {
   base <- bases[nom][[1]]
   base['nom'] <- nom
+  print(base['datasets'])
   return(mongo.bson.from.list(base))
 })
 

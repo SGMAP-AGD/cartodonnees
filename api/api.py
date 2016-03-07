@@ -193,8 +193,17 @@ def bases():
     else:
       return Response(json.dumps(getListeBases(), indent= 2,ensure_ascii=False),mimetype='application/json; charset=utf-8')
 
+@app.route("/datasets/producteurs", methods=['GET'])
+def datasetsproducteurs():
+  return Response(json.dumps(db.datasets.distinct("organization"), indent= 2,ensure_ascii=False),mimetype='application/json; charset=utf-8')
+ 
+@app.route("/datasets", methods=['GET'])
+def datasets():
+  return Response(json.dumps(db.datasets.distinct("slug"), indent= 2,ensure_ascii=False),mimetype='application/json; charset=utf-8')
+   
 @app.route("/bases/datasets", methods=['GET'])
 # Retourne le shcema d'un objet base
+## TODO
 def basesdatasets():
   datasets = []
   for base in db.bases.find():
@@ -241,7 +250,11 @@ def setDBs(arbre,gestionnaire,base):
           elem["children"].append({"nom" : base})
         setDBs(elem,gestionnaire,base)
   return arbre
-  
+
+@app.route("/datasets/producteurs/arbre", methods=['GET'])
+def datasetsProducteursArbre():
+
+  return "OK"
 @app.route("/gestionnaires/bases/arbre", methods=['GET'])
 def gestionnairesBasesArbre():
   
