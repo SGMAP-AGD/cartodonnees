@@ -12,7 +12,7 @@ mongo.drop(mongo,"cartographie.bases")
 basesb <- lapply(names(bases), function(nom) {
   base <- bases[nom][[1]]
   base['nom'] <- nom
-  print(base['datasets'])
+  #print(base['datasets'])
   return(mongo.bson.from.list(base))
 })
 

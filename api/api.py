@@ -202,7 +202,7 @@ def datasets():
   return Response(json.dumps(db.datasets.distinct("slug"), indent= 2,ensure_ascii=False),mimetype='application/json; charset=utf-8')
    
 @app.route("/bases/datasets", methods=['GET'])
-# Retourne le shcema d'un objet base
+# Retourne le schema d'un objet base
 ## TODO
 def basesdatasets():
   datasets = []

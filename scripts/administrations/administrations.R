@@ -10,5 +10,6 @@ administrations <- strsplit(administrations, "\n")
 
 administrations[0][0][0]
 
-
+administrations <-  content(GET(url = "https://raw.githubusercontent.com/cquest/annuaire-services-publics/master/annuaire.sjson"))
+administrations <- fromJSON(administrations)
 

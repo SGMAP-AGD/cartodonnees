@@ -1,14 +1,12 @@
 {
   "Recueil commun sur les addictions et les prises en charge": {
     "gestionnaire": "Observatoire français des drogues et des toxicomanies",
-    "commentaire": " Cette base Habitudes de vie fait partie de la catégorie Habitudes de vie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
     "lien": "http://www.ofdt.fr/ofdtdev/live/donneesnat/recap.html",
     "description": "Données relatives aux patients, données relatives à la prise en charge, données relatives aux consommations addictives et données relatives à la santé du patient (e.g. VIH, VHC, antécédents psychiatriques)",
     "alimentation": "Centres de soins d’accompagnement et de prévention en addictologie (CSAPA)"
   },
   "Base de données employabilité": {
     "gestionnaire": "Caisse nationale de solidarité pour l'autonomie",
-    "commentaire": " Cette base Activité des établissements médicaux-sociaux fait partie de la catégorie Activité des établissements médicaux-sociaux du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
     "description": "Données anonymisées sur l’employabilité des personnes handicapées",
     "alimentation": "10 MDPH (phase pilote)"
   },
@@ -35,9 +33,8 @@
   "Compte du logement ": {
     "granularite": "National",
     "gestionnaire": "Service de l'observation et des statistiques",
-    "commentaire": "Des travaux méthodologiques visant à améliorer la qualité des données sont assurés ou pilotés par le SOeS tout au long de l’année et présentés lors des groupes de travail de la commission. Ces investissements méthodologiques font généralement écho à l’amélioration du système d’information (nouvelle source statistique primaire, disponibilité de nouveaux fichiers administratifs, de nouvelles enquêtes...) ou, au contraire, à la disparition de sources qu’il convient de suppléer pour poursuivre des séries. À court terme, l’intégration des modifications de chiffrages du cadre central liées au passage à la Base 2010 sont une priorité.Par ailleurs, une réflexion est engagé sur la faisabilité d’une amélioration des données fiscales (avantages fiscaux et prélèvements) qui pourrait mobiliser de nouvelles sources et / ou de nouvelles méthodesDans les prochaines années, l’intégration des informations de la prochaine Enquête nationale logement, l’utilisation de données de comptabilité des producteurs spécifiques de service de logement (ESANE / FARE pour les HLM) ou les statistiques bancaires de la Banque de France semblent des chantiers importants. ",
-    "description": "Le compte du logement se veut un outil d'analyse de l'environnement économique du logement. Il constitue un des comptes satellites de la comptabilité nationale. Plusieurs exigences découlent de ce statut :- l'exhaustivité : il s'agit de décrire l'ensemble des flux et des stocks, physiques et financiers, concernant le domaine du logement ;- la cohérence interne entre les données rassemblées ; - la cohérence avec le cadre central de la comptabilité nationale pour rendre possible la comparaison entre les agrégats du compte et ceux de la comptabilité nationale.",
-    "alimentation": "SOeS"
+    "description": "Le compte du logement se veut un outil d'analyse de l'environnement économique du logement. Il constitue un des comptes satellites de la comptabilité nationale. Plusieurs exigences découlent de ce statut :- l'exhaustivité : il s'agit de décrire l'ensemble des flux et des stocks, physiques et financiers, concernant le domaine du logement ;- la cohérence interne entre les données rassemblées ; - la cohérence avec le cadre central de la comptabilité nationale pour rendre possible la comparaison entre les agrégats du compte et ceux de la comptabilité nationale. Des travaux méthodologiques visant à améliorer la qualité des données sont assurés ou pilotés par le SOeS tout au long de l’année et présentés lors des groupes de travail de la commission. Ces investissements méthodologiques font généralement écho à l’amélioration du système d’information (nouvelle source statistique primaire, disponibilité de nouveaux fichiers administratifs, de nouvelles enquêtes...) ou, au contraire, à la disparition de sources qu’il convient de suppléer pour poursuivre des séries. À court terme, l’intégration des modifications de chiffrages du cadre central liées au passage à la Base 2010 sont une priorité.Par ailleurs, une réflexion est engagé sur la faisabilité d’une amélioration des données fiscales (avantages fiscaux et prélèvements) qui pourrait mobiliser de nouvelles sources et / ou de nouvelles méthodesDans les prochaines années, l’intégration des informations de la prochaine Enquête nationale logement, l’utilisation de données de comptabilité des producteurs spécifiques de service de logement (ESANE / FARE pour les HLM) ou les statistiques bancaires de la Banque de France semblent des chantiers importants.",
+    "alimentation": "Service de l'observation et des statistiques"
   },
   "Base de l'outil national d’inventaire et de pilotage du patrimoine hospitalier (OPHELIE)": {
     "gestionnaire": "Agence Technique de l'Information sur l'Hospitalisation",
@@ -145,14 +142,9 @@
   "Perval": {
     "gestionnaire": "Conseil Supérieur du notariat",
     "textes": {
-      "décret": {
-        "lien": "https://www.legifrance.gouv.fr/eli/decret/2013/9/3/JUSC1207406D/jo/texte",
-        "référence": "Décret n° 2013-803 du 3 septembre 2013"
-      },
-      "loi": {
-        "lien": "https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000023776687&categorieLien=id",
-        "référence": "Loi du 28 mars 2011 de modernisation des professions juridiques et financières"
-      }
+        "Décret n° 2013-803 du 3 septembre 2013": "https://www.legifrance.gouv.fr/eli/decret/2013/9/3/JUSC1207406D/jo/texte",
+      "Loi du 28 mars 2011 de modernisation des professions juridiques et financières": 
+        "https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000023776687&categorieLien=id"
     },
     "description": "Envoi par les notaires, volontaire jusqu’à ce jour, des avant contrats et contrats de mutation immobilière à titre onéreux. L'objectif de cette base de données est de connaître de façon détaillée les prix de vente et leurs évolutions sur le territoire national, hors Ile-de-France.  Base gérée par Real.not et exploitée par Min.not.",
     "alimentation": "Min.not"
@@ -176,12 +168,13 @@
     "description": "_ Fonctionnalité : mesurerl’activité et les dépenses de santé des centres libéraux de radiothérapie : outil d’analyse et de pilotage en matière de gestion du risque et de santé publique (Plan Cancer)",
     "alimentation": "SNIIRAM"
   },
-  "Enquête sur le Performance de l’Habitat, Équipement, Besoins et Usages de l’énergie (Phébus)": {
+  "Enquête sur la Performance de l’Habitat, Équipement, Besoins et Usages de l’énergie": {
+    "acronyme":"Phébus",
     "granularite": "National, Zones climatiques",
     "gestionnaire": "Service de l'observation et des statistiques",
     "commentaire": "A reproduire dans 5-6 ans Faire évoluer le mode de collecte des consommations d’énergies de réseaux (scan des factures, compteurs intelligents, données fournisseurs,..)",
     "description": "Évaluer la performance thermique du parc des résidences principales en France métropolitaine.Analyser les résultats en fonction des caractéristiques des logements et des ménages occupantsIdentifier les populations en situation de précarité énergétique. ",
-    "alimentation": "SOeS"
+    "alimentation": "Service de l'observation et des statistiques"
   },
   "Enquête nationale périnatale": {
     "gestionnaire": "Direction de la recherche, des études, de l'évaluation et des statistiques",
@@ -211,10 +204,10 @@
   },
   "Base de données publiques des médicaments": {
     "gestionnaire": "Agence nationale de sécurité du médicament et des produits de santé",
-    "commentaire": "Tous les médicaments commercialisés en France Cette base Informations médicales fait partie de la catégorie Informations médicales du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
     "lien": "http://www.sante.gouv.fr/medicaments,1969.html ; http://www.data.gouv.fr/fr/dataset/base-de-donnees-publique-des-medicaments-base-officielle",
     "description": "Données et documents de référence sur les médicaments commercialisés ou ayant été commercialisés durant les deux dernières années en France",
-    "alimentation": "ANSM, HAS, CNAMTS"
+    "alimentation": "ANSM, HAS, CNAMTS",
+    "datasets":"base-de-donnees-publique-des-medicaments-base-officielle"
   },
   "Enquête FECOND": {
     "gestionnaire": "Institut national d'études démographiques",
@@ -547,13 +540,15 @@
     "description": "_ Fonctionnalité : disposer d’un outil d’analyse des données afin de suivre les dépassements d’honoraires réalisés par les médecins (omnipraticiens, spécialistes), les chirurgiens dentistes et les auxiliaires médicaux (masseurs-kinésithérapeutes, infirmiers, orthophonistes, orthoptistes, pédicures-podologues).",
     "alimentation": "SNIIRAM"
   },
-  "Référentiel des Acteurs Santé Sociaux (RASS)": {
+  "Référentiel des Acteurs Santé Sociaux": {
+    "acronyme":"RASS",
     "gestionnaire": "Agence des Systèmes d’Information Partagés de Santé",
     "commentaire": " Cette base Infrastructures fait partie de la catégorie Infrastructures du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
     "lien": "http://esante.gouv.fr/services/referentiels/identification/referentiel-des-acteurs-sante-sociaux-rass",
     "description": "Données de description des professionnels de santé enregistrés dans le RPPS (données d’identité, exercice professionnel, situations d’exercice…) pour les médecins, chirurgiens-dentistes, sages-femmes et pharmaciens, données d’identification des établissements dans lesquels ces professionnels de santé exercent"
   },
-  "Tableau de Bord des Infections Nosocomiales (TBIN)": {
+  "Tableau de Bord des Infections Nosocomiales": {
+    "acronyme":"TBIN",
     "gestionnaire": "Direction générale de l'offre de soins",
     "commentaire": " Cette base Qualité fait partie de la catégorie Qualité du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
     "lien": "http://www.data.gouv.fr",
@@ -715,7 +710,8 @@
     "commentaire": "Etablissements de santé, SSR, EHPAD, pharmacies ; mise à jour semestrielle Cette base Infrastructures fait partie de la catégorie Infrastructures du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
     "lien": "http://finess.sante.gouv.fr/finess/jsp/actionRechercheSimple.do",
     "description": "Pour chaque établissement, données d’identification (adresse, raison sociale, catégorie juridique, mode de tarification), libellés d’activités sanitaires et d’équipement sociaux (le cas échéant)",
-    "alimentation": "Etablissements via ARS et DRJSCS"
+    "alimentation": "Etablissements via ARS et DRJSCS",
+    "datasets":"extraction-du-fichier-national-des-etablissements-sanitaires-et-sociaux-finess-par-etablissements"
   },
   "Enquête nationale sur les évènements indésirables liés aux soins (ENEIS)": {
     "gestionnaire": "Direction de la recherche, des études, de l'évaluation et des statistiques",
@@ -787,15 +783,9 @@
     "granularite": "Périmètre : l’Ile-de-FranceDonnées statistiques au niveau  région, département, commune, arrondissements de Paris, quartiers, secteurs géographiques plus fins.",
     "gestionnaire": "Chambre interdépartementale des Notaires de Paris",
     "textes": {
-      "décret": {
-        "lien": "https://www.legifrance.gouv.fr/eli/decret/2013/9/3/JUSC1207406D/jo/texte",
-        "référence": "Décret n° 2013-803 du 3 septembre 2013"
+        "Décret n° 2013-803 du 3 septembre 2013": "https://www.legifrance.gouv.fr/eli/decret/2013/9/3/JUSC1207406D/jo/texte",
+        "Loi du 28 mars 2011 de modernisation des professions juridiques et financières": "https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000023776687&categorieLien=id"
       },
-      "loi": {
-        "lien": "https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000023776687&categorieLien=id",
-        "référence": "Loi du 28 mars 2011 de modernisation des professions juridiques et financières"
-      }
-    },
     "description": "Alimentation par les notaires d’Ile-de-France de la base BIEN recensant les ventes immobilières (mutations à titre onéreux) en Ile-de-France.L’alimentation se fait sur la base du volontariat à partir de 1990 pour Paris et la petite Couronne, à partir de 1996 pour la Grande Couronne.L'objectif de cette base de données est de connaître de façon détaillée les prix de vente et leurs évolutions en Ile-de-France.",
     "alimentation": "Paris Notaire Service"
   },
@@ -818,7 +808,8 @@
     "lien": "http://www.inpi.fr/fr/services-et-prestations/bases-de-donnees-gratuites/base-brevets.html",
     "description": "environ 5 millions de demandes de brevets français, européens et de demandes internationales publiées depuis 1978 : documents originaux de l’ensemble de ces demandes ainsi que les brevets délivrés français depuis 1989 et les traductions en français des brevets européens depuis 2004"
   },
-  "Surveillance des retraités du RSI exposés à l’amiante (ESPRI)": {
+  "Surveillance des retraités du RSI exposés à l’amiante": {
+    "acronyme":"ESPRI",
     "gestionnaire": "Institut de veille sanitaire",
     "commentaire": "7 régions participantes (22 départements) Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
     "lien": "http://www.invs.sante.fr/Dossiers-thematiques/Travail-et-sante/Programme-de-surveillance-post-professionnelle-des-artisans-ayant-ete-exposes-a-l-amiante-ESPrI/Resultats",
@@ -1000,12 +991,6 @@
     "commentaire": " Cette base Qualité fait partie de la catégorie Qualité du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
     "description": "Indicateurs de perception de sécurité des soins des professionnels de santé",
     "alimentation": "Médecins généralistes, infirmiers, pharmaciens"
-  },
-  "Baromètre oncologie": {
-    "gestionnaire": "Kantar Health",
-    "commentaire": " Cette base Activité des établissements de santé fait partie de la catégorie Activité des établissements de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "description": "Par organe : epidemiologie,traitements actuels,stade au diag, stade actuel, caractéristiques des patients (age, sexe, ECOG), profil clinique de la pathologie (histologie, mutations, métastases, …), …",
-    "alimentation": "Enquête annuelle auprès d'un échantillon national représentatif des hôpitaux publics, privés et CAC français. 250 établissements interrogés chaque année (686 services hospitaliers screenés dont 317 participants à la phase intensive avec les cas patients). 4430 patients atteints de cancers décrits chaque année couvrant l'ensemble des tumeurs. Résultats disponibles depuis 1993"
   },
   "Base de données relatives à la transparence des avantages accordés aux professionnels de santé, par les entreprises produisant ou commercialisant des produits à finalité sanitaire et cosmétique destinés à l'homme": {
     "gestionnaire": "Direction générale de la santé",
@@ -1706,19 +1691,13 @@
     "description": "L'enquête SRCV est la partie française de l'enquête européenne Statistics on Income and Living Conditions (SILC) qui permet de comparer les ressources et les conditions de vie des ménages entre les pays membres de l’Union Européenne. Elle propose des indicateurs structurels sur les revenus et la pauvreté. Le bloc \"habitation\" permet de décrire le logement (staut d'occupation, surface, année de construction) et renseigne sur les conditions de logement des ménages (humidité, chauffage, bruit, quartier). La constitution d'un panel permet de suivre une partie de l'échantillon d'années en années.",
     "alimentation": "Institut National de la Statistique et des Études Économiques "
   },
-  "Patrimoine": {
-    "granularite": "Information à la parcelle et au local.",
+  "Base nationale des données patrimoniales": {
+    "granularite": "Parcelle",
     "gestionnaire": "Direction générale des finances publiques",
     "textes": {
-      "décret": {
-        "lien": "https://www.legifrance.gouv.fr/eli/decret/2013/8/2/EFIE1311832D/jo/texte",
-        "référence": "Décret n°2013-718 du 2 août 2013"
+        "Décret n°2013-718 du 2 août 2013": "https://www.legifrance.gouv.fr/eli/decret/2013/8/2/EFIE1311832D/jo/texte",
+        "Article L.107 B du livre des procédures fiscales": "https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000006069583&idArticle=LEGIARTI000025068175"
       },
-      "article": {
-        "lien": "https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000006069583&idArticle=LEGIARTI000025068175",
-        "référence": "Article L.107 B du livre des procédures fiscales"
-      }
-    },
     "description": "Fichier exhaustif de toutes les mutations immobilières à titre onéreux (immeubles bâtis à usage non professionnel).",
     "alimentation": "Direction Générale des Finances Publiques"
   },
@@ -1971,12 +1950,6 @@
     "description": "Indicateurs liés au taux d'allaitement (par âge du nourrisoon, par régions), profils sociodémographiques des mères qui allaitent",
     "alimentation": "Echantillon de 190 mères et leurs nouveau-nés, dans 10 maternités en France"
   },
-  "Global Price Reporting Mechanism (GPRM) database": {
-    "gestionnaire": "Organisation Mondiale de la Santé",
-    "commentaire": " Cette base Informations médicales fait partie de la catégorie Informations médicales du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "description": "Enregistrement des achats de médicaments contre la VIH, la malaria et la tuberculose, achats effectués pour des programmes nationaux dans des pays à revenus bas et intermédiaires. Sont notamment recueillies les données suivantes : volumes, prix, termes commerciaux",
-    "alimentation": "Fonds mondial de lutte contre le sida, la tuberculose et le paludisme, ONUSIDA, etc."
-  },
   "Tableaux d'évidence utilisés pour la fixation des SMR et ASMR de la commission de transparence de la HAS": {
     "gestionnaire": "Haute Autorité de santé",
     "commentaire": "(Commentaire de l'HAS : ce sont des documents dont le besoin de structuration en base de données pourraient faire l’objet d’une réflexion. Si certains de ces documents étaient structurés en base de données, la question d’ouverture de ces données sera posée) Cette base Informations médicales fait partie de la catégorie Informations médicales du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
@@ -1987,15 +1960,10 @@
     "acronyme":"ORTHI",
     "granularite": "national, régional et départemental",
     "gestionnaire": "Direction de l'habitat, de l'urbanisme et des paysages",
-    "commentaire": "Les évolutions suivantes sont projetées :- le développement de l'infocentre (en cours de recette) ;- le déploiement de l'outil en Outre-Mer.",
-    "description": "Situations de logements indignes (insalubrité, péril...), et habitats non décents repérés par les services intervenants dans ce domaine (services sociaux, CAF).",
-    
+    "description": "Situations de logements indignes (insalubrité, péril...), et habitats non décents repérés par les services intervenants dans ce domaine (services sociaux, CAF). Les évolutions suivantes sont projetées :- le développement de l'infocentre (en cours de recette) ;- le déploiement de l'outil en Outre-Mer.",
     "textes": {
-      "arrêté":{
-        "référence":"Arrêté du 30 septembre 2011 portant création d'un traitement de données à caractère personnel relatif à l'habitat indigne et non décent, dénommé « ORTHI » (outil de repérage et de traitement de l'habitat indigne)",
-        "lien":"https://www.legifrance.gouv.fr/eli/arrete/2011/9/30/DEVL1121405A/jo"
-      }
-    },
+        "Arrêté du 30 septembre 2011 portant création d'un traitement de données à caractère personnel relatif à l'habitat indigne et non décent, dénommé « ORTHI » (outil de repérage et de traitement de l'habitat indigne)":"https://www.legifrance.gouv.fr/eli/arrete/2011/9/30/DEVL1121405A/jo"
+      },
     "alimentation": "DHUP"
   },
   "Enquête nationale nutrition santé (ENNS)": {
@@ -2145,12 +2113,15 @@
     "description": "Les principales évolutions en matière d’équipements, d’activité et de ressources humaines",
     "alimentation": "Enquêtes annuelles auprès des centres de radiothérapie"
   },
-  "Statistiques de la construction (Sit@del2) ": {
-    "granularite": "Niveau communalUsages possibles pour des zonages infra communaux",
+  "Sit@del2": {
     "gestionnaire": "Service de l'observation et des statistiques",
-    "commentaire": "engagement du SOeS à déterminer une granularité optimale des données issues du Répertoire des logements locatifs des bailleurs sociaux et à mettre à disposition les fichiers bruts (extraits du logiciel Beyond). Un projet d'estimation en date réelle est en cours. L'objectif est de produire des estimations mensuelles dautorisations et de mises en chantier qui seront publiées tous les mois et se substitueront aux séries en date de prise en compte dans l'analyse conjoncturelle. Une réflexion sur une meilleure articulation entre les séries d'autorisation de constuire et de mises en chantier est également en cours.",
-    "description": "Suivi de la construction neuve des logements et des locauxDeux types de séries statistiques sont proposées : les séries en date de prise en compte (suivi conjoncturel) et les séries en date réelle (études structurelles). ",
-    "alimentation": "SOeS"
+    "description": "Suivi de la construction neuve des logements et des locauxDeux types de séries statistiques sont proposées : les séries en date de prise en compte (suivi conjoncturel) et les séries en date réelle (études structurelles). engagement du SOeS à déterminer une granularité optimale des données issues du Répertoire des logements locatifs des bailleurs sociaux et à mettre à disposition les fichiers bruts (extraits du logiciel Beyond). Un projet d'estimation en date réelle est en cours. L'objectif est de produire des estimations mensuelles dautorisations et de mises en chantier qui seront publiées tous les mois et se substitueront aux séries en date de prise en compte dans l'analyse conjoncturelle. Une réflexion sur une meilleure articulation entre les séries d'autorisation de constuire et de mises en chantier est également en cours. ",
+    "alimentation": "SOeS",
+    "datasets":"permis-de-construire-pc-permis-d-amenager-pa-et-declaration-prealable-dp-sit-del2",
+    "liens":"http://www.statistiques.developpement-durable.gouv.fr/donnees-ligne/r/sitdel2-donnees-detaillees-logements.html",
+    "textes":{
+      "Arrêté du 2 décembre 2010 modifiant l'arrêté du 23 avril 2009 relatif au prix de cession par le service de l'observation et des statistiques du ministère de l'écologie, de l'énergie, du développement durable et de la mer, les unités statistiques des services déconcentrés de métropole et des départements d'outre-mer du MEEDDAT des listes d'adresses issues de la base de données Sit@del2":"https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=LEGITEXT000023219571&dateTexte=20151013"
+    }
   },
   "Parc privé potentiellement indigne": {
     "acronyme":"PPPI",
@@ -2299,20 +2270,19 @@
     "commentaire": " Cette base Infrastructures fait partie de la catégorie Infrastructures du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
     "lien": "http://esante.gouv.fr/services/referentiels/identification/demande-d-acces-au-rpps",
     "description": "Répartition des professionnels de santé (médecin, dentistes, sages femmes et professionnels paramédicaux) par spécialité et par région",
-    "alimentation": "Ordre des professionnels de santé et ARS"
+    "alimentation": "Ordre des professionnels de santé et ARS",
+    "datasets":"la-demographie-des-medecins-rpps"
   },
   "Base Adresse Nationale":{
     "acronyme":"BAN",
     "gestionnaire": "Mission Étalab",
-    "lien":"https://adresse.data.gouv.fr/"
+    "lien":"https://adresse.data.gouv.fr/",
+    "datasets":"ban-base-adresse-nationale"
   },
   "Cartographie collaborative des données de l'État":{
     "gestionnaire":"Mission Étalab",
     "textes":{
-      "rapport":{
-        "référence":"Rapport au Premier ministre sur la gouvernance de la donnée 2015",
-        "lien":"http://www.gouvernement.fr/sites/default/files/liseuse/6252/master/index.htm"
-      }
+        "Rapport au Premier ministre sur la gouvernance de la donnée 2015":"http://www.gouvernement.fr/sites/default/files/liseuse/6252/master/index.htm"
     },
     "datasets":"cartographie-collaborative-des-donnees-de-letat"
   },
@@ -2364,13 +2334,12 @@
     "description":"Le Système judiciaire de documentation et d'exploitation de la gendarmerie date de 1985,véritable mémoire informatique, JUDEX offre la possibilité d'effectuer des rapprochements (dans le cadre d'un crime par exemple), d'identifier des empreintes digitales, ou encore de déterminer la provenance d'objet volés. TREIMA 2 est déjà régulièrement alimenté par le service technique de recherches judiciaires et de documentation de la gendarmerie nationale (STRJD).",
     "gestionnaire":"Ministère de l'Intérieur"
   },
-  "Fichier des personnes recherchée":{
+  "Fichier des personnes recherchées":{
     "gestionnaire":"Ministère de l'Intérieur",
     "acronyme":"FPR",
     "lien":["https://www.cnil.fr/fr/fpr-fichier-des-personnes-recherchees","http://www.ladocumentationfrancaise.fr/var/storage/rapports-publics/064000885.pdf"],
     "textes":{
-      "référence":"Décret n° 2010-569 du 28 mai 2010 relatif au fichier des personnes recherchées",
-      "legifrance":"https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000022276189&categorieLien=id"
+      "Décret n° 2010-569 du 28 mai 2010 relatif au fichier des personnes recherchées":"https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000022276189&categorieLien=id"
     }
   },
   "Système de traitement des infractions constatées":{
@@ -2382,11 +2351,6 @@
     "gestionnaire":"Ministère de l'Intérieur",
     "lien":["http://www.ladocumentationfrancaise.fr/var/storage/rapports-publics/064000885.pdf"],
     "acronyme":"FVV"
-  },
-  "Fichier des personnes recherchées":{
-    "gestionnaire":"Ministère de l'Intérieur",
-    "lien":["http://www.ladocumentationfrancaise.fr/var/storage/rapports-publics/064000885.pdf"],
-    "acronyme":"FPR"
   },
   "Fichier des renseignements généraux":{
     "gestionnaire":"Ministère de l'Intérieur",
@@ -2452,5 +2416,80 @@
     "gestionnaire":"Ministère de l'Intérieur",
     "lien":["http://www.ladocumentationfrancaise.fr/var/storage/rapports-publics/064000885.pdf"],
     "acronyme":"AGRIPPA"
+  },
+  "Système d'Immatriculation des Véhicules":{
+    "lien":["https://immatriculation.ants.gouv.fr/Tout-savoir-sur-le-SIV/Le-Systeme-d-Immatriculation-des-Vehicules-SIV"],
+    "gestionnaire":"Agence nationale des titres sécurisés",
+    "acronyme":"SIV",
+    "textes":{
+      "Décret n° 2011-477 du 2 mai 2011 relatif aux modalités d'opposition à la réutilisation, à des fins commerciales, des informations contenues dans le système d'immatriculation des véhicules":"https://www.legifrance.gouv.fr/eli/decret/2011/5/2/IOCA1106121D/jo"
+    }
+  },
+  "Base de l'Agence nationale des fréquences":{
+    "gestionnaire":"Agence nationale des fréquences",
+    "textes":{
+      "Code des postes et des communications électroniques - Article L43":"https://www.legifrance.gouv.fr/affichCodeArticle.do?cidTexte=LEGITEXT000006070987&idArticle=LEGIARTI000006465453&dateTexte=&categorieLien=cid"
+    },
+    "datasets":"donnees-sur-les-installations-radioelectriques-de-plus-de-5-watts-1"
+  },
+  "Base Pégase":{
+    "liens":"http://www.statistiques.developpement-durable.gouv.fr/donnees-ligne/r/pegase.html",
+    "description": "La base Pégase (acronyme de Pétrole, Électricité, Gaz et Autres Statistiques de l’Énergie) enregistre et diffuse les statistiques de l’énergie rassemblées par le Service de l’observation et des statistiques (SOeS).",
+    "gestionnaire":"Service de l'observation et des statistiques",
+    "datasets":"petrole-electricite-gaz-et-autres-statistiques-de-l-energie-pegase"
+  },
+  "Fichier national des accidents corporels de la circulation":{
+    "acronyme":"Fichier BAAC",
+    "textes":{
+      "Circulaire du 19 Septembre 2014, Guide de rédaction du Bulletin d'Analyse des Accidents Corporels de circulation":"http://circulaire.legifrance.gouv.fr/pdf/2014/09/cir_38750.pdf"
+    },
+    "description":"Pour chaque accident corporel (soit un accident survenu sur une voie ouverte à la circulation publique, impliquant au moins un véhicule et ayant fait au moins une victime ayant nécessité des soins), des saisies d’information décrivant l’accident sont effectuées par l’unité des forces de l’ordre (police, gendarmerie, etc.) qui est intervenue sur le lieu de l’accident. Ces saisies sont rassemblées dans une fiche intitulée bulletin d’analyse des accidents corporels. L’ensemble de ces fiches constitue le fichier national des accidents corporels de la circulation dit \"Fichier BAAC\" administré par l’Observatoire national interministériel de la sécurité routière \"ONISR\".",
+    "gestionnaire":"Délégation à la sécurité et à la circulation routières",
+    "datasets":"base-de-donnees-accidents-corporels-de-la-circulation"
+  },
+  "Prix des carburants":{
+    "textes":{
+      "Arrêté du 12 décembre 2006 relatif à l'information du consommateur sur les prix de vente des carburants":"https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000817439&fastPos=72&fastReqId=1146802045&categorieLien=id&navigator=naturetextenavigator&modifier=ARRETE&fastPos=72&fastReqId=1146802045&oldAction=rechTexte"
+    },
+    "datasets":"prix-des-carburants-en-france",
+    "gestionnaire":"Ministère de l'Économie, de l'Industrie et du Numérique",
+    "description":"Données relatives aux prix des carburants",
+    "liens":"http://www.prix-carburants.gouv.fr"
+  },
+  "Base de données sur les groupes audiovisuels":{
+    "gestionnaire":"Conseil supérieur de l'audiovisuel",
+    "liens":"http://www.csa.fr/var/ezflow_site/storage/csa/rapport2002/donnees/rapport/VII_etudes.htm#pgfId-1096867"
+  },
+  "Base de données des réseaux câblés français autorisés par le CSA":{
+    "gestionnaire":"Conseil supérieur de l'audiovisuel",
+    "liens":"http://www.csa.fr/var/ezflow_site/storage/csa/rapport2002/donnees/rapport/VII_etudes.htm#pgfId-1096867"
+  },
+  "Base LEGI":{
+    "gestionnaire":"Direction de l'information légale et administrative",
+    "datasets":"legi-codes-lois-et-reglements-consolides",
+    "textes":{
+      "Décret n°2002-1064 du 7 août 2002 relatif au service public de la diffusion du droit par l'internet":"https://www.legifrance.gouv.fr/affichTexte.do;jsessionid=6CF268E473632E1932F55A719251387B.tpdjo12v_2&dateTexte=?cidTexte=JORFTEXT000000413818&categorieLien=cid"
+    },
+    "description":"Le texte intégral consolidé de la législation et de la réglementation nationale. Il est essentiellement constitué par : les codes officiels ; les lois, décrets-lois, ordonnances, décrets et une sélection d’arrêtés. La consolidation des textes consiste lorsqu’un article de texte (ou de code) est modifié, à le réécrire en y intégrant la modification apportée. Les versions modifiées ou abrogées sont présentes dans le fonds documentaire au même titre que les versions en vigueur. LEGI est exhaustif pour les lois, décrets-lois, ordonnances, décrets depuis 1945. Il y a en plus une sélection d'arrêtés consolidés et une autre sélection des autres arrêtés, en version originale, accessible dans la base JORF depuis 1990. LEGI comprend les 73 codes officiels en vigueur consolidés (et les autres 29 abrogés). Seules certaines circulaires font l'objet d'une publication au Journal officiel ; pour l'essentiel, les circulaires ministérielles sont publiées dans le Bulletin officiel du ministère concerné (se reporter à la rubrique de leur site) ou sur le site Circulaires et instructions applicables (voir CIRCULAIRES sur data.gouv.fr)."
+  },
+  "Annuaire des services publics":{
+    "gestionnaire":"Direction de l'information légale et administrative",
+    "liens":"https://lannuaire.service-public.fr/gouvernement/administration-centrale-ou-ministere_185945",
+    "datasets":"service-public-fr-annuaire-de-l-administration-base-de-donnees-locales"
+  },
+  "Conventions collectives nationales":{
+    "gestionnaire":"Direction de l'information légale et administrative",
+    "textes":{
+      "Décret n°2002-1064 du 7 août 2002 relatif au service public de la diffusion du droit par l'internet":"https://www.legifrance.gouv.fr/affichTexte.do;jsessionid=6CF268E473632E1932F55A719251387B.tpdjo12v_2&dateTexte=?cidTexte=JORFTEXT000000413818&categorieLien=cid"
+    },
+    "datasets":"kali-conventions-collectives-nationales"
+  },
+  "Déclaration Sociale Nominative":{
+    "gestionnaire":"Groupement d'intérêt public Modernisation des déclarations sociales",
+    "acronyme":"DSN",
+    "liens":"http://www.dsn-info.fr/",
+    "description":"Déclaration remplaçant notamment la DADS, la Déclaration Unifiée de Cotisations Sociales – DUCS, Le Bordereau Récapitulatif de Cotisation – BRC, et le tableau récapitulatif –TR"
   }
+  
+  
 }
