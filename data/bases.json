@@ -2588,6 +2588,20 @@
       "description":"Le FNA est une base historique de données relationnelle constituée d’éléments liés à l’indemnisation et aux différentes aides accordées aux demandeurs d’emploi. II permet d'effectuer des analyses longitudinales par le suivi de cohortes d'individus, d'établir des statistiques descriptives, des prévisions et de réaliser des simulations dans le cadre d'études d'impacts liés à des changements réglementaires ou opérationnels. Le FNA constitue une source d'informations majeure pour diverses productions de statistiques (notes de synthèse, DRE, Taux & Salaires, enquêtes...).",
       "liens":"http://www.pole-emploi.org/statistiques-analyses/le-fna-@/5931/view-article-233.html?&"
     }
-    
-    
+  "Système d’Information Généralisée de la Direction Générale de l’Alimentation":{
+    "acronyme":"SIGAL",
+    "gestionnaire":"Direction générale de l'alimentation",
+    "alimentation":"Systèmes d'information professionnels de SUrveillance en Santé animale",
+    "liens":"www.gdma36.fr/WebGDMA.nsf/72214d2615ea2639c12575c1004e0557/279eb3666c92be4ac12575cc0051fa81/$FILE/LES NOTIFICATIONS.pdf"
+  },
+  "Puit de données Épidémio Surveillance Animale":{
+    "acronyme":"Puit ESA",
+    "gestionnaire":"Direction générale de l'alimentation",
+    "alimentation":"Système d’Information Généralisée de la Direction Générale de l’Alimentation"
+  },
+  "Datamarts Épidémio Surveillance Animale":{
+    "acronyme":"Datamarts ESA",
+    "gestionnaire":"Direction générale de l'alimentation",
+    "alimentation":"Puit de données Épidémio Surveillance Animale"
+  }
 }
