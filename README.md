@@ -31,7 +31,7 @@ L'historisation de ces annuaires est prévue.
 
 ## Bases de données
 
-La cartographie décrit [392 bases de données](http://bases.gouv2.fr/bases) pour [88 gestionnaires](http://bases.gouv2.fr/gestionnaires). Parmis ceux-ci, [40 gestionnaires](http://bases.gouv2.fr/gestionnaires/inconnus) ne sont pas encore identifiés dans l'annuaire des administrations.
+La cartographie décrit [398 bases de données](http://bases.gouv2.fr/bases) pour [91 gestionnaires](http://bases.gouv2.fr/gestionnaires). Parmis ceux-ci, [40 gestionnaires](http://bases.gouv2.fr/gestionnaires/inconnus) ne sont pas encore identifiés dans l'annuaire des administrations.
 
 ### Sources
 
@@ -54,7 +54,7 @@ De nombreuses bases de données sont co-gérées par plusieurs administrations. 
 
 #### Flux de données
 
-Les flux entre bases de données sont renseignés dans le champ `alimentation`. Il comporte la liste des organismes alimentant la base de données, ou directement les bases d'origine des données. Le flux de données n'est en aucun cas caractérisé à ce niveau, simplement référencé.
+Les flux entre bases de données sont renseignés dans le champ `alimentation`. Il comporte la liste des organismes alimentant la base de données, ou directement les bases d'origine des données. Le flux de données n'est en aucun cas décrit à ce niveau, simplement référencé.
 
 ### Représenter la cartographie
 

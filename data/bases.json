@@ -2622,8 +2622,19 @@
     "gestionnaire":"Ministère de l'Écologie, du Développement durable et de l'Énergie"
   },
   "Base de données naturaliste":{
+    "acronyme":"BDN",
     "datasets":"donnees-naturalistes-de-l-onf-0",
     "gestionnaire":"Office national des forêts",
     "description":"Données naturalistes publiques de l'ONF provenant de sa base de données naturaliste (BDN) alimentée par l'ensemble du personnel et en particulier par les experts naturalistes de l'ONF structurés en réseaux (entomologie, herpétologie, mycologie, flore…). Elles se concentrent sur les forêts publiques et des espèces forestières mais aussi celles des milieux associés à la forêt (landes, mares, lisières…)"
+  },
+  "Base de données SAGIR":{
+    "gestionnaire":"Office national de la chasse et de la faune sauvage",
+    "liens":"http://www.oncfs.gouv.fr/Reseau-SAGIR-ru105",
+    "description":"SAGIR est un réseau de surveillance épidémiologique des oiseaux et des mammifères sauvages terrestres en France. Cette surveillance, fondée sur un partenariat constant entre les Fédérations des chasseurs et l’Office national de la chasse et de la faune sauvage, s’exerce depuis 1955, s’est consolidée en 1972 et a pris la dimension actuelle en 1986 sous le nom de SAGIR."
+  },
+  "Base Agritox":{
+    "gestionnaire":"Agence nationale de sécurité sanitaire, de l'alimentation, de l'environnement et du travail",
+    "liens":"http://www.agritox.anses.fr/",
+    "description":"AGRITOX est une base de données créée en 1986 par l'INRA sur les propriétés physiques et chimiques, la toxicité, l'écotoxicité, le devenir dans l'environnement et les données réglementaires des substances actives phytopharmaceutiques.Seules les données jugées valides par les experts des instances officielles d'évaluation au niveau français et/ou européen sont présentées, elles proviennent des dossiers de substances actives et/ou de demande d'autorisation de mise sur le marché soumis par les industriels et des données publiées dans la littérature scientifique."
   }
 }
