@@ -66,7 +66,7 @@ De nombreuses bases de données sont co-gérées par plusieurs administrations. 
 
 #### Flux de données
 
-Les flux entre bases de données sont renseignés dans le champ `alimentation`. Il comporte la liste des organismes alimentant la base de données, ou directement les bases d'origine des données. Le flux de données n'est en aucun cas caractérisé à ce niveau, simplement référencé.
+Les flux entre bases de données sont renseignés dans le champ `alimentation`. Il comporte la liste des organismes alimentant la base de données, ou directement les bases d'origine des données. Le flux de données n'est en aucun cas décrit à ce niveau, simplement référencé.
 
 ### Représenter la cartographie
 

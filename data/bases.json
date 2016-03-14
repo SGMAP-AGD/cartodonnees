@@ -2604,5 +2604,21 @@
     "acronyme":"Datamarts ESA",
     "gestionnaire":"Direction générale de l'alimentation",
     "alimentation":"Puit de données Épidémio Surveillance Animale"
+  },
+  "DONESOL":{
+    "liens":"http://acklins.orleans.inra.fr/outil/donesol/donesol.php",
+    "description":"Base de données structurant et regroupant les données de bases des profils pédologiques et des informations spatiales des Unités Cartographiques de Sols et des Unités Typologiques de Sols (principalement du programme IGCS).",
+    "gestionnaire":"Institut national de la recherche agronomique"
+  },
+  "ProdINRA":{
+    "acronyme":"ProdINRA",
+    "liens":"http://prodinra.inra.fr/?locale=fr",
+    "gestionnaire":"Institut national de la recherche agronomique",
+    "description":"Archive Ouverte des Prouctions de l'INRA"
+  },
+  "Base de données SitraM":{
+    "description":"La base de données SitraM (système d’information sur les transports de marchandises) rassemble des données issues des douanes sur le mode de transport à la frontière ainsi que des données issues des différentes sources statistiques sur les transports terrestres nationaux et internationaux. Les résultats douaniers portent sur les tonnes transportées ou la valeur de la marchandise, et les autres sources sur les tonnes chargées et les tonnes-km réalisées.",
+    "liens":"http://www.statistiques.developpement-durable.gouv.fr/transports/s/tous-modes.html",
+    "gestionnaire":"Ministère de l'Écologie, du Développement durable et de l'Énergie"
   }
 }
