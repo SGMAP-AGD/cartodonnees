@@ -2620,5 +2620,10 @@
     "description":"La base de données SitraM (système d’information sur les transports de marchandises) rassemble des données issues des douanes sur le mode de transport à la frontière ainsi que des données issues des différentes sources statistiques sur les transports terrestres nationaux et internationaux. Les résultats douaniers portent sur les tonnes transportées ou la valeur de la marchandise, et les autres sources sur les tonnes chargées et les tonnes-km réalisées.",
     "liens":"http://www.statistiques.developpement-durable.gouv.fr/transports/s/tous-modes.html",
     "gestionnaire":"Ministère de l'Écologie, du Développement durable et de l'Énergie"
+  },
+  "Base de données naturaliste":{
+    "datasets":"donnees-naturalistes-de-l-onf-0",
+    "gestionnaire":"Office national des forêts",
+    "description":"Données naturalistes publiques de l'ONF provenant de sa base de données naturaliste (BDN) alimentée par l'ensemble du personnel et en particulier par les experts naturalistes de l'ONF structurés en réseaux (entomologie, herpétologie, mycologie, flore…). Elles se concentrent sur les forêts publiques et des espèces forestières mais aussi celles des milieux associés à la forêt (landes, mares, lisières…)"
   }
 }
