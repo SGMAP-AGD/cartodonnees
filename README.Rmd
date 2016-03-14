@@ -27,7 +27,7 @@ La cartographie a pour objectif est de distribuer des informations structurées,
 
 ## Gestionnaires de données
 
-Les gestionnaires de données de l'État sont les entités répertoriées par l'annuaire de l'administration mis à jour par la [Direction Légale de l'Information Légale et Administrative](http://www.dila.premier-ministre.gouv.fr/) (DILA). Cet annuaire est consultable via une [interface web en ligne](https://lannuaire.service-public.fr) ou sous la forme d'un [jeu de données ouvert publié sur Data.gouv.fr](https://www.data.gouv.fr/fr/datasets/annuaire-des-services-publics-nationaux/). La dernière version de l'annuaire intégrée à la cartographie contient `r length(administrations)` administrations.
+Les gestionnaires de données de l'État sont les entités répertoriées par l'annuaire de l'administration mis à jour par la [Direction Légale de l'Information Légale et Administrative](http://www.dila.premier-ministre.gouv.fr/) (DILA). Cet annuaire est consultable via une [interface web en ligne](https://lannuaire.service-public.fr) ou sous la forme d'un [jeu de données ouvert publié sur Data.gouv.fr](https://www.data.gouv.fr/fr/datasets/annuaire-des-services-publics-nationaux/). La dernière version de l'annuaire intégrée à la cartographie contient [`r length(administrations)` administrations](http://bases.gouv2.fr/administrations).
 
 Chaque entité de l'annuaire est rattachée à son administration parente, l'ensemble des administrations pouvant être représenté comme un graphe non orienté acyclique et connexe, ou arbre dont voici une représentation graphique:
 
@@ -37,6 +37,7 @@ Restent à intégrer:
 
 * Les administrations territoriales de l'annuaire des services publics.
 * Les [Groupements d'Intérêt Public](http://www.economie.gouv.fr/daj/gip), dont la liste est [publiée sur Legifrance](https://www.legifrance.gouv.fr/affichSarde.do?reprise=true&page=1&idSarde=SARDOBJT000007105856&ordre=null&nature=null&g=ls).
+* Les Établissements publics: [EPA et EPIC](http://www.vie-publique.fr/decouverte-institutions/institutions/administration/organisation/structures-administratives/que-sont-etablissements-publics-administratif-epa-industriel-commercial-epic.html)
 
 L'historisation de ces annuaires est prévue.
 
@@ -61,7 +62,11 @@ Un modèle de données semi-structuré permet de décrire chaque base de donnée
 
 #### Bases de données co-gérées
 
-De nombreuses bases de données sont co-gérées par plusieurs administrations. Dans ce cas, le champ gestionnaire devient une liste contenant les co-gestionnaires.
+De nombreuses bases de données sont co-gérées par plusieurs administrations. Dans ce cas, le champ `gestionnaire` devient une liste contenant les co-gestionnaires.
+
+#### Flux de données
+
+Les flux entre bases de données sont renseignés dans le champ `alimentation`. Il comporte la liste des organismes alimentant la base de données, ou directement les bases d'origine des données. Le flux de données n'est en aucun cas caractérisé à ce niveau, simplement référencé.
 
 ### Représenter la cartographie
 

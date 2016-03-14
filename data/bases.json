@@ -244,9 +244,10 @@
   "Observatoire DPE": {
     "granularite": "Au niveau de chaque collectivité territoriale",
     "gestionnaire": "Agence de l'environnement et de la maîtrise de l'énergie",
-    "commentaire": "Elargissement aux DOM (DPE Guadeloupe, …)Développement d’un système de contrôle qualité des données envoyées.Dispositif de recherche association des doublonshttp://www.observatoire-dpe.fr/index.php/statistique : possibilité de requête",
+    "commentaire": "Elargissement aux DOM (DPE Guadeloupe, …)Développement d’un système de contrôle qualité des données envoyées. Dispositif de recherche association des doublons : possibilité de requête",
     "description": "Ensemble des bâtiments faisant l’objet d’un diagnostic de performance énergétique (DPE) obligatoire",
-    "alimentation": "ADEME"
+    "alimentation": "ADEME",
+    "liens":"http://www.observatoire-dpe.fr/"
   },
   "Base de la Fédération des associations de surveillance de la qualité de l'air": {
     "gestionnaire": "Fédération des associations de surveillance de la qualité de l'air",
@@ -2489,7 +2490,104 @@
     "acronyme":"DSN",
     "liens":"http://www.dsn-info.fr/",
     "description":"Déclaration remplaçant notamment la DADS, la Déclaration Unifiée de Cotisations Sociales – DUCS, Le Bordereau Récapitulatif de Cotisation – BRC, et le tableau récapitulatif –TR"
-  }
-  
-  
+  },
+  "Fichier National des Comptes bancaires et assimilés":{
+    "gestionnaire":"Direction générale des finances publiques",
+    "acronyme":"FICOBA",
+    "liens":"https://www.service-public.fr/particuliers/vosdroits/F2233",
+    "description":"Le Ficoba liste tous les comptes bancaires ouverts en France (y compris les comptes d'épargne ou les comptes titres). Il indique les opérations d'ouverture, de modification et de clôture d'un compte, en précisant : la banque où est inscrit le compte, l'identité du ou des titulaires, les caractéristiques essentielles du compte (numéro, type de compte, etc). Il n'indique ni les opérations de crédit ou débit des comptes, ni le solde. Les informations sont conservées durant toute la durée de vie du compte et pendant 10 ans après sa clôture. Le fichier est alimenté et actualisé par les banques. Vous ne pouvez pas vous opposer à l'inscription de vos comptes dans le Ficoba.",
+    "textes":{
+      "Code général des impôts - Article 1649 A":"https://www.legifrance.gouv.fr/affichCodeArticle.do?idArticle=LEGIARTI000006306932&cidTexte=LEGITEXT000006069577",
+      "Arrêté du 14 juin 1982 relatif à l'extension d'un système automatisé de gestion du fichier des comptes bancaires.":"https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=LEGITEXT000006069767",
+      "Réponse ministérielle du 17 avril 2012 relative à l'accès des héritiers au fichier des comptes bancaires ":"http://questions.assemblee-nationale.fr/q13/13-98834QE.htm"
+    }
+    
+  },
+    "Fichier central des chèques":{
+      "acronyme":"FCC",
+      "description":"Le fichier central des chèques (FCC) liste l'ensemble des personnes à qui une banque a retiré la faculté d'émettre des chèques ou d'utiliser une carte bancaire. Personnes interdites de chéquier:  Concernant les interdits bancaires, le FCC recense toutes les données obligatoirement fournies par les banques relatives : à l'identité des personnes ayant émis un chèque sans provision (prénom, nom, date et lieu de naissance), à l'identité des personnes auxquelles s'appliquent une interdiction pour une autre raison (notamment, les interdits bancaires par décision de justice et certains cotitulaires d'un compte joint ou d'un compte indivis associé à un chèque sans provision), aux chèques sans provision à l'origine d'une interdiction (numéro, montant du chèque, date et cause du refus de paiement, agence bancaire de rattachement, etc.).Personnes ayant fait l'objet d'un retrait de carte bancaire: Concernant les retraits de carte bancaire, le FCC recense toutes les informations volontairement fournies par les banques relatives : à l'identité des personnes à qui une carte bancaire a été retirée (prénom, nom, date et lieu de naissance), aux motifs de la décision de retrait (par exemple, le montant des achats considérés comme abusifs au regard de la provision sur le compte associé à la carte bancaire).",
+      "gestionnaire":"Banque de France",
+      "liens":"http://www.banque-france.fr/fileadmin/user_upload/banque_de_france/Mission/Protection_du_consommateur/fcc.pdf",
+      "textes":{
+        "Délibération n°82-69 du 04 mai 1982 Délibération relative au fichier central des chèques et au fichier bancaire des entreprises, gérés par la Banque de France":"https://www.legifrance.gouv.fr/affichCnil.do?id=CNILTEXT000017654337"
+      }
+    },
+    "Fichier central des retraits de cartes bancaires \"CB\"":{
+      "gestionnaire":"Banque de France",
+      "liens":"https://www.banque-france.fr/fileadmin/user_upload/banque_de_france/Mission/Protection_du_consommateur/GIE-CB.pdf",
+      "textes":{
+        "Délibération n°2010-028 du 4 février 2010 Délibération n° 2010-028 du 4 février 2010 autorisant la modification par la Banque de France des modalités de gestion du fichier central des retraits de cartes bancaires «CB»":"https://www.legifrance.gouv.fr/affichCnil.do?oldAction=rechExpCnil&id=CNILTEXT000021864785"
+      }
+    },
+    "Fichier national des chèques irréguliers":{
+      "gestionnaire":"Banque de France",
+      "acronyme":"FNCI",
+      "liens":["https://www.service-public.fr/particuliers/vosdroits/F21131","http://www.banque-france.fr/fileadmin/user_upload/banque_de_france/Mission/Protection_du_consommateur/note135.pdf"],
+      "description":"Le fichier national des chèques irréguliers (FNCI) rassemble les données relatives aux interdits bancaires ainsi qu'aux pertes et vols de chèques. Informations bancaires: Le Fichier national des chèques irréguliers (FNCI) centralise les déclarations de perte ou de vol (et les déclarations d' opposition pour perte ou vol).Le FNCI enregistre aussi : les numéros de compte bancaire des interdits bancaires, les références des comptes clos, les caractéristiques des faux chèques. Contrairement au fichier central des chèques (FCC) , le FNCI ne recense pas les noms des titulaires des comptes bancaires concernés. Collecte des données Les banques transmettent à la Banque de France les données dans les 2 jours ouvrés suivant : le refus de paiement d'un chèque, ou l'opposition pour perte ou vol d'un chèque ou d'un chéquier. Pour les interdictions bancaires décidées par la justice, le tribunal notifie ces données immédiatement à la Banque de France. Attention : les données concernant la déclaration de perte ou de vol sont effacées au bout de 48 heures si cette déclaration n'est pas confirmée par une opposition formulée par écrit au banquier.",
+      "textes":{
+        "Délibération n°2014-266 du 26 juin 2014 Délibération n° 2014-266 du 26 juin 2014 autorisant la Banque de France à modifier le dispositif de détection des chèques « présumés flambants » à l’occasion de la consultation du fichier national des chèques irréguliers (FNCI).":"https://www.legifrance.gouv.fr/affichCnil.do?oldAction=rechExpCnil&id=CNILTEXT000021864785"
+      }
+    },
+    "Fichier des incidents de remboursement des crédits aux particuliers":{
+      "acronyme":"FICP",
+      "description":"Le fichier des incidents de remboursement des crédits aux particuliers (FICP) recense les informations sur les incidents de remboursement des crédits aux particuliers et sur les mesures de traitement des situations de surendettement.",
+      "textes":{
+        "Code de la consommation : articles L333-1 à L333-6":"https://www.legifrance.gouv.fr/affichCode.do?idSectionTA=LEGISCTA000006146589&cidTexte=LEGITEXT000006069565",
+        "Arrêté du 26 octobre 2010 relatif au fichier national des incidents de remboursement des crédits aux particuliers":"https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000022972114"
+      },
+      "gestionnaire":"Banque de France"
+    },
+    "Base de Recoupement des États Membres":{
+      "gestionnaire":"Institutions Européennes",
+      "textes":{
+        "Rapport d'information N°1802 de M. Jean-Pierre BRARD, déposé en application de l'article 145 du Règlement par la commission des finances, sur la lutte contre la fraude et l'évasion fiscales":"http://www.assemblee-nationale.fr/11/rap-info/i1802-09.asp"
+      },
+      "acronyme":"BREM"
+    },
+    "Système informatisé de recoupement des acquisitions communautaires":{
+      "alimentation":"Base de Recoupement des États Membres",
+      "gestionnaire":"Direction générale des douanes et droits indirects",
+      "textes":{
+        "Rapport d'information N°1802 de M. Jean-Pierre BRARD, déposé en application de l'article 145 du Règlement par la commission des finances, sur la lutte contre la fraude et l'évasion fiscales":"http://www.assemblee-nationale.fr/11/rap-info/i1802-09.asp"
+      },
+      "acronyme":"VIES",
+      "description":"Système VIES, de VAT information exchange system. Le système VIES donne accès à la base BREM, base de recoupement des Etats membres, qui regroupe les données fournies par les Etats membres, chaque Etat étant responsable de l'enregistrement informatique des livraisons intra-communautaires de ses opérateurs à destination des assujettis des autres Etats membres. Ces fichiers font l'objet d'échanges chaque trimestre."
+    },
+    "Base Européenne des assujettis à la TVA":{
+      "gestionnaire":"Institutions Européennes",
+      "textes":{
+        "Rapport d'information N°1802 de M. Jean-Pierre BRARD, déposé en application de l'article 145 du Règlement par la commission des finances, sur la lutte contre la fraude et l'évasion fiscales":"http://www.assemblee-nationale.fr/11/rap-info/i1802-09.asp"
+      },
+      "description":"La base informatique européenne des assujettis à la TVA regroupe l'ensemble des opérateurs concernés et mentionne le numéro de chaque assujetti. Cette base est accessible tant aux entreprises qu'à l'administration fiscale"
+    },
+    "Répertoire National Commun de la Protection Sociale":{
+      "liens":"http://www.securite-sociale.fr/Repertoire-National-Commun-de-la-Protection-Sociale-RNCPS",
+      "acronyme":"RNCPS",
+      "gestionnaire":"Caisse nationale d'assurance vieillesse"
+    },
+    "Déclaration Préalable A l’Embauche ACOSS":{
+      "liens":["https://www.due.urssaf.fr/declarant/arLibre.jsf","http://www.msa.fr/lfr/en/embauche/dpae"],
+      "acronyme":"DPAE",
+      "gestionnaire":"Agence centrale des organismes de sécurité sociale"
+    },
+    "Fichier National des Interdits de Gérer":{
+      "liens":["https://www.service-public.fr/professionnels-entreprises/actualites/006856","https://www.cnil.fr/fr/fnig-fichier-national-des-interdits-de-gerer"],
+      "acronyme":"FNIG",
+      "textes":{
+        "Décret n° 2015-194 du 19 février 2015 relatif au fichier national des interdits de gérer":"https://www.legifrance.gouv.fr/eli/decret/2015/2/19/JUSC1423490D/jo"
+      }
+    },
+    "Fichier national des allocataires":{
+      "acronyme":"FNA",
+      "datasets":"allocataires-de-lassurance-chomage",
+      "gestionnaire":"Département Pôle Emploi",
+      "textes":{
+        "Délibération n°00-005 du 27 janvier 2000 Délibération portant avis sur un projet d'acte réglementaire présenté par l'Unedic portant création d'un fichier national des Assedic.":"https://www.legifrance.gouv.fr/affichCnil.do?id=CNILTEXT000017653876",
+        "Arrêté du 26 décembre 1995 portant création de traitements informatisés réalisés pour une étude de suivi de demandeurs d'emploi dans les régions Ile-de-France, Nord - Pas-de-Calais et Provence-Alpes-Côte d'Azur":"https://www.legifrance.gouv.fr/affichTexte.do;jsessionid=4E0F21478D280370CF80528A7B1B2974.tpdjo12v_3?cidTexte=JORFTEXT000000171243&dateTexte="
+      },
+      "description":"Le FNA est une base historique de données relationnelle constituée d’éléments liés à l’indemnisation et aux différentes aides accordées aux demandeurs d’emploi. II permet d'effectuer des analyses longitudinales par le suivi de cohortes d'individus, d'établir des statistiques descriptives, des prévisions et de réaliser des simulations dans le cadre d'études d'impacts liés à des changements réglementaires ou opérationnels. Le FNA constitue une source d'informations majeure pour diverses productions de statistiques (notes de synthèse, DRE, Taux & Salaires, enquêtes...).",
+      "liens":"http://www.pole-emploi.org/statistiques-analyses/le-fna-@/5931/view-article-233.html?&"
+    }
+    
+    
 }
