@@ -25,12 +25,13 @@ Restent à intégrer:
 
 * Les administrations territoriales de l'annuaire des services publics.
 * Les [Groupements d'Intérêt Public](http://www.economie.gouv.fr/daj/gip), dont la liste est [publiée sur Legifrance](https://www.legifrance.gouv.fr/affichSarde.do?reprise=true&page=1&idSarde=SARDOBJT000007105856&ordre=null&nature=null&g=ls).
+* Les Établissements publics: [EPA et EPIC](http://www.vie-publique.fr/decouverte-institutions/institutions/administration/organisation/structures-administratives/que-sont-etablissements-publics-administratif-epa-industriel-commercial-epic.html)
 
 L'historisation de ces annuaires est prévue.
 
 ## Bases de données
 
-La cartographie décrit [382 bases de données](http://bases.gouv2.fr/bases) pour [82 gestionnaires](http://bases.gouv2.fr/gestionnaires). Parmis ceux-ci, [40 gestionnaires](http://bases.gouv2.fr/gestionnaires/inconnus) ne sont pas encore identifiés dans l'annuaire des administrations.
+La cartographie décrit [392 bases de données](http://bases.gouv2.fr/bases) pour [88 gestionnaires](http://bases.gouv2.fr/gestionnaires). Parmis ceux-ci, [40 gestionnaires](http://bases.gouv2.fr/gestionnaires/inconnus) ne sont pas encore identifiés dans l'annuaire des administrations.
 
 ### Sources
 
@@ -49,7 +50,11 @@ Un modèle de données semi-structuré permet de décrire chaque base de donnée
 
 #### Bases de données co-gérées
 
-De nombreuses bases de données sont co-gérées par plusieurs administrations. Dans ce cas, le champ gestionnaire devient une liste contenant les co-gestionnaires.
+De nombreuses bases de données sont co-gérées par plusieurs administrations. Dans ce cas, le champ `gestionnaire` devient une liste contenant les co-gestionnaires.
+
+#### Flux de données
+
+Les flux entre bases de données sont renseignés dans le champ `alimentation`. Il comporte la liste des organismes alimentant la base de données, ou directement les bases d'origine des données. Le flux de données n'est en aucun cas caractérisé à ce niveau, simplement référencé.
 
 ### Représenter la cartographie
 
