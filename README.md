@@ -31,7 +31,7 @@ L'historisation de ces annuaires est prévue.
 
 ## Bases de données
 
-La cartographie décrit [398 bases de données](http://bases.gouv2.fr/bases) pour [91 gestionnaires](http://bases.gouv2.fr/gestionnaires). Parmis ceux-ci, [40 gestionnaires](http://bases.gouv2.fr/gestionnaires/inconnus) ne sont pas encore identifiés dans l'annuaire des administrations.
+La cartographie décrit [403 bases de données](http://bases.gouv2.fr/bases) pour [92 gestionnaires](http://bases.gouv2.fr/gestionnaires). Parmis ceux-ci, [40 gestionnaires](http://bases.gouv2.fr/gestionnaires/inconnus) ne sont pas encore identifiés dans l'annuaire des administrations.
 
 ### Sources
 

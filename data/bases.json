@@ -2636,5 +2636,27 @@
     "gestionnaire":"Agence nationale de sécurité sanitaire, de l'alimentation, de l'environnement et du travail",
     "liens":"http://www.agritox.anses.fr/",
     "description":"AGRITOX est une base de données créée en 1986 par l'INRA sur les propriétés physiques et chimiques, la toxicité, l'écotoxicité, le devenir dans l'environnement et les données réglementaires des substances actives phytopharmaceutiques.Seules les données jugées valides par les experts des instances officielles d'évaluation au niveau français et/ou européen sont présentées, elles proviennent des dossiers de substances actives et/ou de demande d'autorisation de mise sur le marché soumis par les industriels et des données publiées dans la littérature scientifique."
+  },
+  "BIRDLAB":{
+    "gestionnaire":"Centre national de la recherche scientifique",
+    "liens":"http://www.bdd-inee.cnrs.fr/"
+  },
+  "Sauvages de ma Rue":{
+    "gestionnaire":"Centre national de la recherche scientifique",
+    "liens":"http://www.bdd-inee.cnrs.fr/"
+  },
+  "Vigie-Nature Ecole":{
+    "gestionnaire":"Centre national de la recherche scientifique",
+    "liens":"http://www.bdd-inee.cnrs.fr/"
+  },
+  "Suivi Temporel des Rhopalocères de France (STERF)":{
+    "gestionnaire":"Centre national de la recherche scientifique",
+    "liens":"http://www.bdd-inee.cnrs.fr/"
+  },
+  "Suivi Photographique des Insectes Pollinisateurs":{
+    "acronyme":"SPIPOLL",
+    "gestionnaire":"Centre national de la recherche scientifique",
+    "liens":"http://www.bdd-inee.cnrs.fr/spip.php?article447",
+    "description":"Projet de sciences participatives, le SPIPOLL a pour but d’obtenir des données quantitatives sur les insectes pollinisateurs et/ou floricoles en mesurant les variations de leur diversité et celles de la structure des réseaux de pollinisation, sur l’ensemble de la France métropolitaine."
   }
 }
