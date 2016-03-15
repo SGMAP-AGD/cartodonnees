@@ -1,7 +1,7 @@
 {
   "Recueil commun sur les addictions et les prises en charge": {
     "gestionnaire": "Observatoire français des drogues et des toxicomanies",
-    "lien": "http://www.ofdt.fr/ofdtdev/live/donneesnat/recap.html",
+    "liens": "http://www.ofdt.fr/ofdtdev/live/donneesnat/recap.html",
     "description": "Données relatives aux patients, données relatives à la prise en charge, données relatives aux consommations addictives et données relatives à la santé du patient (e.g. VIH, VHC, antécédents psychiatriques)",
     "alimentation": "Centres de soins d’accompagnement et de prévention en addictologie (CSAPA)"
   },
@@ -26,7 +26,7 @@
   "Répertoire des établissements pharmaceutiques": {
     "gestionnaire": "Agence nationale de sécurité du médicament et des produits de santé",
     "commentaire": " Cette base Infrastructures fait partie de la catégorie Infrastructures du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://agence-prd.ansm.sante.fr/php/etapharm/index.php",
+    "liens": "http://agence-prd.ansm.sante.fr/php/etapharm/index.php",
     "description": "Liste des fabricants, importateurs et distributeurs en gros de médicaments avec leur adresse, activité, et, sauf exception, le nom du pharmacien responsable",
     "alimentation": "ANSM"
   },
@@ -45,20 +45,20 @@
   "Échantillon National Témoin Représentatif des personnes Diabétiques (ENTRED)": {
     "gestionnaire": "Institut de veille sanitaire",
     "commentaire": "8 926 personnes tirées au sort parmi les personnes âgées d’au moins 18 ans Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.inpes.sante.fr/etudes/entred.asphttp://www.inpes.sante.fr/etudes/pdf/rapport-entred.pdf",
+    "liens": "http://www.inpes.sante.fr/etudes/entred.asphttp://www.inpes.sante.fr/etudes/pdf/rapport-entred.pdf",
     "description": "Données sur les caractéristiques des personnes diabétiques (sexe, revenus, évolution du contrôle glycémique)"
   },
   "Base de données Médicaments Informations Tarifaires (BdM_IT)": {
     "gestionnaire": "Caisse nationale de l'assurance maladie des travailleurs salariés",
     "commentaire": " Cette base Informations médicales fait partie de la catégorie Informations médicales du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.codage.ext.cnamts.fr/codif/bdm_it/index_presentation.php?p_site=AMELI",
+    "liens": "http://www.codage.ext.cnamts.fr/codif/bdm_it/index_presentation.php?p_site=AMELI",
     "description": "Informations disponibles pour chaque médicament :",
     "alimentation": "CNAMTS"
   },
   "Base SIGAPS": {
     "gestionnaire": "Centre Hospitalier Régional Universitaire de Lille",
     "commentaire": " Cette base Infrastructures de recherche fait partie de la catégorie Infrastructures de recherche du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://sigaps.univ-lille2.fr",
+    "liens": "http://sigaps.univ-lille2.fr",
     "description": "Données de recensement de la production scientifique référencé"
   },
   "DIPISI": {
@@ -69,7 +69,7 @@
   "Panel d’observation des pratiques et des conditions d’exercice en médecine générale": {
     "gestionnaire": "Direction de la recherche, des études, de l'évaluation et des statistiques",
     "commentaire": "2200 médecins Cette base Consultations fait partie de la catégorie Consultations du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.drees.sante.gouv.fr/le-panel-d-observation-des-pratiques-et-des-conditions-d,11016.html",
+    "liens": "http://www.drees.sante.gouv.fr/le-panel-d-observation-des-pratiques-et-des-conditions-d,11016.html",
     "description": "Données sur les attitudes et pratiques des mèdecins généralistes relatives à la vaccination, sur la santé physique et psychique des médecins, sur la formation médicales…",
     "alimentation": "Panel national de médecins généralistes libéraux (appelé « panel 2 » et constitué de 1250 médecins) avec trois sur-échantillons pour les régions partenaires (environ 2 200 médecins au total)."
   },
@@ -79,7 +79,7 @@
       "Agence Nationale de Recherche sur Sida et les Hépatites Virales"
     ],
     "commentaire": " Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.anrs.fr/Ressources-et-publications/Grandes-enquetes/Enquete-ANRS-VESPA",
+    "liens": "http://www.anrs.fr/Ressources-et-publications/Grandes-enquetes/Enquete-ANRS-VESPA",
     "description": "Répartition des patients par sexe, par âge, par période de diagnostic,par conditions de vie",
     "alimentation": "Patients connaissant leur séropositivité depuis au moins 6 mois"
   },
@@ -92,7 +92,7 @@
   "Base \"TAXE\" de déclarations de ventes annuelles": {
     "gestionnaire": "Agence nationale de sécurité du médicament et des produits de santé",
     "commentaire": "Pour le volet médicaments : ensemble des ventes de médicaments en France, prescrits ou non , remboursées ou non, sur une période donnée. Distinction entre les ventes aux \"officines + grossistes\" et au \"marché hospitalier\". Données par code CIP. Cette base Médicaments et dispositifs fait partie de la catégorie Médicaments et dispositifs du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://ansm.sante.fr/S-informer/Presse-Communiques-Points-presse/Ventes-de-medicaments-en-France-le-rapport-d-analyse-de-l-annee-2012-Communique",
+    "liens": "http://ansm.sante.fr/S-informer/Presse-Communiques-Points-presse/Ventes-de-medicaments-en-France-le-rapport-d-analyse-de-l-annee-2012-Communique",
     "description": "Pour les médicaments et les dispositifs médicaux (données non exhaustives sur ce second point) : nombre de conditionnements vendus, prescrits ou non, remboursés ou non, par laboratoire et CA associé",
     "alimentation": "1) Les entités redevables de la taxe sur les spécialités pharmaceutiques (Art. 1600-0 N. du code général des impôts) , c'est-à-dire les personnes qui ont assuré l'exploitation et la vente des spécialités pharmaceutiques commercialisées en France en 2012"
   },
@@ -122,14 +122,14 @@
   "Enquête Permanente sur les Accidents de la Vie Courante (EPAC)": {
     "gestionnaire": "Institut de veille sanitaire",
     "commentaire": "9 hôpitaux français Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.invs.sante.fr/publications/2006/epac/index.html",
+    "liens": "http://www.invs.sante.fr/publications/2006/epac/index.html",
     "description": "Répartition par âge/ sexe des personnes accidentées, Répartition des AVC selon les lieux de survenue, selon l'activité, selon le mécanisme de déclenchement, selon la lésion",
     "alimentation": "9 hôpitaux français"
   },
   "Banque nationale d'accès aux données sur les eaux souterraines": {
     "gestionnaire": "Direction Générale de l'Eau",
     "commentaire": " Cette base Environnement fait partie de la catégorie Environnement du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.ades.eaufrance.fr/",
+    "liens": "http://www.ades.eaufrance.fr/",
     "description": "Nombre de points par : Localisation ; Entité hydrogéologique ; Masse d'eau ; Code BSS ; Réseau ; Organisme"
   },
   "Indice du coût de la construction": {
@@ -158,7 +158,7 @@
   "Enquête de 2007 auprès des structures et des patients réalisant des interruptions volontaires de grossesse": {
     "gestionnaire": "Direction de la recherche, des études, de l'évaluation et des statistiques",
     "commentaire": "11 500 femmes interrogées Cette base Activité des établissements de santé fait partie de la catégorie Activité des établissements de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.data.gouv.fr/fr/dataset/les-interruptions-volontaires-de-grossesse-en-2008-et-2009",
+    "liens": "http://www.data.gouv.fr/fr/dataset/les-interruptions-volontaires-de-grossesse-en-2008-et-2009",
     "description": "Nombre d'IVG, en ville et chez les mineures, données agrégées par région",
     "alimentation": "Panel de 11500 femmes ayant eu recours à l'IVG"
   },
@@ -179,21 +179,21 @@
   "Enquête nationale périnatale": {
     "gestionnaire": "Direction de la recherche, des études, de l'évaluation et des statistiques",
     "commentaire": "Environ 15 000 femmes venant d’accoucher Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.data.gouv.fr/fr/dataset/la-situation-perinatale-en-france-en-2010-premiers-resultats-de-l-enquete-nationale-perinat-30378542",
+    "liens": "http://www.data.gouv.fr/fr/dataset/la-situation-perinatale-en-france-en-2010-premiers-resultats-de-l-enquete-nationale-perinat-30378542",
     "description": "Informations sur l'état de santé des enfants, la situation sociodémographique des mères, les soins périnatales et les facteurs de risques",
     "alimentation": "Maternités françaises : échantillon représentatif constitué de toutes les naissances pendant une semaine donnée"
   },
   "ANCRE": {
     "gestionnaire": "Agence Technique de l'Information sur l'Hospitalisation",
     "commentaire": " Cette base Performance financière fait partie de la catégorie Performance financière du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "https://pasrel.atih.sante.fr/cas/login?service=https%3A%2F%2Fapplications.atih.sante.fr%2Fancre%2F",
+    "liens": "https://pasrel.atih.sante.fr/cas/login?service=https%3A%2F%2Fapplications.atih.sante.fr%2Fancre%2F",
     "description": "Le compte financier, l'Etat des Prévisions de Recettes et de Dépenses (EPRD) et les Rapports Infra-Annuels (RIA)",
     "alimentation": "Etablissements de santé via un logiciel SAP"
   },
   "Base documentaire de la banque de données en santé publique": {
     "gestionnaire": "École des hautes études en santé publique",
     "commentaire": " Cette base Etat de santé fait partie de la catégorie Etat de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.bdsp.ehesp.fr/Base/",
+    "liens": "http://www.bdsp.ehesp.fr/Base/",
     "description": "Base documentaire sur la santé publique"
   },
   "Cohorte cancer": {
@@ -204,7 +204,7 @@
   },
   "Base de données publiques des médicaments": {
     "gestionnaire": "Agence nationale de sécurité du médicament et des produits de santé",
-    "lien": "http://www.sante.gouv.fr/medicaments,1969.html ; http://www.data.gouv.fr/fr/dataset/base-de-donnees-publique-des-medicaments-base-officielle",
+    "liens": "http://www.sante.gouv.fr/medicaments,1969.html ; http://www.data.gouv.fr/fr/dataset/base-de-donnees-publique-des-medicaments-base-officielle",
     "description": "Données et documents de référence sur les médicaments commercialisés ou ayant été commercialisés durant les deux dernières années en France",
     "alimentation": "ANSM, HAS, CNAMTS",
     "datasets":"base-de-donnees-publique-des-medicaments-base-officielle"
@@ -212,13 +212,13 @@
   "Enquête FECOND": {
     "gestionnaire": "Institut national d'études démographiques",
     "commentaire": " Cette base Habitudes de vie fait partie de la catégorie Habitudes de vie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.ined.fr/fichier/t_publication/1606/publi_pdf1_492.pdf",
+    "liens": "http://www.ined.fr/fichier/t_publication/1606/publi_pdf1_492.pdf",
     "description": "Données sur la fécondité et la contraception ainsi que sur l'offres de soins liés à la fécondité"
   },
   "Base des cartographies OSCARS": {
     "gestionnaire": "Comité Régional d'Éducation pour la Santé Provence-Alpes-Côte d'Azur",
     "commentaire": " Cette base Activité des établissements médicaux-sociaux fait partie de la catégorie Activité des établissements médicaux-sociaux du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://oscarsante.org",
+    "liens": "http://oscarsante.org",
     "description": "Données de suivi des actions régionales de santé sur les régions PACA, Martinique, Nord Pas-de-Calais, Pays de la Loire, Centre Poitou-Charentes et Bretagne"
   },
   "Enquête annuelle sur le financement de l’habitat": {
@@ -231,13 +231,13 @@
   "Thesaurus des interactions médicamenteuses": {
     "gestionnaire": "Agence nationale de sécurité du médicament et des produits de santé",
     "commentaire": " Cette base Informations médicales fait partie de la catégorie Informations médicales du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.omedit-hautenormandie.fr/Files/thesaurus_des_interactions_medicamenteuses_afssaps_mars_2012.pdf",
+    "liens": "http://www.omedit-hautenormandie.fr/Files/thesaurus_des_interactions_medicamenteuses_afssaps_mars_2012.pdf",
     "description": "Risques liés aux interactions médicamenteuses et précautions d'emploi associées"
   },
   "Enquête « Prescriptions médicales : disparités géographiques » de novembre 2004": {
     "gestionnaire": "Caisse nationale de l'assurance maladie des travailleurs salariés",
     "commentaire": "Couverture de l'ensemble des pharmacies d'officine implantées en France métropolitaine en 2004 ; la population prise en compte est limitée aux personnes protégées par le régime général, incluant les sections locales mutualistes Cette base Consultations fait partie de la catégorie Consultations du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://fulltext.bdsp.ehesp.fr/Cnamts/PointDeConjoncture/31-32/1.pdf",
+    "liens": "http://fulltext.bdsp.ehesp.fr/Cnamts/PointDeConjoncture/31-32/1.pdf",
     "description": "Analyse des disparités géographiques de prescription pour : les antibiotiques, les génériques, les psychotropes, les statines, les indemnités journalières, les soins sans ou en rapport avec une ALD (affection longue durée)",
     "alimentation": "SNIIRAM"
   },
@@ -252,7 +252,7 @@
   "Base de la Fédération des associations de surveillance de la qualité de l'air": {
     "gestionnaire": "Fédération des associations de surveillance de la qualité de l'air",
     "commentaire": " Cette base Environnement fait partie de la catégorie Environnement du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.atmo-france.org/fr/",
+    "liens": "http://www.atmo-france.org/fr/",
     "description": "Indices quotidiens de la qualité de l'air, observations en temps réels, Modèles de prévisions régionales",
     "alimentation": "Associations locales de surveillance de la qualité de l'air"
   },
@@ -265,27 +265,27 @@
   "Étude Longitudinale Française depuis l’Enfance (ELFE)": {
     "gestionnaire": "Institut national de la santé et de la recherche médicale",
     "commentaire": "Cohorte de 20 000 enfants nés en 2011, représentative pour la France métropolitaine Cette base Etat de santé fait partie de la catégorie Etat de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.elfe-france.fr/index.php/fr/cote-recherche/premiers-resultats",
+    "liens": "http://www.elfe-france.fr/index.php/fr/cote-recherche/premiers-resultats",
     "description": "Facteurs familiaux, économiques et socioculturels conditionnant la réussite de l'enfant, données de santé de l'enfant en fonction d'habitudes alimentaires, d'environnement de vie",
     "alimentation": "Parents des enfants (entretiens et questionnaires), enfants eux-mêmees (entretiens et questionnaires), résultats d'examens médicaux"
   },
   "Surveillance médicale des expositions aux risques professionnels (SUMER)": {
     "gestionnaire": "Direction de l'animation de la recherche, des études et des statistiques",
     "commentaire": " Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://travail-emploi.gouv.fr/etudes-recherches-statistiques-de,76/statistiques,78/conditions-de-travail-et-sante,80/les-enquetes-surveillance-medicale,1999/l-enquete-sumer-2010,15981.html",
+    "liens": "http://travail-emploi.gouv.fr/etudes-recherches-statistiques-de,76/statistiques,78/conditions-de-travail-et-sante,80/les-enquetes-surveillance-medicale,1999/l-enquete-sumer-2010,15981.html",
     "description": "Données sur les risques chimiques, biologiques, les contraintes physiques et les contraintes d'organisation par sexe, type d'emploi et secteur d'activité",
     "alimentation": "Panel d'individus"
   },
   "Base des infections sexuellement transmissibles (IST)": {
     "gestionnaire": "Institut de veille sanitaire",
     "commentaire": " Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.invs.sante.fr/Dossiers-thematiques/Maladies-infectieuses/VIH-sida-IST/Infection-a-VIH-et-sida/Donnees/Donnees-epidemiologiques-sur-l-infection-a-VIH-et-les-IST",
+    "liens": "http://www.invs.sante.fr/Dossiers-thematiques/Maladies-infectieuses/VIH-sida-IST/Infection-a-VIH-et-sida/Donnees/Donnees-epidemiologiques-sur-l-infection-a-VIH-et-les-IST",
     "description": "Données épidémiologiques sur l'infection au VIH et les IST (nombre de dépistages annuels, nombre de cas), incidence régionale"
   },
   "Enquête Santé et Itinéraire Professionnel (SIP)": {
     "gestionnaire": "Direction de la recherche, des études, de l'évaluation et des statistiques",
     "commentaire": "Panel identique entre 2006 et 2010 Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.insee.fr/fr/themes/theme.asp?theme=5",
+    "liens": "http://www.insee.fr/fr/themes/theme.asp?theme=5",
     "description": "Données sur le revenu des ménages, les trajectoires professionnelles, les risques psychosociaux",
     "alimentation": "Panel d'individus"
   },
@@ -298,28 +298,28 @@
   "Tableaux des affections longue durée (ALD)": {
     "gestionnaire": "Caisse nationale de l'assurance maladie des travailleurs salariés",
     "commentaire": " Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.ameli.fr/l-assurance-maladie/statistiques-et-publications/donnees-statistiques/affection-de-longue-duree-ald/incidence/ald-30-en-2012.phphttp://www.ameli.fr/l-assurance-maladie/statistiques-et-publications/donnees-statistiques/affection-de-longue-duree-ald/prevalence/frequence-des-ald-au-31-12-2012.php",
+    "liens": "http://www.ameli.fr/l-assurance-maladie/statistiques-et-publications/donnees-statistiques/affection-de-longue-duree-ald/incidence/ald-30-en-2012.phphttp://www.ameli.fr/l-assurance-maladie/statistiques-et-publications/donnees-statistiques/affection-de-longue-duree-ald/prevalence/frequence-des-ald-au-31-12-2012.php",
     "description": "_ Données sur la fréquence, l'incidence et le coût des ALD (affection longue durée)",
     "alimentation": "SNIIRAM"
   },
   "Enquêtes annuelles sur les revenues et les conditions de vie (EU-SILC)": {
     "gestionnaire": "Institut national de la statistique et des études économiques - Direction générale",
     "commentaire": "France métropolitaine Cette base Inégalités de santé fait partie de la catégorie Inégalités de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.insee.fr/fr/themes/theme.asp?theme=4",
+    "liens": "http://www.insee.fr/fr/themes/theme.asp?theme=4",
     "description": "_ Informations de santé : auto-estimation de son état de santé personnel",
     "alimentation": "Panel"
   },
   "Base de l'enquête statistique sur les ressources et les conditions de vie (SRCV)": {
     "gestionnaire": "Institut national de la statistique et des études économiques - Direction générale",
     "commentaire": "9000 ménages français Cette base Inégalités de santé fait partie de la catégorie Inégalités de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.insee.fr/fr/themes/theme.asp?theme=5",
+    "liens": "http://www.insee.fr/fr/themes/theme.asp?theme=5",
     "description": "Informations de santé : auto-estimation de son état de santé personnel",
     "alimentation": "Panel d'individus"
   },
   "Applicatif du SNATIH : Tableaux agrégés activité ePMSI": {
     "gestionnaire": "Agence Technique de l'Information sur l'Hospitalisation",
     "commentaire": " Cette base Activité des établissements de santé fait partie de la catégorie Activité des établissements de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php",
+    "liens": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php",
     "description": "Pour chacun des domaines (MCO, SSR, HAD,psychiatrie), pour chacun des secteurs (ex-DG, ex-OQN), les tableaux mensuels agrégés issus de la plate-forme e-pmsi sont fournis, par établissement, par catégorie d’établissement, par région, afin de disposer des éléments d’activité, et, pour ce qui est des domaines MCO et HAD, des éléments de valorisation de l’activité.",
     "alimentation": "_ Principales sources : PMSI, SAE"
   },
@@ -352,7 +352,7 @@
   "Applicatif du SNATIH : Analyse croisée de consommation/production de soins MCO (HAD, SSR, PSY)": {
     "gestionnaire": "Agence Technique de l'Information sur l'Hospitalisation",
     "commentaire": " Cette base Activité des établissements de santé fait partie de la catégorie Activité des établissements de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php",
+    "liens": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php",
     "description": "Tableau croisant l’activité des établissements de santé (en MCO, SSR, HAD ou psychiatrie) et la consommation des habitants de chaque territoire de santé. Les taux d’attractivité et taux de fuite inter-régionaux et intra-régionaux (par territoire) sont également disponibles",
     "alimentation": "PMSI"
   },
@@ -367,7 +367,7 @@
   "Base Statistique Annuelle des Etablissements de Santé (SAE)": {
     "gestionnaire": "Direction de la recherche, des études, de l'évaluation et des statistiques",
     "commentaire": "Ensemble des établissements de santé Cette base Infrastructures fait partie de la catégorie Infrastructures du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.sae-diffusion.sante.gouv.fr/Collecte_2012/dwd_dwssel.aspx",
+    "liens": "http://www.sae-diffusion.sante.gouv.fr/Collecte_2012/dwd_dwssel.aspx",
     "description": "Par établisssement, données de:",
     "alimentation": "Etablissements de santé"
   },
@@ -380,7 +380,7 @@
   "Enquêtes en milieu scolaire": {
     "gestionnaire": "Direction de la recherche, des études, de l'évaluation et des statistiques",
     "commentaire": " Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.fncs.org/medias/rapports-et-etudes/ETUDE%20SANTE%20DENTAIRE%20ENFANT%20-%20DREES%20-%20Juillet%202013.pdf",
+    "liens": "http://www.fncs.org/medias/rapports-et-etudes/ETUDE%20SANTE%20DENTAIRE%20ENFANT%20-%20DREES%20-%20Juillet%202013.pdf",
     "description": "Indicateurs de surpoids, de santé bucco-dentares, de santé mentales, d'équilibre alimentaire, de souffrance en milieu scolaire, etc.",
     "alimentation": "Panel d'élèves de CM2 à la troisième"
   },
@@ -388,7 +388,7 @@
     "acronyme": "PTS",
     "gestionnaire": "Centre Hospitalier Universitaire de Rouen",
     "commentaire": " Cette base Services proposés fait partie de la catégorie Services proposés du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.hetop.eu/",
+    "liens": "http://www.hetop.eu/",
     "description": "Principales terminologies de santé disponibles en français",
     "alimentation": "CISMeF en collaboration avec l'INSA de Rouen et la société MONDECA"
   },
@@ -401,33 +401,33 @@
   "Résultats du contrôle sanitaire de la qualité de l’eau potable": {
     "gestionnaire": "Ministère des Affaires sociales, de la Santé et des Droits des femmes",
     "commentaire": " Cette base Environnement fait partie de la catégorie Environnement du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.sante.gouv.fr/resultats-du-controle-sanitaire-de-la-qualite-de-l-eau-potable.html",
+    "liens": "http://www.sante.gouv.fr/resultats-du-controle-sanitaire-de-la-qualite-de-l-eau-potable.html",
     "description": "Par commune et par prélèvement : dernier prélèvement et valeur de conformité et paramère analytique (ammonium, aspect …)"
   },
   "Catalogue et indexation des Sites Médicaux de langue Française(CISMeF)": {
     "gestionnaire": "Centre Hospitalier Universitaire de Rouen",
     "commentaire": " Cette base Services proposés fait partie de la catégorie Services proposés du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.cismef.org/.",
+    "liens": "http://www.cismef.org/.",
     "description": "Principaux sites et documents francophones : plus de 43.000 ressources indexées enmai 2008 avec une moyenne de 55 nouvelles ressources par semaine."
   },
   "Applicatif du SNATIH : Indicateurs de productivité médico-économique": {
     "gestionnaire": "Agence Technique de l'Information sur l'Hospitalisation",
     "commentaire": " Cette base Performance financière fait partie de la catégorie Performance financière du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php",
+    "liens": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php",
     "description": "Mesure du taux de couverture des charges par les recettes par établissement ex-DG, pour le secteur MCO, le secteur sous DAF et tous champs confondus. L’évolution sur trois années est également donnée.",
     "alimentation": "_ Principales sources : PMSI, SAE, remontées financières des établissements"
   },
   "Baromètres santé": {
     "gestionnaire": "Institut national de prévention et d'éducation pour la santé",
     "commentaire": " Cette base Habitudes de vie fait partie de la catégorie Habitudes de vie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.inpes.sante.fr/Barometres/barometre-sante-2010/index.asp#accidents",
+    "liens": "http://www.inpes.sante.fr/Barometres/barometre-sante-2010/index.asp#accidents",
     "description": "Indicateurs multiples de santé individuelle, de santé au travail, de santé des jeunes, d'hygiène, de drogue",
     "alimentation": "Population"
   },
   "Applicatif du SNATIH : Compte financier": {
     "gestionnaire": "Agence Technique de l'Information sur l'Hospitalisation",
     "commentaire": " Cette base Performance financière fait partie de la catégorie Performance financière du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php",
+    "liens": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php",
     "description": "Par établissement ex-DG, présentation de : les éléments du compte de résultat, le passage des résultats à la CAF, le tableau de financement, les soldes intermédiaires de gestion et les principaux postes du bilan",
     "alimentation": "_ Principale source : remontées financières des établissements"
   },
@@ -451,14 +451,14 @@
   "Enquête auprès des intervenants à domicile (IAD)": {
     "gestionnaire": "Direction de la recherche, des études, de l'évaluation et des statistiques",
     "commentaire": " Cette base Activité des établissements médicaux-sociaux fait partie de la catégorie Activité des établissements médicaux-sociaux du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.reseau-quetelet.cnrs.fr/spip/",
+    "liens": "http://www.reseau-quetelet.cnrs.fr/spip/",
     "description": "Condition de vie, taux de couverture sociale, état général de santé, fréquences des maladies, taux d'hospitalisation, consommation de soins médicaux des intervenants à domicile",
     "alimentation": "Panel de 2600 intervenants"
   },
   "Enquête quadriennale auprès des établissements d’hébergement pour personnes âgées": {
     "gestionnaire": "Direction de la recherche, des études, de l'évaluation et des statistiques",
     "commentaire": " Cette base Activité des établissements médicaux-sociaux fait partie de la catégorie Activité des établissements médicaux-sociaux du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.cmh.greco.ens.fr/enquetes/XML/lil-0736.xml",
+    "liens": "http://www.cmh.greco.ens.fr/enquetes/XML/lil-0736.xml",
     "description": "Indicateurs sur l'activité et le personnel des établissements, indicateurs sur les publics accueillis : enfants et adolescents, adultes et famille",
     "alimentation": "Ensemble des etablissements en faveur des enfants et adultes en difficulté sociale (hors centres de placement familial)"
   },
@@ -472,14 +472,14 @@
   "Base du système de surveillance des infections au CO": {
     "gestionnaire": "Institut de veille sanitaire",
     "commentaire": " Cette base Environnement fait partie de la catégorie Environnement du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.invs.sante.fr/Dossiers-thematiques/Environnement-et-sante/Intoxications-au-monoxyde-de-carbone/Donnees-epidemiologiques-de-surveillance",
+    "liens": "http://www.invs.sante.fr/Dossiers-thematiques/Environnement-et-sante/Intoxications-au-monoxyde-de-carbone/Donnees-epidemiologiques-de-surveillance",
     "description": "Taux de mortalité, taux de décés par intoxication (depuis 2004), répartition régionale de l'incidence des intoxications, circonstances de survenues des intoxications, répartition hebdomadaires des épisodes d'intoxication",
     "alimentation": "Signalement de suspicion d’intoxications au CO par les déclarants (toute personne ayant connaissance d’une suspicion d’intoxication au CO) qui sont en pratique les services d’intervention d’urgence : les services départements de secours et d’incendie et les services d’urgence hospitalière"
   },
   "Démographie des Professionnels de Santé": {
     "gestionnaire": "Caisse nationale de l'assurance maladie des travailleurs salariés",
     "commentaire": " Cette base Inégalités de santé fait partie de la catégorie Inégalités de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.ameli.fr/l-assurance-maladie/statistiques-et-publications/donnees-statistiques/professionnels-de-sante-liberaux/donnees-geographiques/demographie-des-professionnels-de-sante.php",
+    "liens": "http://www.ameli.fr/l-assurance-maladie/statistiques-et-publications/donnees-statistiques/professionnels-de-sante-liberaux/donnees-geographiques/demographie-des-professionnels-de-sante.php",
     "description": "Effectifs et densité par département et par région",
     "alimentation": "SNIIRAM"
   },
@@ -497,7 +497,7 @@
   "Enquête Handicap-Santé": {
     "gestionnaire": "Direction de la recherche, des études, de l'évaluation et des statistiques",
     "commentaire": " Cette base Autres fait partie de la catégorie Autres du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.drees.sante.gouv.fr/les-enquetes-handicap-sante,4267.html",
+    "liens": "http://www.drees.sante.gouv.fr/les-enquetes-handicap-sante,4267.html",
     "description": "Description du ménage de la personne interrogée",
     "alimentation": "Panel"
   },
@@ -511,27 +511,27 @@
   "Applicatif du SNATIH : Tableaux de bord financiers des Etablissements Publics de Santé": {
     "gestionnaire": "Agence Technique de l'Information sur l'Hospitalisation",
     "commentaire": " Cette base Performance financière fait partie de la catégorie Performance financière du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php",
+    "liens": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php",
     "description": "Sur les établissements ex-DG, tableaux organisés en 3 parties :",
     "alimentation": "Réseau du Trésor public (bases de données de la DGFIP)"
   },
   "SipaPH (Système d’Information partagé pour l’autonomie des personnes handicapées)": {
     "gestionnaire": "Caisse nationale de solidarité pour l'autonomie",
     "commentaire": " Cette base Activité des établissements médicaux-sociaux fait partie de la catégorie Activité des établissements médicaux-sociaux du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.sipaph.cnsa.fr/fre",
+    "liens": "http://www.sipaph.cnsa.fr/fre",
     "alimentation": "MDPH (Maisons départementales des personne shandicapées), CNSA"
   },
   "Répertoire des médicaments": {
     "gestionnaire": "Agence nationale de sécurité du médicament et des produits de santé",
     "commentaire": "Médicaments depuis 2002 Cette base Informations médicales fait partie de la catégorie Informations médicales du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://agence-prd.ansm.sante.fr/php/ecodex/index.php",
+    "liens": "http://agence-prd.ansm.sante.fr/php/ecodex/index.php",
     "description": "Trois types d'informations disponibles :",
     "alimentation": "ANSM"
   },
   "Enquête quadriennale sur l'allocation personnalisée d'autonomie (APA)": {
     "gestionnaire": "Direction de la recherche, des études, de l'évaluation et des statistiques",
     "commentaire": " Cette base Activité des établissements médicaux-sociaux fait partie de la catégorie Activité des établissements médicaux-sociaux du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.drees.sante.gouv.fr/donnees-concernant-l-allocation-personnalisee-d-autonomie,10961.html#donnees_annuelles_sur_les_depenses",
+    "liens": "http://www.drees.sante.gouv.fr/donnees-concernant-l-allocation-personnalisee-d-autonomie,10961.html#donnees_annuelles_sur_les_depenses",
     "description": "Dépenses d'APA par domicile, par bénéficiaire en établissement et par établissement sous forme de séries longues et sur plusieurs années",
     "alimentation": "Conseils généraux"
   },
@@ -545,14 +545,14 @@
     "acronyme":"RASS",
     "gestionnaire": "Agence des Systèmes d’Information Partagés de Santé",
     "commentaire": " Cette base Infrastructures fait partie de la catégorie Infrastructures du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://esante.gouv.fr/services/referentiels/identification/referentiel-des-acteurs-sante-sociaux-rass",
+    "liens": "http://esante.gouv.fr/services/referentiels/identification/referentiel-des-acteurs-sante-sociaux-rass",
     "description": "Données de description des professionnels de santé enregistrés dans le RPPS (données d’identité, exercice professionnel, situations d’exercice…) pour les médecins, chirurgiens-dentistes, sages-femmes et pharmaciens, données d’identification des établissements dans lesquels ces professionnels de santé exercent"
   },
   "Tableau de Bord des Infections Nosocomiales": {
     "acronyme":"TBIN",
     "gestionnaire": "Direction générale de l'offre de soins",
     "commentaire": " Cette base Qualité fait partie de la catégorie Qualité du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.data.gouv.fr",
+    "liens": "http://www.data.gouv.fr",
     "description": "7 indicateurs sur le niveau d’engagement dans la prévention des infections nosocomiales : Indicateur Composite des Activités de Lutte contre les Infections",
     "alimentation": "Etablissements de santé, qui renseignent les données selon un modèle défini par un arrêté du Ministre chargé de la santé"
   },
@@ -572,13 +572,13 @@
   },
   "Base de l'établissement français du sang (EFS)": {
     "gestionnaire": "Établissement français du sang",
-    "lien": "http://www.dondusang.net/rewrite/nocache/site/37/etablissement-francais-du-sang.htm?idRubrique=756",
+    "liens": "http://www.dondusang.net/rewrite/nocache/site/37/etablissement-francais-du-sang.htm?idRubrique=756",
     "description": "Enregistrement des donneurs et des produits reçus par des patients."
   },
   "Base du réseau France Coag": {
     "gestionnaire": "Réseau France Coag",
     "commentaire": " Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.francecoag.org/SiteWebPublic/public/Accueil.action",
+    "liens": "http://www.francecoag.org/SiteWebPublic/public/Accueil.action",
     "description": "Caractéristiques des patients suivis pour des déficits héréditaires en protéines coagulantes",
     "alimentation": "Centres de traitement spécialisés dans les maladies hémorragiques, partenaires du réseau France Coag"
   },
@@ -596,49 +596,49 @@
   "Surveillance sanitaire des urgences et des décès (SURSAUD)": {
     "gestionnaire": "Institut de veille sanitaire",
     "commentaire": " Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.invs.sante.fr/Publications-et-outils/Rapports-et-syntheses/Autres-thematiques/Le-systeme-francais-de-surveillance-sanitaire-des-urgences-et-des-deces-SurSaUD-R",
+    "liens": "http://www.invs.sante.fr/Publications-et-outils/Rapports-et-syntheses/Autres-thematiques/Le-systeme-francais-de-surveillance-sanitaire-des-urgences-et-des-deces-SurSaUD-R",
     "description": "Une base par type de maladie contenant nombre de cas, offres de soins, analyse des 10 diagnostics les plus fréquents, indicateurs de suivi des consultations par type de pathologie ( asthme, traumatologie, rougeolle…)",
     "alimentation": "Données collectées auprès des Services d'urgence, du réseau SOS médecin, des bureaux d'Etat Civil"
   },
   "Applicatif du SNATIH : ARBUST - MIG": {
     "gestionnaire": "Agence Technique de l'Information sur l'Hospitalisation",
     "commentaire": " Cette base Dépenses fait partie de la catégorie Dépenses du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php",
+    "liens": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php",
     "description": "A partir des données d’ARBUST-MIG, des statistiques sont disponibles, par région, par catégorie d’établissements, par établissement, sur les montants alloués pour chaque MIG et leur évolution.Différentes présentations sont possibles : par établissement, par MIG ou synthétique",
     "alimentation": "-"
   },
   "Baromètres et études INCa/Ipsos, INCa/BVA…": {
     "gestionnaire": "Institut national du cancer",
     "commentaire": " Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "www.e-cancer.fr",
+    "liens": "www.e-cancer.fr",
     "description": "Données brutes des baromètres et enquêtes",
     "alimentation": "instituts de sondage"
   },
   "Catalogue en ligne des principales bases de données en santé de source française qui peuvent être utiles au développement de la recherche et de l’expertise en santé publique.": {
     "gestionnaire": "Institut national de la santé et de la recherche médicale",
     "commentaire": " Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "https://epidemiologie-france.aviesan.fr/catalog/browse.jsp?lang=fr",
+    "liens": "https://epidemiologie-france.aviesan.fr/catalog/browse.jsp?lang=fr",
     "description": "Chaque base de données répertoriée dans le catalogue est décrite selon ses caractéristiques essentielles : objectifs, thématiques, populations couvertes, nature des informations recueillies, conditions d’accès, responsable,…",
     "alimentation": "Portail Epidémiologie - France"
   },
   "Fichier \"Prescription des médecins par département\"": {
     "gestionnaire": "Caisse nationale de l'assurance maladie des travailleurs salariés",
     "commentaire": " Cette base Consultations fait partie de la catégorie Consultations du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.ameli.fr/l-assurance-maladie/statistiques-et-publications/donnees-statistiques/professionnels-de-sante-liberaux/donnees-geographiques/activite-prescriptions-des-medecins.php",
+    "liens": "http://www.ameli.fr/l-assurance-maladie/statistiques-et-publications/donnees-statistiques/professionnels-de-sante-liberaux/donnees-geographiques/activite-prescriptions-des-medecins.php",
     "description": "Nombre et types de prescriptions des médecins par département",
     "alimentation": "SNIIRAM"
   },
   "Banque de données hospitalières de France": {
     "gestionnaire": "Fédération Hospitalière de France",
     "commentaire": " Cette base Activité des établissements de santé fait partie de la catégorie Activité des établissements de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.fhf.fr/Actualites/Finances-BDHF/BDHF",
+    "liens": "http://www.fhf.fr/Actualites/Finances-BDHF/BDHF",
     "description": "Nombreux modules : case mix, part de marché des établissements, ratios de ressources humaines, ratios de consommation de produits pharmaceutiques, ratios financiers, ratios de psychiatrie, etc.",
     "alimentation": "Principales sources : PMSI, DREES, analyses de la FHF"
   },
   "Cycle triennal d’enquêtes sur la santé des enfants et adolescents scolarisés": {
     "gestionnaire": "Direction de la recherche, des études, de l'évaluation et des statistiques",
     "commentaire": " Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.drees.sante.gouv.fr/IMG/pdf/er737-3.pdf",
+    "liens": "http://www.drees.sante.gouv.fr/IMG/pdf/er737-3.pdf",
     "description": "Indicateurs de surpoids, de santé bucco-dentaires, de santé mentale, d'équilibre alimentaire, de souffrance en milieu scolaire, etc.",
     "alimentation": "Elèves des grandes sections de maternelle, des classes de CM2 et des classes de troisième"
   },
@@ -652,7 +652,7 @@
   "Recueil d'informations médicalisées en psychiatrie (RIM-P)": {
     "gestionnaire": "Agence Technique de l'Information sur l'Hospitalisation",
     "commentaire": "En 2011, 95% des établissements de santé ont remonté leurs données à l'ATIH Cette base Activité des établissements de santé fait partie de la catégorie Activité des établissements de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.atih.sante.fr/tableaux-rim-p-nationaux",
+    "liens": "http://www.atih.sante.fr/tableaux-rim-p-nationaux",
     "description": "Indicateurs hebdomadaires sur lactivité des établissements de psychiatrie par région ( nombre de patients, mode d'entrées et de sorties des patients, effectifs soignants par catégories de patients, listes de diagnostics etc)",
     "alimentation": "Etablissements de santé"
   },
@@ -677,14 +677,14 @@
   "Les professions de santé au 1er janvier 2013": {
     "gestionnaire": "Agence des Systèmes d’Information Partagés de Santé",
     "commentaire": " Cette base Infrastructures fait partie de la catégorie Infrastructures du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.drees.sante.gouv.fr/les-professions-de-sante-au-1er-janvier-2013,11177.html",
+    "liens": "http://www.drees.sante.gouv.fr/les-professions-de-sante-au-1er-janvier-2013,11177.html",
     "description": "Ensemble de tableaux comportant l’effectif global et sa répartition par situation professionnelle (libérale, salariée), département d’exercice, sexe, tranche d’âge, tranche d’unité urbaine, et secteur d’activité pour les professionnels inscrits dans Adeli et dans le RPPS, soit : les pharmaciens, chirurgiens-dentistes, sages-femmes et professionnels paramédicaux (infirmiers, masseurs-kinésithérapeutes, orthophonistes, orthoptistes, audio-prothésistes, opticiens-lunetiers, pédicures-podologues, ergothérapeutes, psychomotriciens, manipulateurs ERM, diététiciens)",
     "alimentation": "le répertoire ADELI et le Répertoire partagé des professionnels de santé (RPPS)"
   },
   "Applicatif du SNATIH : Fiches régions infra-annuelles": {
     "gestionnaire": "Agence Technique de l'Information sur l'Hospitalisation",
     "commentaire": " Cette base Activité des établissements de santé fait partie de la catégorie Activité des établissements de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php",
+    "liens": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php",
     "description": "Pour chaque région, pour chaque secteur (ex-DG, ex-OQN), une fiche (en format excel) inclut les éléments suivants : les montants des ressources allouées et leur évolution sur un an (activité, MIG, AC, forfaits…), l’évolution des recettes liées à l’activité et du volume économique (différenciant l’effet nombre de séjours et l’effet structure), la déclinaison par activité de soins et par niveau de sévérité, et la déclinaison par établissement.",
     "alimentation": "Principales sources : PMSI, SAE, remontées financières des établissements"
   },
@@ -694,7 +694,7 @@
       "Université de Toulouse"
     ],
     "commentaire": " Cette base Autres fait partie de la catégorie Autres du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.audipog.net/pdf/seminaires/seminaire_2008/pres03_audipog.pdf",
+    "liens": "http://www.audipog.net/pdf/seminaires/seminaire_2008/pres03_audipog.pdf",
     "description": "Indicateurs de mortalité infantile, de déficiences sévères, de dépistage d'anomalies chromosomiques",
     "alimentation": "Patients diagnostiqués"
   },
@@ -709,7 +709,7 @@
     "acronyme": "FINESS",
     "gestionnaire": "Direction de la recherche, des études, de l'évaluation et des statistiques",
     "commentaire": "Etablissements de santé, SSR, EHPAD, pharmacies ; mise à jour semestrielle Cette base Infrastructures fait partie de la catégorie Infrastructures du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://finess.sante.gouv.fr/finess/jsp/actionRechercheSimple.do",
+    "liens": "http://finess.sante.gouv.fr/finess/jsp/actionRechercheSimple.do",
     "description": "Pour chaque établissement, données d’identification (adresse, raison sociale, catégorie juridique, mode de tarification), libellés d’activités sanitaires et d’équipement sociaux (le cas échéant)",
     "alimentation": "Etablissements via ARS et DRJSCS",
     "datasets":"extraction-du-fichier-national-des-etablissements-sanitaires-et-sociaux-finess-par-etablissements"
@@ -717,7 +717,7 @@
   "Enquête nationale sur les évènements indésirables liés aux soins (ENEIS)": {
     "gestionnaire": "Direction de la recherche, des études, de l'évaluation et des statistiques",
     "commentaire": "Plus de 8 000 séjours ou fractions de séjours patients ; plus de 250 unités couvertes dans plus de 80 établissements Cette base Qualité fait partie de la catégorie Qualité du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.drees.sante.gouv.fr/l-enquete-nationale-sur-les-evenements-indesirables-lies,6507.html#publications",
+    "liens": "http://www.drees.sante.gouv.fr/l-enquete-nationale-sur-les-evenements-indesirables-lies,6507.html#publications",
     "description": "NA",
     "alimentation": "Etablissements de santé : données recueillies, sur une période d'observation de 7 jours, par un binôme d’enquêteurs externes"
   },
@@ -730,7 +730,7 @@
   "Projets régionaux de santé": {
     "gestionnaire": "Agence Régionale de Santé",
     "commentaire": " Cette base Infrastructures fait partie de la catégorie Infrastructures du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://prs.sante-iledefrance.fr/le-projet/",
+    "liens": "http://prs.sante-iledefrance.fr/le-projet/",
     "description": "Description at analyse de chaque programmes constitutifs des projets régionaux de santé",
     "alimentation": "ARS"
   },
@@ -750,14 +750,14 @@
   "Base d'Angers": {
     "gestionnaire": "Fédération Hospitalière de France",
     "commentaire": "Environ 200 établissements volontaires Cette base Performance financière fait partie de la catégorie Performance financière du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.fhf.fr/Actualites/Finances-BDHF/Base-d-Angers/Base-d-Angers-2011",
+    "liens": "http://www.fhf.fr/Actualites/Finances-BDHF/Base-d-Angers/Base-d-Angers-2011",
     "description": "_ Données de coûts sur les activités non cliniques des établissements ; 3 types d'activités suivies : activités logistiques et administratives, activités logistiques médicales, activités médico-techniques",
     "alimentation": "Environ 200 établissements volontaires"
   },
   "Base de la cartographie des eaux de baignades": {
     "gestionnaire": "Ministère des Affaires sociales, de la Santé et des Droits des femmes",
     "commentaire": " Cette base Environnement fait partie de la catégorie Environnement du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://baignades.sante.gouv.fr/baignades/navigMap.do?idCarte=fra#",
+    "liens": "http://baignades.sante.gouv.fr/baignades/navigMap.do?idCarte=fra#",
     "description": "5 niveaux de qualité de l'eau de baignades par lieu"
   },
   "Tableau de bord sur l’activité des hôpitaux concernant la cancérologie": {
@@ -775,7 +775,7 @@
   "Statistiques agrégées du SNATIH": {
     "gestionnaire": "Agence Technique de l'Information sur l'Hospitalisation",
     "commentaire": " Cette base Activité des établissements de santé fait partie de la catégorie Activité des établissements de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.atih.sante.fr/snatih/statistiques",
+    "liens": "http://www.atih.sante.fr/snatih/statistiques",
     "description": "Nombre de séjours MCO, SSR, HAD et psy présenté en fonction i) du type de séjour, séjours non CM 24 (GHM J et T à compter de 2009) ni séances, séjours de la CM 24 (GHM J et T à compter de 2009) et séances, ii) de la classe d’âge des malades, décomposé en deux tableaux, (0-29j, 30-119j, 120j-1an, 1an-4ans, 5ans-16ans) d’une part et (17-25 ans, 26-45 ans, 46-55 ans, 56-70 ans, 56-70 ans, > 80 ans) d’autre part, iii) du sexe des malades, iv de la catégorie d’établissements",
     "alimentation": "PMSI"
   },
@@ -793,7 +793,7 @@
   "Applicatif du SNATIH : EPRD et RIA/RQ": {
     "gestionnaire": "Agence Technique de l'Information sur l'Hospitalisation",
     "commentaire": " Cette base Performance financière fait partie de la catégorie Performance financière du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php",
+    "liens": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php",
     "description": "Par établissement ex-DG, présentation des données suivantes :",
     "alimentation": "Remontées financières des établissements"
   },
@@ -806,14 +806,14 @@
   "Base des brevets européens": {
     "gestionnaire": "Institut national de la propriété industrielle",
     "commentaire": " Cette base Services proposés fait partie de la catégorie Services proposés du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.inpi.fr/fr/services-et-prestations/bases-de-donnees-gratuites/base-brevets.html",
+    "liens": "http://www.inpi.fr/fr/services-et-prestations/bases-de-donnees-gratuites/base-brevets.html",
     "description": "environ 5 millions de demandes de brevets français, européens et de demandes internationales publiées depuis 1978 : documents originaux de l’ensemble de ces demandes ainsi que les brevets délivrés français depuis 1989 et les traductions en français des brevets européens depuis 2004"
   },
   "Surveillance des retraités du RSI exposés à l’amiante": {
     "acronyme":"ESPRI",
     "gestionnaire": "Institut de veille sanitaire",
     "commentaire": "7 régions participantes (22 départements) Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.invs.sante.fr/Dossiers-thematiques/Travail-et-sante/Programme-de-surveillance-post-professionnelle-des-artisans-ayant-ete-exposes-a-l-amiante-ESPrI/Resultats",
+    "liens": "http://www.invs.sante.fr/Dossiers-thematiques/Travail-et-sante/Programme-de-surveillance-post-professionnelle-des-artisans-ayant-ete-exposes-a-l-amiante-ESPrI/Resultats",
     "description": "Indicateurs de suivi post professionnels et épidémiologiques tels que le taux d'exposition à l'amiante par secteurs d'activité/ par profession",
     "alimentation": "Caisses RSI des 7 régions participantes (soit 22 départements)."
   },
@@ -833,14 +833,14 @@
   "Enquête Aide sociale auprès des conseils généraux et des services déconcentrés de l’État": {
     "gestionnaire": "Direction de la recherche, des études, de l'évaluation et des statistiques",
     "commentaire": " Cette base Activité des établissements médicaux-sociaux fait partie de la catégorie Activité des établissements médicaux-sociaux du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.drees.sante.gouv.fr/les-beneficiaires-de-l-aide-sociale-departementale-en-2012,11217.html",
+    "liens": "http://www.drees.sante.gouv.fr/les-beneficiaires-de-l-aide-sociale-departementale-en-2012,11217.html",
     "description": "Répartition des prestations d'aide sociale, nombre d'enfants accueillis par l'ASE, dépenses d'aide sociale par type d'aide/ par départements",
     "alimentation": "Remontée administrative demandée à l’intégralité des conseils généraux et des services déconcentrés de de l’État en France métropolitaine et dans les départements d’outre-mer (DOM)."
   },
   "\"Base\" des certificats de santé de l'enfant aux 8e jour, 9e mois et 24e mois": {
     "gestionnaire": "Direction de la recherche, des études, de l'évaluation et des statistiques",
     "commentaire": " Cette base Habitudes de vie fait partie de la catégorie Habitudes de vie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.drees.sante.gouv.fr/les-certificats-de-sante-de-l-enfant-au-24eme-mois-cs24,11001.html",
+    "liens": "http://www.drees.sante.gouv.fr/les-certificats-de-sante-de-l-enfant-au-24eme-mois-cs24,11001.html",
     "description": "_ Répartition des enfants de moins de 2 ans par région et par département, selon divers critères : par exemple catégorie socio-professionnelle des parents",
     "alimentation": "Médecins via les services départementaux de la PMI"
   },
@@ -864,28 +864,28 @@
   "Applicatif du SNATIH : Taux de recours MCO par régions ou territoires de santé (HAD, SSR, PSY)": {
     "gestionnaire": "Agence Technique de l'Information sur l'Hospitalisation",
     "commentaire": " Cette base Activité des établissements de santé fait partie de la catégorie Activité des établissements de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php",
+    "liens": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php",
     "description": "_ Pour chaque domaine (MCO, SSR, HAD, psychiatrie), par région ou par territoire de santé, et pour une subdivision aussi fine que souhaitée de l’activité pour le secteur MCO (par grand groupe, par discipline, par groupe activités, par acte classant…), sont calculés les taux de recours (bruts ou standardisés) en nombre de séjours pour 1000 habitants, ainsi que leur évolution.",
     "alimentation": "Principale source : PMSI – programme de médicalisation des systèmes d'information"
   },
   "Répertoire des dispositifs médicaux": {
     "gestionnaire": "Agence nationale de sécurité du médicament et des produits de santé",
     "commentaire": " Cette base Informations médicales fait partie de la catégorie Informations médicales du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://ansm.sante.fr/Mediatheque/Publications/Listes-et-repertoires-Dispositifs-medicaux",
+    "liens": "http://ansm.sante.fr/Mediatheque/Publications/Listes-et-repertoires-Dispositifs-medicaux",
     "description": "Liste de certains dispositifs médicaux, par fabricants",
     "alimentation": "Producteurs de dispositifs médicaux et ANSM"
   },
   "Annuaire sanitaire et social": {
     "gestionnaire": "Office National de Publication et de Communication",
     "commentaire": " Cette base Infrastructures fait partie de la catégorie Infrastructures du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.sanitaire-social.com/",
+    "liens": "http://www.sanitaire-social.com/",
     "description": "Nom et coordonnées d'établissements sanitaires et sociaux français, possibilité de trier par thème (e.g. retraite)",
     "alimentation": "Organismes de tutelle et principales fédérations et administrations du secteur sanitaire et social"
   },
   "Cohorte de surveillance de la mortalité par profession (COSMOP)": {
     "gestionnaire": "Institut de veille sanitaire",
     "commentaire": " Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.invs.sante.fr/publications/2005/cosmop/cosmop.pdf",
+    "liens": "http://www.invs.sante.fr/publications/2005/cosmop/cosmop.pdf",
     "description": "Analyse systématique et permanente de la mortalité par profession, par secteur d’activité et par cause de décès",
     "alimentation": "Echantillons INSEE : appariement EDP et panel DADS avec causes de décès"
   },
@@ -910,7 +910,7 @@
   "Statistiques de l'état civil": {
     "gestionnaire": "Institut national de la statistique et des études économiques - Direction générale",
     "commentaire": "Ensemble de la population Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.insee.fr/fr/themes/theme.asp?theme=2&sous_theme=0&type=3&nivgeo=0&produit=OK",
+    "liens": "http://www.insee.fr/fr/themes/theme.asp?theme=2&sous_theme=0&type=3&nivgeo=0&produit=OK",
     "description": "Mariages, décés, naissances par communes, par région, par zone d'emplois, etc.",
     "alimentation": "Etat Civil"
   },
@@ -929,21 +929,21 @@
   "Suivi des victimes de l'amiante": {
     "gestionnaire": "Institut de veille sanitaire",
     "commentaire": " Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.invs.sante.fr/Publications-et-outils/Rapports-et-syntheses/Travail-et-sante/2013/Description-de-la-mortalite-des-victimes-de-l-amiante-connues-du-Fonds-d-indemnisation-des-victimes-de-l-amiante-Fiva",
+    "liens": "http://www.invs.sante.fr/Publications-et-outils/Rapports-et-syntheses/Travail-et-sante/2013/Description-de-la-mortalite-des-victimes-de-l-amiante-connues-du-Fonds-d-indemnisation-des-victimes-de-l-amiante-Fiva",
     "description": "Objectif :suivi du devenir sanitaire ds victimes de l'amiante connues du FIVA",
     "alimentation": "Fonds d'indemnisation des victimes de l'amiante"
   },
   "Applicatif du SNATIH : ICARE": {
     "gestionnaire": "Agence Technique de l'Information sur l'Hospitalisation",
     "commentaire": " Cette base Personnel fait partie de la catégorie Personnel du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php",
+    "liens": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php",
     "description": "_ Par établissement ex-DG ou par catégorie d’établissements (CHU, CH…), présentation des données du retraitement comptable par grands postes de charges et par secteur d’activité: charges nettes, charges nettes majorées, tableau de recollement, compte de résultats",
     "alimentation": "Principale source : remontées financières des établissements"
   },
   "Tableaux de bords de l'accréditation des médecins": {
     "gestionnaire": "Haute Autorité de santé",
     "commentaire": " Cette base Qualité fait partie de la catégorie Qualité du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.has-sante.fr/portail/jcms/c_1149405/tableau-de-bord-de-laccreditation-des-medecins",
+    "liens": "http://www.has-sante.fr/portail/jcms/c_1149405/tableau-de-bord-de-laccreditation-des-medecins",
     "description": "suivre le déploiement du dispositif de",
     "alimentation": "Médecins en établissement, HAS"
   },
@@ -956,7 +956,7 @@
   "Etude Individuelle Nationale de Consommation Alimentaire": {
     "gestionnaire": "Agence nationale de sécurité sanitaire, de l'alimentation, de l'environnement et du travail",
     "commentaire": "France ; enquête réalisée tous les 7 ans Cette base Habitudes de vie fait partie de la catégorie Habitudes de vie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.mangerbouger.fr/pro/IMG/pdf/EtudeInca2.pdf",
+    "liens": "http://www.mangerbouger.fr/pro/IMG/pdf/EtudeInca2.pdf",
     "description": "Données sur les collations matinales, la restauration scolaire, les facteurs sicio-démographiques et l'alimentation, le surpoids et la consommation de certains types d'aliments",
     "alimentation": "Panel de consommateurs"
   },
@@ -976,14 +976,14 @@
   "Guides de parcours de soin pour des maladies chroniques et des ALD (affection longue durée)": {
     "gestionnaire": "Haute Autorité de santé",
     "commentaire": " Cette base Informations médicales fait partie de la catégorie Informations médicales du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.has-sante.fr/portail/jcms/c_1241701/fr/prise-en-charge-des-maladies-chroniques",
+    "liens": "http://www.has-sante.fr/portail/jcms/c_1241701/fr/prise-en-charge-des-maladies-chroniques",
     "description": "Description des étapes de la prise en charge individuelle des patients atteints de maladies chroniques (1 guide par maladie)",
     "alimentation": "HAS via notamment la littérature scientifique"
   },
   "Base de la cartographie des Plans d'exposition au BRUIT": {
     "gestionnaire": "Direction départementale du territoire et communes",
     "commentaire": " Cette base Etat de santé fait partie de la catégorie Etat de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.yvelines.equipement.gouv.fr/consultation-des-documents-r258.html",
+    "liens": "http://www.yvelines.equipement.gouv.fr/consultation-des-documents-r258.html",
     "description": "Données sur le bruit dû aux trafics routiers et ferroviaires sur un territoire donné. Les niveaux de bruit sont exprimés en Lden (jour, soir, nuit), indicateur de gêne donnant un poids plus fort le soir (+ 5dB(A)) et la nuit (+10dB(A)) au niveau de bruit.",
     "alimentation": "DDEA des Yvelines - Fonds cartographiques numériques : IGN"
   },
@@ -996,49 +996,49 @@
   "Base de données relatives à la transparence des avantages accordés aux professionnels de santé, par les entreprises produisant ou commercialisant des produits à finalité sanitaire et cosmétique destinés à l'homme": {
     "gestionnaire": "Direction générale de la santé",
     "commentaire": " Cette base Personnel fait partie de la catégorie Personnel du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "https://www.entreprises-transparence.sante.gouv.fr/flow/login.xhtml",
+    "liens": "https://www.entreprises-transparence.sante.gouv.fr/flow/login.xhtml",
     "description": "Les informations relatives au siège social de l'entreprise : la raison sociale, l’adresse, les numéros de téléphone et de télécopie et le numéro SIREN ;",
     "alimentation": "Entreprises"
   },
   "Registre du Réseau Epidémiologie et Information en Néphrologie (REIN)": {
     "gestionnaire": "Agence de la biomédecine",
     "commentaire": " Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.agence-biomedecine.fr/IMG/pdf/rapport_reinvdef.pdf",
+    "liens": "http://www.agence-biomedecine.fr/IMG/pdf/rapport_reinvdef.pdf",
     "description": "Données sur le nombre de cas, le nombre de dialyse, le nombre de décès et le nombre de greffes de rein par région et par tranches d'âge",
     "alimentation": "Réseau Epidémiologie et Information en Néphrologie"
   },
   "Enquête annuelle sur les écoles de formation aux professions sociales": {
     "gestionnaire": "Direction de la recherche, des études, de l'évaluation et des statistiques",
     "commentaire": " Cette base Personnel fait partie de la catégorie Personnel du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.drees.sante.gouv.fr/IMG/pdf/er513.pdf",
+    "liens": "http://www.drees.sante.gouv.fr/IMG/pdf/er513.pdf",
     "description": "Evolution du nombre d'inscriptions das des établissements de formations, Nombre de diplômés par type d'établissement, nombre de diplomés par formation, profil socioculturels des diplomés, empreinte géographique des diplômes, analyse des carrière des diplômés",
     "alimentation": "Etudiants et établissements de formation (14 établissements concernés)"
   },
   "Base de l'observatoire des services d'information en santé (Osis)": {
     "gestionnaire": "Direction générale de l'offre de soins",
     "commentaire": " Cette base Infrastructures fait partie de la catégorie Infrastructures du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php",
+    "liens": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php",
     "description": "_ Liste des applications relatives à la performance des établissements de santé, à la maîtrise des dépenses et à l'analyse de l'activité",
     "alimentation": "Etablissements"
   },
   "Base QUALHAS de qualité et de sécurité des soins": {
     "gestionnaire": "Haute Autorité de santé",
     "commentaire": " Cette base Performance opérationnelle fait partie de la catégorie Performance opérationnelle du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "https://www.data.gouv.fr/fr/dataset/indicateurs-de-qualite-et-de-securite-des-soins-generalises-dans-les-etablissements-de-sante--572993",
+    "liens": "https://www.data.gouv.fr/fr/dataset/indicateurs-de-qualite-et-de-securite-des-soins-generalises-dans-les-etablissements-de-sante--572993",
     "description": "17 indicateurs MCO, SSR, HAD et psychiatrie : par exemple, tenue du dossier patient, délai d'envoi des courriers, mesure de la douleur et du poids",
     "alimentation": "Hôpitaux"
   },
   "Baromètre santé-environnement": {
     "gestionnaire": "Institut national de prévention et d'éducation pour la santé",
     "commentaire": " Cette base Environnement fait partie de la catégorie Environnement du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.inpes.sante.fr/CFESBases/catalogue/pdf/1114.pdf",
+    "liens": "http://www.inpes.sante.fr/CFESBases/catalogue/pdf/1114.pdf",
     "description": "Indicateurs de : pollution des sols, pollution de l'air, tabagisme passif, qualité des eaux, bruit et téléphonie mobile",
     "alimentation": "Panel d'individus"
   },
   "Baromètre cancer": {
     "gestionnaire": "Institut national de prévention et d'éducation pour la santé",
     "commentaire": "Environ 4000 personnes interrogées. Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.inpes.sante.fr/CFESBases/catalogue/pdf/1405.pdf",
+    "liens": "http://www.inpes.sante.fr/CFESBases/catalogue/pdf/1405.pdf",
     "description": "Données sur les connaissances, attitudes et comportements concernant les facteurs de risque du cancer, sur la représentationde la maladie et l’image des malades ainsi que sur la qualité perçue des soins et des pratiques de dépistage mises en oeuvre par les pouvoirs publics",
     "alimentation": "Echantillon de la population française interrogé par téléphone par tirage aléatoire"
   },
@@ -1058,7 +1058,7 @@
   "Echelle nationale des coûts": {
     "gestionnaire": "Agence Technique de l'Information sur l'Hospitalisation",
     "commentaire": "Etablissements publics et privés de santé Cette base Performance financière fait partie de la catégorie Performance financière du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.atih.sante.fr/referentiel-de-couts-mco-2011",
+    "liens": "http://www.atih.sante.fr/referentiel-de-couts-mco-2011",
     "description": "Coûts moyens 2011 des séjours hospitaliers en médecine, chirurgie, obstétrique  et odontologie (MCO) dans les établissements de santé publics et privés",
     "alimentation": "Etablissements publics et privés de santé"
   },
@@ -1078,7 +1078,7 @@
   "Enquête sur la Protection Sociale complémentaire d'entreprise (PSCE)": {
     "gestionnaire": "Institut de Recherche et de Documentation en Économie de la Santé",
     "commentaire": "1700 établissements et 3000 salariés répartis sur l'ensemble du territoire Cette base Services proposés fait partie de la catégorie Services proposés du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.irdes.fr/Publications/Rapports2012/rap1890.pdf",
+    "liens": "http://www.irdes.fr/Publications/Rapports2012/rap1890.pdf",
     "description": "Indicateurs relatifs aux éléments suivants :",
     "alimentation": "Etablissements (entreprises) et, depuis 2009, personnel des établissements interrogés"
   },
@@ -1091,7 +1091,7 @@
   "Corpulence des enfants de 7-9 ans scolarisés en CE1 et CE2": {
     "gestionnaire": "Institut de veille sanitaire",
     "commentaire": " Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.invs.sante.fr/Publications-et-outils/Rapports-et-syntheses/Maladies-chroniques-et-traumatismes/2011/Prevalences-du-surpoids-et-de-l-obesite-et-determinants-de-la-sedentarite-chez-les-enfants-de-7-a-9-ans-en-France-en-2007",
+    "liens": "http://www.invs.sante.fr/Publications-et-outils/Rapports-et-syntheses/Maladies-chroniques-et-traumatismes/2011/Prevalences-du-surpoids-et-de-l-obesite-et-determinants-de-la-sedentarite-chez-les-enfants-de-7-a-9-ans-en-France-en-2007",
     "description": "Indicateurs de surpoids et d'obésité"
   },
   "Tableau de bord de l’IDS : zoom sur un GHS pour les cliniques privées": {
@@ -1109,7 +1109,7 @@
   "Annuaire national des réunions de concertation pluridisciplinaires en cancérologie": {
     "gestionnaire": "Agence Régionale de Santé",
     "commentaire": " Cette base Infrastructures fait partie de la catégorie Infrastructures du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.oncopaca.org/fr/professionnels/RCP/annuaire-des-rcp",
+    "liens": "http://www.oncopaca.org/fr/professionnels/RCP/annuaire-des-rcp",
     "description": "Par établissements, listes des services de cancérologie, noms des chefs de services, adresses des plateaux techniques",
     "alimentation": "ARS"
   },
@@ -1122,27 +1122,27 @@
   "Applicatif du SNATIH : Fiches établissements infra-annuelles": {
     "gestionnaire": "Agence Technique de l'Information sur l'Hospitalisation",
     "commentaire": " Cette base Activité des établissements de santé fait partie de la catégorie Activité des établissements de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php",
+    "liens": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php",
     "description": "Fiches fournissant, par établissement ex-DG, de façon infra-annuelle :",
     "alimentation": "_ Principales sources : PMSI, SAE, remontées financières des établissements"
   },
   "Baromètre santé médecins généralistes": {
     "gestionnaire": "Institut national de prévention et d'éducation pour la santé",
     "commentaire": "2083 médecins généralistes couverts Cette base Consultations fait partie de la catégorie Consultations du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.hcsp.fr/Explore.cgi/Telecharger?NomFichier=ad770610.pdf",
+    "liens": "http://www.hcsp.fr/Explore.cgi/Telecharger?NomFichier=ad770610.pdf",
     "description": "_Indicateurs de perception et de comportement des médecins en matière de vaccination, de dépistage des hépatites virales et du VIH, de prise en charge des problèmes d’addiction",
     "alimentation": "Praticiens tirés aléatoirement dans les bases de la société Cegedim"
   },
   "Base \"Residehpad\"": {
     "gestionnaire": "Caisse nationale de solidarité pour l'autonomie",
     "commentaire": " Cette base Activité des établissements médicaux-sociaux fait partie de la catégorie Activité des établissements médicaux-sociaux du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "https://suivi-ehpad.ameli.fr/ehpad/SrvConnexion",
+    "liens": "https://suivi-ehpad.ameli.fr/ehpad/SrvConnexion",
     "description": "Profils de consommation de soins des résidents des établissements"
   },
   "Base du réseau FRANCIM": {
     "gestionnaire": "France Cancer Incidence et Mortalité",
     "commentaire": "_ Couverture du territoire : 18% pour la population adulte métropolitaine Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.invs.sante.fr/applications/cancers/francim2012/default.htm",
+    "liens": "http://www.invs.sante.fr/applications/cancers/francim2012/default.htm",
     "description": "Caractérisation des cas de cancer observés dans les zones couvertes",
     "alimentation": "Hôpitaux et cliniques privées"
   },
@@ -1156,7 +1156,7 @@
   "Applicatif du SNATIH : Médicaments et DMI en sus": {
     "gestionnaire": "Agence Technique de l'Information sur l'Hospitalisation",
     "commentaire": " Cette base Médicaments et dispositifs fait partie de la catégorie Médicaments et dispositifs du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php",
+    "liens": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php",
     "description": "_ Plusieurs tableaux présentent les données nationales sur les médicaments et les DMI en sus, par année ou par trimestre : évolution des montants, principaux établissements par classes de montants, analyse des évolutions et montants par classe ATC et groupes de dispositifs médicaux, palmarès des codes UCD/LPP, dispersion du taux d’évolution",
     "alimentation": "Principale source : PMSI – programme de médicalisation des systèmes d'information"
   },
@@ -1182,7 +1182,7 @@
   "Applicatif du SNATIH : Parts de marché": {
     "gestionnaire": "Agence Technique de l'Information sur l'Hospitalisation",
     "commentaire": " Cette base Activité des établissements de santé fait partie de la catégorie Activité des établissements de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php",
+    "liens": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php",
     "description": "Tableaux indiquant, pour un établissement dans sa zone de recrutement, ou pour un territoire de santé, la répartition de l’activité entre les différents établissements présents, en nombre de séjours et en %. L’activité peut être déclinée par grands groupes ou pour des disciplines plus fines (domaine d’activité, groupes de planification, groupes activité).",
     "alimentation": "Principale source : PMSI – programme de médicalisation des systèmes d'information"
   },
@@ -1196,7 +1196,7 @@
   "Annuaire des établissements de santé et EHPAD publics": {
     "gestionnaire": "Fédération Hospitalière de France",
     "commentaire": "Etablissements de santé et EHPAD publics Cette base Infrastructures fait partie de la catégorie Infrastructures du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://etablissements.fhf.fr/annuaire/recherche-hopital.php",
+    "liens": "http://etablissements.fhf.fr/annuaire/recherche-hopital.php",
     "description": "Recherche d'un établissement, d'une direction, d'une personne ou d'un service médical, par nom ou mot clé, commune région ou département, et GHM ou pôle pour les établissements",
     "alimentation": "PMSI – programme de médicalisation des systèmes d'information"
   },
@@ -1215,14 +1215,14 @@
   "Base des causes de mortalité": {
     "gestionnaire": "Centre d'Épidémiologie sur les Causes Médicales de Décès",
     "commentaire": "Ensemble de la population Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.cepidc.inserm.fr/cgi/broker.exe",
+    "liens": "http://www.cepidc.inserm.fr/cgi/broker.exe",
     "description": "Causes de décès (immédiates, intermédiaires, associées) et plusieurs informations démographiques sur le sujet décédé (sexe, âge, lieu de décès, lieu de domicile...)",
     "alimentation": "Chiffres établis à partir de deux documents : le certificat médical et le bulletin d'Etat civil de décès"
   },
   "Thésorimed": {
     "gestionnaire": "GIE-SIPS",
     "commentaire": "Cette base Informations médicales fait partie de la catégorie Informations médicales du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://theso.prod-deux.thesorimed.org/Vues/Recherche_Simple.html",
+    "liens": "http://theso.prod-deux.thesorimed.org/Vues/Recherche_Simple.html",
     "alimentation": [
       "Caisse Nationale de l'Assurance Maladie des Travailleurs Salariés",
       "Régime Social des Indépendants",
@@ -1233,7 +1233,7 @@
   "Donnéesrésultant de l'évaluation du médicament": {
     "gestionnaire": "Haute Autorité de santé",
     "commentaire": " Cette base Qualité fait partie de la catégorie Qualité du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.has-sante.fr/portail/jcms/r_1456073/fr/evaluation-recommandation-medicaments",
+    "liens": "http://www.has-sante.fr/portail/jcms/r_1456073/fr/evaluation-recommandation-medicaments",
     "description": "Données des avis concernant à la fois :"
   },
   "Indicateurs de mortalité post-hospitalière": {
@@ -1245,28 +1245,28 @@
   "Liste des Produits et Prestations (LPP)": {
     "gestionnaire": "Caisse nationale de l'assurance maladie des travailleurs salariés",
     "commentaire": " Cette base Informations médicales fait partie de la catégorie Informations médicales du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.codage.ext.cnamts.fr/codif/tips/index_presentation.php?p_site=AMELI",
+    "liens": "http://www.codage.ext.cnamts.fr/codif/tips/index_presentation.php?p_site=AMELI",
     "description": "Par médicament ou prestation : désignation du médicament, dates de validité, tarifs, taux de remboursement",
     "alimentation": "CNAMTS"
   },
   "Base SIGREC": {
     "gestionnaire": "Direction générale de l'offre de soins",
     "commentaire": " Cette base Infrastructures de recherche fait partie de la catégorie Infrastructures de recherche du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "https://tours.sigaps.fr/",
+    "liens": "https://tours.sigaps.fr/",
     "description": "Liste des essais cliniques réalisés par établissement",
     "alimentation": "Etablissements de santé"
   },
   "Enquêtes conditions de travail": {
     "gestionnaire": "Direction de l'animation de la recherche, des études et des statistiques",
     "commentaire": "Echantillon représentatif de près de 20 000 personnes Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://travail-emploi.gouv.fr/etudes-recherche-statistiques-de,76/statistiques,78/conditions-de-travail-et-sante,80/les-enquetes-conditions-de-travail,2000/enquetes-conditions-de-travail,189/",
+    "liens": "http://travail-emploi.gouv.fr/etudes-recherche-statistiques-de,76/statistiques,78/conditions-de-travail-et-sante,80/les-enquetes-conditions-de-travail,2000/enquetes-conditions-de-travail,189/",
     "description": "Données portants sur l'organisation du temps de travail, la pénibilité au travail, les risques professionnels et la prévention ventilées par sexe, âge, catégorie socioprofessionnelle et secteur d’activité",
     "alimentation": "Panel de citoyens représentatifs de la population"
   },
   "Enquête presse gays et lesbiennes": {
     "gestionnaire": "Institut de veille sanitaire",
     "commentaire": " Cette base Habitudes de vie fait partie de la catégorie Habitudes de vie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.invs.sante.fr/beh/2013/39-40/2013_39-40_3.htmlhttp://www.invs.sante.fr/beh/2013/39-40/2013_39-40_3.html",
+    "liens": "http://www.invs.sante.fr/beh/2013/39-40/2013_39-40_3.htmlhttp://www.invs.sante.fr/beh/2013/39-40/2013_39-40_3.html",
     "description": "Evolution des comportements sexuels, statuts sérologiques du panel,évolution du nombre de recours au dépistage, bilan sur les pratiques à risque",
     "alimentation": "Panel"
   },
@@ -1287,7 +1287,7 @@
   "Applicatif du SNATIH : Restitutions médico-économiques en psychiatrie": {
     "gestionnaire": "Agence Technique de l'Information sur l'Hospitalisation",
     "commentaire": " Cette base Activité des établissements de santé fait partie de la catégorie Activité des établissements de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php",
+    "liens": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php",
     "description": "_ Par établissement : plusieurs tableaux caractérisent l’activité de psychiatrie des établissements : patientèle, production de soins et ressources financières de l’établissement (pour les établissements sous DAF).",
     "alimentation": "_ Principales sources : données de l'INSEE et du RIM-P"
   },
@@ -1300,14 +1300,14 @@
   "Base Genericam du SNIIRAM": {
     "gestionnaire": "Caisse nationale de l'assurance maladie des travailleurs salariés",
     "commentaire": " Cette base Médicaments et dispositifs fait partie de la catégorie Médicaments et dispositifs du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.ameli.fr/l-assurance-maladie/statistiques-et-publications/donnees-statistiques/medicament/genericam.php",
+    "liens": "http://www.ameli.fr/l-assurance-maladie/statistiques-et-publications/donnees-statistiques/medicament/genericam.php",
     "description": "Photographie du marché des médicaments génériques remboursés par le régime général",
     "alimentation": "SNIIRAM"
   },
   "Registre des essais cliniques en cancérologie (RECF)": {
     "gestionnaire": "Institut national du cancer",
     "commentaire": "Essais français avec un lien vers des essais étrangers Cette base Informations médicales fait partie de la catégorie Informations médicales du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.e-cancer.fr/recherche/recherche-clinique/registre-des-essais-cliniques",
+    "liens": "http://www.e-cancer.fr/recherche/recherche-clinique/registre-des-essais-cliniques",
     "description": "Liste des essais cliniques enregistrés : descriptif, lieu, état d'avancement, organisme promoteur…",
     "alimentation": "Institutions à l'origine des essais cliniques"
   },
@@ -1320,7 +1320,7 @@
   "Applicatif du SNATIH : Evolution de l'activité trimestrielle": {
     "gestionnaire": "Agence Technique de l'Information sur l'Hospitalisation",
     "commentaire": " Cette base Activité des établissements de santé fait partie de la catégorie Activité des établissements de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php",
+    "liens": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php",
     "description": "A partir des données des tableaux MAT2A/OVALIDE, pour les domaines MCO, SSR, HAD et psychiatrie, par établissement, par catégorie d’établissements ou par région, les graphiques illustrent l’évolution, trimestre par trimestre depuis 2005, d’un grand nombre de paramètres d’activité (RSA, journées, séances, suppléments de réanimation, molécules onéreuses, etc.).",
     "alimentation": "_ Principales sources : PMSI et tableaux MAT2A/OVALIDE"
   },
@@ -1334,26 +1334,26 @@
   "Registre français des Émissions Polluantes": {
     "gestionnaire": "Ministère de l'Écologie, du Développement durable et de l'Énergie",
     "commentaire": " Cette base Etat de santé fait partie de la catégorie Etat de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.irep.ecologie.gouv.fr/IREP/index.php",
+    "liens": "http://www.irep.ecologie.gouv.fr/IREP/index.php",
     "description": "Les principaux rejets et transferts de polluants dans l’eau, l’air, les déchets déclarés par certains établissements; à savoir: les principales installations industrielles, les stations d'épuration urbaines de plus de 100 000 équivalents habitants, certains élevages"
   },
   "Base de la cartographie du potentiel d'exposition au RADON": {
     "gestionnaire": "Institut de radioprotection et de sûreté nucléaire",
     "commentaire": "Réalisé en 2013. Cette base Etat de santé fait partie de la catégorie Etat de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.irsn.fr/FR/connaissances/Environnement/expertises-radioactivite-naturelle/radon/Pages/4-cartographie-potentiel-radon-formations-geologiques.aspx",
+    "liens": "http://www.irsn.fr/FR/connaissances/Environnement/expertises-radioactivite-naturelle/radon/Pages/4-cartographie-potentiel-radon-formations-geologiques.aspx",
     "description": "Carte nationale du potentiel radon des formations géologiques"
   },
   "Fichier \"Activité des médecins (actes) par département\"": {
     "gestionnaire": "Caisse nationale de l'assurance maladie des travailleurs salariés",
     "commentaire": " Cette base Consultations fait partie de la catégorie Consultations du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.ameli.fr/l-assurance-maladie/statistiques-et-publications/donnees-statistiques/professionnels-de-sante-liberaux/donnees-geographiques/activite-prescriptions-des-medecins.php",
+    "liens": "http://www.ameli.fr/l-assurance-maladie/statistiques-et-publications/donnees-statistiques/professionnels-de-sante-liberaux/donnees-geographiques/activite-prescriptions-des-medecins.php",
     "description": "Nombre et types d'actes par département",
     "alimentation": "SNIIRAM"
   },
   "Base médicprix": {
     "gestionnaire": "Centre d'Étude et de Prospective Stratégique",
     "commentaire": " Cette base Informations médicales fait partie de la catégorie Informations médicales du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://medicprix.sante.gouv.fr/welcome.do",
+    "liens": "http://medicprix.sante.gouv.fr/welcome.do",
     "description": "Informations disponibles pour chaque médicament : n° CIP, libellé, laboratoire exploitant, composition, prix en vigueur (prix fabricant HT, prix public TTC) uniquement sur les médicaments remboursables",
     "alimentation": "Centre d'Étude et de Prospective Stratégique"
   },
@@ -1366,7 +1366,7 @@
   "Enquête IVG": {
     "gestionnaire": "Agence régionale de Santé",
     "commentaire": " Cette base Activité des établissements de santé fait partie de la catégorie Activité des établissements de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.ars.paca.sante.fr/fileadmin/PACA/Doc/Infostats_ARS_IVG_dec_2010.pdf",
+    "liens": "http://www.ars.paca.sante.fr/fileadmin/PACA/Doc/Infostats_ARS_IVG_dec_2010.pdf",
     "description": "Profil des femmes pratiquant des IVG (âge, nationalité, statut contraceptif), indicateurs sur les types d'IVG pratiqués",
     "alimentation": "Etablissements de santé"
   },
@@ -1399,7 +1399,7 @@
   "Applicatif du SNATIH : ARBUST": {
     "gestionnaire": "Agence Technique de l'Information sur l'Hospitalisation",
     "commentaire": " Cette base Dépenses fait partie de la catégorie Dépenses du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php",
+    "liens": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php",
     "description": "A partir des données d’ARBUST, les montants des forfaits et dotations (MIG, AC, DAF) sont précisés par établissement ou par région.",
     "alimentation": "-"
   },
@@ -1433,7 +1433,7 @@
   "Cohorte Santé, Inégalités et Ruptures Sociales dans l’Agglomération Parisienne": {
     "gestionnaire": "Institut national de la santé et de la recherche médicale",
     "commentaire": "Echantillon de 3000 adultes francophones représentatifs de Paris et de la 1ere couronne de départements, échantillonnage à 3 degrés (IRIS, ménage, adulte du ménage). Cette base Etat de santé fait partie de la catégorie Etat de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.programme-sirs.org/",
+    "liens": "http://www.programme-sirs.org/",
     "description": "Données de santé individuelles en fonction de la situation sociale des individus, par classe d'âge et par région",
     "alimentation": "Enquêtes administrées à des particuliers volontaires"
   },
@@ -1446,7 +1446,7 @@
   "Base du réseau des Grog (groupes régionaux d'observation de la grippe)": {
     "gestionnaire": "Groupes Régionaux d'Observation de la Grippe",
     "commentaire": " Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.grog.org/cgi-files/db.cgi?action=bulletin_grog",
+    "liens": "http://www.grog.org/cgi-files/db.cgi?action=bulletin_grog",
     "description": "Surveillance active de l'épidémie de grippe : par région, taux d'infections respiratoires aiguës par acte exprimé en base 100, nombre de consultations",
     "alimentation": "CNR, laboratoires de virologie, GROG"
   },
@@ -1457,7 +1457,7 @@
   "Enquête nationale sur les structures des urgences hospitalières": {
     "gestionnaire": "Direction de la recherche, des études, de l'évaluation et des statistiques",
     "commentaire": "Près de 50 000 questionnaires envoyés, à des patients et structures Cette base Qualité fait partie de la catégorie Qualité du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.drees.sante.gouv.fr/enquete-nationale-sur-les-structures-des-urgences,11113.html",
+    "liens": "http://www.drees.sante.gouv.fr/enquete-nationale-sur-les-structures-des-urgences,11113.html",
     "description": "Entre autres questions, interrogation des patients sur les difficultés éventuelles rencontrées lors des passages aux urgences : temps d'attente sur un brancard, expression de violence, en cas de décision d'hospitalisation, délai d'obtention d'une place et nombre d'appels de service pour ce faire, intervention de l'administrateur de garde, etc. mais aussi nombre d'employés dans tel ou tel département, à telle heure etc.",
     "alimentation": "Etablissements de santé et patients"
   },
@@ -1471,13 +1471,13 @@
   "Plan National Surveillance du Mésothéliome": {
     "gestionnaire": "Institut de veille sanitaire",
     "commentaire": "Une vingtaine de départements couverts Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.invs.sante.fr/publications/2009/pnsm/pnsm_resultats_1998_2006.pdf",
+    "liens": "http://www.invs.sante.fr/publications/2009/pnsm/pnsm_resultats_1998_2006.pdf",
     "description": "Données agrégées d'enregistrement des cas, d'estimation d'incidence nationale, d'analyse des caractéristiques des cas, de répartition des cas par profession/secteur d'activité"
   },
   "Enquêtes décennales santé": {
     "gestionnaire": "Institut national de la statistique et des études économiques - Direction générale",
     "commentaire": "Enquête réalisée auprès de près de 20 000 ménages Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.insee.fr/fr/themes/theme.asp?theme=6&sous_theme=2",
+    "liens": "http://www.insee.fr/fr/themes/theme.asp?theme=6&sous_theme=2",
     "description": "Condition de vie, taux de couverture sociale, état général de santé, fréquences des maladies, taux d'hospitalisation, consommation de soins médicaux par sexe, par région, par ville",
     "alimentation": "Ménages : questionnaire auto-administré"
   },
@@ -1489,7 +1489,7 @@
   "Dépistage organisé des cancers": {
     "gestionnaire": "Institut de veille sanitaire",
     "commentaire": " Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.invs.sante.fr/Dossiers-thematiques/Maladies-chroniques-et-traumatismes/Cancers/Evaluation-des-programmes-de-depistage-des-cancers/Evaluation-du-programme-de-depistage-du-cancer-du-sein/Indicateurs-d-evaluation/Taux-de-participation-au-programme-de-depistage-organise-du-cancer-du-sein-2010-2011",
+    "liens": "http://www.invs.sante.fr/Dossiers-thematiques/Maladies-chroniques-et-traumatismes/Cancers/Evaluation-des-programmes-de-depistage-des-cancers/Evaluation-du-programme-de-depistage-du-cancer-du-sein/Indicateurs-d-evaluation/Taux-de-participation-au-programme-de-depistage-organise-du-cancer-du-sein-2010-2011",
     "description": "Nombres de personnes dépistées agrégées par département"
   },
   "Base du projet PROSPERE": {
@@ -1507,14 +1507,14 @@
   "Rapports d'enquête de pharmacovigilance": {
     "gestionnaire": "Agence nationale de sécurité du médicament et des produits de santé",
     "commentaire": " Cette base Médicaments et dispositifs fait partie de la catégorie Médicaments et dispositifs du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://pharmacies.ma/PDF/Tetrazepam.pdf",
+    "liens": "http://pharmacies.ma/PDF/Tetrazepam.pdf",
     "description": "Nombre d'effets indésirables notifiés et évolution dans le temps ; répartition par système organe (SOC), analyse des relations causales liées aux cas notifiées, analyse de la consommation",
     "alimentation": "Analyse par l'ANSM des éléments suivants : cas notifiés dans la base nationale de pharmacovigilance, cas notifiés aux fabricants, données de vente et de consommation, données de la littérature"
   },
   "Annuaire des infrastructures de recherche dépendant de l'INSERM": {
     "gestionnaire": "Institut national de la santé et de la recherche médicale",
     "commentaire": " Cette base Infrastructures de recherche fait partie de la catégorie Infrastructures de recherche du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.inserm.fr/qu-est-ce-que-l-inserm/forces-de-la-recherche/centres-de-recherche/implantation-des-centres-de-recherche",
+    "liens": "http://www.inserm.fr/qu-est-ce-que-l-inserm/forces-de-la-recherche/centres-de-recherche/implantation-des-centres-de-recherche",
     "description": "Adresse des différents instituts de recherches rattachés à l'INSERM"
   },
   "Base des diagnostics territoriaux dans le cadre des contrats locaux de santé": {
@@ -1531,7 +1531,7 @@
   "Tableau de bord médico-social de l'ANAP": {
     "gestionnaire": "Association Nationale des Auxiliaires de Puériculture",
     "commentaire": "Aujourd'hui couvre 500 établissements, avec pour objectif de couvrir tous les établissements Cette base Performance opérationnelle fait partie de la catégorie Performance opérationnelle du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "https://tdb-esms.atih.sante.fr",
+    "liens": "https://tdb-esms.atih.sante.fr",
     "alimentation": "Indicateurs calculés à partir des Bases HAPI, FINESS, données des structures"
   },
   "Enquête annuelle article 55 de la loi SRU, relatif à l’objectif de 20 %/25 % de logements sociaux pour certaines communes.": {
@@ -1544,14 +1544,14 @@
   "\"Base\" indicateurs de rémunération sur objectifs de santé publique (ROSP)": {
     "gestionnaire": "Caisse nationale de l'assurance maladie des travailleurs salariés",
     "commentaire": "Ensemble des médecins libéraux, sauf ceux qui ont fait connaître leur refus avant le 26 décembre 2011. Le dispositif concerne l’ensemble des médecins, généralistes et spécialistes. Cette base Qualité fait partie de la catégorie Qualité du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.ameli.fr/fileadmin/user_upload/documents/DP_Bilan_ROSP_1_an_11042013_VDEF3.pdf",
+    "liens": "http://www.ameli.fr/fileadmin/user_upload/documents/DP_Bilan_ROSP_1_an_11042013_VDEF3.pdf",
     "description": "29 indicateurs",
     "alimentation": "Médecins libéraux"
   },
   "Bases des Réseaux d’alerte, d’investigation et de surveillance des infections nosocomiales (RAISIN)": {
     "gestionnaire": "Institut de veille sanitaire",
     "commentaire": " Cette base Qualité fait partie de la catégorie Qualité du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.invs.sante.fr/Dossiers-thematiques/Maladies-infectieuses/Infections-associees-aux-soins/Surveillance-des-infections-associees-aux-soins-IAS/Surveillance-en-incidence",
+    "liens": "http://www.invs.sante.fr/Dossiers-thematiques/Maladies-infectieuses/Infections-associees-aux-soins/Surveillance-des-infections-associees-aux-soins-IAS/Surveillance-en-incidence",
     "description": "Surveillance des infections des sites opératoires, des bactéries multirésistantes, des infections nosocomiales en réanimation, etc.",
     "alimentation": "Etablissements de santé volontaires"
   },
@@ -1569,14 +1569,14 @@
   "Tableaux sur la couverture maladie universelle": {
     "gestionnaire": "Caisse nationale de l'assurance maladie des travailleurs salariés",
     "commentaire": " Cette base Inégalités de santé fait partie de la catégorie Inégalités de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.ameli.fr/l-assurance-maladie/statistiques-et-publications/donnees-statistiques/couverture-maladie-universelle-cmu.php",
+    "liens": "http://www.ameli.fr/l-assurance-maladie/statistiques-et-publications/donnees-statistiques/couverture-maladie-universelle-cmu.php",
     "description": "Nombre d'individus bénéficiant de la CMU (dénombrement, répartition par mode de couverture) : données nationales et départementales",
     "alimentation": "SNIIRAM"
   },
   "Base des professionnels de santé et des établissements de santé": {
     "gestionnaire": "Caisse nationale de l'assurance maladie des travailleurs salariés",
     "commentaire": " Cette base Services proposés fait partie de la catégorie Services proposés du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://ameli-direct.ameli.fr/",
+    "liens": "http://ameli-direct.ameli.fr/",
     "description": "Coordonnées, secteur de convention, type d'honoraire",
     "alimentation": "SNIIRAM"
   },
@@ -1600,14 +1600,14 @@
   "Résultat d'accréditation des médecins en établissement de santé": {
     "gestionnaire": "Haute Autorité de santé",
     "commentaire": " Cette base Qualité fait partie de la catégorie Qualité du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.has-sante.fr/portail/jcms/c_6056/fr/recherche-avancee?expression=exact&expression=exact&text=Saisir+vos+mots+cl%C3%A9s&text=Saisir+vos+mots+cl%C3%A9s&liaison_word=and&searchOn=fullText&catMode=or&dateMiseEnLigne=indexDateFrom&dateDebut=&dateFin=&typesf=certifications%2Fgenerated.CertificatDaccreditation&search_antidot=&portlet=c_39085",
+    "liens": "http://www.has-sante.fr/portail/jcms/c_6056/fr/recherche-avancee?expression=exact&expression=exact&text=Saisir+vos+mots+cl%C3%A9s&text=Saisir+vos+mots+cl%C3%A9s&liaison_word=and&searchOn=fullText&catMode=or&dateMiseEnLigne=indexDateFrom&dateDebut=&dateFin=&typesf=certifications%2Fgenerated.CertificatDaccreditation&search_antidot=&portlet=c_39085",
     "description": "Nom, coordonnées et spécialités des médecins accrédités par l'HAS",
     "alimentation": "Médecins en établissement, HAS"
   },
   "Enquête \"Contexte de la sexualité en France\" (CSF)": {
     "gestionnaire": "Institut national de la santé et de la recherche médicale",
     "commentaire": " Cette base Habitudes de vie fait partie de la catégorie Habitudes de vie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://csf.kb.inserm.fr/csf/Presentation-CSF-noData.html",
+    "liens": "http://csf.kb.inserm.fr/csf/Presentation-CSF-noData.html",
     "description": "Objectif :appréhenderles trois composantes de la sexualité que sont les actes, les relations et les",
     "alimentation": "Panel d'individus"
   },
@@ -1620,14 +1620,14 @@
   "Base de données sur la qualité de l'air (BDQA)": {
     "gestionnaire": "Agence de l'environnement et de la maîtrise de l'énergie",
     "commentaire": "Plus de 600 sites de mesures ; recueil de données tous les quarts d'heure Cette base Environnement fait partie de la catégorie Environnement du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.buldair.org/accueil",
+    "liens": "http://www.buldair.org/accueil",
     "description": "_ Qualité de l'air en France et par région : notamment taux de dioxyde de souffre, dioxyde d'azote, oxyde de souffre, ozone, particules PM10, monoxyde de carbone, benzène, plomb, PM 2.5",
     "alimentation": "De fait, 5 bases de données sur la qualité de l'air : BASTER, BULDER, ALERTE, BDQA, INVEST"
   },
   "Déclarations annuelles des données sociales (DADS)": {
     "gestionnaire": "Institut national de la statistique et des études économiques - Direction générale",
     "commentaire": " Cette base Personnel fait partie de la catégorie Personnel du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.data.gouv.fr/fr/dataset/description-des-emplois-prives-et-publics-et-des-salaires.",
+    "liens": "http://www.data.gouv.fr/fr/dataset/description-des-emplois-prives-et-publics-et-des-salaires.",
     "description": "Information sur le personnel des établissements de santé publics et privés : âge du salarié, contrat de travail, département de résidence, durée de paie exprimée en jours, rémunération brute, etc.",
     "alimentation": "Etablissements de santé"
   },
@@ -1646,7 +1646,7 @@
   "Enquêtes NOYADES": {
     "gestionnaire": "Institut de veille sanitaire",
     "commentaire": " Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.invs.sante.fr/surveillance/noyades/noyades_2012_premiers_resultats_definitifs.pdf",
+    "liens": "http://www.invs.sante.fr/surveillance/noyades/noyades_2012_premiers_resultats_definitifs.pdf",
     "description": "Répartition des noyades par lieu, par âge des victimes, évolution du nombre de noyades"
   },
   "Répertoire du parc locatif social": {
@@ -1661,21 +1661,21 @@
     "acronyme": "RAPSY",
     "gestionnaire": "Direction de la recherche, des études, de l'évaluation et des statistiques",
     "commentaire": "80% des établissements interrogés ont répondu à l'enquête Cette base Activité des établissements de santé fait partie de la catégorie Activité des établissements de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.drees.sante.gouv.fr/cartographie-regionale-de-l-offre,8450.html",
+    "liens": "http://www.drees.sante.gouv.fr/cartographie-regionale-de-l-offre,8450.html",
     "description": "Fichiers de résumés (résumés par séquence anonyme (RPSA), résumés d'acte ambultoire anonyme (R3A), activité ambulatoire agrégée) transmis par les établissements de santé et validés par leurs services régionaux de tutelle.",
     "alimentation": "Etablissements de santé ayant une activité de psychiatrie en France"
   },
   "Fichiers \"analyse des dépenses\" (statistiques mensuelles)": {
     "gestionnaire": "Caisse nationale de l'assurance maladie des travailleurs salariés",
     "commentaire": " Cette base Dépenses fait partie de la catégorie Dépenses du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.ameli.fr/l-assurance-maladie/statistiques-et-publications/analyse-des-depenses/index.php",
+    "liens": "http://www.ameli.fr/l-assurance-maladie/statistiques-et-publications/analyse-des-depenses/index.php",
     "description": "Rétrospective annuelle des dépenses d'assurance maladie par catégorie de professionnels de santé et pour chaque catégorie par acte ou par groupe d'actes depuis l'année 2006",
     "alimentation": "SNIIRAM"
   },
   "Base Biolam du SNIIRAM": {
     "gestionnaire": "Caisse nationale de l'assurance maladie des travailleurs salariés",
     "commentaire": " Cette base Biologie fait partie de la catégorie Biologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.ameli.fr/l-assurance-maladie/statistiques-et-publications/donnees-statistiques/biologie/biolam-2010-2012.php",
+    "liens": "http://www.ameli.fr/l-assurance-maladie/statistiques-et-publications/donnees-statistiques/biologie/biolam-2010-2012.php",
     "description": "Tableau proposant, pour chaque acte codé de biologie médicale, les données suivantes : code de l'acte, selon la nomenclature des actes de biologie médicale et son libellé court, dénombrements de 2010 à 2012, bases de remboursement de 2010 à 2012, montants remboursés par le régime général de 2010 à 2012, pourcentages d'évolution 2011/2012 des dénombrements, des bases de remboursement et des montants remboursés",
     "alimentation": "SNIIRAM"
   },
@@ -1711,21 +1711,21 @@
   "Enquête annuelle sur les écoles de formation aux professions de santé": {
     "gestionnaire": "Direction de la recherche, des études, de l'évaluation et des statistiques",
     "commentaire": " Cette base Personnel fait partie de la catégorie Personnel du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.drees.sante.gouv.fr/IMG/pdf/er768-2.pdf",
+    "liens": "http://www.drees.sante.gouv.fr/IMG/pdf/er768-2.pdf",
     "description": "Evolution du nombre d'inscriptions das des établissements de formations, Nombre de diplômés par type d'établissement, nombre de diplomés par formation, profil socioculturels des diplomés, empreinte géographique des diplômes, analyse des carrière des diplômés",
     "alimentation": "Etudiants et établissements de formation"
   },
   "Base du réseau Sentinelles": {
     "gestionnaire": "Institut national de la santé et de la recherche médicale",
     "commentaire": "1300 médecins généralistes libéraux (2% du total national) Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://websenti.u707.jussieu.fr/sentiweb/?page=table",
+    "liens": "http://websenti.u707.jussieu.fr/sentiweb/?page=table",
     "description": "_ Surveillance de 9 indicateurs : symptômes gripaux, utérite masculine, oreillons, varicelle, diarrhée aiguë, suicide et tentatives de suicide, zona, maladie de Lyme",
     "alimentation": "Médecins généralistes volontaires"
   },
   "Enquête Santé et Protection Sociale (ESPS)": {
     "gestionnaire": "Institut de Recherche et de Documentation en Économie de la Santé",
     "commentaire": "Plus de 20 000 personnes et près de 10 000 ménages interrogés ; sélection sur la base de l'EGB du SNIIRAM depuis 2010 Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.irdes.fr/Publications/Rapports2012/rap1886.pdf",
+    "liens": "http://www.irdes.fr/Publications/Rapports2012/rap1886.pdf",
     "description": "L'enquête santé et protection sociale (ESPS) de l'IRDES porte sur 6 thèmes principaux : les modes de protection sociale (obligatoires et facultatives), les maladies et les troubles de santé déclarés, les recours au médecin, la consommation de biens médicaux, les soins d'auxiliaires, l'hospitalisation, le renoncement aux soins et les opinions sur la santé",
     "alimentation": "Echantillon de la population (panel de plus de 20 000 personnes sélectionnées grâce à l'EGB): remontée des informations par questionnaire"
   },
@@ -1746,20 +1746,20 @@
   "Banque Nationale de Données Maladies Rares (BNDMR)": {
     "gestionnaire": "Direction générale de l'offre de soins",
     "commentaire": "Population de patients atteints de maladies rares ayant été pris en charge par l'un des 131 centres de références maladies rares ou l'un des 502 centres de compétences. Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://bndmr.fr",
+    "liens": "http://bndmr.fr",
     "description": "Les bases de données en santé référencées dans le catalogue du Portail « Epidémiologie – France » correspondent à un périmètre scientifique volontairement large qui comprend les bases de données associées aux activités de recherche du secteur public et du secteur privé, les principales enquêtes « santé » du champ de la statistique publique, les dispositifs de recueil permanent utiles à la fois à la recherche et à la surveillance sanitaire comme les registres de morbidité et enfin, les grandes bases médico-administratives constituées pour aider à la gestion des dépenses de l’assurance-maladie et des structures de soins (SNIIRAM, PMSI,…).",
     "alimentation": "Le réseau des 131 centres de références maladies rares et des 502 centres de compétences est le cœur informationnel de la plate-forme"
   },
   "Bas de la cartographie BASIAS": {
     "gestionnaire": "Ministère de l'Écologie, du Développement durable et de l'Énergie",
     "commentaire": " Cette base Environnement fait partie de la catégorie Environnement du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://basias.brgm.fr/",
+    "liens": "http://basias.brgm.fr/",
     "description": "Inventaire historique de sites industriels et activités de service : raison sociale de l'entreprise,adresse, activité, état d'occupation du site, état de connaissance"
   },
   "Enquêtes médecins généralistes et santé au travail": {
     "gestionnaire": "Institut national de prévention et d'éducation pour la santé",
     "commentaire": " Cette base Consultations fait partie de la catégorie Consultations du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.inpes.sante.fr/nouveautes-editoriales/pdf/enquete-mg.pdf",
+    "liens": "http://www.inpes.sante.fr/nouveautes-editoriales/pdf/enquete-mg.pdf",
     "description": "Taux de dépistage des maladies professionnelles, indicateurs de surveillance post professionnels, recensement des outils utilisés en santé du travail, indicateurs de perceptions des informations en santé médicale",
     "alimentation": "Praticiens"
   },
@@ -1773,21 +1773,21 @@
   "Evaluation du dispositif médical": {
     "gestionnaire": "Haute Autorité de santé",
     "commentaire": " Cette base Qualité fait partie de la catégorie Qualité du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.has-sante.fr/portail/jcms/r_1456314/fr/evaluation-recommandation-dispositifs-medicaux-portail",
+    "liens": "http://www.has-sante.fr/portail/jcms/r_1456314/fr/evaluation-recommandation-dispositifs-medicaux-portail",
     "description": "Indicateur sur les données sur le service médical rendu et sur l’amélioration du service médical rendu",
     "alimentation": "Commission Nationale d’Évaluation des Dispositifs Médicaux et des Technologies de Santé (CNEDiMTS)"
   },
   "Base de l'observatoire du Référencement des Editeurs de Logiciels et des Intégrateurs du Monde de la Santé (RELIMS)": {
     "gestionnaire": "Direction générale de l'offre de soins",
     "commentaire": " Cette base Infrastructures fait partie de la catégorie Infrastructures du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.sante.gouv.fr/IMG/pdf/Atlas_SIH-3.pdf",
+    "liens": "http://www.sante.gouv.fr/IMG/pdf/Atlas_SIH-3.pdf",
     "description": "Référencement des éditeurs de logiciels et des intégrateurs du marché de la santé",
     "alimentation": "Editeurs de logiciels"
   },
   "Base de la cartographie BA SOL": {
     "gestionnaire": "Ministère de l'Écologie, du Développement durable et de l'Énergie",
     "commentaire": " Cette base Environnement fait partie de la catégorie Environnement du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://basol.developpement-durable.gouv.fr/tableaux/home.htm",
+    "liens": "http://basol.developpement-durable.gouv.fr/tableaux/home.htm",
     "description": "Localisation des sites, situation technique des sites, nature des polluants, impact des sites, origine de l'action des pouvoirs publics, surveillance de la qualité des eaux souterraines"
   },
   "Suivi mensuel de la production de crédits à l’habitat": {
@@ -1800,7 +1800,7 @@
   "Protocoles nationaux de diagnostic et de soins (PNDS)": {
     "gestionnaire": "Haute Autorité de santé",
     "commentaire": " Cette base Informations médicales fait partie de la catégorie Informations médicales du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.has-sante.fr/portail/jcms/c_1340879/fr/protocoles-nationaux-de-diagnostic-et-de-soins-pnds",
+    "liens": "http://www.has-sante.fr/portail/jcms/c_1340879/fr/protocoles-nationaux-de-diagnostic-et-de-soins-pnds",
     "description": "PNDS par syndrôme",
     "alimentation": "HAS via notamment la littérature scientifique"
   },
@@ -1814,21 +1814,21 @@
   "Données ATIH sur les molécules onéreuses": {
     "gestionnaire": "Agence Technique de l'Information sur l'Hospitalisation",
     "commentaire": " Cette base Médicaments et dispositifs fait partie de la catégorie Médicaments et dispositifs du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.atih.sante.fr/liste-de-reference-des-unites-communes-de-dispensation-prises-en-charge-en-sus",
+    "liens": "http://www.atih.sante.fr/liste-de-reference-des-unites-communes-de-dispensation-prises-en-charge-en-sus",
     "description": "Liste et prix des molécules onéreuses",
     "alimentation": "Etablissements de santé"
   },
   "Recommandations de bonnes pratiques": {
     "gestionnaire": "Agence nationale de sécurité du médicament et des produits de santé",
     "commentaire": " Cette base Informations médicales fait partie de la catégorie Informations médicales du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://ansm.sante.fr/Mediatheque/Publications/Recommandations-Medicaments",
+    "liens": "http://ansm.sante.fr/Mediatheque/Publications/Recommandations-Medicaments",
     "description": "Recommandations de bonnes pratiques par médicament avec présentation des arguments sous-jacents",
     "alimentation": "ANSM"
   },
   "Données de cartographie du SNATIH": {
     "gestionnaire": "Agence Technique de l'Information sur l'Hospitalisation",
     "commentaire": " Cette base Infrastructures fait partie de la catégorie Infrastructures du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.atih.sante.fr/snatih/cartographie",
+    "liens": "http://www.atih.sante.fr/snatih/cartographie",
     "description": "Données d’offre de soin et sur les séjours hospitaliers",
     "alimentation": "PMSI et FINESS"
   },
@@ -1842,7 +1842,7 @@
   "Enquêtes santé mentale en population générale": {
     "gestionnaire": "Direction de la recherche, des études, de l'évaluation et des statistiques",
     "commentaire": "Panel de 36000 personnes Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.drees.sante.gouv.fr/IMG/pdf/er347.pdf",
+    "liens": "http://www.drees.sante.gouv.fr/IMG/pdf/er347.pdf",
     "description": "Indicateurs de prévalence des épisodes dépressifs en fonction de la situation matrimoniale, prévalence des troubles anxieux selon l'âge/ selon la situation matrimoniale",
     "alimentation": "Panel de 36000 personnes"
   },
@@ -1864,7 +1864,7 @@
   "Base de l'enquête « Les Européens, les médicaments et le rapport à l’ordonnance\" (février 2005)": {
     "gestionnaire": "Caisse nationale de l'assurance maladie des travailleurs salariés",
     "commentaire": " 4 000 patients et 1 000 médecins dans 4 pays d'Europe : France, Allemagne, Espagne et Pays-Bas. Cette base Médicaments et dispositifs fait partie de la catégorie Médicaments et dispositifs du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.ameli.fr/fileadmin/user_upload/documents/Le_rapport_des_Francais_et_des_Europeens.pdf",
+    "liens": "http://www.ameli.fr/fileadmin/user_upload/documents/Le_rapport_des_Francais_et_des_Europeens.pdf",
     "description": "Principales informations : médicaments pris dans les 7 derniers jours ; nombre de consultations dans les 12 derniers mois ; pourcentage de consultations sans prescription d'un médicament ; pourcentage de consultation donnant lieu à une prescription contre le gré des médecins (estimation)",
     "alimentation": "4000 patients, 1000 médecins européens"
   },
@@ -1877,7 +1877,7 @@
   "Tableaux \"honoraires des professionnels de santé\"": {
     "gestionnaire": "Caisse nationale de l'assurance maladie des travailleurs salariés",
     "commentaire": " Cette base Tarifs, honoraires fait partie de la catégorie Tarifs, honoraires du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.ameli.fr/l-assurance-maladie/statistiques-et-publications/donnees-statistiques/professionnels-de-sante-liberaux/donnees-geographiques/honoraires-des-professionnels-de-sante.php",
+    "liens": "http://www.ameli.fr/l-assurance-maladie/statistiques-et-publications/donnees-statistiques/professionnels-de-sante-liberaux/donnees-geographiques/honoraires-des-professionnels-de-sante.php",
     "description": "Par région et par département : total des honoraires, nombre de dépassements et dépassement moyen, effectifs par tranche d'honoraires",
     "alimentation": "Professionnels de santé"
   },
@@ -1901,14 +1901,14 @@
   "\"Base\" du Système National de Surveillance des Plombémies chez l’Enfant (SNSPE)": {
     "gestionnaire": "Institut de veille sanitaire",
     "commentaire": "Enfants atteints de saturnisme Cette base Environnement fait partie de la catégorie Environnement du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.invs.sante.fr/publications/2010/depistage_saturnisme_enfant_2005_2007/rapport_saturnisme_enfant_2005_2007.pdf",
+    "liens": "http://www.invs.sante.fr/publications/2010/depistage_saturnisme_enfant_2005_2007/rapport_saturnisme_enfant_2005_2007.pdf",
     "description": "Nombre de cas et profil des patients atteint de saturnisme par région, activités de dépistage par région et par an, part des différentes institutions dans le dépistage",
     "alimentation": "Les déclarations de cas de saturnisme envoyées sous forme papier aux Ddass par les médecins traitants sont retransmises à l’InVS qui vérifie qu’elles sont bien enregistrées dans le système de surveillance des plombémies."
   },
   "Annuaire du site hopital.fr": {
     "gestionnaire": "Fédération Hospitalière de France",
     "commentaire": "Etablissements de santé et EHPAD publics Cette base Infrastructures fait partie de la catégorie Infrastructures du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.hopital.fr/",
+    "liens": "http://www.hopital.fr/",
     "description": "Recherche d'un établissement par pathologie, Examen, Spécialité médicale, nom d'établissement ou de médecin, etc.",
     "alimentation": "PMSI, SAE"
   },
@@ -1921,7 +1921,7 @@
   "SERO-INF": {
     "gestionnaire": "Institut de veille sanitaire",
     "commentaire": " Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.invs.sante.fr/surveillance/sero_inf/contacts.htm",
+    "liens": "http://www.invs.sante.fr/surveillance/sero_inf/contacts.htm",
     "description": "Indicateurs sur l’état de l’immunité de la population française vis-à-vis de 10 maladies infectieuses : la rougeole, les oreillons, la rubéole, l’hépatite A, la varicelle, l’hépatite E, la toxoplasmose, les infections à cytomégalovirus et les infections à herpès virus 1 et 2."
   },
   "Bénéficiaires des aides personnelles au logement (annuel) FILEAS ": {
@@ -1934,20 +1934,20 @@
   "Indicateurs Hospidiag": {
     "gestionnaire": "Association Nationale des Auxiliaires de Puériculture",
     "commentaire": "1350 établissements MCO Cette base Activité des établissements de santé fait partie de la catégorie Activité des établissements de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://hospidiag.atih.sante.fr/cgi-bin/broker?_service=default&_debug=0&_program=hd.accueil_hd.sas",
+    "liens": "http://hospidiag.atih.sante.fr/cgi-bin/broker?_service=default&_debug=0&_program=hd.accueil_hd.sas",
     "description": "Par établissement : 68 indicateurs d’activité, de qualité, d’organisation/process, de RH et de finance sur les établissements : par ex. part de marché régionale en médecine",
     "alimentation": "Indicateurs calculés par l'ATIH à partir des données sources suivantes : PMSI, comptes financiers, base des infections nosocomiales, SAE, ANCRE, IPAQSS, INPI, ICARE, SIGAPS/SIGREC, bilan social, Osis"
   },
   "Enquête annuelle auprès des mutuelles, des institutions de prévoyance et des sociétés d’assurance sur les garanties des contrats modaux": {
     "gestionnaire": "Direction de la recherche, des études, de l'évaluation et des statistiques",
     "commentaire": " Cette base Services proposés fait partie de la catégorie Services proposés du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.drees.sante.gouv.fr/les-contrats-les-plus-souscrits-aupres-des-complementaires-sante-en-2008,7856.html",
+    "liens": "http://www.drees.sante.gouv.fr/les-contrats-les-plus-souscrits-aupres-des-complementaires-sante-en-2008,7856.html",
     "description": "Suivi des garanties offertes par les contrats d'assurances complémentaires les plus souscrits au sein de chaque organisme"
   },
   "Étude sur l’épidémiologie en France de l’alimentation et de l’état nutritionnel des enfants (EPIFANE)": {
     "gestionnaire": "Institut de veille sanitaire",
     "commentaire": "10 maternités en France Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.invs.sante.fr/Dossiers-thematiques/Maladies-chroniques-et-traumatismes/Nutrition-et-sante/Enquetes-et-etudes/Epifane-epidemiologie-en-France-de-l-alimentation-et-de-l-etat-nutritionnel-des-enfants-pendant-leur-premiere-annee-de-vie",
+    "liens": "http://www.invs.sante.fr/Dossiers-thematiques/Maladies-chroniques-et-traumatismes/Nutrition-et-sante/Enquetes-et-etudes/Epifane-epidemiologie-en-France-de-l-alimentation-et-de-l-etat-nutritionnel-des-enfants-pendant-leur-premiere-annee-de-vie",
     "description": "Indicateurs liés au taux d'allaitement (par âge du nourrisoon, par régions), profils sociodémographiques des mères qui allaitent",
     "alimentation": "Echantillon de 190 mères et leurs nouveau-nés, dans 10 maternités en France"
   },
@@ -1970,7 +1970,7 @@
   "Enquête nationale nutrition santé (ENNS)": {
     "gestionnaire": "Institut de veille sanitaire",
     "commentaire": " Cette base Habitudes de vie fait partie de la catégorie Habitudes de vie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.invs.sante.fr/Dossiers-thematiques/Maladies-chroniques-et-traumatismes/Nutrition-et-sante/Enquetes-et-etudes/ENNS-etude-nationale-nutrition-sante/Distribution-des-valeurs/Tableaux-de-distribution-ENNS",
+    "liens": "http://www.invs.sante.fr/Dossiers-thematiques/Maladies-chroniques-et-traumatismes/Nutrition-et-sante/Enquetes-et-etudes/ENNS-etude-nationale-nutrition-sante/Distribution-des-valeurs/Tableaux-de-distribution-ENNS",
     "description": "Indicateurs sur les apports en énergie et nutriments par tranches d'âges et par aliments, sur l'activité physique et la sédentarité et sur l'état nutritionnel de la population",
     "alimentation": "Panel d'adultes"
   },
@@ -1983,7 +1983,7 @@
   "Base des portraits de territoire des caisses d'assurance retraite et de la santé au travail (Carsat)": {
     "gestionnaire": "Observatoire Régional de Santé",
     "commentaire": " Cette base Etat de santé fait partie de la catégorie Etat de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "https://www.carsat-lr.fr/partenaires/observatoire-des-situations-de-fragilite.html",
+    "liens": "https://www.carsat-lr.fr/partenaires/observatoire-des-situations-de-fragilite.html",
     "description": "Des indicateurs de fragilité, par exemple le nombre ou la part de personnes seules nouvellement retraitées;",
     "alimentation": "ORS, ARS"
   },
@@ -2002,7 +2002,7 @@
   "Enquête nationale de prévalence des infections nosocomiales (ENPIN)": {
     "gestionnaire": "Institut de veille sanitaire",
     "commentaire": "1938 établissements de santé couverts : 96,8% des lits d’hospitalisation publique français, et <80% pour les ES privés Cette base Qualité fait partie de la catégorie Qualité du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.sante.gouv.fr/enquete-nationale-de-prevalence-enp.html",
+    "liens": "http://www.sante.gouv.fr/enquete-nationale-de-prevalence-enp.html",
     "description": "Statistiques des maladies nosocomiales par catégorie d'établissement, par âge, par origine d'infection,type de séjour, facteurs de risque, étude des micro organismes et des traitements puis comparaisons régionales",
     "alimentation": "Etablissements de santé"
   },
@@ -2036,14 +2036,14 @@
   "Bases de données sur les maladies à déclaration obligatoire": {
     "gestionnaire": "Institut de veille sanitaire",
     "commentaire": " Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.invs.sante.fr/Espace-professionnels/Maladies-a-declaration-obligatoire/Bases-de-donnees",
+    "liens": "http://www.invs.sante.fr/Espace-professionnels/Maladies-a-declaration-obligatoire/Bases-de-donnees",
     "description": "Une base par type de maladie contenant les informations suivantes : nombre de cas, indicateurs de suivi des consultations par type de pathologie ( asthme, traumatologie, rougeolle…), etc.",
     "alimentation": "Médecins et biologistes, selon le processus suivant : Le médecin (ou un laboratoire d'analyses médicales) qui diagnostique, chez un ou plusieurs patients, une maladie à déclaration obligatoire (MDO) doit transmettre une fiche de notification spécifique à chaque maladie (rougeole, mésothéliome, diphtérie, etc.) à l'Agence régionale de santé (ARS) qui la transmet ensuite à l'Institut national de veille sanitaires (Invs)."
   },
   "Applicatif du SNATIH : Evolution de l'activité des établissements": {
     "gestionnaire": "Agence Technique de l'Information sur l'Hospitalisation",
     "commentaire": " Cette base Activité des établissements de santé fait partie de la catégorie Activité des établissements de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php",
+    "liens": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php",
     "description": "Pour une région sélectionnée, par période mensuelle, sont disponibles les éléments d’activité de chaque établissement ex-DG, avec l’évolution sur une année : nombre de séjours valorisés, décomposition des recettes (GHS, actes et consultations externes, médicaments, DMI, HAD).",
     "alimentation": "_ Principales sources : PMSI, SAE"
   },
@@ -2056,14 +2056,14 @@
   "Ventes d'alcool": {
     "gestionnaire": "Observatoire français des drogues et des toxicomanies",
     "commentaire": " Cette base Habitudes de vie fait partie de la catégorie Habitudes de vie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.ofdt.fr/BDD_len/seristat/00014.xhtml",
+    "liens": "http://www.ofdt.fr/BDD_len/seristat/00014.xhtml",
     "description": "Quantité d’alcool consommé par habitant âgé de 15 ans et plus depuis 1961",
     "alimentation": "OMS, INSEE"
   },
   "Base Thériaque": {
     "gestionnaire": "Centre National Hospitalier d’Information sur le Médicament",
     "commentaire": "Les Cette base Informations médicales fait partie de la catégorie Informations médicales du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.theriaque.org/apps/recherche/rch_simple.php",
+    "liens": "http://www.theriaque.org/apps/recherche/rch_simple.php",
     "description": "Principales rubriques par médicaments : composition et voie d'administration, renseignements administratifs et techniques, génériques, interactions",
     "alimentation": "Sources officielles et règlementaires, sources bibliographiques"
   },
@@ -2077,7 +2077,7 @@
   "Applicatif du SNATIH : Indicateurs d’analyse de l’activité (IAA)": {
     "gestionnaire": "Agence Technique de l'Information sur l'Hospitalisation",
     "commentaire": " Cette base Activité des établissements de santé fait partie de la catégorie Activité des établissements de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php",
+    "liens": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php",
     "description": "_ Par secteur (ex-DG, ex-OQN ou tous secteurs), par région, par territoire de santé, par catégorie d’établissements ou par établissement, description de l'activité selon différents agrégats : catégories d'activités de soins, domaine d’activité, CMD, etc. pour mieux comprendre l'évolution du volume de l'activité. Cette requête peut être déclinée",
     "alimentation": "Principale source : PMSI – programme de médicalisation des systèmes d'information"
   },
@@ -2089,14 +2089,14 @@
   "Applicatif du SNATIH : Fiche de synthèse SAE": {
     "gestionnaire": "Agence Technique de l'Information sur l'Hospitalisation",
     "commentaire": " Cette base Infrastructures fait partie de la catégorie Infrastructures du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php",
+    "liens": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php",
     "description": "Par établissement, ou par région, des informations de synthèse issues de la base SAE sont présentées dans plusieurs tableaux : nombre de lits, activité, personnels.",
     "alimentation": "SAE"
   },
   "Enquête sur la santé et les consommation lors de l'appel de préparation à la défense (Escapad)": {
     "gestionnaire": "Observatoire français des drogues et des toxicomanies",
     "commentaire": " Cette base Habitudes de vie fait partie de la catégorie Habitudes de vie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.ofdt.fr/",
+    "liens": "http://www.ofdt.fr/",
     "description": "Données sur les conduites addictives des jeunes (alcool, cannabis, Ecstasy, tabas, Héroïne) selon la fréquences, les risques",
     "alimentation": "Jeunes inscrits à la JAPD"
   },
@@ -2110,7 +2110,7 @@
   "Base de l'observatoire nationale des radiothéraphies": {
     "gestionnaire": "Institut national du cancer",
     "commentaire": "Enquêtes effectuées sur 167 centres de radiothérapie Cette base Epidémiologie fait partie de la catégorie Epidémiologie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.e-cancer.fr/toutes-les-actualites/6805-publication-du-rapport-denquete-de-lobservatoire-national-de-la-radiotherapie",
+    "liens": "http://www.e-cancer.fr/toutes-les-actualites/6805-publication-du-rapport-denquete-de-lobservatoire-national-de-la-radiotherapie",
     "description": "Les principales évolutions en matière d’équipements, d’activité et de ressources humaines",
     "alimentation": "Enquêtes annuelles auprès des centres de radiothérapie"
   },
@@ -2161,14 +2161,14 @@
   "Base Retroced'am du SNIIRAM": {
     "gestionnaire": "Caisse nationale de l'assurance maladie des travailleurs salariés",
     "commentaire": " Cette base Médicaments et dispositifs fait partie de la catégorie Médicaments et dispositifs du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.ameli.fr/l-assurance-maladie/statistiques-et-publications/donnees-statistiques/medicament/retroced-am-2010-2012.php",
+    "liens": "http://www.ameli.fr/l-assurance-maladie/statistiques-et-publications/donnees-statistiques/medicament/retroced-am-2010-2012.php",
     "description": "Informations détaillées sur les médicaments remboursés dans le cadre de la rétrocession hospitalière avec, par code UCD : base de remboursement, marge de rétrocession, montant remboursé, nombre d'unités remboursées",
     "alimentation": "SNIIRAM"
   },
   "Base de l'enquête Alimentation et état nutritionnel des bénéficiaires de l’aide alimentaire (ABENA)": {
     "gestionnaire": "Institut de veille sanitaire",
     "commentaire": " Cette base Habitudes de vie fait partie de la catégorie Habitudes de vie du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.inpes.sante.fr/etudes/pdf/2013-abena2-rapport.pdf",
+    "liens": "http://www.inpes.sante.fr/etudes/pdf/2013-abena2-rapport.pdf",
     "description": "Données de l'etat de santé des individus en fonction de leur profils sociodémographiques, de leur conditions de vie et de leurs habitudes alimentaires",
     "alimentation": "Panel de bénéficiares de l'aide alimentaire"
   },
@@ -2193,41 +2193,41 @@
   "Enquête auprès des services de soins infirmiers à domicile (SSIAD)": {
     "gestionnaire": "Direction de la recherche, des études, de l'évaluation et des statistiques",
     "commentaire": " Cette base Activité des établissements médicaux-sociaux fait partie de la catégorie Activité des établissements médicaux-sociaux du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.drees.sante.gouv.fr/IMG/pdf/er350.pdf",
+    "liens": "http://www.drees.sante.gouv.fr/IMG/pdf/er350.pdf",
     "description": "Indicateurs sur les services de soins infirmiers et l'offre de soins infirmiers à domicile et en établissement",
     "alimentation": "Tous les SSIAD"
   },
   "Recueil des bulletins statistiques d'interruptions de grossesse (BIG)": {
     "gestionnaire": "Direction de la recherche, des études, de l'évaluation et des statistiques",
     "commentaire": " Cette base Activité des établissements de santé fait partie de la catégorie Activité des établissements de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.drees.sante.gouv.fr/les-interruptions-volontaires-de-grossesse-en-2010,10978.html",
+    "liens": "http://www.drees.sante.gouv.fr/les-interruptions-volontaires-de-grossesse-en-2010,10978.html",
     "description": "Nombre d'IVG au total, par âge, par région, par type d'IVG",
     "alimentation": "Déclaration obligatoire"
   },
   "Répertoire public des essais cliniques de médicaments": {
     "gestionnaire": "Agence nationale de sécurité du médicament et des produits de santé",
     "commentaire": " Cette base Informations médicales fait partie de la catégorie Informations médicales du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "https://icrepec.ansm.sante.fr/Public/index.php",
+    "liens": "https://icrepec.ansm.sante.fr/Public/index.php",
     "description": "Descriptions du contenu et des résultats des essais cliniques de médicaments menés en France, hormis certains essais cliniques de phase 1"
   },
   "Applicatif du SNATIH : Soins de Suite et de Réadaptation": {
     "gestionnaire": "Agence Technique de l'Information sur l'Hospitalisation",
     "commentaire": " Cette base Activité des établissements de santé fait partie de la catégorie Activité des établissements de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php",
+    "liens": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php",
     "description": "Par région, par territoire de santé ou par établissement, données de : activité, durée de prise en charge, par spécialité et par tranche d’âge, taux d’entrée directe, mode de sortie, retour précoce en MCO d’au moins une nuit, taux de fuite…",
     "alimentation": "Principale source : PMSI"
   },
   "Base Medic'am du SNIIRAM": {
     "gestionnaire": "Caisse nationale de l'assurance maladie des travailleurs salariés",
     "commentaire": " Cette base Médicaments et dispositifs fait partie de la catégorie Médicaments et dispositifs du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://www.ameli.fr/l-assurance-maladie/statistiques-et-publications/donnees-statistiques/medicament/medic-am-2008-2012.php",
+    "liens": "http://www.ameli.fr/l-assurance-maladie/statistiques-et-publications/donnees-statistiques/medicament/medic-am-2008-2012.php",
     "description": "Par ensemble \"produit&dosage\" : base de remboursement, montant remboursé, dénombrement (nombre de boîte remboursées), base de remboursement des prescripteurs de ville, base de remboursement des autres prescripteurs",
     "alimentation": "SNIIRAM"
   },
   "Applicatif du SNATIH : Chirurgie ambulatoire": {
     "gestionnaire": "Agence Technique de l'Information sur l'Hospitalisation",
     "commentaire": " Cette base Activité des établissements de santé fait partie de la catégorie Activité des établissements de santé du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php",
+    "liens": "https://pasrel.atih.sante.fr/cas/login?service=http%3A%2F%2Fstats.atih.sante.fr%2Fsihnat%2Fconnexion_sihnat%2Findex.php",
     "description": "Tableaux fournissant par région, par territoire de santé ou par établissement, des éléments statistiques permettant d’évaluer le développement de la chirurgie ambulatoire pour chacune des 18 racines de GHM faisant l’objet de la politique tarifaire incitative depuis plusieurs années (même tarif pour le GHM de chirurgie ambulatoire et le GHM correspondant de niveau 1) : taux de recours, taux de chirurgie ambulatoire, etc.",
     "alimentation": "PMSI"
   },
@@ -2241,7 +2241,7 @@
   "Base E-Fides - déclaration des intérêtsdes professionnels de santé couverts par le Sunshine Act": {
     "gestionnaire": "Agence nationale de sécurité du médicament et des produits de santé",
     "commentaire": " Cette base Infrastructures fait partie de la catégorie Infrastructures du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "https://icefides.ansm.sante.fr/",
+    "liens": "https://icefides.ansm.sante.fr/",
     "description": "Déclarations d'intérêt des professionnels de santé : possibilité de filtre par professionnel mais pas par laboratoire pharmaceutique",
     "alimentation": "Professionnels de santé et laboratoires pharmaceutiques"
   },
@@ -2261,7 +2261,7 @@
   "Tableaux d'évidences, et, le cas échéant, plans de gestion des risques pris en compte pour les dossiers d'AMM et les autorisations temporaires d'utilisation (ATU)": {
     "gestionnaire": "Agence nationale de sécurité du médicament et des produits de santé",
     "commentaire": " Cette base Informations médicales fait partie de la catégorie Informations médicales du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://ansm.sante.fr/var/ansm_site/storage/original/application/4c6c2696b76998e30dd818f5cd98cb92.pdf",
+    "liens": "http://ansm.sante.fr/var/ansm_site/storage/original/application/4c6c2696b76998e30dd818f5cd98cb92.pdf",
     "description": "Détail des caractéristiques et résultats des études cliniques présentés dans le dossier de demande d'AMM",
     "alimentation": "Laboratoires pharmaceutiques"
   },
@@ -2269,7 +2269,7 @@
     "acronyme": "RPPS",
     "gestionnaire": "Agence des Systèmes d’Information Partagés de Santé",
     "commentaire": " Cette base Infrastructures fait partie de la catégorie Infrastructures du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
-    "lien": "http://esante.gouv.fr/services/referentiels/identification/demande-d-acces-au-rpps",
+    "liens": "http://esante.gouv.fr/services/referentiels/identification/demande-d-acces-au-rpps",
     "description": "Répartition des professionnels de santé (médecin, dentistes, sages femmes et professionnels paramédicaux) par spécialité et par région",
     "alimentation": "Ordre des professionnels de santé et ARS",
     "datasets":"la-demographie-des-medecins-rpps"
@@ -2277,7 +2277,7 @@
   "Base Adresse Nationale":{
     "acronyme":"BAN",
     "gestionnaire": "Mission Étalab",
-    "lien":"https://adresse.data.gouv.fr/",
+    "liens":"https://adresse.data.gouv.fr/",
     "datasets":"ban-base-adresse-nationale"
   },
   "Cartographie collaborative des données de l'État":{
@@ -2294,38 +2294,38 @@
   },
   "Base d’Orientation et de Recherche dans les Archives":{
     "gestionnaire": "Ministère de la Culture et de la Communication",
-    "lien":["http://daf.archivesdefrance.culture.gouv.fr/sdx-222-daf-bora-ap/ap/","http://daf.archivesdefrance.culture.gouv.fr/sdx-23b1-20090531-daf-pleade-2/pl/search-form.xsp?id=For_prive","http://www.archivesdefrance.culture.gouv.fr/ressources/en-ligne/acces-par-type-de-documents/#fonds_prives"],
+    "liens":["http://daf.archivesdefrance.culture.gouv.fr/sdx-222-daf-bora-ap/ap/","http://daf.archivesdefrance.culture.gouv.fr/sdx-23b1-20090531-daf-pleade-2/pl/search-form.xsp?id=For_prive","http://www.archivesdefrance.culture.gouv.fr/ressources/en-ligne/acces-par-type-de-documents/#fonds_prives"],
     "description": "La Base d’Orientation et de Recherche dans les Archives recense les fonds privés contenus dans les centres des Archives nationales, les services départementaux d’archives, les bibliothèques et les organismes publics et privés. Bora recense également les archives photographiques de l'ensemble des services publics d'archives, dont beaucoup sont des archives privées."
   },
   "ENLUMINURES":{
     "description":"La base Enluminures coproduite par le Service du livre et de la lecture et l'Institut de recherche et d'histoire des textes (CNRS), propose la consultation gratuite de plus de 120 000 images, sous forme de vignette et de plein écran, reproductions numériques des enluminures et éléments de décor de plus de 5 000 manuscrits médiévaux conservés dans une centaine de bibliothèques municipales françaises.",
-    "lien":["http://www.enluminures.culture.fr/documentation/enlumine/fr/"],
+    "liens":["http://www.enluminures.culture.fr/documentation/enlumine/fr/"],
     "gestionnaire": "Ministère de la Culture et de la Communication"
   },
   "JOCONDE":{
     "description":"JOCONDE est le catalogue collectif des collections des musées de France, accessible sur Internet.",
     "gestionnaire":"Ministère de la Culture et de la Communication",
-    "lien":"http://www.culture.gouv.fr/documentation/joconde/fr/recherche/rech_libre.htm"
+    "liens":"http://www.culture.gouv.fr/documentation/joconde/fr/recherche/rech_libre.htm"
   },
   "PALISSY":{
     "description":"Palissy recense le patrimoine mobilier français : meubles et objets religieux, domestiques, scientifiques et industriels. Les notices sont réparties en deux fonds : le premier s'enrichit à mesure des enquêtes sur le terrain de l'Inventaire général du patrimoine culturel (dossiers d'inventaire) et le second (constitué à partir des mesures nationales de protection au titre de la loi sur les Monuments historiques) est mis à jour régulièrement.",
-    "lien":"http://www.culture.gouv.fr/public/mistral/dapapal_fr?ACTION=NOUVEAU&USRNAME=nobody&USRPWD=4%24%2534P",
+    "liens":"http://www.culture.gouv.fr/public/mistral/dapapal_fr?ACTION=NOUVEAU&USRNAME=nobody&USRPWD=4%24%2534P",
     "gestionnaire":"Ministère de la Culture et de la Communication"
   },
   "MAP":{
-    "lien":"http://www.mediatheque-patrimoine.culture.gouv.fr/index.html",
+    "liens":"http://www.mediatheque-patrimoine.culture.gouv.fr/index.html",
     "gestionnaire":"Ministère de la Culture et de la Communication",
     "description":"La Médiathèque de l'architecture et du patrimoine recense toutes les ressources documentaires de la Direction générale des patrimoines. Pour identifier des biens volés ou disparus et faire des vérifications de provenance, des accès spécifiques sont possibles dans la base Palissy (biens protégés au titre des monuments historiques).accès par listes : Œuvre volée ou disparue/Œuvre retrouvée ; accès par catégorie technique : peinture, sculpture, orfèvrerie, tapisserie, textile, dessin, bronze d'art… accès par images d’objets volés ou disparus."
   },
   "SHERLOCK":{
     "description":"Commission de récolement des dépôts d'œuvres d'art (CRDOA)",
-    "lien":"http://www.culture.gouv.fr/documentation/CBCR/",
+    "liens":"http://www.culture.gouv.fr/documentation/CBCR/",
     "gestionnaire":"Ministère de la Culture et de la Communication"
   },
   "Site Rose-Valland":{
     "description":"Musées Nationaux Récupération (MNR)  [Consultable à l'aide du \"Moteur Collections\"] Les \"MNR\", \"Musées nationaux Récupération\", sont des œuvres récupérées en Allemagne à la fin de la Seconde Guerre mondiale et qui, faute d'avoir retrouvé leurs légitimes propriétaires, ont été confiées par l'Office des biens privés à la garde de la Direction des musées de France en vertu du décret du 30 septembre 1949.",
     "gestionnaire":"Ministère de la Culture et de la Communication",
-    "lien":"http://www.culture.gouv.fr/documentation/mnr/MnR-accueil.htm"
+    "liens":"http://www.culture.gouv.fr/documentation/mnr/MnR-accueil.htm"
   },
   "TREIMA2":{
     "description":"Base de données de l'OCBC : photothèque d’objets volés, dénommée « TREIMA » (Thesaurus de recherche électronique et d’imagerie en matière artistique). Cette base inclut les photographies des biens culturels volés en France, ainsi que certains autres volés à l’étranger quand leur disparition est signalée par le canal d’INTERPOL. Elle met ces images en correspondance avec les informations concernant le vol lui-même. Base conçue par des policiers, pour des policiers, cet outil est d’utilisation simple, et peut être chargée sur un ordinateur portable, être emportée sur le terrain, par exemple sur le lieu d’une perquisition, y compris à l’étranger. Cette base est ouverte, en alimentation/lecture: à l’OCBC, au Service Technique de Renseignements Judiciaires et de Documentation de la gendarmerie à Rosny-sous-Bois, à la Brigade de Répression du Banditisme (Groupe « Antiquaires ») à la Préfecture de Police de Paris. Elle l’est, en lecture seule (et pour les fiches « objets » uniquement) à certaines directions du ministère de la Culture, à la Direction Nationale du Renseignement et des Enquêtes Douanières, ainsi qu’au groupement d’assurances ARGOS. Elle est alimentée, à l’OCBC, par des personnels administratifs sous le commandement d’un officier de police.",
@@ -2338,88 +2338,88 @@
   "Fichier des personnes recherchées":{
     "gestionnaire":"Ministère de l'Intérieur",
     "acronyme":"FPR",
-    "lien":["https://www.cnil.fr/fr/fpr-fichier-des-personnes-recherchees","http://www.ladocumentationfrancaise.fr/var/storage/rapports-publics/064000885.pdf"],
+    "liens":["https://www.cnil.fr/fr/fpr-fichier-des-personnes-recherchees","http://www.ladocumentationfrancaise.fr/var/storage/rapports-publics/064000885.pdf"],
     "textes":{
       "Décret n° 2010-569 du 28 mai 2010 relatif au fichier des personnes recherchées":"https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000022276189&categorieLien=id"
     }
   },
   "Système de traitement des infractions constatées":{
     "gestionnaire":"Ministère de l'Intérieur",
-    "lien":["http://www.ladocumentationfrancaise.fr/var/storage/rapports-publics/064000885.pdf"],
+    "liens":["http://www.ladocumentationfrancaise.fr/var/storage/rapports-publics/064000885.pdf"],
     "acronyme":"STIC"
   },
   "Fichier des véhicules volés":{
     "gestionnaire":"Ministère de l'Intérieur",
-    "lien":["http://www.ladocumentationfrancaise.fr/var/storage/rapports-publics/064000885.pdf"],
+    "liens":["http://www.ladocumentationfrancaise.fr/var/storage/rapports-publics/064000885.pdf"],
     "acronyme":"FVV"
   },
   "Fichier des renseignements généraux":{
     "gestionnaire":"Ministère de l'Intérieur",
-    "lien":["http://www.ladocumentationfrancaise.fr/var/storage/rapports-publics/064000885.pdf"],
+    "liens":["http://www.ladocumentationfrancaise.fr/var/storage/rapports-publics/064000885.pdf"],
     "acronyme":"FRG"
   },
   "Fichier national transfrontières":{
     "gestionnaire":"Ministère de l'Intérieur",
-    "lien":["http://www.ladocumentationfrancaise.fr/var/storage/rapports-publics/064000885.pdf"],
+    "liens":["http://www.ladocumentationfrancaise.fr/var/storage/rapports-publics/064000885.pdf"],
     "acronyme":"FNT"
   },
   "Fichier des brigades spécialisées":{
     "gestionnaire":"Ministère de l'Intérieur",
-    "lien":["http://www.ladocumentationfrancaise.fr/var/storage/rapports-publics/064000885.pdf"],
+    "liens":["http://www.ladocumentationfrancaise.fr/var/storage/rapports-publics/064000885.pdf"],
     "acronyme":"FBS"
   },
   "Fichier informatisé du terrorisme":{
     "gestionnaire":"Ministère de l'Intérieur",
-    "lien":["http://www.ladocumentationfrancaise.fr/var/storage/rapports-publics/064000885.pdf"],
+    "liens":["http://www.ladocumentationfrancaise.fr/var/storage/rapports-publics/064000885.pdf"],
     "acronyme":"FIT"
   },
   "Fichier national du faux monnayage":{
     "gestionnaire":"Ministère de l'Intérieur",
-    "lien":["http://www.ladocumentationfrancaise.fr/var/storage/rapports-publics/064000885.pdf"],
+    "liens":["http://www.ladocumentationfrancaise.fr/var/storage/rapports-publics/064000885.pdf"],
     "acronyme":"FNFM"
   },
   "Fichier national automatisé des empreintes génétiques":{
     "gestionnaire":"Ministère de l'Intérieur",
-    "lien":["http://www.ladocumentationfrancaise.fr/var/storage/rapports-publics/064000885.pdf"],
+    "liens":["http://www.ladocumentationfrancaise.fr/var/storage/rapports-publics/064000885.pdf"],
     "acronyme":"FNAEG"
   },
   "Fichier  de  la  Direction  de  la  surveillance":{
     "gestionnaire":"Ministère de l'Intérieur",
-    "lien":["http://www.ladocumentationfrancaise.fr/var/storage/rapports-publics/064000885.pdf"],
+    "liens":["http://www.ladocumentationfrancaise.fr/var/storage/rapports-publics/064000885.pdf"],
     "acronyme":"FDS"
   },  
   "Système  d’analyse  et  de  liens  de  la  violence associée  au  crime":{
     "gestionnaire":"Ministère de l'Intérieur",
-    "lien":["http://www.ladocumentationfrancaise.fr/var/storage/rapports-publics/064000885.pdf"],
+    "liens":["http://www.ladocumentationfrancaise.fr/var/storage/rapports-publics/064000885.pdf"],
     "acronyme":"SALVAC"
   },  
   "Fichier  de  travail  de  la  police  judiciaire":{
     "gestionnaire":"Ministère de l'Intérieur",
-    "lien":["http://www.ladocumentationfrancaise.fr/var/storage/rapports-publics/064000885.pdf"],
+    "liens":["http://www.ladocumentationfrancaise.fr/var/storage/rapports-publics/064000885.pdf"],
     "acronyme":"FTPJ"
   },  
   "Fichier  automatisé  des  empreintes  digitales":{
     "gestionnaire":"Ministère de l'Intérieur",
-    "lien":["http://www.ladocumentationfrancaise.fr/var/storage/rapports-publics/064000885.pdf"],
+    "liens":["http://www.ladocumentationfrancaise.fr/var/storage/rapports-publics/064000885.pdf"],
     "acronyme":"FAED"
   },  
   "Fichier  judiciaire  national  automatisé  des  auteurs d’infractions  sexuelles":{
     "gestionnaire":"Ministère de l'Intérieur",
-    "lien":["http://www.ladocumentationfrancaise.fr/var/storage/rapports-publics/064000885.pdf"],
+    "liens":["http://www.ladocumentationfrancaise.fr/var/storage/rapports-publics/064000885.pdf"],
     "acronyme":"FIJAIS"
   },  
   "Fichier  national  des  permis  de  conduire":{
     "gestionnaire":"Ministère de l'Intérieur",
-    "lien":["http://www.ladocumentationfrancaise.fr/var/storage/rapports-publics/064000885.pdf"],
+    "liens":["http://www.ladocumentationfrancaise.fr/var/storage/rapports-publics/064000885.pdf"],
     "acronyme":"FNPC"
   },  
   "Répertoire informatisé des propriétaires et possesseurs d’armes":{
     "gestionnaire":"Ministère de l'Intérieur",
-    "lien":["http://www.ladocumentationfrancaise.fr/var/storage/rapports-publics/064000885.pdf"],
+    "liens":["http://www.ladocumentationfrancaise.fr/var/storage/rapports-publics/064000885.pdf"],
     "acronyme":"AGRIPPA"
   },
   "Système d'Immatriculation des Véhicules":{
-    "lien":["https://immatriculation.ants.gouv.fr/Tout-savoir-sur-le-SIV/Le-Systeme-d-Immatriculation-des-Vehicules-SIV"],
+    "liens":["https://immatriculation.ants.gouv.fr/Tout-savoir-sur-le-SIV/Le-Systeme-d-Immatriculation-des-Vehicules-SIV"],
     "gestionnaire":"Agence nationale des titres sécurisés",
     "acronyme":"SIV",
     "textes":{
