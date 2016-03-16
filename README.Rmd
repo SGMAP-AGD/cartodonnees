@@ -15,7 +15,18 @@ intersectproducteursadministrations <- intersect(producteurs, administrations)
 diff <- setdiff(gestionnaires, administrations)
 ```
 
-La Cartographie Collaborative des Données de l'État est le référentiel de métadonnées de l'État Français. Cette initiative a pour but d'améliorer la qualité des données et d'en rationaliser la gouvernance au sein des administrations pour généraliser la mise en place de politiques fondées sur les données. 
+La Cartographie Collaborative des Données de l'État est le référentiel de métadonnées de l'État Français. Elle décrit les données produites et gérées par les administrations Françaises, leurs organisation et leur gouvernance.
+
+## Objectifs et usages
+
+La Cartographie Collaborative des Données de l'État a pour objectif de:
+
+* Identifier les référentiels nationaux et les valoriser.
+* Rationaliser la gouvernance des données et faciliter leur circulation entre administrations.
+* Améliorer la qualité des données.
+* Généraliser la mise en place de politiques fondées sur les données.
+
+## Composition
 
 La Cartographie Collaborative des Données de l'État est propose 3 niveaux de lecture:
   

@@ -3,7 +3,18 @@ Cartographie Collaborative des Données de l'État
 
 
 
-La Cartographie Collaborative des Données de l'État est le référentiel de métadonnées de l'État Français. Cette initiative a pour but d'améliorer la qualité des données et d'en rationaliser la gouvernance au sein des administrations pour généraliser la mise en place de politiques fondées sur les données. 
+La Cartographie Collaborative des Données de l'État est le référentiel de métadonnées de l'État Français. Elle décrit les données produites et gérées par les administrations Françaises, leurs organisation et leur gouvernance.
+
+## Objectifs et usages
+
+La Cartographie Collaborative des Données de l'État a pour objectif de:
+
+* Identifier les référentiels nationaux et les valoriser.
+* Rationaliser la gouvernance des données et faciliter leur circulation entre administrations.
+* Améliorer la qualité des données.
+* Généraliser la mise en place de politiques fondées sur les données.
+
+## Composition
 
 La Cartographie Collaborative des Données de l'État est propose 3 niveaux de lecture:
   
@@ -31,7 +42,7 @@ L'historisation de ces annuaires est prévue.
 
 ## Bases de données
 
-La cartographie décrit [403 bases de données](http://bases.gouv2.fr/bases) pour [92 gestionnaires](http://bases.gouv2.fr/gestionnaires). Parmis ceux-ci, [40 gestionnaires](http://bases.gouv2.fr/gestionnaires/inconnus) ne sont pas encore identifiés dans l'annuaire des administrations.
+La cartographie décrit [404 bases de données](http://bases.gouv2.fr/bases) pour [93 gestionnaires](http://bases.gouv2.fr/gestionnaires). Parmis ceux-ci, [40 gestionnaires](http://bases.gouv2.fr/gestionnaires/inconnus) ne sont pas encore identifiés dans l'annuaire des administrations.
 
 ### Sources
 
