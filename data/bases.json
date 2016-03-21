@@ -143,7 +143,7 @@
     "gestionnaire": "Conseil Supérieur du notariat",
     "textes": {
         "Décret n° 2013-803 du 3 septembre 2013": "https://www.legifrance.gouv.fr/eli/decret/2013/9/3/JUSC1207406D/jo/texte",
-      "Loi du 28 mars 2011 de modernisation des professions juridiques et financières": 
+      "Loi du 28 mars 2011 de modernisation des professions juridiques et financières":
         "https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000023776687&categorieLien=id"
     },
     "description": "Envoi par les notaires, volontaire jusqu’à ce jour, des avant contrats et contrats de mutation immobilière à titre onéreux. L'objectif de cette base de données est de connaître de façon détaillée les prix de vente et leurs évolutions sur le territoire national, hors Ile-de-France.  Base gérée par Real.not et exploitée par Min.not.",
@@ -293,7 +293,8 @@
     "gestionnaire": "Caisse nationale de l'assurance maladie des travailleurs salariés",
     "commentaire": " Cette base Médicaments et dispositifs fait partie de la catégorie Médicaments et dispositifs du Ministère des Affaires sociales, de la Santé et des Droits des femmes.",
     "description": "Dépenses par \"grand ensemble\" dispositifs médicaux",
-    "alimentation": "_ SNIIRAM"
+    "alimentation": "_ SNIIRAM",
+    "wikidata": "Q21549903"
   },
   "Tableaux des affections longue durée (ALD)": {
     "gestionnaire": "Caisse nationale de l'assurance maladie des travailleurs salariés",
@@ -2387,32 +2388,32 @@
     "gestionnaire":"Ministère de l'Intérieur",
     "liens":["http://www.ladocumentationfrancaise.fr/var/storage/rapports-publics/064000885.pdf"],
     "acronyme":"FDS"
-  },  
+  },
   "Système  d’analyse  et  de  liens  de  la  violence associée  au  crime":{
     "gestionnaire":"Ministère de l'Intérieur",
     "liens":["http://www.ladocumentationfrancaise.fr/var/storage/rapports-publics/064000885.pdf"],
     "acronyme":"SALVAC"
-  },  
+  },
   "Fichier  de  travail  de  la  police  judiciaire":{
     "gestionnaire":"Ministère de l'Intérieur",
     "liens":["http://www.ladocumentationfrancaise.fr/var/storage/rapports-publics/064000885.pdf"],
     "acronyme":"FTPJ"
-  },  
+  },
   "Fichier  automatisé  des  empreintes  digitales":{
     "gestionnaire":"Ministère de l'Intérieur",
     "liens":["http://www.ladocumentationfrancaise.fr/var/storage/rapports-publics/064000885.pdf"],
     "acronyme":"FAED"
-  },  
+  },
   "Fichier  judiciaire  national  automatisé  des  auteurs d’infractions  sexuelles":{
     "gestionnaire":"Ministère de l'Intérieur",
     "liens":["http://www.ladocumentationfrancaise.fr/var/storage/rapports-publics/064000885.pdf"],
     "acronyme":"FIJAIS"
-  },  
+  },
   "Fichier  national  des  permis  de  conduire":{
     "gestionnaire":"Ministère de l'Intérieur",
     "liens":["http://www.ladocumentationfrancaise.fr/var/storage/rapports-publics/064000885.pdf"],
     "acronyme":"FNPC"
-  },  
+  },
   "Répertoire informatisé des propriétaires et possesseurs d’armes":{
     "gestionnaire":"Ministère de l'Intérieur",
     "liens":["http://www.ladocumentationfrancaise.fr/var/storage/rapports-publics/064000885.pdf"],
@@ -2501,7 +2502,7 @@
       "Arrêté du 14 juin 1982 relatif à l'extension d'un système automatisé de gestion du fichier des comptes bancaires.":"https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=LEGITEXT000006069767",
       "Réponse ministérielle du 17 avril 2012 relative à l'accès des héritiers au fichier des comptes bancaires ":"http://questions.assemblee-nationale.fr/q13/13-98834QE.htm"
     }
-    
+
   },
     "Fichier central des chèques":{
       "acronyme":"FCC",
@@ -2665,5 +2666,8 @@
     "acronyme":"GENESIS",
     "textes":{
       "Délibération n° 2013-405 du 19 décembre 2013 portant avis sur un projet de décret portant création d'un traitement de données à caractère personnel relatif à la gestion nationale des personnes détenues en établissement pénitentiaire dénommé GENESIS (demande d'avis n° 13032517)":"https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000029009332"}
+  },
+  "Base Mérimée":{
+    "wikidata":"Q809830"
   }
 }
