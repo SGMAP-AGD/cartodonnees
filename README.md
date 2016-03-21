@@ -114,7 +114,6 @@ Les données de la cartographie sont stockées sous forme de [JSON](http://www.j
 ##   ],
 ##   "liens": ["https://adresse.data.gouv.fr/"],
 ##   "alimentation": [
-##     ["Mission Étalab"],
 ##     ["Code Géographique Officiel"],
 ##     ["Groupe La Poste"],
 ##     ["Direction générale des finances publiques"]

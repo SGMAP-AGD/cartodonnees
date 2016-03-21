@@ -2279,7 +2279,7 @@
     "acronyme":"BAN",
     "gestionnaire": ["Mission Étalab","Institut national de l'information géographique et forestière","Groupe La Poste"],
     "liens":"https://adresse.data.gouv.fr/",
-    "alimentation":["Mission Étalab","Code Géographique Officiel","Groupe La Poste","Direction générale des finances publiques"],
+    "alimentation":["Code Géographique Officiel","Groupe La Poste","Direction générale des finances publiques"],
     "textes":{"Convention BAN":"http://openstreetmap.fr/f/Convention%20BAN%2015%20avril%202015%20SCAN%20SIGNE.pdf"},
     "datasets":"ban-base-adresse-nationale",
     "description":"Pour que les services d’urgence arrivent au bon endroit, pour vous permettre de réaliser une analyse cartographique en quelques clics ou encore pour que les opérateurs publics et privés coordonnent mieux leurs chantiers, ce référentiel, véritable enjeu de souveraineté pour la France, est la première alliance entre l’État et la société civile. La Base Adresse Nationale est une base de données qui a pour but de référencer l’intégralité des adresses du territoire français. Elle est constituée par la collaboration entre: des acteurs nationaux tels que l’IGN et La Poste, des acteurs locaux tels que les collectivités, les communes, les SDIS, des citoyens par exemple à travers le projet OpenStreetMap et l’association OpenStreetMap France. Le projet est co-gouverné par l’Administrateur Général des Données et le Conseil National de l’Information Géographique."
