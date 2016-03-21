@@ -132,6 +132,14 @@ def getListeBases():
     resultats[nom] = base
   return resultats
   
+def getListeBasesRaw():
+  # Retourne la liste des bases
+  resultats = list()
+  for base in db.bases.find():
+    del base["_id"]
+    resultats.append(base)
+  return resultats
+  
 def getDicoSchema(dico):
   schema = {}
   for key,value in dico.items():
@@ -174,7 +182,12 @@ def hello():
   info["api"] = "Cartographie collaborative des données de l'État"
   info["version"] = "0.0.1"
   return Response(json.dumps(info, indent= 2,ensure_ascii=False),mimetype='application/json; charset=utf-8')
-    
+
+@app.route("/bases/liste", methods=['GET'])
+def basesliste():
+  return Response(json.dumps(getListeBasesRaw(), indent= 2,ensure_ascii=False),mimetype='application/json; charset=utf-8')
+  
+  
 @app.route("/bases", methods=['GET', 'POST'])
 def bases():
     if request.method == 'POST':

@@ -105,6 +105,10 @@ Bien que la cartographie des bases de données soit pour l'instant le seul datas
 
 La cartographie dispose de copies de ces données le plus à jour possible, dont les versions font uniquement référence dans le cadre local de la cartographie. Ces versions ne sont pas publiées et les originaux doivent être la source de toute réutilisation.
 
+## Portail collaboratif
+
+
+
 ## Feuille de route
 
 * Schéma des métadonnées Niveau 2
