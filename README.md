@@ -78,7 +78,7 @@ La description est un champ texte libre décrivant la base de données. Sa taill
 
 #### Textes
 
-Le champ `textes` est une liste des textes officiels faisant référence à la base de données. Y est 
+Le champ `textes` est une liste des textes officiels faisant référence à la base de données.
 
 ![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2-1.png) 
 
