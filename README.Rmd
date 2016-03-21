@@ -3,16 +3,37 @@ Cartographie Collaborative des Données de l'État
 
 ```{r echo=FALSE}
 library(httr)
+library(ggplot2)
+library(jsonlite)
+
 api_adress <- "http://bases.gouv2.fr"
 bases <- content(GET(paste(api_adress,"/bases",sep="")))
 administrations <- content(GET(paste(api_adress,"/administrations",sep="")))
 gestionnaires <- content(GET(paste(api_adress,"/gestionnaires",sep="")))
-
+basesliste <- content(GET(paste(api_adress,"/bases/liste",sep="")))
 producteurs <- content(GET(paste(api_adress,"/datasets/producteurs",sep="")))
 datasets <- content(GET(paste(api_adress,"/datasets",sep="")))
 intersectproducteursadministrations <- intersect(producteurs, administrations)
 
 diff <- setdiff(gestionnaires, administrations)
+
+textes <- list()
+for (base in basesliste){
+  if (!is.null(base$textes)){
+    for(texte in attributes(base$textes)){
+      textes <- c(texte,textes)
+    }
+  }
+}
+textes <- data.frame(matrix(unlist(textes), byrow=T))
+textes$type <- as.character(lapply(strsplit(as.character(textes$matrix.unlist.textes...byrow...T.), " "), "[", 1))
+
+ban <- list()
+for (base in basesliste){
+if (base$nom == "Base Adresse Nationale"){
+  ban <- base
+  }
+}
 ```
 
 La Cartographie Collaborative des Données de l'État est le référentiel de métadonnées de l'État Français. Elle décrit les données produites et gérées par les administrations Françaises, leurs organisation et leur gouvernance.
@@ -69,15 +90,61 @@ En raison de la diversité des sources, des données et informations incomplète
 
 ### Modèle de données 
 
-Un modèle de données semi-structuré permet de décrire chaque base de données. Ce modèle évolue au fur et à mesure des mises à jour et de l'enrichissement de la cartographie. L'[API](http://bases.gouv2.fr/) de la cartographie permet de consulter le [modèle de données actuel brut](http://bases.gouv2.fr/bases/schema). Une [version documentée](data/schema.json) de ce schéma est également disponible.
+Un modèle de données semi-structuré permet de décrire chaque base de données. Ce modèle évolue au fur et à mesure des mises à jour et de l'enrichissement de la cartographie. de nouveaux champs sont donc suceptibles d'apparaitre au cours du temps. Seuls les champs `nom` et `gestionnaire` sont indispensable pour décrire l'existence d'une base de données au sein de cette cartographie. Sont décrits ci-dessous tous les champs actuellement suceptibles d'être renseignés pour une base de données de la cartographie. 
 
-#### Bases de données co-gérées
+#### Nom
 
-De nombreuses bases de données sont co-gérées par plusieurs administrations. Dans ce cas, le champ `gestionnaire` devient une liste contenant les co-gestionnaires.
+Le nom complet de la base de données, tel qu'il apparaît dans les textes officiels.
 
-#### Flux de données
+#### Acronyme
 
-Les flux entre bases de données sont renseignés dans le champ `alimentation`. Il comporte la liste des organismes alimentant la base de données, ou directement les bases d'origine des données. Le flux de données n'est en aucun cas décrit à ce niveau, simplement référencé.
+L'acronyme de la base de données, ou nom officieux contrairement au nom complet.
+
+#### Gestionnaire
+
+Le nom du gestionnaire de la base de données, tel qu'il apparaît dans l'[annuaire des services publics](https://lannuaire.service-public.fr).
+De nombreuses bases de données sont co-gérées par plusieurs administrations. Dans ce cas, le champ `gestionnaire` devient une liste contenant les tous les co-gestionnaires.
+
+#### Description
+
+La description est un champ texte libre décrivant la base de données. Sa taille n'est pas limitée et cette description vise à être la plus complète possible.
+
+#### Textes
+
+Le champ `textes` est une liste des textes officiels faisant référence à la base de données.
+
+```{r echo=FALSE}
+c <- ggplot(textes, aes(factor(type)))
+c <- c + geom_bar(width=.5)
+c <- c + coord_flip()
+c <- c + xlab("")
+c <- c + ylab("")
+c <- c + theme(axis.text.y = element_text(size=13,face="bold"), panel.background = element_blank())
+c <- c + theme(axis.text.x = element_text(size=13,face="bold"), plot.title = element_text(size=12, face="bold"))
+c <- c + ggtitle("Types de textes présents dans la cartographie collaborative")
+c
+```
+
+
+#### Alimentation
+
+Les flux entre bases de données sont renseignés dans le champ `alimentation`. Il comporte la liste des organismes alimentant la base de données, ou directement les bases d'origine des données. Le flux de données pas décrit à ce niveau, simplement référencé.
+
+#### Références
+
+#### Datasets
+
+#### Wikidata
+
+#### Commentaire
+
+#### Exemple: La BAN
+
+Les données de la cartographie sont stockées sous forme de [JSON](http://www.json.org/json-fr.html). Voici comment la Base Adresse Nationale est décrite: 
+
+```{r echo=FALSE}
+toJSON(ban, pretty=TRUE)
+```
 
 ### Représenter la cartographie
 

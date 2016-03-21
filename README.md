@@ -42,7 +42,7 @@ L'historisation de ces annuaires est prévue.
 
 ## Bases de données
 
-La cartographie décrit [404 bases de données](http://bases.gouv2.fr/bases) pour [93 gestionnaires](http://bases.gouv2.fr/gestionnaires). Parmis ceux-ci, [40 gestionnaires](http://bases.gouv2.fr/gestionnaires/inconnus) ne sont pas encore identifiés dans l'annuaire des administrations.
+La cartographie décrit [405 bases de données](http://bases.gouv2.fr/bases) pour [95 gestionnaires](http://bases.gouv2.fr/gestionnaires). Parmis ceux-ci, [41 gestionnaires](http://bases.gouv2.fr/gestionnaires/inconnus) ne sont pas encore identifiés dans l'annuaire des administrations.
 
 ### Sources
 
@@ -57,15 +57,72 @@ En raison de la diversité des sources, des données et informations incomplète
 
 ### Modèle de données 
 
-Un modèle de données semi-structuré permet de décrire chaque base de données. Ce modèle évolue au fur et à mesure des mises à jour et de l'enrichissement de la cartographie. L'[API](http://bases.gouv2.fr/) de la cartographie permet de consulter le [modèle de données actuel brut](http://bases.gouv2.fr/bases/schema). Une [version documentée](data/schema.json) de ce schéma est également disponible.
+Un modèle de données semi-structuré permet de décrire chaque base de données. Ce modèle évolue au fur et à mesure des mises à jour et de l'enrichissement de la cartographie. de nouveaux champs sont donc suceptibles d'apparaitre au cours du temps. Seuls les champs `nom` et `gestionnaire` sont indispensable pour décrire l'existence d'une base de données au sein de cette cartographie. Sont décrits ci-dessous tous les champs actuellement suceptibles d'être renseignés pour une base de données de la cartographie. 
 
-#### Bases de données co-gérées
+#### Nom
 
-De nombreuses bases de données sont co-gérées par plusieurs administrations. Dans ce cas, le champ `gestionnaire` devient une liste contenant les co-gestionnaires.
+Le nom complet de la base de données, tel qu'il apparaît dans les textes officiels.
 
-#### Flux de données
+#### Acronyme
 
-Les flux entre bases de données sont renseignés dans le champ `alimentation`. Il comporte la liste des organismes alimentant la base de données, ou directement les bases d'origine des données. Le flux de données n'est en aucun cas décrit à ce niveau, simplement référencé.
+L'acronyme de la base de données, ou nom officieux contrairement au nom complet.
+
+#### Gestionnaire
+
+Le nom du gestionnaire de la base de données, tel qu'il apparaît dans l'[annuaire des services publics](https://lannuaire.service-public.fr).
+De nombreuses bases de données sont co-gérées par plusieurs administrations. Dans ce cas, le champ `gestionnaire` devient une liste contenant les tous les co-gestionnaires.
+
+#### Description
+
+La description est un champ texte libre décrivant la base de données. Sa taille n'est pas limitée et cette description vise à être la plus complète possible.
+
+#### Textes
+
+Le champ `textes` est une liste des textes officiels faisant référence à la base de données. Y est 
+
+![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2-1.png) 
+
+
+#### Alimentation
+
+Les flux entre bases de données sont renseignés dans le champ `alimentation`. Il comporte la liste des organismes alimentant la base de données, ou directement les bases d'origine des données. Le flux de données pas décrit à ce niveau, simplement référencé.
+
+#### Références
+
+#### Datasets
+
+#### Wikidata
+
+#### Commentaire
+
+#### Exemple: La BAN
+
+Les données de la cartographie sont stockées sous forme de [JSON](http://www.json.org/json-fr.html). Voici comment la Base Adresse Nationale est décrite: 
+
+
+```
+## {
+##   "nom": ["Base Adresse Nationale"],
+##   "description": ["Pour que les services d’urgence arrivent au bon endroit, pour vous permettre de réaliser une analyse cartographique en quelques clics ou encore pour que les opérateurs publics et privés coordonnent mieux leurs chantiers, ce référentiel, véritable enjeu de souveraineté pour la France, est la première alliance entre l’État et la société civile. La Base Adresse Nationale est une base de données qui a pour but de référencer l’intégralité des adresses du territoire français. Elle est constituée par la collaboration entre: des acteurs nationaux tels que l’IGN et La Poste, des acteurs locaux tels que les collectivités, les communes, les SDIS, des citoyens par exemple à travers le projet OpenStreetMap et l’association OpenStreetMap France. Le projet est co-gouverné par l’Administrateur Général des Données et le Conseil National de l’Information Géographique."],
+##   "textes": {
+##     "Convention BAN": ["http://openstreetmap.fr/f/Convention%20BAN%2015%20avril%202015%20SCAN%20SIGNE.pdf"]
+##   },
+##   "gestionnaire": [
+##     ["Mission Étalab"],
+##     ["Institut national de l'information géographique et forestière"],
+##     ["Groupe La Poste"]
+##   ],
+##   "liens": ["https://adresse.data.gouv.fr/"],
+##   "alimentation": [
+##     ["Mission Étalab"],
+##     ["Code Géographique Officiel"],
+##     ["Groupe La Poste"],
+##     ["Direction générale des finances publiques"]
+##   ],
+##   "datasets": ["ban-base-adresse-nationale"],
+##   "acronyme": ["BAN"]
+## }
+```
 
 ### Représenter la cartographie
 
@@ -92,6 +149,10 @@ Bien que la cartographie des bases de données soit pour l'instant le seul datas
 * [La liste de des jeux de données publiés sur le portail Data.gouv.fr](https://www.data.gouv.fr/fr/datasets.csv)
 
 La cartographie dispose de copies de ces données le plus à jour possible, dont les versions font uniquement référence dans le cadre local de la cartographie. Ces versions ne sont pas publiées et les originaux doivent être la source de toute réutilisation.
+
+## Portail collaboratif
+
+
 
 ## Feuille de route
 
