@@ -13,6 +13,7 @@ gestionnaires <- content(GET(paste(api_adress,"/gestionnaires",sep="")))
 basesliste <- content(GET(paste(api_adress,"/bases/liste",sep="")))
 producteurs <- content(GET(paste(api_adress,"/datasets/producteurs",sep="")))
 datasets <- content(GET(paste(api_adress,"/datasets",sep="")))
+basesdatasets <- content(GET(paste(api_adress,"/bases/datasets",sep="")))
 intersectproducteursadministrations <- intersect(producteurs, administrations)
 acronymes <- content(GET(paste(api_adress,"/bases/acronymes",sep="")))
 
@@ -117,8 +118,8 @@ La description est un champ texte libre décrivant la base de données. Sa taill
 Le champ `textes` est une liste des textes officiels publiés par des administrations faisant référence à la base de données. Différents types de textes sont référencés dans la cartographie. En voici la distribution:
 
 ```{r echo=FALSE}
-c <- ggplot(textes, aes(factor(type)))
-c <- c + geom_bar(width=.6)
+c <- ggplot(textestypes)
+c <- c + geom_bar(mapping = aes(x = reorder(Var1, Freq),y = Freq), stat = "identity",width=.6)
 c <- c + coord_flip()
 c <- c + xlab("")
 c <- c + ylab("")
@@ -127,7 +128,6 @@ c <- c + theme(axis.text.x = element_text(size=13,face="bold"), plot.title = ele
 c <- c + ggtitle("Types de textes présents dans la cartographie collaborative")
 c
 ```
-
 
 #### Alimentation
 
@@ -141,19 +141,30 @@ Le champ `url` ou [Uniform Resource Locator](https://fr.wikipedia.org/wiki/Unifo
 
 Les adresses web évoquant les bases de données de la cartographie sont listées dans le champ `références`. Contrairement au champ `url`, il ne s'agit pas du portail offciel de la base.
 
+#### Commentaire
+
+Le champ `commentaire` est un champ libre, tout comme le champ `description`. Il regroupe toutes les informations n'ayant pas leur palce dans la description de la base de données.
+
 #### Datasets
 
 Le portail Open Data de l'État [data.gouv.fr](https://www.data.gouv.fr) recense les datasets, ou jeux de données ouverts de l'administration. Les gestionnaires y sont appelés producteurs. La cartographie collaborative des données permet de retracer la base d'origine des datasets sur le portail, lorsque le champ `datasets` de la cartographie est renseigné pour une base de données, et que la ou les chaînes de caractère qu'il contient sont conformes.
 
-Le champ `datasets` contient les "slugs"
+Le champ `datasets` contient les "slugs" des jeux de données de [data.gouv.fr](https://www.data.gouv.fr). Il s'agit de la dernière partie de l'url du jeu, pouvant être trouvée en haut du navigateur. Le "slug" est encadré en rouge sur cet exemple:
 
-`r length(producteurs)` producteurs de données publient actuellement `r length(datasets)` datasets sur [data.gouv.fr](https://www.data.gouv.fr). `r length(intersectproducteursadministrations)` producteurs sont présents dans l'annuaire des administrations, soit `r round(length(intersectproducteursadministrations) * 100/ length(producteurs),2)`%.
+[![slug](figure/datagouvslug.png)](figure/datagouvslug.png)
+
+
+`r length(producteurs)` producteurs de données publient actuellement `r length(datasets)` datasets sur [data.gouv.fr](https://www.data.gouv.fr). `r length(intersectproducteursadministrations)` producteurs du portail sont présents dans l'annuaire des administrations, soit `r round(length(intersectproducteursadministrations) * 100/ length(producteurs),2)`%.
+
+`r length(basesdatasets)` datasets sont renseignés dans la cartographie. Il est donc possible de retracer la base de données d'origine de `r round(length(basesdatasets) * 100/ length(datasets),2)`% des jeux de données publiés sur [data.gouv.fr](https://www.data.gouv.fr).
 
 #### Wikidata
 
-#### Commentaire
+[Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page) est un projet de base de données libre éditée de manière collaborative et hébergée par la [Wikimedia Foundation](https://wikimediafoundation.org/wiki/Home). Il s'agit tout comme la partie *Bases de données* de la cartographie d'une base collaborative structurée, toutefois à visée plus exhaustive que la cartographie.
 
-#### Exemple: La BAN
+Les identifiants des bases décrites dans [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page) sont renseignées dans le champ `wikidata` pour permettre une interopérabilité entre les 2 projets.
+
+#### Exemple: La Base Adresse Nationale
 
 Les données de la cartographie sont stockées sous forme de [JSON](http://www.json.org/json-fr.html). Voici comment la Base Adresse Nationale est décrite: 
 
@@ -201,7 +212,7 @@ La cartographie dispose de copies de ces données le plus à jour possible, dont
 
 ## Portail collaboratif
 
-
+Le déploiement d'un portail collaboratif est prévu pour permettre à chacun de contribuer à la parte *Bases de données* de la cartographie sans avoir à utiliser Git.
 
 ## Feuille de route
 

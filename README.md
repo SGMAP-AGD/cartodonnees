@@ -94,13 +94,30 @@ Le champ `url` ou [Uniform Resource Locator](https://fr.wikipedia.org/wiki/Unifo
 
 #### Références
 
-Les adresses web évoquant les bases de données de la cartographie sont listées dans le champ `références`. Contrairement au champ [`url`](#URL), il ne s'agit pas du portail offciel de la base.
+Les adresses web évoquant les bases de données de la cartographie sont listées dans le champ `références`. Contrairement au champ `url`, il ne s'agit pas du portail offciel de la base.
+
+#### Commentaire
+
+Le champ `commentaire` est un champ libre, tout comme le champ `description`. Il regroupe toutes les informations n'ayant pas leur palce dans la description de la base de données.
 
 #### Datasets
 
+Le portail Open Data de l'État [data.gouv.fr](https://www.data.gouv.fr) recense les datasets, ou jeux de données ouverts de l'administration. Les gestionnaires y sont appelés producteurs. La cartographie collaborative des données permet de retracer la base d'origine des datasets sur le portail, lorsque le champ `datasets` de la cartographie est renseigné pour une base de données, et que la ou les chaînes de caractère qu'il contient sont conformes.
+
+Le champ `datasets` contient les "slugs" des jeux de données de [data.gouv.fr](https://www.data.gouv.fr). Il s'agit de la dernière partie de l'url du jeu, pouvant être trouvée en haut du navigateur. Le "slug" est encadré en rouge sur cet exemple:
+
+[![slug](figure/datagouvslug.png)](figure/datagouvslug.png)
+
+
+401 producteurs de données publient actuellement 21785 datasets sur [data.gouv.fr](https://www.data.gouv.fr). 40 producteurs du portail sont présents dans l'annuaire des administrations, soit 9.98%.
+
+15 datasets sont renseignés dans la cartographie. Il est donc possible de retracer la base de données d'origine de 0.07% des jeux de données publiés sur [data.gouv.fr](https://www.data.gouv.fr).
+
 #### Wikidata
 
-#### Commentaire
+[Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page) est un projet de base de données libre éditée de manière collaborative et hébergée par la [Wikimedia Foundation](https://wikimediafoundation.org/wiki/Home). Il s'agit tout comme la partie *Bases de données* de la cartographie d'une base collaborative structurée, toutefois à visée plus exhaustive que la cartographie.
+
+Les identifiants des bases décrites dans [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page) sont renseignées dans le champ `wikidata` pour permettre une interopérabilité entre les 2 projets.
 
 #### Exemple: La BAN
 
@@ -133,12 +150,6 @@ Les données de la cartographie sont stockées sous forme de [JSON](http://www.j
 Considérées comme entitées dépendantes des leur gestionnaires, les bases de données peuvent être intégrées à l'arbre des administrations. La visualisation est alors similaire à celle de l'annuaire:
 
 [![bases de données](reporting/cartographie-thumb.png)](reporting/cartographie.png)
-
-### Intégration [data.gouv.fr](https://www.data.gouv.fr)
-
-Le portail Open Data de l'État [data.gouv.fr](https://www.data.gouv.fr) recense les datasets, ou jeux de données ouverts de l'administration. Les gestionnaires y sont appelés producteurs. La cartographie collaborative des données permet de retracer la base d'origine des datasets sur le portail, lorsque le champ `datasets` de la cartographie est renseigné pour une base de données, et que la ou les chaînes de caractère qu'il contient sont conformes.
-
-401 producteurs de données publient actuellement 21785 datasets sur [data.gouv.fr](https://www.data.gouv.fr). 40 producteurs sont présents dans l'annuaire des administrations, soit 9.98%.
 
 ## Structures des données
 
