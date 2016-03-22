@@ -61,24 +61,25 @@ Un modèle de données semi-structuré permet de décrire chaque base de donnée
 
 #### Nom
 
-Le nom complet de la base de données, tel qu'il apparaît dans les textes officiels.
-
-#### Acronyme
-
-L'acronyme de la base de données, ou nom officieux contrairement au nom complet.
+Le nom complet de la base de données, tel qu'il apparaît dans les textes officiels. Ce champ est obligatoire et renseigné pour toutes les bases de données référencées dans la cartographie.
 
 #### Gestionnaire
 
-Le nom du gestionnaire de la base de données, tel qu'il apparaît dans l'[annuaire des services publics](https://lannuaire.service-public.fr).
+Le nom du gestionnaire de la base de données, tel qu'il apparaît dans l'[annuaire des services publics](https://lannuaire.service-public.fr). Comme le nom complet de la base de données, ce champ est obligatoire. Les champs `gestionnaire` et `nom` forment à eux deux la [clé composite](https://en.wikipedia.org/wiki/Compound_key) permettant d'identifier chaque base de données de la cartographie.
+
 De nombreuses bases de données sont co-gérées par plusieurs administrations. Dans ce cas, le champ `gestionnaire` devient une liste contenant les tous les co-gestionnaires.
+
+#### Acronyme
+
+L'acronyme de la base de données, ou nom informel de la base, lorsqu'il existe. Ce champ n'est pas obligatoire. Il est actuellement renseigné pour 53 bases de données, soit 13.09% des bases de la cartographie.
 
 #### Description
 
-La description est un champ texte libre décrivant la base de données. Sa taille n'est pas limitée et cette description vise à être la plus complète possible.
+La description est un champ texte libre décrivant la base de données. Sa taille n'est pas limitée et cette description vise à être la plus complète et exhaustive possible.
 
 #### Textes
 
-Le champ `textes` est une liste des textes officiels faisant référence à la base de données.
+Le champ `textes` est une liste des textes officiels publiés par des administrations faisant référence à la base de données. Différents types de textes sont référencés dans la cartographie. En voici la distribution:
 
 ![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2-1.png) 
 
@@ -87,7 +88,13 @@ Le champ `textes` est une liste des textes officiels faisant référence à la b
 
 Les flux entre bases de données sont renseignés dans le champ `alimentation`. Il comporte la liste des organismes alimentant la base de données, ou directement les bases d'origine des données. Le flux de données pas décrit à ce niveau, simplement référencé.
 
+#### URL
+
+Le champ `url` ou [Uniform Resource Locator](https://fr.wikipedia.org/wiki/Uniform_Resource_Locator) contient une adresse web vers le portail officiel de la base de données, si il existe. Il s'agit de sites web permettant de consulter le contenu des bases par le biais d'un moteur de recherche lorsque celles ci sont ouvertes.
+
 #### Références
+
+Les adresses web évoquant les bases de données de la cartographie sont listées dans le champ `références`. Contrairement au champ [`url`](#URL), il ne s'agit pas du portail offciel de la base.
 
 #### Datasets
 
@@ -99,28 +106,26 @@ Les flux entre bases de données sont renseignés dans le champ `alimentation`. 
 
 Les données de la cartographie sont stockées sous forme de [JSON](http://www.json.org/json-fr.html). Voici comment la Base Adresse Nationale est décrite: 
 
-
 ```
-## {
-##   "nom": ["Base Adresse Nationale"],
-##   "description": ["Pour que les services d’urgence arrivent au bon endroit, pour vous permettre de réaliser une analyse cartographique en quelques clics ou encore pour que les opérateurs publics et privés coordonnent mieux leurs chantiers, ce référentiel, véritable enjeu de souveraineté pour la France, est la première alliance entre l’État et la société civile. La Base Adresse Nationale est une base de données qui a pour but de référencer l’intégralité des adresses du territoire français. Elle est constituée par la collaboration entre: des acteurs nationaux tels que l’IGN et La Poste, des acteurs locaux tels que les collectivités, les communes, les SDIS, des citoyens par exemple à travers le projet OpenStreetMap et l’association OpenStreetMap France. Le projet est co-gouverné par l’Administrateur Général des Données et le Conseil National de l’Information Géographique."],
-##   "textes": {
-##     "Convention BAN": ["http://openstreetmap.fr/f/Convention%20BAN%2015%20avril%202015%20SCAN%20SIGNE.pdf"]
-##   },
-##   "gestionnaire": [
-##     ["Mission Étalab"],
-##     ["Institut national de l'information géographique et forestière"],
-##     ["Groupe La Poste"]
-##   ],
-##   "liens": ["https://adresse.data.gouv.fr/"],
-##   "alimentation": [
-##     ["Code Géographique Officiel"],
-##     ["Groupe La Poste"],
-##     ["Direction générale des finances publiques"]
-##   ],
-##   "datasets": ["ban-base-adresse-nationale"],
-##   "acronyme": ["BAN"]
-## }
+"Base Adresse Nationale": {
+    "description": "Pour que les services d’urgence arrivent au bon endroit, pour vous permettre de réaliser une analyse cartographique en quelques clics ou encore pour que les opérateurs publics et privés coordonnent mieux leurs chantiers, ce référentiel, véritable enjeu de souveraineté pour la France, est la première alliance entre l’État et la société civile. La Base Adresse Nationale est une base de données qui a pour but de référencer l’intégralité des adresses du territoire français. Elle est constituée par la collaboration entre: des acteurs nationaux tels que l’IGN et La Poste, des acteurs locaux tels que les collectivités, les communes, les SDIS, des citoyens par exemple à travers le projet OpenStreetMap et l’association OpenStreetMap France. Le projet est co-gouverné par l’Administrateur Général des Données et le Conseil National de l’Information Géographique.",
+    "textes": {
+      "Convention BAN": "http://openstreetmap.fr/f/Convention%20BAN%2015%20avril%202015%20SCAN%20SIGNE.pdf"
+    },
+    "gestionnaire": [
+      "Mission Étalab",
+      "Institut national de l'information géographique et forestière",
+      "Groupe La Poste"
+    ],
+    "liens": "https://adresse.data.gouv.fr/",
+    "alimentation": [
+      "Code Géographique Officiel",
+      "Groupe La Poste",
+      "Direction générale des finances publiques"
+    ],
+    "datasets": "ban-base-adresse-nationale",
+    "acronyme": "BAN"
+  }
 ```
 
 ### Représenter la cartographie

@@ -114,6 +114,13 @@ def getGestionnairesInconnus():
   gestionnaires = db.bases.distinct("gestionnaire")
   administrations = getAdministrations()
   return list(set(gestionnaires) - set(administrations))
+
+def getBasesAcronymes():
+  acronymes = list()
+  for acronyme in db.bases.find({"acronyme":{"$exists":"true"}},{"acronyme":1,"nom":1}):
+    del acronyme["_id"]
+    acronymes.append(acronyme)
+  return acronymes
   
 def existeBase(nom):
   # Pour savoir si une base de données est déjà référencée
@@ -186,7 +193,10 @@ def hello():
 @app.route("/bases/liste", methods=['GET'])
 def basesliste():
   return Response(json.dumps(getListeBasesRaw(), indent= 2,ensure_ascii=False),mimetype='application/json; charset=utf-8')
-  
+
+@app.route("/bases/acronymes", methods=['GET'])
+def basesacronymes():
+  return Response(json.dumps(getBasesAcronymes(), indent= 2,ensure_ascii=False),mimetype='application/json; charset=utf-8')
   
 @app.route("/bases", methods=['GET', 'POST'])
 def bases():
