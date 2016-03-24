@@ -216,7 +216,7 @@ Le déploiement d'un portail collaboratif est prévu pour permettre à chacun de
 
 ## Feuille de route
 
-* Schéma des métadonnées Niveau 2
+* Schéma des métadonnées Niveau 2œ
   - Stabilisation du schéma.
 
 * Gestionnaires de données

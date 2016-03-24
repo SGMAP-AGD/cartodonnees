@@ -107,6 +107,23 @@ def getAdministrationsArbre(administrations):
                         level4["children"].append({"nom":ligne[4], "children":[]})   
   return etat
   
+def getBasesSearch(query):
+  bases = list()
+  for base in db.bases.find({},{"nom":1,"description":1}):
+    if query.lower() in base["nom"].lower():
+      bases.append(base["nom"])
+    else:
+      if "description" in base:
+        if query.lower() in base["description"].lower():
+          bases.append(base["nom"])
+  return bases
+  
+def getBasesNoms():
+  noms = list()
+  for nom in db.bases.find({},{"nom":1}):
+    noms.append(nom["nom"])
+  return noms
+  
 def getGestionnaires():
   return db.bases.distinct("gestionnaire")
   
@@ -197,7 +214,16 @@ def basesliste():
 @app.route("/bases/acronymes", methods=['GET'])
 def basesacronymes():
   return Response(json.dumps(getBasesAcronymes(), indent= 2,ensure_ascii=False),mimetype='application/json; charset=utf-8')
+
+@app.route("/bases/noms", methods=['GET'])
+def basesnoms():
+  return Response(json.dumps(getBasesNoms(), indent= 2,ensure_ascii=False),mimetype='application/json; charset=utf-8')
+
+@app.route("/bases/search", methods=['GET'])
+def basessearch():
+  return Response(json.dumps(getBasesSearch(request.args.get('q')), indent= 2,ensure_ascii=False),mimetype='application/json; charset=utf-8')
   
+
 @app.route("/bases", methods=['GET', 'POST'])
 def bases():
     if request.method == 'POST':
@@ -237,6 +263,7 @@ def basesdatasets():
       else:
         datasets.append({"gestionnaire":base["gestionnaire"],"base":base["nom"],"dataset":base["datasets"]})
   return Response(json.dumps(datasets, indent= 2,ensure_ascii=False),mimetype='application/json; charset=utf-8')
+
 
 @app.route("/bases/schema", methods=['GET'])
 # Retourne le shcema d'un objet base
