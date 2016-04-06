@@ -39,7 +39,7 @@ if (base$nom == "Base Adresse Nationale"){
 }
 ```
 
-La Cartographie Collaborative des Données de l'État est le référentiel de métadonnées de l'État Français. Elle décrit les données produites et gérées par les administrations Françaises, leurs organisation et leur gouvernance.
+La Cartographie Collaborative des Données de l'État est un répertoire de métadonnées de l'État Français. Elle décrit les données gérées par les administrations Françaises, leur organisation et leur gouvernance.
 
 ## Objectifs et usages
 
@@ -52,13 +52,13 @@ La Cartographie Collaborative des Données de l'État a pour objectif de:
 
 ## Composition
 
-La Cartographie Collaborative des Données de l'État est propose 3 niveaux de lecture:
+La Cartographie Collaborative des Données de l'État propose 3 niveaux:
   
   1. Un annuaire des gestionnaires de données de l'État, issu de l'annuaire de l'administration mis à jour par la DILA.
   2. Une liste à vocation exhaustive de toutes les bases de données de l'État, chacune reliée à son administration gestionnaire.
   3. Pour chaque base, une représentation complète et à jour de sa structure de données.
   
-La cartographie a pour objectif est de distribuer des informations structurées, claires et pertinentes sur toutes les données de l'État, qu'elles soient ouvertes ou non. Seuls le niveau 2 est aujourd'hui publiés en Open Data sur la plateforme [Data.Gouv.fr](https://www.data.gouv.fr/fr/datasets/cartographie-collaborative-des-donnees-de-letat/).
+La cartographie a pour objectif de distribuer des informations structurées, claires et pertinentes sur toutes les données de l'État, qu'elles soient ouvertes ou non. Seuls l'annuaire et la liste des bases sont pour le moment publiés en Open Data sur la plateforme [Data.Gouv.fr](https://www.data.gouv.fr/fr/datasets/cartographie-collaborative-des-donnees-de-letat/).
 
 ## Gestionnaires de données
 
@@ -89,11 +89,14 @@ La liste des bases de données et leurs attributs est mise à jour automatiqueme
 
 Pour l'enrichissement ponctuel de la cartographie, la modification du fichier [bases.json](data/bases.json) suivi d'une [pull request](https://help.github.com/articles/using-pull-requests/) sur le [répertoire Git de la cartographie](https://github.com/SGMAP-AGD/cartodonnees) est pour le moment nécéssaire. Ce fichier est [régulièrement intégré](scripts/import/import.R) au référentiel de la cartographie.
 
-En raison de la diversité des sources, des données et informations incomplètes, incorrectes ou impertinentes sont suceptibles d'exister .
+En raison de la diversité des sources, des données et informations incomplètes, incorrectes ou impertinentes sont suceptibles d'exister.
+
 
 ### Modèle de données 
 
-Un modèle de données semi-structuré permet de décrire chaque base de données. Ce modèle évolue au fur et à mesure des mises à jour et de l'enrichissement de la cartographie. de nouveaux champs sont donc suceptibles d'apparaitre au cours du temps. Seuls les champs `nom` et `gestionnaire` sont indispensable pour décrire l'existence d'une base de données au sein de cette cartographie. Sont décrits ci-dessous tous les champs actuellement suceptibles d'être renseignés pour une base de données de la cartographie. 
+Un modèle de données semi-structuré permet de décrire chaque base de données. Ce modèle évolue au fur et à mesure des mises à jour et de l'enrichissement de la cartographie. de nouveaux champs sont donc suceptibles d'apparaitre au cours du temps. Seuls les champs `nom` et `gestionnaire` sont indispensables pour décrire l'existence d'une base de données au sein de cette cartographie.
+
+Sont décrits ci-dessous tous les champs actuellement susceptibles d'être renseignés pour une base de données de la cartographie.
 
 #### Nom
 
@@ -147,12 +150,11 @@ Le champ `commentaire` est un champ libre, tout comme le champ `description`. Il
 
 #### Datasets
 
-Le portail Open Data de l'État [data.gouv.fr](https://www.data.gouv.fr) recense les datasets, ou jeux de données ouverts de l'administration. Les gestionnaires y sont appelés producteurs. La cartographie collaborative des données permet de retracer la base d'origine des datasets sur le portail, lorsque le champ `datasets` de la cartographie est renseigné pour une base de données, et que la ou les chaînes de caractère qu'il contient sont conformes.
+Le portail Open Data de l'État [data.gouv.fr](https://www.data.gouv.fr) recense les datasets, ou jeux de données ouverts de l'administration. Les gestionnaires, ici de datasets et pas de bases de données, y sont appelés "producteurs". La cartographie collaborative des données permet de retracer la base d'origine des datasets sur le portail, lorsque le champ `datasets` de la cartographie est renseigné pour une base de données, et que la ou les informations que le champ contient sont conformes.
 
-Le champ `datasets` contient les "slugs" des jeux de données de [data.gouv.fr](https://www.data.gouv.fr). Il s'agit de la dernière partie de l'url du jeu, pouvant être trouvée en haut du navigateur. Le "slug" est encadré en rouge sur cet exemple:
+Le champ `datasets` contient les "slugs" des jeux de données de [data.gouv.fr](https://www.data.gouv.fr). Il s'agit de la dernière partie de l'url du jeu, pouvant être trouvée en haut du navigateur. Le "slug" est encadré en rouge sur cet aperçu du portail [data.gouv.fr](https://www.data.gouv.fr):
 
 [![slug](figure/datagouvslug.png)](figure/datagouvslug.png)
-
 
 `r length(producteurs)` producteurs de données publient actuellement `r length(datasets)` datasets sur [data.gouv.fr](https://www.data.gouv.fr). `r length(intersectproducteursadministrations)` producteurs du portail sont présents dans l'annuaire des administrations, soit `r round(length(intersectproducteursadministrations) * 100/ length(producteurs),2)`%.
 
@@ -216,17 +218,10 @@ Le déploiement d'un portail collaboratif est prévu pour permettre à chacun de
 
 ## Feuille de route
 
-* Schéma des métadonnées Niveau 2œ
-  - Stabilisation du schéma.
-
 * Gestionnaires de données
   - Historisation des administrations françaises.
   - Intégration des gestionnaires manquants.
   
-* Data.gouv.fr
-  - Harmonisation des gestionnaires/producteurs.
-  - Intégration de la cartographie au portail data.gouv.fr.
+* Intégration de la cartographie au portail data.gouv.fr.
 
-* Portail Collaboratif
-  - Définition d'un solution.
-  - Déploiement de la solution retenue.
+* Définition, développement et déploiement d'une interface graphique de contribution.

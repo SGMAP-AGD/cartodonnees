@@ -210,7 +210,7 @@ hr {
 
 <h2>Bases de données</h2>
 
-<p>La cartographie décrit <a href="http://bases.gouv2.fr/bases">405 bases de données</a> pour <a href="http://bases.gouv2.fr/gestionnaires">95 gestionnaires</a>. Parmis ceux-ci, <a href="http://bases.gouv2.fr/gestionnaires/inconnus">41 gestionnaires</a> ne sont pas encore identifiés dans l&#39;annuaire des administrations.</p>
+<p>La cartographie décrit <a href="http://bases.gouv2.fr/bases">0 bases de données</a> pour <a href="http://bases.gouv2.fr/gestionnaires">95 gestionnaires</a>. Parmis ceux-ci, <a href="http://bases.gouv2.fr/gestionnaires/inconnus">41 gestionnaires</a> ne sont pas encore identifiés dans l&#39;annuaire des administrations.</p>
 
 <h3>Sources</h3>
 
@@ -223,11 +223,13 @@ hr {
 
 <p>Pour l&#39;enrichissement ponctuel de la cartographie, la modification du fichier <a href="data/bases.json">bases.json</a> suivi d&#39;une <a href="https://help.github.com/articles/using-pull-requests/">pull request</a> sur le <a href="https://github.com/SGMAP-AGD/cartodonnees">répertoire Git de la cartographie</a> est pour le moment nécéssaire. Ce fichier est <a href="scripts/import/import.R">régulièrement intégré</a> au référentiel de la cartographie.</p>
 
-<p>En raison de la diversité des sources, des données et informations incomplètes, incorrectes ou impertinentes sont suceptibles d&#39;exister .</p>
+<p>En raison de la diversité des sources, des données et informations incomplètes, incorrectes ou impertinentes sont suceptibles d&#39;exister.</p>
 
 <h3>Modèle de données</h3>
 
-<p>Un modèle de données semi-structuré permet de décrire chaque base de données. Ce modèle évolue au fur et à mesure des mises à jour et de l&#39;enrichissement de la cartographie. de nouveaux champs sont donc suceptibles d&#39;apparaitre au cours du temps. Seuls les champs <code>nom</code> et <code>gestionnaire</code> sont indispensable pour décrire l&#39;existence d&#39;une base de données au sein de cette cartographie. Sont décrits ci-dessous tous les champs actuellement suceptibles d&#39;être renseignés pour une base de données de la cartographie. </p>
+<p>Un modèle de données semi-structuré permet de décrire chaque base de données. Ce modèle évolue au fur et à mesure des mises à jour et de l&#39;enrichissement de la cartographie. de nouveaux champs sont donc suceptibles d&#39;apparaitre au cours du temps. Seuls les champs <code>nom</code> et <code>gestionnaire</code> sont indispensables pour décrire l&#39;existence d&#39;une base de données au sein de cette cartographie.</p>
+
+<p>Sont décrits ci-dessous tous les champs actuellement susceptibles d&#39;être renseignés pour une base de données de la cartographie.</p>
 
 <h4>Nom</h4>
 
@@ -241,7 +243,7 @@ hr {
 
 <h4>Acronyme</h4>
 
-<p>L&#39;acronyme de la base de données, ou nom informel de la base, lorsqu&#39;il existe. Ce champ n&#39;est pas obligatoire. Il est actuellement renseigné pour 53 bases de données, soit 13.09% des bases de la cartographie.</p>
+<p>L&#39;acronyme de la base de données, ou nom informel de la base, lorsqu&#39;il existe. Ce champ n&#39;est pas obligatoire. Il est actuellement renseigné pour 53 bases de données, soit &infin;% des bases de la cartographie.</p>
 
 <h4>Description</h4>
 
@@ -271,7 +273,7 @@ hr {
 
 <h4>Datasets</h4>
 
-<p>Le portail Open Data de l&#39;État <a href="https://www.data.gouv.fr">data.gouv.fr</a> recense les datasets, ou jeux de données ouverts de l&#39;administration. Les gestionnaires y sont appelés producteurs. La cartographie collaborative des données permet de retracer la base d&#39;origine des datasets sur le portail, lorsque le champ <code>datasets</code> de la cartographie est renseigné pour une base de données, et que la ou les chaînes de caractère qu&#39;il contient sont conformes.</p>
+<p>Le portail Open Data de l&#39;État <a href="https://www.data.gouv.fr">data.gouv.fr</a> recense les datasets, ou jeux de données ouverts de l&#39;administration. Les gestionnaires, ici de datasets et pas de bases de données, y sont appelés &ldquo;producteurs&rdquo;. La cartographie collaborative des données permet de retracer la base d&#39;origine des datasets sur le portail, lorsque le champ <code>datasets</code> de la cartographie est renseigné pour une base de données, et que la ou les informations que le champ contient sont conformes.</p>
 
 <p>Le champ <code>datasets</code> contient les &ldquo;slugs&rdquo; des jeux de données de <a href="https://www.data.gouv.fr">data.gouv.fr</a>. Il s&#39;agit de la dernière partie de l&#39;url du jeu, pouvant être trouvée en haut du navigateur. Le &ldquo;slug&rdquo; est encadré en rouge sur cet exemple:</p>
 
@@ -287,7 +289,7 @@ hr {
 
 <p>Les identifiants des bases décrites dans <a href="https://www.wikidata.org/wiki/Wikidata:Main_Page">Wikidata</a> sont renseignées dans le champ <code>wikidata</code> pour permettre une interopérabilité entre les 2 projets.</p>
 
-<h4>Exemple: La BAN</h4>
+<h4>Exemple: La Base Adresse Nationale</h4>
 
 <p>Les données de la cartographie sont stockées sous forme de <a href="http://www.json.org/json-fr.html">JSON</a>. Voici comment la Base Adresse Nationale est décrite: </p>
 
@@ -336,10 +338,12 @@ Bien que la cartographie des bases de données soit pour l&#39;instant le seul d
 
 <h2>Portail collaboratif</h2>
 
+<p>Le déploiement d&#39;un portail collaboratif est prévu pour permettre à chacun de contribuer à la parte <em>Bases de données</em> de la cartographie sans avoir à utiliser Git.</p>
+
 <h2>Feuille de route</h2>
 
 <ul>
-<li><p>Schéma des métadonnées Niveau 2</p>
+<li><p>Schéma des métadonnées Niveau 2œ</p>
 
 <ul>
 <li>Stabilisation du schéma.</li>

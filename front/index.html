@@ -23,42 +23,10 @@
     <link href="bootstrap.min.css" rel="stylesheet">
     <link href="dashboard.css" rel="stylesheet">
     <script src="ie-emulation-modes-warning.js"></script>
-
-<script>
-
-  $(function() {
-$( "#autocomplete" ).autocomplete({
-    source: function( request, response ) {
-        $.ajax({
-            dataType: "json",
-            type : 'Get',
-            url: 'http://bases.gouv2.fr/bases/search?q='+request.term,
-            success: function(data) {
-                $('autocomplete').removeClass('ui-autocomplete-loading');  
-                // hide loading image
-
-                response(data);
-            },
-            error: function(data) {
-                $('autocomplete').removeClass('ui-autocomplete-loading');  
-            }
-        });
-    },
-    minLength: 4
-});
-  });
-  
-    $(function() {
-$( "#autocomplete" ).on( "autocompleteselect", function( event, ui ) {
-  console.log($( "#autocomplete" ).val())
-} ); });
-  </script>
-  
-  
+    <script src="cartographie.js"></script>
   </head>
 
   <body>
-
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -69,9 +37,6 @@ $( "#autocomplete" ).on( "autocompleteselect", function( event, ui ) {
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="#">Cartographie Collaborative des Données de l'État</a>
-
-
-          
           <form class="navbar-form navbar-left">
             <input type="text" class="form-control" placeholder="Rechercher..." id="autocomplete">
           </form>
@@ -93,19 +58,10 @@ $( "#autocomplete" ).on( "autocompleteselect", function( event, ui ) {
         <div class="col-sm-3 col-md-2 sidebar">
           <ul class="nav nav-sidebar">
             <li class="active"><a href="#">Bases de données <span class="sr-only">(current)</span></a></li>
-            <li><a href="#">Visualisations</a></li>
+            <li><a href="#" id="visualisations">Visualisations</a></li>
           </ul>
         </div>
-        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-          <h1 class="page-header" id="base_nom">Dashboard</h1>
-            
-
-      <div class="ui-widget">
-  <label for="tags">Tags: </label>
-  <input id="tags">
-</div>    
-          
-          
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main" id="main-panel">
         </div>
       </div>
     </div>

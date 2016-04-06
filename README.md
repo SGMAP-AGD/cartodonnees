@@ -42,7 +42,7 @@ L'historisation de ces annuaires est prévue.
 
 ## Bases de données
 
-La cartographie décrit [405 bases de données](http://bases.gouv2.fr/bases) pour [95 gestionnaires](http://bases.gouv2.fr/gestionnaires). Parmis ceux-ci, [41 gestionnaires](http://bases.gouv2.fr/gestionnaires/inconnus) ne sont pas encore identifiés dans l'annuaire des administrations.
+La cartographie décrit [0 bases de données](http://bases.gouv2.fr/bases) pour [95 gestionnaires](http://bases.gouv2.fr/gestionnaires). Parmis ceux-ci, [41 gestionnaires](http://bases.gouv2.fr/gestionnaires/inconnus) ne sont pas encore identifiés dans l'annuaire des administrations.
 
 ### Sources
 
@@ -53,11 +53,14 @@ La liste des bases de données et leurs attributs est mise à jour automatiqueme
 
 Pour l'enrichissement ponctuel de la cartographie, la modification du fichier [bases.json](data/bases.json) suivi d'une [pull request](https://help.github.com/articles/using-pull-requests/) sur le [répertoire Git de la cartographie](https://github.com/SGMAP-AGD/cartodonnees) est pour le moment nécéssaire. Ce fichier est [régulièrement intégré](scripts/import/import.R) au référentiel de la cartographie.
 
-En raison de la diversité des sources, des données et informations incomplètes, incorrectes ou impertinentes sont suceptibles d'exister .
+En raison de la diversité des sources, des données et informations incomplètes, incorrectes ou impertinentes sont suceptibles d'exister.
+
 
 ### Modèle de données 
 
-Un modèle de données semi-structuré permet de décrire chaque base de données. Ce modèle évolue au fur et à mesure des mises à jour et de l'enrichissement de la cartographie. de nouveaux champs sont donc suceptibles d'apparaitre au cours du temps. Seuls les champs `nom` et `gestionnaire` sont indispensable pour décrire l'existence d'une base de données au sein de cette cartographie. Sont décrits ci-dessous tous les champs actuellement suceptibles d'être renseignés pour une base de données de la cartographie. 
+Un modèle de données semi-structuré permet de décrire chaque base de données. Ce modèle évolue au fur et à mesure des mises à jour et de l'enrichissement de la cartographie. de nouveaux champs sont donc suceptibles d'apparaitre au cours du temps. Seuls les champs `nom` et `gestionnaire` sont indispensables pour décrire l'existence d'une base de données au sein de cette cartographie.
+
+Sont décrits ci-dessous tous les champs actuellement susceptibles d'être renseignés pour une base de données de la cartographie.
 
 #### Nom
 
@@ -71,7 +74,7 @@ De nombreuses bases de données sont co-gérées par plusieurs administrations. 
 
 #### Acronyme
 
-L'acronyme de la base de données, ou nom informel de la base, lorsqu'il existe. Ce champ n'est pas obligatoire. Il est actuellement renseigné pour 53 bases de données, soit 13.09% des bases de la cartographie.
+L'acronyme de la base de données, ou nom informel de la base, lorsqu'il existe. Ce champ n'est pas obligatoire. Il est actuellement renseigné pour 53 bases de données, soit &infin;% des bases de la cartographie.
 
 #### Description
 
@@ -82,7 +85,6 @@ La description est un champ texte libre décrivant la base de données. Sa taill
 Le champ `textes` est une liste des textes officiels publiés par des administrations faisant référence à la base de données. Différents types de textes sont référencés dans la cartographie. En voici la distribution:
 
 ![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2-1.png) 
-
 
 #### Alimentation
 
@@ -102,12 +104,11 @@ Le champ `commentaire` est un champ libre, tout comme le champ `description`. Il
 
 #### Datasets
 
-Le portail Open Data de l'État [data.gouv.fr](https://www.data.gouv.fr) recense les datasets, ou jeux de données ouverts de l'administration. Les gestionnaires y sont appelés producteurs. La cartographie collaborative des données permet de retracer la base d'origine des datasets sur le portail, lorsque le champ `datasets` de la cartographie est renseigné pour une base de données, et que la ou les chaînes de caractère qu'il contient sont conformes.
+Le portail Open Data de l'État [data.gouv.fr](https://www.data.gouv.fr) recense les datasets, ou jeux de données ouverts de l'administration. Les gestionnaires, ici de datasets et pas de bases de données, y sont appelés "producteurs". La cartographie collaborative des données permet de retracer la base d'origine des datasets sur le portail, lorsque le champ `datasets` de la cartographie est renseigné pour une base de données, et que la ou les informations que le champ contient sont conformes.
 
 Le champ `datasets` contient les "slugs" des jeux de données de [data.gouv.fr](https://www.data.gouv.fr). Il s'agit de la dernière partie de l'url du jeu, pouvant être trouvée en haut du navigateur. Le "slug" est encadré en rouge sur cet exemple:
 
 [![slug](figure/datagouvslug.png)](figure/datagouvslug.png)
-
 
 401 producteurs de données publient actuellement 21785 datasets sur [data.gouv.fr](https://www.data.gouv.fr). 40 producteurs du portail sont présents dans l'annuaire des administrations, soit 9.98%.
 
@@ -119,7 +120,7 @@ Le champ `datasets` contient les "slugs" des jeux de données de [data.gouv.fr](
 
 Les identifiants des bases décrites dans [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page) sont renseignées dans le champ `wikidata` pour permettre une interopérabilité entre les 2 projets.
 
-#### Exemple: La BAN
+#### Exemple: La Base Adresse Nationale
 
 Les données de la cartographie sont stockées sous forme de [JSON](http://www.json.org/json-fr.html). Voici comment la Base Adresse Nationale est décrite: 
 
@@ -167,11 +168,11 @@ La cartographie dispose de copies de ces données le plus à jour possible, dont
 
 ## Portail collaboratif
 
-
+Le déploiement d'un portail collaboratif est prévu pour permettre à chacun de contribuer à la parte *Bases de données* de la cartographie sans avoir à utiliser Git.
 
 ## Feuille de route
 
-* Schéma des métadonnées Niveau 2
+* Schéma des métadonnées Niveau 2œ
   - Stabilisation du schéma.
 
 * Gestionnaires de données

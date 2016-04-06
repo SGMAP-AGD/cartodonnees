@@ -118,6 +118,11 @@ def getBasesSearch(query):
           bases.append(base["nom"])
   return bases
   
+def getBase(query):
+  for base in db.bases.find({"nom":query}):
+    del base["_id"]
+    return base
+  
 def getBasesNoms():
   noms = list()
   for nom in db.bases.find({},{"nom":1}):
@@ -222,7 +227,6 @@ def basesnoms():
 @app.route("/bases/search", methods=['GET'])
 def basessearch():
   return Response(json.dumps(getBasesSearch(request.args.get('q')), indent= 2,ensure_ascii=False),mimetype='application/json; charset=utf-8')
-  
 
 @app.route("/bases", methods=['GET', 'POST'])
 def bases():
@@ -239,6 +243,8 @@ def bases():
           return APIerror("Le gestionnaire de la base doit être renseigné.")
       else:
         return APIerror("Le nom de la base doit être renseigné.")
+    elif(request.args.get('q') is not None):
+      return Response(json.dumps(getBase(request.args.get('q')), indent= 2,ensure_ascii=False),mimetype='application/json; charset=utf-8')
     else:
       return Response(json.dumps(getListeBases(), indent= 2,ensure_ascii=False),mimetype='application/json; charset=utf-8')
 
@@ -266,7 +272,7 @@ def basesdatasets():
 
 
 @app.route("/bases/schema", methods=['GET'])
-# Retourne le shcema d'un objet base
+# Retourne le schema d'un objet base
 def basesSchema():
   
   dico = {}
@@ -275,7 +281,26 @@ def basesSchema():
   resultat = {"Nom de la base":dico}
   
   return Response(json.dumps(resultat, indent= 2,ensure_ascii=False),mimetype='application/json; charset=utf-8')
-  
+
+@app.route("/bases/update", methods=['GET'])
+# Met à jour le champ d'une base
+def baseUpdate():
+  if(request.args.get('base') is None or request.args.get('attribut') is None or request.args.get('valeur') is None):
+    return Response(json.dumps({"resultat","Mauvaise requête."}, indent= 2,ensure_ascii=False),mimetype='application/json; charset=utf-8')
+  else:
+    print(request.args.get('base'))
+    print(request.args.get('attribut'))
+    print(request.args.get('valeur'))
+    
+    db.bases.update_one(
+      {"nom":request.args.get('base')},
+      {"$set":
+        {request.args.get('attribut'):request.args.get('valeur')}
+        })
+      
+    return Response(json.dumps({"ok":"ok"}, indent= 2,ensure_ascii=False),mimetype='application/json; charset=utf-8')
+
+
 @app.route("/gestionnaires", methods=['GET'])
 # Retourne la liste des gestionnaires de base de données.
 def gestionnaires():
