@@ -60,9 +60,15 @@ La Cartographie Collaborative des Données de l'État propose 3 niveaux:
   
 La cartographie a pour objectif de distribuer des informations structurées, claires et pertinentes sur toutes les données de l'État, qu'elles soient ouvertes ou non. Seuls l'annuaire et la liste des bases sont pour le moment publiés en Open Data sur la plateforme [Data.Gouv.fr](https://www.data.gouv.fr/fr/datasets/cartographie-collaborative-des-donnees-de-letat/).
 
-## Gestionnaires de données
+## Périmètre de la cartographie
 
-Les gestionnaires de données de l'État sont les entités répertoriées par l'annuaire de l'administration mis à jour par la [Direction Légale de l'Information Légale et Administrative](http://www.dila.premier-ministre.gouv.fr/) (DILA). Cet annuaire est consultable via une [interface web en ligne](https://lannuaire.service-public.fr) ou sous la forme d'un [jeu de données ouvert publié sur Data.gouv.fr](https://www.data.gouv.fr/fr/datasets/annuaire-des-services-publics-nationaux/). La dernière version de l'annuaire intégrée à la cartographie contient [`r length(administrations)` administrations](http://bases.gouv2.fr/administrations).
+### Gestionnaires
+
+Sont concernés par la cartographie des données toutes les entités répertoriées par l'annuaire de l'administration mis à jour par la [Direction Légale de l'Information Légale et Administrative](http://www.dila.premier-ministre.gouv.fr/) (DILA), les administrations territoriales, les [Groupements d'Intérêt Public](http://www.economie.gouv.fr/daj/gip), les établissements publics administratifs (EPA) et les établissements publics industriel et commercial (EPIC).
+
+## Annuaire de gestionnaires de données
+
+Les gestionnaires de données de l'État sont les entités répertoriées par l'annuaire de l'administration mis à jour par la [DILA](http://www.dila.premier-ministre.gouv.fr/). Cet annuaire est consultable via une [interface web en ligne](https://lannuaire.service-public.fr) ou sous la forme d'un [jeu de données ouvert publié sur Data.gouv.fr](https://www.data.gouv.fr/fr/datasets/annuaire-des-services-publics-nationaux/). La dernière version de l'annuaire intégrée à la cartographie contient [`r length(administrations)` administrations](http://bases.gouv2.fr/administrations).
 
 Chaque entité de l'annuaire est rattachée à son administration parente, l'ensemble des administrations pouvant être représenté comme un graphe non orienté acyclique et connexe, ou arbre dont voici une représentation graphique:
 
@@ -76,7 +82,7 @@ Restent à intégrer:
 
 L'historisation de ces annuaires est prévue.
 
-## Bases de données
+## Liste des bases de données
 
 La cartographie décrit [`r length(bases)` bases de données](http://bases.gouv2.fr/bases) pour [`r length(gestionnaires)` gestionnaires](http://bases.gouv2.fr/gestionnaires). Parmis ceux-ci, [`r length(diff)` gestionnaires](http://bases.gouv2.fr/gestionnaires/inconnus) ne sont pas encore identifiés dans l'annuaire des administrations.
 
@@ -198,7 +204,7 @@ Considérées comme entitées dépendantes des leur gestionnaires, les bases de 
 
 [![bases de données](reporting/cartographie-thumb.png)](reporting/cartographie.png)
 
-## Structures des données
+## Répertoire des structures de données
 
 La documentation des structures de données des bases référencées ne sont pas encore à l'ordre du jour. Des expérimentations sont à venir, notamment sur quelques bases ouvertes tel que la [Base Adresse Nationale](https://adresse.data.gouv.fr/) et la présente cartographie.
 

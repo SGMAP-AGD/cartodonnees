@@ -3,7 +3,7 @@ Cartographie Collaborative des Données de l'État
 
 
 
-La Cartographie Collaborative des Données de l'État est le référentiel de métadonnées de l'État Français. Elle décrit les données produites et gérées par les administrations Françaises, leurs organisation et leur gouvernance.
+La Cartographie Collaborative des Données de l'État est un répertoire de métadonnées de l'État Français. Elle décrit les données gérées par les administrations Françaises, leur organisation et leur gouvernance.
 
 ## Objectifs et usages
 
@@ -16,17 +16,23 @@ La Cartographie Collaborative des Données de l'État a pour objectif de:
 
 ## Composition
 
-La Cartographie Collaborative des Données de l'État est propose 3 niveaux de lecture:
+La Cartographie Collaborative des Données de l'État propose 3 niveaux:
   
   1. Un annuaire des gestionnaires de données de l'État, issu de l'annuaire de l'administration mis à jour par la DILA.
   2. Une liste à vocation exhaustive de toutes les bases de données de l'État, chacune reliée à son administration gestionnaire.
   3. Pour chaque base, une représentation complète et à jour de sa structure de données.
   
-La cartographie a pour objectif est de distribuer des informations structurées, claires et pertinentes sur toutes les données de l'État, qu'elles soient ouvertes ou non. Seuls le niveau 2 est aujourd'hui publiés en Open Data sur la plateforme [Data.Gouv.fr](https://www.data.gouv.fr/fr/datasets/cartographie-collaborative-des-donnees-de-letat/).
+La cartographie a pour objectif de distribuer des informations structurées, claires et pertinentes sur toutes les données de l'État, qu'elles soient ouvertes ou non. Seuls l'annuaire et la liste des bases sont pour le moment publiés en Open Data sur la plateforme [Data.Gouv.fr](https://www.data.gouv.fr/fr/datasets/cartographie-collaborative-des-donnees-de-letat/).
 
-## Gestionnaires de données
+## Périmètre de la cartographie
 
-Les gestionnaires de données de l'État sont les entités répertoriées par l'annuaire de l'administration mis à jour par la [Direction Légale de l'Information Légale et Administrative](http://www.dila.premier-ministre.gouv.fr/) (DILA). Cet annuaire est consultable via une [interface web en ligne](https://lannuaire.service-public.fr) ou sous la forme d'un [jeu de données ouvert publié sur Data.gouv.fr](https://www.data.gouv.fr/fr/datasets/annuaire-des-services-publics-nationaux/). La dernière version de l'annuaire intégrée à la cartographie contient [3799 administrations](http://bases.gouv2.fr/administrations).
+### Gestionnaires
+
+Sont concernés par la cartographie des données toutes les entités répertoriées par l'annuaire de l'administration mis à jour par la [Direction Légale de l'Information Légale et Administrative](http://www.dila.premier-ministre.gouv.fr/) (DILA), les administrations territoriales, les [Groupements d'Intérêt Public](http://www.economie.gouv.fr/daj/gip), les établissements publics administratifs (EPA) et les établissements publics industriel et commercial (EPIC).
+
+## Annuaire de gestionnaires de données
+
+Les gestionnaires de données de l'État sont les entités répertoriées par l'annuaire de l'administration mis à jour par la [DILA](http://www.dila.premier-ministre.gouv.fr/). Cet annuaire est consultable via une [interface web en ligne](https://lannuaire.service-public.fr) ou sous la forme d'un [jeu de données ouvert publié sur Data.gouv.fr](https://www.data.gouv.fr/fr/datasets/annuaire-des-services-publics-nationaux/). La dernière version de l'annuaire intégrée à la cartographie contient [3799 administrations](http://bases.gouv2.fr/administrations).
 
 Chaque entité de l'annuaire est rattachée à son administration parente, l'ensemble des administrations pouvant être représenté comme un graphe non orienté acyclique et connexe, ou arbre dont voici une représentation graphique:
 
@@ -40,9 +46,9 @@ Restent à intégrer:
 
 L'historisation de ces annuaires est prévue.
 
-## Bases de données
+## Liste des bases de données
 
-La cartographie décrit [0 bases de données](http://bases.gouv2.fr/bases) pour [95 gestionnaires](http://bases.gouv2.fr/gestionnaires). Parmis ceux-ci, [41 gestionnaires](http://bases.gouv2.fr/gestionnaires/inconnus) ne sont pas encore identifiés dans l'annuaire des administrations.
+La cartographie décrit [406 bases de données](http://bases.gouv2.fr/bases) pour [96 gestionnaires](http://bases.gouv2.fr/gestionnaires). Parmis ceux-ci, [42 gestionnaires](http://bases.gouv2.fr/gestionnaires/inconnus) ne sont pas encore identifiés dans l'annuaire des administrations.
 
 ### Sources
 
@@ -74,7 +80,7 @@ De nombreuses bases de données sont co-gérées par plusieurs administrations. 
 
 #### Acronyme
 
-L'acronyme de la base de données, ou nom informel de la base, lorsqu'il existe. Ce champ n'est pas obligatoire. Il est actuellement renseigné pour 53 bases de données, soit &infin;% des bases de la cartographie.
+L'acronyme de la base de données, ou nom informel de la base, lorsqu'il existe. Ce champ n'est pas obligatoire. Il est actuellement renseigné pour 55 bases de données, soit 13.55% des bases de la cartographie.
 
 #### Description
 
@@ -106,7 +112,7 @@ Le champ `commentaire` est un champ libre, tout comme le champ `description`. Il
 
 Le portail Open Data de l'État [data.gouv.fr](https://www.data.gouv.fr) recense les datasets, ou jeux de données ouverts de l'administration. Les gestionnaires, ici de datasets et pas de bases de données, y sont appelés "producteurs". La cartographie collaborative des données permet de retracer la base d'origine des datasets sur le portail, lorsque le champ `datasets` de la cartographie est renseigné pour une base de données, et que la ou les informations que le champ contient sont conformes.
 
-Le champ `datasets` contient les "slugs" des jeux de données de [data.gouv.fr](https://www.data.gouv.fr). Il s'agit de la dernière partie de l'url du jeu, pouvant être trouvée en haut du navigateur. Le "slug" est encadré en rouge sur cet exemple:
+Le champ `datasets` contient les "slugs" des jeux de données de [data.gouv.fr](https://www.data.gouv.fr). Il s'agit de la dernière partie de l'url du jeu, pouvant être trouvée en haut du navigateur. Le "slug" est encadré en rouge sur cet aperçu du portail [data.gouv.fr](https://www.data.gouv.fr):
 
 [![slug](figure/datagouvslug.png)](figure/datagouvslug.png)
 
@@ -152,7 +158,7 @@ Considérées comme entitées dépendantes des leur gestionnaires, les bases de 
 
 [![bases de données](reporting/cartographie-thumb.png)](reporting/cartographie.png)
 
-## Structures des données
+## Répertoire des structures de données
 
 La documentation des structures de données des bases référencées ne sont pas encore à l'ordre du jour. Des expérimentations sont à venir, notamment sur quelques bases ouvertes tel que la [Base Adresse Nationale](https://adresse.data.gouv.fr/) et la présente cartographie.
 
@@ -172,17 +178,10 @@ Le déploiement d'un portail collaboratif est prévu pour permettre à chacun de
 
 ## Feuille de route
 
-* Schéma des métadonnées Niveau 2œ
-  - Stabilisation du schéma.
-
 * Gestionnaires de données
   - Historisation des administrations françaises.
   - Intégration des gestionnaires manquants.
   
-* Data.gouv.fr
-  - Harmonisation des gestionnaires/producteurs.
-  - Intégration de la cartographie au portail data.gouv.fr.
+* Intégration de la cartographie au portail data.gouv.fr.
 
-* Portail Collaboratif
-  - Définition d'un solution.
-  - Déploiement de la solution retenue.
+* Définition, développement et déploiement d'une interface graphique de contribution.
