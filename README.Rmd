@@ -66,6 +66,13 @@ La cartographie a pour objectif de distribuer des informations structurées, cla
 
 Sont concernés par la cartographie des données toutes les entités répertoriées par l'annuaire de l'administration mis à jour par la [Direction Légale de l'Information Légale et Administrative](http://www.dila.premier-ministre.gouv.fr/) (DILA), les administrations territoriales, les [Groupements d'Intérêt Public](http://www.economie.gouv.fr/daj/gip), les établissements publics administratifs (EPA) et les établissements publics industriel et commercial (EPIC).
 
+### Bases de données
+
+Une base de données est un ensemble de données stockées au même endroit et structurées selon un schéma commun. Elle répond généralement à une problématique et permet à différents acteurs d'accéder ou de mettre à jour les données.
+
+* La cartographie ne répertorie pas les données déstructurées. 
+* Un fichier plat tel qu'un fichier Excel peut être considéré comme une base de données dès lors qu'un processus de mise à jour et d'accès au données a été clairement établi. En revanche, un fichier Excel ne constitue pas un référentiel tel que défini par le [Cadre Commun d’Architecture des Référentiels de données](https://references.modernisation.gouv.fr/sites/default/files/Cadre%20Commun%20d'Architecture%20des%20R%C3%A9f%C3%A9rentiel%20de%20donn%C3%A9es%20v1.0_0.pdf)
+
 ## Annuaire de gestionnaires de données
 
 Les gestionnaires de données de l'État sont les entités répertoriées par l'annuaire de l'administration mis à jour par la [DILA](http://www.dila.premier-ministre.gouv.fr/). Cet annuaire est consultable via une [interface web en ligne](https://lannuaire.service-public.fr) ou sous la forme d'un [jeu de données ouvert publié sur Data.gouv.fr](https://www.data.gouv.fr/fr/datasets/annuaire-des-services-publics-nationaux/). La dernière version de l'annuaire intégrée à la cartographie contient [`r length(administrations)` administrations](http://bases.gouv2.fr/administrations).
@@ -95,8 +102,7 @@ La liste des bases de données et leurs attributs est mise à jour automatiqueme
 
 Pour l'enrichissement ponctuel de la cartographie, la modification du fichier [bases.json](data/bases.json) suivi d'une [pull request](https://help.github.com/articles/using-pull-requests/) sur le [répertoire Git de la cartographie](https://github.com/SGMAP-AGD/cartodonnees) est pour le moment nécéssaire. Ce fichier est [régulièrement intégré](scripts/import/import.R) au référentiel de la cartographie.
 
-En raison de la diversité des sources, des données et informations incomplètes, incorrectes ou impertinentes sont suceptibles d'exister.
-
+En raison de la diversité des sources, des données et informations incomplètes, incorrectes ou impertinentes sont susceptibles d'exister.
 
 ### Modèle de données 
 
