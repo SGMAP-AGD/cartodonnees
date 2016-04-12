@@ -214,7 +214,7 @@ Considérées comme entitées dépendantes des leur gestionnaires, les bases de 
 
 ## Répertoire des structures de données
 
-La documentation des structures de données des bases référencées ne sont pas encore à l'ordre du jour. Des expérimentations sont à venir, notamment sur quelques bases ouvertes tel que la [Base Adresse Nationale](https://adresse.data.gouv.fr/) et la présente cartographie.
+La documentation des structures de données des bases référencées est la prochaine étape de la cartographie. Des expérimentations sont à venir, notamment sur quelques bases ouvertes tel que la [Base Adresse Nationale](https://adresse.data.gouv.fr/) et la présente cartographie.
 
 ## Structure technique de la cartographie
 
@@ -242,3 +242,4 @@ Le déploiement d'un portail collaboratif est prévu pour permettre à chacun de
 * [Michel Volle, De l'Informatique, savoir vivre avec l'automate](http://www.volle.com/ouvrages/informatique/informatique1.pdf)
 * [Mapping Big Data, A Data-Driven Market Report](http://www.oreilly.com/data/free/mapping-big-data.csp)
 * [Enjeux du Master Data Management](http://alfi.fr/files/pdf/livre_blanc_mdm_master_data_management.pdf)
+* [Process-Driven Master Data Management for Dummies](http://www.pcworld.idg.com.au/whitepaper/370724/process-driven-master-data-management-for-dummies/download/?type=other&arg=0&location=featured_list.)
