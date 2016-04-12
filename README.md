@@ -7,16 +7,16 @@ La Cartographie Collaborative des Données de l'État est un répertoire de mét
 
 ## Objectifs et usages
 
-La Cartographie Collaborative des Données de l'État a pour objectif de:
+La Cartographie Collaborative des Données de l'État a pour objectif:
 
-* Identifier les référentiels nationaux et les valoriser.
-* Rationaliser la gouvernance des données et faciliter leur circulation entre administrations.
-* Améliorer la qualité des données.
-* Généraliser la mise en place de politiques fondées sur les données.
+* D'identifier les référentiels nationaux et de les valoriser.
+* De modéliser la gouvernance des données pour rationaliser leur accès, disponibilité et sécurité et ainsi faciliter leur circulation entre les administrations.
+* D'évaluer la qualité globale des données gérées par l'État.
+* De généraliser les politiques fondées sur les données.
 
-## Composition
+## Composition de la cartographie
 
-La Cartographie Collaborative des Données de l'État propose 3 niveaux:
+La Cartographie Collaborative des Données de l'État est une base de données proposant 3 niveaux:
   
   1. Un annuaire des gestionnaires de données de l'État, issu de l'annuaire de l'administration mis à jour par la DILA.
   2. Une liste à vocation exhaustive de toutes les bases de données de l'État, chacune reliée à son administration gestionnaire.
@@ -34,7 +34,7 @@ Sont concernés par la cartographie des données toutes les entités répertori�
 
 Une base de données est un ensemble de données stockées au même endroit et structurées selon un schéma commun. Elle répond généralement à une problématique et permet à différents acteurs d'accéder ou de mettre à jour les données.
 
-* La cartographie ne répertorie pas les données déstructurées. 
+* La cartographie ne répertorie pas pour le moments les données déstructurées. 
 * Un fichier plat tel qu'un fichier Excel peut être considéré comme une base de données dès lors qu'un processus de mise à jour et d'accès au données a été clairement établi. En revanche, un fichier Excel ne constitue pas un référentiel tel que défini par le [Cadre Commun d’Architecture des Référentiels de données](https://references.modernisation.gouv.fr/sites/default/files/Cadre%20Commun%20d'Architecture%20des%20R%C3%A9f%C3%A9rentiel%20de%20donn%C3%A9es%20v1.0_0.pdf)
 
 ## Annuaire de gestionnaires de données
@@ -100,7 +100,7 @@ Le champ `textes` est une liste des textes officiels publiés par des administra
 
 #### Alimentation
 
-Les flux entre bases de données sont renseignés dans le champ `alimentation`. Il comporte la liste des organismes alimentant la base de données, ou directement les bases d'origine des données. Le flux de données pas décrit à ce niveau, simplement référencé.
+Les flux entre bases de données sont renseignés dans le champ `alimentation`. Il comporte la liste des organismes alimentant la base de données, ou directement les bases d'origine des données. Le flux de données n'est pas décrit à ce niveau, simplement référencé.
 
 #### URL
 
@@ -176,18 +176,21 @@ Bien que la cartographie des bases de données soit pour l'instant le seul datas
 * [L'annuaire des services publics](https://www.data.gouv.fr/fr/datasets/annuaire-des-services-publics-nationaux/) publié par la [DILA](http://www.dila.premier-ministre.gouv.fr/).
 * [La liste de des jeux de données publiés sur le portail Data.gouv.fr](https://www.data.gouv.fr/fr/datasets.csv)
 
-La cartographie dispose de copies de ces données le plus à jour possible, dont les versions font uniquement référence dans le cadre local de la cartographie. Ces versions ne sont pas publiées et les originaux doivent être la source de toute réutilisation.
+La cartographie dispose de copies de ces données le plus à jour possible, dont les versions font uniquement référence dans le cadre local de la cartographie. Ces versions ne sont pas publiées et les originaux doivent être la source de toute autre réutilisation.
 
 ## Portail collaboratif
 
-Le déploiement d'un portail collaboratif est prévu pour permettre à chacun de contribuer à la parte *Bases de données* de la cartographie sans avoir à utiliser Git.
+Le déploiement d'un portail collaboratif est prévu pour permettre à chacun de contribuer à la parte *Bases de données* de la cartographie sans avoir à utiliser [Git](https://git-scm.com/).
 
-## Feuille de route
+### Bibliographie
 
-* Gestionnaires de données
-  - Historisation des administrations françaises.
-  - Intégration des gestionnaires manquants.
-  
-* Intégration de la cartographie au portail data.gouv.fr.
-
-* Définition, développement et déploiement d'une interface graphique de contribution.
+* [Les apports de la méthode MDM dans la performance du SI des entreprises.](http://axelkamalak.eu/doc/mdm.pdf)
+* [Data Management : qualité des données et compétitivité](http://www.lavoisier.fr/livre/informatique/data-management-qualite-des-donnees-et-competitivite/brasseur/descriptif-9782746212107)
+* [MDM : Enjeux et méthodes de la gestion des données](http://www.eyrolles.com/Informatique/Livre/mdm-enjeux-et-methodes-de-la-gestion-des-donnees-9782100519101)
+* [Defining Master Data](http://www.b-eye-network.com/view/2918)
+* [Enjeux business des données](http://www.cigref.fr/wp/wp-content/uploads/2014/10/CIGREF-Enjeux-business-donnees-2014.pdf)
+* [We need open and vendor-neutral metadata services](https://www.oreilly.com/ideas/we-need-open-and-vendor-neutral-metadata-services)
+* [Big data at a crossroads: Time to go meta (on use)](http://conferences.oreilly.com/strata/big-data-conference-ny-2015/public/schedule/detail/43506)
+* [Michel Volle, De l'Informatique, savoir vivre avec l'automate](http://www.volle.com/ouvrages/informatique/informatique1.pdf)
+* [Mapping Big Data, A Data-Driven Market Report](http://www.oreilly.com/data/free/mapping-big-data.csp)
+* [Enjeux du Master Data Management](http://alfi.fr/files/pdf/livre_blanc_mdm_master_data_management.pdf)
