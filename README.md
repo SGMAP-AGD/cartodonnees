@@ -19,7 +19,7 @@ La Cartographie Collaborative des Données de l'État a pour objectif:
 La Cartographie Collaborative des Données de l'État est une base de données proposant 3 niveaux:
   
   1. Un annuaire des gestionnaires de données de l'État, issu de l'annuaire de l'administration mis à jour par la DILA.
-  2. Une liste à vocation exhaustive de toutes les bases de données de l'État, chacune reliée à son administration gestionnaire.
+  2. Une liste à vocation exhaustive de toutes les bases de données de l'État, et de leurs gestionnaire identifié.
   3. Pour chaque base, une représentation complète et à jour de sa structure de données.
   
 La cartographie a pour objectif de distribuer des informations structurées, claires et pertinentes sur toutes les données de l'État, qu'elles soient ouvertes ou non. Seuls l'annuaire et la liste des bases sont pour le moment publiés en Open Data sur la plateforme [Data.Gouv.fr](https://www.data.gouv.fr/fr/datasets/cartographie-collaborative-des-donnees-de-letat/).
@@ -28,20 +28,20 @@ La cartographie a pour objectif de distribuer des informations structurées, cla
 
 ### Gestionnaires
 
-Sont concernés par la cartographie des données toutes les entités répertoriées par l'annuaire de l'administration mis à jour par la [Direction Légale de l'Information Légale et Administrative](http://www.dila.premier-ministre.gouv.fr/) (DILA), les administrations territoriales, les [Groupements d'Intérêt Public](http://www.economie.gouv.fr/daj/gip), les établissements publics administratifs (EPA) et les établissements publics industriel et commercial (EPIC).
+Sont concernés par la cartographie des données toutes les entités répertoriées par l'annuaire de l'administration, mis à jour par la [Direction Légale de l'Information Légale et Administrative](http://www.dila.premier-ministre.gouv.fr/) (DILA). Les administrations territoriales, les [Groupements d'Intérêt Public](http://www.economie.gouv.fr/daj/gip), les établissements publics administratifs (EPA) et les établissements publics industriel et commercial (EPIC) sont également dans le périmètre de la cartographie.
 
 ### Bases de données
 
 Une base de données est un ensemble de données stockées au même endroit et structurées selon un schéma commun. Elle répond généralement à une problématique et permet à différents acteurs d'accéder ou de mettre à jour les données.
 
-* La cartographie ne répertorie pas pour le moments les données déstructurées. 
+* La cartographie ne répertorie pas pour le moment les données déstructurées. 
 * Un fichier plat tel qu'un fichier Excel peut être considéré comme une base de données dès lors qu'un processus de mise à jour et d'accès au données a été clairement établi. En revanche, un fichier Excel ne constitue pas un référentiel tel que défini par le [Cadre Commun d’Architecture des Référentiels de données](https://references.modernisation.gouv.fr/sites/default/files/Cadre%20Commun%20d'Architecture%20des%20R%C3%A9f%C3%A9rentiel%20de%20donn%C3%A9es%20v1.0_0.pdf)
 
 ## Annuaire de gestionnaires de données
 
 Les gestionnaires de données de l'État sont les entités répertoriées par l'annuaire de l'administration mis à jour par la [DILA](http://www.dila.premier-ministre.gouv.fr/). Cet annuaire est consultable via une [interface web en ligne](https://lannuaire.service-public.fr) ou sous la forme d'un [jeu de données ouvert publié sur Data.gouv.fr](https://www.data.gouv.fr/fr/datasets/annuaire-des-services-publics-nationaux/). La dernière version de l'annuaire intégrée à la cartographie contient [3799 administrations](http://bases.gouv2.fr/administrations).
 
-Chaque entité de l'annuaire est rattachée à son administration parente, l'ensemble des administrations pouvant être représenté comme un graphe non orienté acyclique et connexe, ou arbre dont voici une représentation graphique:
+Chaque entité de l'annuaire est rattachée à son administration parente, l'ensemble des administrations pouvant être représenté comme un graphe non orienté acyclique et connexe dont voici une représentation graphique:
 
 [![administrations](reporting/administrations-thumb.png)](reporting/administrations.png)
 
@@ -71,6 +71,8 @@ En raison de la diversité des sources, des données et informations incomplète
 ### Modèle de données 
 
 Un modèle de données semi-structuré permet de décrire chaque base de données. Ce modèle évolue au fur et à mesure des mises à jour et de l'enrichissement de la cartographie. de nouveaux champs sont donc suceptibles d'apparaitre au cours du temps. Seuls les champs `nom` et `gestionnaire` sont indispensables pour décrire l'existence d'une base de données au sein de cette cartographie.
+
+La liste des champs de la liste des bases de données est volontairement limitée, tandis que 
 
 Sont décrits ci-dessous tous les champs actuellement susceptibles d'être renseignés pour une base de données de la cartographie.
 
