@@ -2698,8 +2698,8 @@
     "gestionnaire": "Ministère de l'Intérieur",
     "références": "http://www.ladocumentationfrancaise.fr/var/storage/rapports-publics/064000885.pdf"
   },
-  "Code Géographique Officiel":{
-    "gestionnaire":"Institut National de l'Information Géographique et Forestière",
+  "Code Officiel Géographique":{
+    "gestionnaire":"Institut national de la statistique et des études économiques",
     "acronyme":"COG",
     "url":"http://www.insee.fr/fr/methodes/nomenclatures/cog/"
   }
