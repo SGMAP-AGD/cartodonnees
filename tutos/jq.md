@@ -9,13 +9,14 @@ Lister les bases de données :
 
     $ jq 'keys' data/bases.json
 
-Regarder une base particulière (par exemple Code Géographique Officiel) :
+Regarder une base particulière (par exemple Code Officiel Géographique) :
 
-    $ jq '.["Code Géographique Officiel"]' data/bases.json
+    $ jq '.["Code Officiel Géographique"]' data/bases.json
+    $ jq '.TREIMA2' data/bases.json
 
 Obtenir la valeur d'une variable pour une variable (par exemple, la valeur d'acronyme pour le code géographique officiel)
 
-    $ jq '.["Code Géographique Officiel"] | .acronyme' data/bases.json
+    $ jq '.["Code Officiel Géographique"] | .acronyme' data/bases.json
 
 Obtenir la liste des acronymes :
 
