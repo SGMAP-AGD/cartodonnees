@@ -42,20 +42,21 @@ if (base$nom == "Base Adresse Nationale"){
 }
 ```
 
-La Cartographie Collaborative des Données de l'État est un répertoire de métadonnées de l'État Français. Elle décrit les données gérées par les administrations Françaises, leur organisation et leur gouvernance.
+La Cartographie Collaborative des Données de l'État est le répertoire de métadonnées de l'État Français. Elle décrit les données gérées par les administrations Françaises, leur organisation et leur gouvernance.
 
 ## Objectifs et usages
 
 La Cartographie Collaborative des Données de l'État a pour objectif:
 
 * D'identifier les référentiels nationaux.
-* De modéliser la gouvernance des données pour rationaliser leur accès, disponibilité et sécurité et ainsi faciliter leur circulation entre les administrations.
+* De modéliser la gouvernance des données
+* De rationaliser l'accès au données, leur disponibilité et leur sécurité pour simplifier leur circulation.
 * D'évaluer la qualité globale des données gérées par l'État.
-* D'encourager les politiques fondées sur les données.
+* De faciliter les politiques fondées sur les données.
 
 ## Composition de la cartographie
 
-La Cartographie Collaborative des Données de l'État est une base de données proposant 3 niveaux:
+La Cartographie Collaborative des Données de l'État est une base de données en 3 parties:
   
   1. Un annuaire des gestionnaires de données de l'État, issu de l'annuaire de l'administration mis à jour par la DILA.
   2. Une liste à vocation exhaustive de toutes les bases de données de l'État, et de leurs gestionnaire identifié.
@@ -71,10 +72,10 @@ Sont concernés par la cartographie des données toutes les entités répertori�
 
 ### Bases de données
 
-Une base de données est un ensemble de données stockées au même endroit et structurées selon un schéma commun. Elle répond généralement à une problématique et permet à différents acteurs d'accéder ou de mettre à jour les données.
+Une base de données est un ensemble de données stockées au même endroit et structurées selon un schéma commun. Elle répond généralement à une ou un ensemble de problématiques et permet à différents acteurs d'accéder ou de mettre à jour les données.
 
 * La cartographie ne répertorie pas pour le moment les données déstructurées. 
-* Un fichier plat tel qu'un fichier Excel peut être considéré comme une base de données dès lors qu'un processus de mise à jour et d'accès au données a été clairement établi. En revanche, un fichier Excel ne constitue pas un référentiel tel que défini par le [Cadre Commun d’Architecture des Référentiels de données](https://references.modernisation.gouv.fr/sites/default/files/Cadre%20Commun%20d'Architecture%20des%20R%C3%A9f%C3%A9rentiel%20de%20donn%C3%A9es%20v1.0_0.pdf)
+* Un fichier plat tel qu'un fichier Excel peut être considéré comme une base de données dès lors qu'un processus d'accès et de mise à jour aux données a été clairement défini. Un fichier Excel ne constitue cependant pas un référentiel tel que défini par le [Cadre Commun d’Architecture des Référentiels de données](https://references.modernisation.gouv.fr/sites/default/files/Cadre%20Commun%20d'Architecture%20des%20R%C3%A9f%C3%A9rentiel%20de%20donn%C3%A9es%20v1.0_0.pdf)
 
 ## Annuaire de gestionnaires de données
 
@@ -98,7 +99,7 @@ La cartographie décrit [`r length(bases)` bases de données](http://bases.gouv2
 
 ### Sources
 
-La liste des bases de données et leurs attributs est mise à jour automatiquement ainsi que de manière collaborative. Des [flux](scripts/) ont été développés pour intégrer différentes sources telles que les cartographies thématiques publiées en Open Data.
+La liste des bases de données et leurs propriétés est mise à jour de manière collaborative ainsi que par des flux d'alimentation automatiques. Des [scripts](scripts/) ont été développés pour intégrer différentes sources telles que les cartographies thématiques publiées en Open Data.
 
 * [La cartographie des bases de données publiques en santé.](scripts/sante)
 * [La cartographie des données publiques du logement](scripts/logement)
@@ -214,6 +215,12 @@ Les données de la cartographie sont stockées sous forme de [JSON](http://www.j
 Considérées comme entitées dépendantes des leur gestionnaires, les bases de données peuvent être intégrées à l'arbre des administrations. La visualisation est alors similaire à celle de l'annuaire:
 
 [![bases de données](reporting/cartographie-thumb.png)](reporting/cartographie.png)
+
+### Requêter la cartographie
+
+La [cartographie](data/bases.json) peut être parcourue manuellement à l'aide de n'importe quel éditeur de texte.
+
+Il est également possible d'utiliser [JQ](tutos/jq.md) pour requêter la cartograhpie.
 
 ## Répertoire des structures de données
 
