@@ -1,3 +1,6 @@
+---
+output: pdf_document
+---
 Cartographie Collaborative des Données de l'État
 ========================================================
 
@@ -45,10 +48,10 @@ La Cartographie Collaborative des Données de l'État est un répertoire de mét
 
 La Cartographie Collaborative des Données de l'État a pour objectif:
 
-* D'identifier les référentiels nationaux et de les valoriser.
+* D'identifier les référentiels nationaux.
 * De modéliser la gouvernance des données pour rationaliser leur accès, disponibilité et sécurité et ainsi faciliter leur circulation entre les administrations.
 * D'évaluer la qualité globale des données gérées par l'État.
-* De généraliser les politiques fondées sur les données.
+* D'encourager les politiques fondées sur les données.
 
 ## Composition de la cartographie
 
